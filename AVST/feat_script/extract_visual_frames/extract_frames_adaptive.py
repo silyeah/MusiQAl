@@ -6,13 +6,12 @@ Date: 17/4/2021
 
 Functions:
 
-输入参数： 
-- 视频原始路径 (dir_paht = "")
-- 提帧目标路径 (dst_path = "")
-- 每秒取几帧（frame = 1 or frame = 4)
-- 固定or不固定（固定的话写参数N，不固定就是四舍五入取整）
-- 线程数（默认最大，否则写参数J）
-
+Input parameters:
+- Source video path (dir_path = "")
+- Destination path for frames (dst_path = "")
+- Number of frames per second (frame = 1 or frame = 4)
+- Fixed or variable (if fixed, use parameter N; otherwise, round up to the nearest integer)
+- Number of threads (defaults to maximum; otherwise, use parameter J)
 
 '''
 

@@ -51,7 +51,7 @@ def frame(data, window_length, hop_length):
   print('\n')
   
 
-  # 按shape进行分块
+  # Divide by shape
   return np.lib.stride_tricks.as_strided(data, shape=shape, strides=strides)
 
 

@@ -71,7 +71,7 @@ def eval(model, val_loader):
             print("\n\nvideo name: ", video_id)
             print("video_org type: ", type(video_org))
 
-            # 正负样本交替的, 隔一个取一个mask
+            # Positive and negative samples alternate, taking a mask every other one
             obj_localization = av_atten.detach().cpu().numpy()  # (2, 1, 196)
             obj_localization = obj_localization[::2]            # (1, 1, 196)
 

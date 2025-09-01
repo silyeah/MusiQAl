@@ -268,8 +268,8 @@ def main():
 		pretrained_dict1 = {k: v for k, v in checkpoint.items() if k in tmp}
 		pretrained_dict2 = {str(k).split('.')[0]+'.'+str(k).split('.')[1]+'_pure.'+str(k).split('.')[-1]: v for k, v in checkpoint.items() if k in tmp2}
 
-		model_dict.update(pretrained_dict1) #利用预训练模型的参数，更新模型
-		model_dict.update(pretrained_dict2) #利用预训练模型的参数，更新模型
+		model_dict.update(pretrained_dict1) #Update the model using the parameters of the pre-trained model
+		model_dict.update(pretrained_dict2) #Update the model using the parameters of the pre-trained model
 		model.load_state_dict(model_dict)
 
 		print("\n-------------- load pretrained models --------------")
