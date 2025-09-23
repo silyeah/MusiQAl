@@ -14,3 +14,5 @@ if not os.path.exists(save_path):
     print(f"Saved to {save_path}")
 else:
     print(f"ResNet-18 weights already exist at {save_path}")
+
+
