@@ -47,11 +47,30 @@ def batch_organize(out_match_posi,out_match_nega):
 
 
 
-def test(model, test_loader):
+def test(model, test_loader, run_nr = 0):
     model.eval()
     total = 0
     correct = 0
+
     samples = json.load(open("../json/avqa-test.json", 'r'))
+
+    failed_filename = 'test_results/failed_questions_run_' + str(run_nr) + '.csv'
+    success_filename = 'test_results/success_questions_run_' + str(run_nr) + '.csv'
+    details_filename = 'test_results/details_run_' + str(run_nr) + '.txt'
+    final_results_filename = 'test_results/final_results_run_' + str(run_nr) + '.txt'
+    
+    with open(failed_filename, 'w') as failed_file:
+        failed_file.write('idx,question_id,video_id\n')
+
+    with open(success_filename, 'w') as success_file:
+        success_file.write('idx,question_id,video_id\n')
+
+    with open(details_filename, 'w') as details_file:
+        details_file.write('Details of test run\n\n')
+
+    with open(final_results_filename, 'w') as final_results_file:
+        final_results_file.write(f'Final results of test run {run_nr}\n\n')
+
     A_ext = []
     A_count = []
     A_cmp = []
@@ -69,19 +88,59 @@ def test(model, test_loader):
     AV_temp = []
     AV_caus = []
     AV_purp = []
+
     with torch.no_grad():
+
         for batch_idx, sample in enumerate(test_loader):
-            audio,visual_posi,visual_nega, target, question = sample['audio'].to('cuda'), sample['visual_posi'].to('cuda'),sample['visual_nega'].to('cuda'), sample['label'].to('cuda'), sample['question'].to('cuda')
+
+            audio, visual_posi, visual_nega, target, question = sample['audio'].to('cuda'), sample['visual_posi'].to('cuda'),sample['visual_nega'].to('cuda'), sample['label'].to('cuda'), sample['question'].to('cuda')
 
             preds_qa,out_match_posi,out_match_nega = model(audio, visual_posi,visual_nega, question)
             preds = preds_qa
             _, predicted = torch.max(preds.data, 1)
 
+            print("Preds shape:", preds.shape)   # should be [batch, num_classes]
+            print("Predicted min/max:", predicted.min().item(), predicted.max().item())
+            print("Target dtype:", target.dtype, "Target min:", target.min().item(), "Target max:", target.max().item())
+
+
             total += preds.size(0)
             correct += (predicted == target).sum().item()
 
             x = samples[batch_idx]
+
+            print('Idx', batch_idx)
+            print(x['question_id'])
+            print(x['video_id'])
+            print('Predicted: ', predicted)
+            print('Target: ', target)
+            print('Correct until now: ', correct)
+            print('Samples tested until now: ', total)
+            print('Accuracy until now: %.2f %%' % (100 * correct / total))
+            print('\n')
+
+            with open(details_filename, 'a') as details_file:
+                details_file.write('Idx ' + str(batch_idx) + '\n')
+                details_file.write('Question ID: ' + str(x['question_id']) + '\n')
+                details_file.write('Video ID: ' + str(x['video_id']) + '\n')
+                details_file.write('Predicted: ' + str(predicted.item()) + '\n')
+                details_file.write('Target: ' + str(target.item()) + '\n')
+                details_file.write('Correct until now: ' + str(correct) + '\n')
+                details_file.write('Samples tested until now: ' + str(total) + '\n')
+                details_file.write('Accuracy until now: %.2f %%' % (100 * correct / total) + '\n')
+                details_file.write('\n')
+
+            if (predicted == target):
+                with open(success_filename, 'a') as success_file:
+                    success_file.write(f'{batch_idx},{x["question_id"]},{x["video_id"]}\n')
+
+            else:
+                with open(failed_filename, 'a') as failed_file:
+                    failed_file.write(f'{batch_idx},{x["question_id"]},{x["video_id"]}\n')
+
+
             type =ast.literal_eval(x['type'])
+
             if type[0] == 'Audio':
                 if type[1] == 'Existential':
                     A_ext.append((predicted == target).sum().item())
@@ -119,22 +178,55 @@ def test(model, test_loader):
                     AV_caus.append((predicted == target).sum().item())
                 elif type[1] == 'Purpose':
                     AV_purp.append((predicted == target).sum().item())
-                
-                # Now you have the probability distribution
-            probability_distribution = F.softmax(preds, dim=1)
 
-            # Find the index of the highest probability answer
-            predicted_answer_index = torch.argmax(probability_distribution).item()
 
-            answer_dict = my_source_dir + 'ans_vocab.txt'
+    with open(final_results_filename, 'a') as final_results_file:
+        final_results_file.write('Audio Existential Accuracy: %.2f %%\n' % (
+            100 * sum(A_ext)/len(A_ext)))
+        final_results_file.write('Audio Counting Accuracy: %.2f %%\n' % (
+            100 * sum(A_count)/len(A_count)))
+        final_results_file.write('Audio Cmp Accuracy: %.2f %%\n' % (
+            100 * sum(A_cmp) / len(A_cmp)))
+        final_results_file.write('Audio Temp Accuracy: %.2f %%\n' % (
+            100 * sum(A_temp) / len(A_temp)))
+        final_results_file.write('Audio Caus Accuracy: %.2f %%\n' % (
+            100 * sum(A_caus) / len(A_caus)))
+        final_results_file.write('Audio Accuracy: %.2f %%\n' % (
+            100 * (sum(A_ext) + sum(A_count) + sum(A_cmp) + sum(A_temp) + sum(A_caus)) / (len(A_ext)+len(A_count) + len(A_cmp)+len(A_temp)+len(A_caus))))
+        final_results_file.write('Visual Ext Accuracy: %.2f %%\n' % (
+            100 * sum(V_ext) / len(V_ext)))
+        final_results_file.write('Visual Loc Accuracy: %.2f %%\n' % (
+            100 * sum(V_loc) / len(V_loc)))
+        final_results_file.write('Visual Counting Accuracy: %.2f %%\n' % (
+            100 * sum(V_count) / len(V_count)))
+        final_results_file.write('Visual Temp Accuracy: %.2f %%\n' % (
+            100 * sum(V_temp) / len(V_temp)))
+        final_results_file.write('Visual Caus Accuracy: %.2f %%\n' % (
+            100 * sum(V_caus) / len(V_caus)))
+        final_results_file.write('Visual Accuracy: %.2f %%\n' % (
+            100 * (sum(V_ext)+sum(V_loc) + sum(V_count)+sum(V_temp)+sum(V_caus)) / (len(V_ext)+len(V_loc) + len(V_count)+len(V_temp)+len(V_caus))))
+        final_results_file.write('AV Ext Accuracy: %.2f %%\n' % (
+            100 * sum(AV_ext) / len(AV_ext)))
+        final_results_file.write('AV counting Accuracy: %.2f %%\n' % (
+            100 * sum(AV_count) / len(AV_count)))
+        final_results_file.write('AV Loc Accuracy: %.2f %%\n' % (
+            100 * sum(AV_loc) / len(AV_loc)))
+        final_results_file.write('AV Cmp Accuracy: %.2f %%\n' % (
+            100 * sum(AV_cmp) / len(AV_cmp)))
+        final_results_file.write('AV Temporal Accuracy: %.2f %%\n' % (
+            100 * sum(AV_temp) / len(AV_temp)))
+        final_results_file.write('AV Caus Accuracy: %.2f %%\n' % (
+            100 * sum(AV_caus) / len(AV_caus)))
+        final_results_file.write('AV Purp Accuracy: %.2f %%\n' % (
+            100 * sum(AV_purp) / len(AV_purp))) 
+        final_results_file.write('AV Accuracy: %.2f %%\n' % (
+            100 * (sum(AV_count) + sum(AV_loc)+sum(AV_ext)+sum(AV_temp)
+                   +sum(AV_cmp)+sum(AV_caus)+sum(AV_purp)) / (len(AV_count) + len(AV_loc)+len(AV_ext)+len(AV_temp)+len(AV_cmp)+len(AV_caus)+len(AV_purp))))
+        final_results_file.write('Overall Accuracy: %.2f %%\n' % (
+            100 * correct / total))
 
-            # Map the index to your answer dictionary
-            predicted_answer = answer_dict[predicted_answer_index]
 
-            # Print the predicted answer
-            print(f"Question: {question}")
-            print(f"Predicted Answer: {predicted_answer}")
-            print(f"Probability Distribution: {probability_distribution.tolist()}")
+
 
 
 
@@ -245,22 +337,38 @@ def main():
     model = nn.DataParallel(model)
     print("Sent model to GPU")
 
-
+    val_dataset = AVQA_dataset(label=args.label_val, audio_dir=args.audio_dir, video_res14x14_dir=args.video_res14x14_dir,
+                                    transform=transforms.Compose([ToTensor()]), mode_flag='val')
+    print("Length of val dataset: ", val_dataset.__len__())
 
     test_dataset = AVQA_dataset(label=args.label_test, audio_dir=args.audio_dir, video_res14x14_dir=args.video_res14x14_dir,
                                 transform=transforms.Compose([ToTensor()]), mode_flag='test')
-    print("Length of dataset: ", test_dataset.__len__())
+
+    print("Length of test dataset: ", test_dataset.__len__())
+    print()
+
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=4, pin_memory=True)
+    
     #model.load_state_dict(torch.load(args.model_save_dir + args.checkpoint + ".pt"))
-    model.load_state_dict(torch.load('./avst_models/avst.pt'))
+    #model.load_state_dict(torch.load('./avst_models/avst.pt'))
+
+    model.load_state_dict(torch.load('./avst_models/avst_newest.pt'))
 
     model = model.to('cuda') #Try to send the model to GPU after loading the state dict
+ 
+    test(model, test_loader, run_nr = 1)
 
-    #model.load_state_dict(torch.load('./avst_models/models_grounding_genmain_grounding_gen_2_best.pt'))
-    test(model, test_loader)
+    print("Testing done.")
 
 
 
 if __name__ == '__main__':
     print("Starting test...")
     main()
+
+    #samples = json.load(open("../json/avqa-test.json", 'r'))
+
+    #print(samples[0])
+
+    #print(samples[0]['question_id'])
+
