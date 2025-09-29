@@ -24,8 +24,7 @@ class AVQA_dataset(Dataset):
 
     def __init__(self, label, audio_dir, video_res14x14_dir, transform=None, mode_flag='train'):
 
-
-        samples = json.load(open('./AVST/data/json/avqa-train.json', 'r'))
+        samples = json.load(open('../json/avqa-train.json', 'r'))
 
         # nax =  nne
         ques_vocab = ['<pad>']
