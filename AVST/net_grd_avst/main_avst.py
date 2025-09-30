@@ -12,7 +12,7 @@ import ast
 import json
 import numpy as np
 import pdb
-# from .net_avst import AVQA_Fusion_Net
+
 
 import warnings
 from datetime import datetime
@@ -23,15 +23,23 @@ writer = SummaryWriter('runs/net_avst/'+TIMESTAMP)
 
 print("\n--------------- Audio-Visual Spatial-Temporal Model --------------- \n")
 
-def batch_organize(out_match_posi,out_match_nega):
-    # audio B 512
-    # posi B 512
-    # nega B 512
 
-    # print("audio data: ", audio_data.shape)
-    out_match = torch.zeros(out_match_posi.shape[0] * 2, out_match_posi.shape[1])
-    batch_labels = torch.zeros(out_match_posi.shape[0] * 2)
+sara_abs_path = '/fp/homes01/u01/ec-sarapje/Dataset/Data/data/'
+my_source_dir = sara_abs_path
+
+
+def batch_organize(out_match_posi,out_match_nega):
+    out_match = torch.zeros(out_match_posi.shape[0] * 2,
+                        out_match_posi.shape[1],
+                        device=out_match_posi.device,
+                        dtype=out_match_posi.dtype)
+
+    batch_labels = torch.zeros(out_match_posi.shape[0] * 2,
+                            device=out_match_posi.device,
+                            dtype=torch.long)
+
     for i in range(out_match_posi.shape[0]):
+
         out_match[i * 2, :] = out_match_posi[i, :]
         out_match[i * 2 + 1, :] = out_match_nega[i, :]
         batch_labels[i * 2] = 1
@@ -40,20 +48,26 @@ def batch_organize(out_match_posi,out_match_nega):
     return out_match, batch_labels
 
 
-def train(args, model, train_loader, optimizer, criterion, epoch):
+def train(args, model, train_loader, optimizer, criterion, epoch, progress_epoch_filename):
     model.train()
     total_qa = 0
     correct_qa = 0
+
+    # progress_filename = 'progress/avst_progress.csv'
+    # with open(progress_filename, 'w') as f:
+    #     f.write('epoch,batch_idx,loss_qa,loss_match,loss_both\n')
+
     for batch_idx, sample in enumerate(train_loader):
         audio,visual_posi,visual_nega, target, question = sample['audio'].to('cuda'), sample['visual_posi'].to('cuda'),sample['visual_nega'].to('cuda'), sample['label'].to('cuda'), sample['question'].to('cuda')
 
         optimizer.zero_grad()
         out_qa, out_match_posi,out_match_nega = model(audio, visual_posi,visual_nega, question)  
-        out_match,match_label=batch_organize(out_match_posi,out_match_nega)  
-        out_match,match_label = out_match.type(torch.FloatTensor).cuda(), match_label.type(torch.LongTensor).cuda()
+        out_match, match_label = batch_organize(out_match_posi,out_match_nega)  
+        out_match ,match_label = out_match.type(torch.FloatTensor).cuda(), match_label.type(torch.LongTensor).cuda()
     
         # output.clamp_(min=1e-7, max=1 - 1e-7)
-        loss_match=criterion(out_match,match_label)
+
+        loss_match=criterion(out_match, match_label)
         loss_qa = criterion(out_qa, target)
         loss = loss_qa + 0.5*loss_match
 
@@ -61,15 +75,22 @@ def train(args, model, train_loader, optimizer, criterion, epoch):
         writer.add_scalar('run/qa_test',loss_qa.item(), epoch * len(train_loader) + batch_idx)
         writer.add_scalar('run/both',loss.item(), epoch * len(train_loader) + batch_idx)
 
+        # with open(progress_filename, 'a') as f:
+        #     f.write(f'{epoch},{batch_idx},{loss_qa.item()},{loss_match.item()},{loss.item()}\n')
+
         loss.backward()
         optimizer.step()
+        
         if batch_idx % args.log_interval == 0:
             print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                 epoch, batch_idx * len(audio), len(train_loader.dataset),
                        100. * batch_idx / len(train_loader), loss.item()))
 
+    with open(progress_epoch_filename, 'a') as f:
+        f.write(f'{epoch},{loss_qa.item()},{loss_match.item()},{loss.item()}\n')
 
-def eval(model, val_loader,epoch):
+
+def eval(model, val_loader, epoch, eval_filename):
     model.eval()
     total_qa = 0
     total_match=0
@@ -86,7 +107,12 @@ def eval(model, val_loader,epoch):
             correct_qa += (predicted == target).sum().item()
 
     print('Accuracy qa: %.2f %%' % (100 * correct_qa / total_qa))
+    print()
+
     writer.add_scalar('metric/acc_qa',100 * correct_qa / total_qa, epoch)
+
+    with open(eval_filename, 'a') as f:
+        f.write(f'{epoch},{100 * correct_qa / total_qa}\n')
 
     return 100 * correct_qa / total_qa
 
@@ -95,7 +121,7 @@ def test(model, val_loader):
     model.eval()
     total = 0
     correct = 0
-    samples = json.load(open('./AVST/data/json/avqa-test.json', 'r'))
+    samples = json.load(open("../json/avqa-test.json", 'r'))
     A_ext = []
     A_count = []
     A_cmp = []
@@ -113,6 +139,7 @@ def test(model, val_loader):
     AV_temp = []
     AV_caus = []
     AV_purp = []
+
     with torch.no_grad():
         for batch_idx, sample in enumerate(val_loader):
             audio,visual_posi,visual_nega, target, question = sample['audio'].to('cuda'), sample['visual_posi'].to('cuda'),sample['visual_nega'].to('cuda'), sample['label'].to('cuda'), sample['question'].to('cuda')
@@ -126,6 +153,7 @@ def test(model, val_loader):
 
             x = samples[batch_idx]
             type =ast.literal_eval(x['type'])
+
             if type[0] == 'Audio':
                 if type[1] == 'Existential':
                     A_ext.append((predicted == target).sum().item())
@@ -170,7 +198,7 @@ def test(model, val_loader):
             # Find the index of the highest probability answer
             predicted_answer_index = torch.argmax(probability_distribution).item()
 
-            answer_dict = "./AVST/data/ans_vocab.txt"
+            answer_dict = my_source_dir + 'ans_vocab.txt'
 
             # Map the index to your answer dictionary
             predicted_answer = answer_dict[predicted_answer_index]
@@ -228,23 +256,33 @@ def test(model, val_loader):
 
     return 100 * correct / total
 
+
+
 def main():
+
+    #Relevant parameters
+    #mode = 'test'
+    mode = 'train'
+    sara_abs_path = '/fp/homes01/u01/ec-sarapje/Dataset/Data/data/'
+    my_source_dir = sara_abs_path
+
+
     # Training settings
     parser = argparse.ArgumentParser(description='PyTorch Implementation of Audio-Visual Question Answering')
 
     parser.add_argument(
-        "--audio_dir", type=str, default='./AVST/data/feats/vggish', help="audio dir")
+        "--audio_dir", type=str, default = my_source_dir + 'feats/vggish', help="audio dir")
     # parser.add_argument(
     #     "--video_dir", type=str, default='/home/guangyao_li/dataset/avqa/avqa-frames-1fps', help="video dir")
     parser.add_argument(
-        "--video_res14x14_dir", type=str, default='./AVST/data/feats/res18_14x14', help="res14x14 dir")
-    
+        "--video_res14x14_dir", type=str, default = my_source_dir + 'feats/res18_14x14', help="res14x14 dir")
+
     parser.add_argument(
-        "--label_train", type=str, default="./data/json/avqa-train.json", help="train csv file")
+        "--label_train", type=str, default="../json/avqa-train.json", help="train csv file")
     parser.add_argument(
-        "--label_val", type=str, default="./data/json/avqa-val.json", help="val csv file")
+        "--label_val", type=str, default="../json/avqa-val.json", help="val csv file")
     parser.add_argument(
-        "--label_test", type=str, default="./data/json/avqa-test.json", help="test csv file")
+        "--label_test", type=str, default="../json/avqa-test.json", help="test csv file")
     parser.add_argument(
         '--batch-size', type=int, default=64, metavar='N', help='input batch size for training (default: 16)')
     parser.add_argument(
@@ -252,17 +290,19 @@ def main():
     parser.add_argument(
         '--lr', type=float, default=1e-4, metavar='LR', help='learning rate (default: 3e-4)')
     parser.add_argument(
-        "--model", type=str, default='AVQA_Fusion_Net', help="with model to use")
+        "--model", type=str, default='AVQA_Fusion_Net', help="which model to use")
     parser.add_argument(
-        "--mode", type=str, default='train', help="with mode to use")
+        "--mode", type=str, default=mode, help="which mode to use")
     parser.add_argument(
         '--seed', type=int, default=1, metavar='S', help='random seed (default: 1)')
     parser.add_argument(
-        '--log-interval', type=int, default=50, metavar='N', help='how many batches to wait before logging training status')
+        '--log-interval', type=int, default=10, metavar='N', help='how many batches to wait before logging training status')
+    # parser.add_argument(
+    #     "--model_save_dir", type=str, default='net_grd_avst/avst_models/', help="model save dir")
     parser.add_argument(
-        "--model_save_dir", type=str, default='net_grd_avst/avst_models/', help="model save dir")
+        "--model_save_dir", type=str, default='avst_models/', help="model save dir")
     parser.add_argument(
-        "--checkpoint", type=str, default='avst', help="save model name")
+        "--checkpoint", type=str, default='avst_ours', help="save model name")
     parser.add_argument(
         '--gpu', type=str, default='0, 1', help='gpu device number')
 
@@ -276,6 +316,7 @@ def main():
         model = AVQA_Fusion_Net()
         model = nn.DataParallel(model)
         model = model.to('cuda')
+
     else:
         raise ('not recognized')
 
@@ -290,8 +331,9 @@ def main():
 
         # ===================================== load pretrained model ===============================================
         ####### concat model
-        pretrained_file = "./AVST/grounding_gen/models_grounding_gen/main_grounding_gen_best.pt"
+        pretrained_file = "../grounding_gen/models_grounding_gen/main_grounding_gen_best_new.pt"
         checkpoint = torch.load(pretrained_file)
+
         print("\n-------------- loading pretrained models --------------")
         model_dict = model.state_dict()
         tmp = ['module.fc_a1.weight', 'module.fc_a1.bias','module.fc_a2.weight','module.fc_a2.bias','module.fc_gl.weight','module.fc_gl.bias','module.fc1.weight', 'module.fc1.bias','module.fc2.weight', 'module.fc2.bias','module.fc3.weight', 'module.fc3.bias','module.fc4.weight', 'module.fc4.bias']
@@ -303,7 +345,7 @@ def main():
         model_dict.update(pretrained_dict2) # Update the model using the parameters of the pre-trained model
         model.load_state_dict(model_dict)
 
-        print("\n-------------- load pretrained models --------------")
+        print("\n-------------- successfully loaded pretrained models --------------")
 
         # ===================================== load pretrained model ===============================================
 
@@ -311,20 +353,39 @@ def main():
         scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=8, gamma=0.1)
         criterion = nn.CrossEntropyLoss()
         best_F = 0
+
+        progress_epoch_filename = 'progress/avst_epoch_progress.csv'
+        eval_filename = 'progress/avst_epoch_eval.csv'
+
+        with open(progress_epoch_filename, 'w') as f:
+            f.write('epoch,loss_qa,loss_match,loss_both\n')
+        
+        with open(eval_filename, 'w') as f:
+            f.write('epoch,acc_qa\n')
+
         for epoch in range(1, args.epochs + 1):
-            train(args, model, train_loader, optimizer, criterion, epoch=epoch)
+            train(args, model, train_loader, optimizer, criterion, epoch=epoch, progress_epoch_filename=progress_epoch_filename)
+
             scheduler.step(epoch)
-            F = eval(model, val_loader, epoch)
+            F = eval(model, val_loader, epoch, eval_filename)
             if F >= best_F:
                 best_F = F
                 torch.save(model.state_dict(), args.model_save_dir + args.checkpoint + ".pt")
+                print('Saved model')
+                print('Current best epoch:', epoch, 'Current best val acc:', best_F)
+                print()
 
+
+        # ===================================== load pretrained model ===============================================
+    
     else:
+        print("\n-------------- Testing: load pretrained models --------------")
         test_dataset = AVQA_dataset(label=args.label_test, audio_dir=args.audio_dir, video_res14x14_dir=args.video_res14x14_dir,
                                    transform=transforms.Compose([ToTensor()]), mode_flag='test')
         print(test_dataset.__len__())
         test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=4, pin_memory=True)
         model.load_state_dict(torch.load(args.model_save_dir + args.checkpoint + ".pt"))
+        #model.load_state_dict(torch.load('avst_models/avst.pt'))
         test(model, test_loader)
 
 
