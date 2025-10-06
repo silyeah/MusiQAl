@@ -1,0 +1,56 @@
+
+--------------- Audio-Visual Spatial-Temporal Model --------------- 
+
+Starting test...
+---------- >>> load pretrained res-18 <<< ----------
+
+Length of test dataset:  777
+
+Audio shape torch.Size([10, 128])
+Audio type <class 'torch.Tensor'>
+Audio min, max, mean tensor(0.) tensor(1.6020) tensor(0.1320)
+
+Visual posi shape (10, 512, 14, 14)
+Visual posi type <class 'numpy.ndarray'>
+Visual posi min, max, mean 0.0 18.149185 0.6930054
+
+Visual nega shape torch.Size([10, 512, 14, 14])
+Visual nega type <class 'torch.Tensor'>
+Visual nega min, max, mean tensor(0.) tensor(36.2972) tensor(0.7925)
+
+Audio shape torch.Size([10, 128])
+Audio type <class 'torch.Tensor'>
+Audio min, max, mean tensor(0.) tensor(3.6138) tensor(0.1532)
+
+Visual posi shape (10, 512, 14, 14)
+Visual posi type <class 'numpy.ndarray'>
+Visual posi min, max, mean 0.0 28.6273 0.7886966
+
+Visual nega shape torch.Size([10, 512, 14, 14])
+Visual nega type <class 'torch.Tensor'>
+Visual nega min, max, mean tensor(0.) tensor(26.0412) tensor(0.6969)
+
+Audio shape torch.Size([10, 128])
+Audio type <class 'torch.Tensor'>
+Audio min, max, mean tensor(0.) tensor(1.3049) tensor(0.1171)
+
+Visual posi shape (10, 512, 14, 14)
+Visual posi type <class 'numpy.ndarray'>
+Visual posi min, max, mean 0.0 36.953724 0.8056823
+
+Visual nega shape torch.Size([10, 512, 14, 14])
+Visual nega type <class 'torch.Tensor'>
+Visual nega min, max, mean tensor(0.) tensor(29.3243) tensor(0.7834)
+
+Audio shape torch.Size([10, 128])
+Audio type <class 'torch.Tensor'>
+Audio min, max, mean tensor(0.) tensor(1.5348) tensor(0.1249)
+
+Visual posi shape (10, 512, 14, 14)
+Visual posi type <class 'numpy.ndarray'>
+Visual posi min, max, mean 0.0 27.517334 0.7216309
+
+Visual nega shape torch.Size([10, 512, 14, 14])
+Visual nega type <class 'torch.Tensor'>
+Visual nega min, max, mean tensor(0.) tensor(27.3961) tensor(0.7104)
+
