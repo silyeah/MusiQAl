@@ -33,7 +33,7 @@ def batch_organize(out_match_posi,out_match_nega):
     # posi B 512
     # nega B 512
 
-    # print("audio data: ", audio_data.shape)
+
     out_match = torch.zeros(out_match_posi.shape[0] * 2, out_match_posi.shape[1])
     batch_labels = torch.zeros(out_match_posi.shape[0] * 2)
     for i in range(out_match_posi.shape[0]):
@@ -47,7 +47,7 @@ def batch_organize(out_match_posi,out_match_nega):
 
 
 
-def test(model, test_loader, run_nr = 0):
+def test(model, test_loader, run_nr = 0, intv_mode = None):
     torch.manual_seed(run_nr)
     torch.cuda.manual_seed(run_nr)
     np.random.seed(run_nr) 
@@ -58,11 +58,21 @@ def test(model, test_loader, run_nr = 0):
 
     samples = json.load(open("../json/avqa-test-success.json", 'r'))
 
-    failed_filename = 'test_results/failed_questions_success' + '.csv'
-    success_filename = 'test_results/success_questions_success' + '.csv'
-    details_filename = 'test_results/details_success' + '.txt'
-    final_results_filename = 'test_results/final_results_success' + '.txt'
+    if intv_mode is not None:
+        failed_filename = f'test_results/intv/{intv_mode}_failed_questions_success' + '.csv'
+        success_filename = f'test_results/intv/{intv_mode}_success_questions_success' + '.csv'
+        details_filename = f'test_results/intv/{intv_mode}_details_success' + '.txt'
+        final_results_filename = f'test_results/intv/{intv_mode}_final_results_success' + '.txt'
+        final_results_csv = f'test_results/intv/{intv_mode}_final_results_success' + '.csv'
     
+    else:
+        failed_filename = 'test_results/failed_questions_success' + '.csv'
+        success_filename = 'test_results/success_questions_success' + '.csv'
+        details_filename = 'test_results/details_success' + '.txt'
+        final_results_filename = 'test_results/final_results_success' + '.txt'
+        final_results_csv = 'test_results/final_results_success' + '.csv'
+
+
     with open(failed_filename, 'w') as failed_file:
         failed_file.write('idx,question_id,video_id\n')
 
@@ -74,6 +84,12 @@ def test(model, test_loader, run_nr = 0):
 
     with open(final_results_filename, 'w') as final_results_file:
         final_results_file.write(f'Final results of test success\n\n')
+
+    with open(final_results_filename, 'w') as final_results_file:
+        final_results_file.write(f'Final results of test success\n\n')
+    
+    with open(final_results_csv, 'w') as final_results_file:
+        final_results_file.write(f'question_category,accuracy\n')
 
     A_ext = []
     A_count = []
@@ -108,15 +124,15 @@ def test(model, test_loader, run_nr = 0):
 
             x = samples[batch_idx]
 
-            print('Idx', batch_idx)
-            print(x['question_id'])
-            print(x['video_id'])
-            print('Predicted: ', predicted)
-            print('Target: ', target)
-            print('Correct until now: ', correct)
-            print('Samples tested until now: ', total)
-            print('Accuracy until now: %.2f %%' % (100 * correct / total))
-            print('\n')
+            # print('Idx', batch_idx)
+            # print(x['question_id'])
+            # print(x['video_id'])
+            # print('Predicted: ', predicted)
+            # print('Target: ', target)
+            # print('Correct until now: ', correct)
+            # print('Samples tested until now: ', total)
+            # print('Accuracy until now: %.2f %%' % (100 * correct / total))
+            # print('\n')
 
             with open(details_filename, 'a') as details_file:
                 details_file.write('Idx ' + str(batch_idx) + '\n')
@@ -225,6 +241,31 @@ def test(model, test_loader, run_nr = 0):
             100 * correct / total))
 
 
+    with open(final_results_csv, 'a') as f:
+        f.write(f'audio_existential_accuracy, {100 * sum(A_ext)/len(A_ext)}\n')
+        f.write(f'audio_counting_accuracy, {100 * sum(A_count)/len(A_count)}\n')
+        f.write(f'audio_comparison_accuracy, {100 * sum(A_cmp)/len(A_cmp)}\n')
+        f.write(f'audio_temporal_accuracy, {100 * sum(A_temp)/len(A_temp)}\n')
+        f.write(f'audio_causal_accuracy, {100 * sum(A_caus)/len(A_caus)}\n')
+        f.write(f'audio_overall_accuracy, {(100 * (sum(A_ext)+sum(A_count)+sum(A_cmp)+sum(A_temp)+sum(A_caus)) / (len(A_ext)+len(A_count)+len(A_cmp)+len(A_temp)+len(A_caus)))}\n')
+
+        f.write(f'visual_existential_accuracy, {100 * sum(V_ext)/len(V_ext)}\n')
+        f.write(f'visual_localization_accuracy, {100 * sum(V_loc)/len(V_loc)}\n')
+        f.write(f'visual_counting_accuracy, {100 * sum(V_count)/len(V_count)}\n')
+        f.write(f'visual_temporal_accuracy, {100 * sum(V_temp)/len(V_temp)}\n')
+        f.write(f'visual_causal_accuracy, {100 * sum(V_caus)/len(V_caus)}\n')
+        f.write(f'visual_overall_accuracy, {(100 * (sum(V_ext)+sum(V_loc)+sum(V_count)+sum(V_temp)+sum(V_caus)) / (len(V_ext)+len(V_loc)+len(V_count)+len(V_temp)+len(V_caus)))}\n')
+
+        f.write(f'av_existential_accuracy, {100 * sum(AV_ext)/len(AV_ext)}\n')
+        f.write(f'av_counting_accuracy, {100 * sum(AV_count)/len(AV_count)}\n')
+        f.write(f'av_localization_accuracy, {100 * sum(AV_loc)/len(AV_loc)}\n')
+        f.write(f'av_comparison_accuracy, {100 * sum(AV_cmp)/len(AV_cmp)}\n')
+        f.write(f'av_temporal_accuracy, {100 * sum(AV_temp)/len(AV_temp)}\n')
+        f.write(f'av_causal_accuracy, {100 * sum(AV_caus)/len(AV_caus)}\n')
+        f.write(f'av_purpose_accuracy, {100 * sum(AV_purp)/len(AV_purp)}\n')
+        f.write(f'av_overall_accuracy, {(100 * (sum(AV_count)+sum(AV_loc)+sum(AV_ext)+sum(AV_temp)+sum(AV_cmp)+sum(AV_caus)+sum(AV_purp)) / (len(AV_count)+len(AV_loc)+len(AV_ext)+len(AV_temp)+len(AV_cmp)+len(AV_caus)+len(AV_purp)))}\n')
+
+        f.write(f'overall_accuracy, {100 * correct/total}\n')
 
 
 
@@ -291,10 +332,11 @@ def main():
 
     parser.add_argument(
         "--audio_dir", type=str, default = my_source_dir + 'feats/vggish', help="audio dir")
-    # parser.add_argument(
-    #     "--video_dir", type=str, default='/home/guangyao_li/dataset/avqa/avqa-frames-1fps', help="video dir")
     parser.add_argument(
         "--video_res14x14_dir", type=str, default=my_source_dir + 'feats/res18_14x14', help="res14x14 dir")
+
+    parser.add_argument(
+        "--intv_mode", type=str, default='both', help='modality to intervene in')
 
     parser.add_argument(
         "--label_train", type=str, default="../json/avqa-train.json", help="train csv file")
@@ -334,8 +376,15 @@ def main():
     model = AVQA_Fusion_Net()
     model = nn.DataParallel(model)
 
+    if args.intv_mode is not None:
+        transform=transforms.Compose([ToTensor(), MyTransform()])
+    
+    else:
+        transform=transforms.Compose([ToTensor()])
+
+
     test_dataset = AVQA_dataset(label=args.label_test, audio_dir=args.audio_dir, video_res14x14_dir=args.video_res14x14_dir,
-                                transform=transforms.Compose([ToTensor()]), mode_flag='test')
+                                mode_flag='test', intv_mode = args.intv_mode)
 
     print("Length of test dataset: ", test_dataset.__len__())
     print()
@@ -345,7 +394,7 @@ def main():
     model.load_state_dict(torch.load('./avst_models/avst_ours.pt'))
     model = model.to('cuda') 
 
-    test(model, test_loader)
+    test(model, test_loader, intv_mode = args.intv_mode)
 
     print("Testing done.")
 

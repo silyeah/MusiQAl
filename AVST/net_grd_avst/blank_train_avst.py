@@ -53,23 +53,17 @@ def train(args, model, train_loader, optimizer, criterion, epoch, progress_epoch
     total_qa = 0
     correct_qa = 0
 
-    # progress_filename = 'progress/avst_progress.csv'
-    # with open(progress_filename, 'w') as f:
-    #     f.write('epoch,batch_idx,loss_qa,loss_match,loss_both\n')
+    progress_filename = 'progress/blank_avst_progress.csv'
+    with open(progress_filename, 'w') as f:
+        f.write('epoch,batch_idx,loss_qa,loss_match,loss_both\n')
 
     for batch_idx, sample in enumerate(train_loader):
         audio,visual_posi,visual_nega, target, question = sample['audio'].to('cuda'), sample['visual_posi'].to('cuda'),sample['visual_nega'].to('cuda'), sample['label'].to('cuda'), sample['question'].to('cuda')
 
         optimizer.zero_grad()
-        out_qa, out_match_posi,out_match_nega = model(audio, visual_posi,visual_nega, question)  
+        out_qa, out_match_posi,out_match_nega = model(audio, visual_posi, visual_nega, question)  
         out_match, match_label = batch_organize(out_match_posi,out_match_nega)  
         out_match ,match_label = out_match.type(torch.FloatTensor).cuda(), match_label.type(torch.LongTensor).cuda()
-
-        preds_qa, out_match_posi, out_match_nega = model(audio, visual_posi,visual_nega, question)
-
-        _, predicted = torch.max(out_qa.data, 1)
-        total_qa += out_qa.size(0)
-        correct_qa += (predicted == target).sum().item()
 
         loss_match=criterion(out_match, match_label)
         loss_qa = criterion(out_qa, target)
@@ -79,8 +73,8 @@ def train(args, model, train_loader, optimizer, criterion, epoch, progress_epoch
         writer.add_scalar('run/qa_test',loss_qa.item(), epoch * len(train_loader) + batch_idx)
         writer.add_scalar('run/both',loss.item(), epoch * len(train_loader) + batch_idx)
 
-        # with open(progress_filename, 'a') as f:
-        #     f.write(f'{epoch},{batch_idx},{loss_qa.item()},{loss_match.item()},{loss.item()}\n')
+        with open(progress_filename, 'a') as f:
+            f.write(f'{epoch},{batch_idx},{loss_qa.item()},{loss_match.item()},{loss.item()}\n')
 
         loss.backward()
         optimizer.step()
@@ -90,10 +84,8 @@ def train(args, model, train_loader, optimizer, criterion, epoch, progress_epoch
                 epoch, batch_idx * len(audio), len(train_loader.dataset),
                        100. * batch_idx / len(train_loader), loss.item()))
 
-    accuracy = 100 * correct_qa / total_qa
-
     with open(progress_epoch_filename, 'a') as f:
-        f.write(f'{epoch},{loss_qa.item()},{loss_match.item()},{loss.item()},{accuracy}\n')
+        f.write(f'{epoch},{loss_qa.item()},{loss_match.item()},{loss.item()}\n')
 
 
 def eval(model, val_loader, epoch, eval_filename):
@@ -106,7 +98,7 @@ def eval(model, val_loader, epoch, eval_filename):
         for batch_idx, sample in enumerate(val_loader):
             audio,visual_posi,visual_nega, target, question = sample['audio'].to('cuda'), sample['visual_posi'].to('cuda'),sample['visual_nega'].to('cuda'), sample['label'].to('cuda'), sample['question'].to('cuda')
 
-            preds_qa, out_match_posi,out_match_nega = model(audio, visual_posi,visual_nega, question)
+            preds_qa, out_match_posi, out_match_nega = model(audio, visual_posi,visual_nega, question)
 
             _, predicted = torch.max(preds_qa.data, 1)
             total_qa += preds_qa.size(0)
@@ -278,10 +270,12 @@ def main():
 
     parser.add_argument(
         "--audio_dir", type=str, default = my_source_dir + 'feats/vggish', help="audio dir")
-    # parser.add_argument(
-    #     "--video_dir", type=str, default='/home/guangyao_li/dataset/avqa/avqa-frames-1fps', help="video dir")
     parser.add_argument(
         "--video_res14x14_dir", type=str, default = my_source_dir + 'feats/res18_14x14', help="res14x14 dir")
+    
+    parser.add_argument(
+        "--intv_mode", type=str, default='both', help='modality to intervene in')
+
 
     parser.add_argument(
         "--label_train", type=str, default="../json/avqa-train.json", help="train csv file")
@@ -303,12 +297,10 @@ def main():
         '--seed', type=int, default=1, metavar='S', help='random seed (default: 1)')
     parser.add_argument(
         '--log-interval', type=int, default=10, metavar='N', help='how many batches to wait before logging training status')
-    # parser.add_argument(
-    #     "--model_save_dir", type=str, default='net_grd_avst/avst_models/', help="model save dir")
     parser.add_argument(
         "--model_save_dir", type=str, default='avst_models/', help="model save dir")
     parser.add_argument(
-        "--checkpoint", type=str, default='avst_ours', help="save model name")
+        "--checkpoint", type=str, default='blank_avst_ours', help="save model name")
     parser.add_argument(
         '--gpu', type=str, default='0, 1', help='gpu device number')
 
@@ -328,10 +320,11 @@ def main():
 
     if args.mode == 'train':
         train_dataset = AVQA_dataset(label=args.label_train, audio_dir=args.audio_dir, video_res14x14_dir=args.video_res14x14_dir,
-                                    mode_flag='train')
+                                    mode_flag='train', intv_mode = args.intv_mode)
         train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=1, pin_memory=True)
+        
         val_dataset = AVQA_dataset(label=args.label_val, audio_dir=args.audio_dir, video_res14x14_dir=args.video_res14x14_dir,
-                                    mode_flag='val')
+                                    mode_flag='val', intv_mode = args.intv_mode)
         val_loader = DataLoader(val_dataset, batch_size=1, shuffle=False, num_workers=1, pin_memory=True)
 
 
@@ -360,14 +353,14 @@ def main():
         criterion = nn.CrossEntropyLoss()
         best_F = 0
 
-        progress_epoch_filename = 'progress/avst_epoch_progress.csv'
-        eval_filename = 'progress/avst_epoch_eval.csv'
+        progress_epoch_filename = 'progress/blank_avst_epoch_progress.csv'
+        eval_filename = 'progress/blank_avst_epoch_eval.csv'
 
         with open(progress_epoch_filename, 'w') as f:
-            f.write('epoch,loss_qa,loss_match,loss_both,train_accuracy\n')
+            f.write('epoch,loss_qa,loss_match,loss_both\n')
         
         with open(eval_filename, 'w') as f:
-            f.write('epoch,val_accuracy\n')
+            f.write('epoch,acc_qa\n')
 
         for epoch in range(1, args.epochs + 1):
             train(args, model, train_loader, optimizer, criterion, epoch=epoch, progress_epoch_filename=progress_epoch_filename)

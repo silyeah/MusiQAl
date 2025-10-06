@@ -1,9 +1,9 @@
 #!/bin/bash     
 
 
-#SBATCH --job-name=test_trial0
+#SBATCH --job-name=train_model 
 #SBATCH --account=ec12
-#SBATCH --time=15:00:00
+#SBATCH --time=24:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=32G
@@ -12,7 +12,6 @@
 
 
 ## SBATCH --qos=devel
-
 
 
 ## SBATCH --output=./slurm_outs/test_avst_out_%j.txt
@@ -38,10 +37,9 @@ cd $DIR &> /dev/null
 
 #python avst_test_stripped.py > ./avst_test_stripped.txt
 
-python main_avst.py > ./avst_train.txt
+#python main_avst.py > ./progress/avst_train.txt
 
-
-
+python main_avst.py > ./progress/avst_train.txt
 
 
 

@@ -219,7 +219,10 @@ def _resnet(arch, block, layers, pretrained, progress, modal, **kwargs):
     model = ResNet(block, layers, modal, **kwargs)
     if pretrained:
         print('---------- >>> load pretrained res-18 <<< ----------\n')
-        model.load_state_dict(torch.load('./AVST/pretrained/resnet18-5c106cde.pth'), strict=False)
+        #model.load_state_dict(torch.load('./AVST/pretrained/resnet18-5c106cde.pth'), strict=False)
+        model.load_state_dict(torch.load('/fp/homes01/u01/ec-sarapje/MusiQAl/AVST/pretrained/resnet18-5c106cde.pth'), strict=False)  
+        # Might be something wrong with this file, need to try to download it again
+
     return model
 
 def resnet18(pretrained=False, progress=True, modal='vision',**kwargs):

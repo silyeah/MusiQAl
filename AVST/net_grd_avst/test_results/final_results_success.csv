@@ -1,0 +1,22 @@
+question_category,accuracy
+audio_existential_accuracy, 58.53658536585366
+audio_counting_accuracy, 72.0
+audio_comparison_accuracy, 66.12903225806451
+audio_temporal_accuracy, 14.285714285714286
+audio_causal_accuracy, 66.66666666666667
+audio_overall_accuracy, 64.0909090909091
+visual_existential_accuracy, 83.33333333333333
+visual_localization_accuracy, 66.66666666666667
+visual_counting_accuracy, 67.96875
+visual_temporal_accuracy, 75.86206896551724
+visual_causal_accuracy, 53.57142857142857
+visual_overall_accuracy, 68.06451612903226
+av_existential_accuracy, 80.0
+av_counting_accuracy, 55.78947368421053
+av_localization_accuracy, 53.7037037037037
+av_comparison_accuracy, 83.33333333333333
+av_temporal_accuracy, 50.54945054945055
+av_causal_accuracy, 70.83333333333333
+av_purpose_accuracy, 57.142857142857146
+av_overall_accuracy, 65.08422664624808
+overall_accuracy, 65.68047337278107

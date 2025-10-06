@@ -20,13 +20,55 @@ def ids_to_multinomial(id, categories):
 
     return id_to_idx[id]
 
+
+class ToTensor(object):
+    def __call__(self, sample):
+        
+        audio = sample['audio']
+        visual_posi = sample['visual_posi']
+        visual_nega = sample['visual_nega']
+        label = sample['label']
+
+        return { 
+                'audio': torch.from_numpy(audio),  
+                'visual_posi': sample['visual_posi'],
+                'visual_nega': sample['visual_nega'],
+                'question': sample['question'],
+                'label': label}
+
+
+
+class MyTransform:
+    def __init__(self, intv_mode=None):
+        self.intv_mode = intv_mode
+
+    def __call__(self, sample):
+
+        #print('Using my transform')
+        
+        if self.intv_mode == 'audio':
+            sample['audio'] = torch.zeros_like(sample['audio'])
+
+        elif self.intv_mode == 'visual':
+            sample['visual_posi'] = np.zeros_like(sample['visual_posi'])
+            sample['visual_nega'] = torch.zeros_like(sample['visual_nega'])
+
+        elif self.intv_mode == 'both':
+            sample['audio'] = torch.zeros_like(sample['audio'])
+            sample['visual_posi'] = np.zeros_like(sample['visual_posi'])
+            sample['visual_nega'] = torch.zeros_like(sample['visual_nega'])
+
+        else:
+            None
+            
+        return sample
+    
+
 class AVQA_dataset(Dataset):
+    def __init__(self, label, audio_dir, video_res14x14_dir, mode_flag='test', intv_mode = None):
 
-    def __init__(self, label, audio_dir, video_res14x14_dir, transform=None, mode_flag='train'):
+        samples = json.load(open('../json/avqa-train.json', 'r')) #XXX Why is this correct???
 
-        samples = json.load(open('../json/avqa-train.json', 'r'))
-
-        # nax =  nne
         ques_vocab = ['<pad>']
         ans_vocab = []
         i = 0
@@ -56,7 +98,14 @@ class AVQA_dataset(Dataset):
 
         self.audio_dir = audio_dir
         self.video_res14x14_dir = video_res14x14_dir
-        self.transform = transform
+
+        self.intv_mode = intv_mode
+
+        if intv_mode is not None:
+            self.transform=transforms.Compose([ToTensor(), MyTransform(self.intv_mode)])
+    
+        else:
+            self.transform=transforms.Compose([ToTensor()])
 
         video_list = []
         for sample in self.samples:
@@ -78,7 +127,7 @@ class AVQA_dataset(Dataset):
         audio = np.load(os.path.join(self.audio_dir, name + '.npy'))
         audio = audio[::6, :]
 
-        visual_out_res18_path = './AVST/data/feats/res18_14x14'
+        #visual_out_res18_path = './AVST/data/feats/res18_14x14'
         visual_posi = np.load(os.path.join(self.video_res14x14_dir, name + '.npy'))  
         
         # visual_posi [60, 512, 14, 14], select 10 frames from one video
@@ -127,27 +176,48 @@ class AVQA_dataset(Dataset):
         # answer
         answer = sample['answer']
         label = ids_to_multinomial(answer, self.ans_vocab)
-        label = torch.from_numpy(np.array(label)).long()
+        label = torch.from_numpy(np.array(label)).long() 
+
+
 
         sample = {'audio': audio, 'visual_posi': visual_posi, 'visual_nega': visual_nega, 'question': ques, 'label': label}
-
+        
         if self.transform:
             sample = self.transform(sample)
 
+        '''
+        Audio shape torch.Size([10, 128])
+        Audio type <class 'torch.Tensor'>
+        Audio min, max, mean tensor(0.) tensor(1.6020) tensor(0.1320)
+
+        Visual posi shape (10, 512, 14, 14)
+        Visual posi type <class 'numpy.ndarray'>
+        Visual posi min, max, mean 0.0 18.149185 0.6930054
+
+        Visual nega shape torch.Size([10, 512, 14, 14])
+        Visual nega type <class 'torch.Tensor'>
+        Visual nega min, max, mean tensor(0.) tensor(36.2972) tensor(0.7925)
+        '''
+
+        # print('Audio shape', sample['audio'].shape)
+        # print('Audio type', type(sample['audio']))
+        # print('Audio min, max, mean', sample['audio'].min(), sample['audio'].max(), sample['audio'].mean())
+        # print()
+
+        # print('Visual posi shape', sample['visual_posi'].shape)
+        # print('Visual posi type', type(sample['visual_posi']))
+        # #print(sample['visual_posi'])
+        # print('Visual posi min, max, mean', np.min(sample['visual_posi']), np.max(sample['visual_posi']), np.mean(sample['visual_posi']))
+
+        # print()
+        # print('Visual nega shape', sample['visual_nega'].shape)
+        # print('Visual nega type', type(sample['visual_nega']))
+        # print('Visual nega min, max, mean', sample['visual_nega'].min(), sample['visual_nega'].max(), sample['visual_nega'].mean())
+        # print()
+
+        #exit()
+
         return sample
 
-class ToTensor(object):
 
-    def __call__(self, sample):
 
-        audio = sample['audio']
-        visual_posi = sample['visual_posi']
-        visual_nega = sample['visual_nega']
-        label = sample['label']
-
-        return { 
-                'audio': torch.from_numpy(audio), 
-                'visual_posi': sample['visual_posi'],
-                'visual_nega': sample['visual_nega'],
-                'question': sample['question'],
-                'label': label}

@@ -1,0 +1,6995 @@
+Details of test success
+
+Idx 0
+Question ID: 1355
+Video ID: 00000034
+Predicted: 4
+Target: 4
+Correct until now: 1
+Samples tested until now: 1
+Accuracy until now: 100.00 %
+
+Idx 1
+Question ID: 1777
+Video ID: 00000047
+Predicted: 0
+Target: 0
+Correct until now: 2
+Samples tested until now: 2
+Accuracy until now: 100.00 %
+
+Idx 2
+Question ID: 5913
+Video ID: 00000150
+Predicted: 4
+Target: 4
+Correct until now: 3
+Samples tested until now: 3
+Accuracy until now: 100.00 %
+
+Idx 3
+Question ID: 61
+Video ID: 00000001
+Predicted: 4
+Target: 4
+Correct until now: 4
+Samples tested until now: 4
+Accuracy until now: 100.00 %
+
+Idx 4
+Question ID: 10240
+Video ID: 00000268
+Predicted: 27
+Target: 27
+Correct until now: 5
+Samples tested until now: 5
+Accuracy until now: 100.00 %
+
+Idx 5
+Question ID: 633
+Video ID: 00000016
+Predicted: 0
+Target: 4
+Correct until now: 5
+Samples tested until now: 6
+Accuracy until now: 83.33 %
+
+Idx 6
+Question ID: 10921
+Video ID: 00000286
+Predicted: 4
+Target: 0
+Correct until now: 5
+Samples tested until now: 7
+Accuracy until now: 71.43 %
+
+Idx 7
+Question ID: 1114
+Video ID: 00000028
+Predicted: 3
+Target: 1
+Correct until now: 5
+Samples tested until now: 8
+Accuracy until now: 62.50 %
+
+Idx 8
+Question ID: 7217
+Video ID: 00000186
+Predicted: 46
+Target: 46
+Correct until now: 6
+Samples tested until now: 9
+Accuracy until now: 66.67 %
+
+Idx 9
+Question ID: 2890
+Video ID: 00000077
+Predicted: 29
+Target: 29
+Correct until now: 7
+Samples tested until now: 10
+Accuracy until now: 70.00 %
+
+Idx 10
+Question ID: 8054
+Video ID: 00000208
+Predicted: 4
+Target: 4
+Correct until now: 8
+Samples tested until now: 11
+Accuracy until now: 72.73 %
+
+Idx 11
+Question ID: 4755
+Video ID: 00000120
+Predicted: 0
+Target: 0
+Correct until now: 9
+Samples tested until now: 12
+Accuracy until now: 75.00 %
+
+Idx 12
+Question ID: 2776
+Video ID: 00000074
+Predicted: 4
+Target: 4
+Correct until now: 10
+Samples tested until now: 13
+Accuracy until now: 76.92 %
+
+Idx 13
+Question ID: 6529
+Video ID: 00000170
+Predicted: 4
+Target: 4
+Correct until now: 11
+Samples tested until now: 14
+Accuracy until now: 78.57 %
+
+Idx 14
+Question ID: 4260
+Video ID: 00000108
+Predicted: 4
+Target: 4
+Correct until now: 12
+Samples tested until now: 15
+Accuracy until now: 80.00 %
+
+Idx 15
+Question ID: 491
+Video ID: 00000012
+Predicted: 4
+Target: 0
+Correct until now: 12
+Samples tested until now: 16
+Accuracy until now: 75.00 %
+
+Idx 16
+Question ID: 1064
+Video ID: 00000026
+Predicted: 86
+Target: 24
+Correct until now: 12
+Samples tested until now: 17
+Accuracy until now: 70.59 %
+
+Idx 17
+Question ID: 2336
+Video ID: 00000062
+Predicted: 46
+Target: 29
+Correct until now: 12
+Samples tested until now: 18
+Accuracy until now: 66.67 %
+
+Idx 18
+Question ID: 3511
+Video ID: 00000092
+Predicted: 4
+Target: 4
+Correct until now: 13
+Samples tested until now: 19
+Accuracy until now: 68.42 %
+
+Idx 19
+Question ID: 10611
+Video ID: 00000278
+Predicted: 4
+Target: 4
+Correct until now: 14
+Samples tested until now: 20
+Accuracy until now: 70.00 %
+
+Idx 20
+Question ID: 2092
+Video ID: 00000055
+Predicted: 86
+Target: 19
+Correct until now: 14
+Samples tested until now: 21
+Accuracy until now: 66.67 %
+
+Idx 21
+Question ID: 3672
+Video ID: 00000095
+Predicted: 0
+Target: 0
+Correct until now: 15
+Samples tested until now: 22
+Accuracy until now: 68.18 %
+
+Idx 22
+Question ID: 3169
+Video ID: 00000084
+Predicted: 4
+Target: 4
+Correct until now: 16
+Samples tested until now: 23
+Accuracy until now: 69.57 %
+
+Idx 23
+Question ID: 11524
+Video ID: 00000301
+Predicted: 3
+Target: 3
+Correct until now: 17
+Samples tested until now: 24
+Accuracy until now: 70.83 %
+
+Idx 24
+Question ID: 11820
+Video ID: 00000309
+Predicted: 1
+Target: 3
+Correct until now: 17
+Samples tested until now: 25
+Accuracy until now: 68.00 %
+
+Idx 25
+Question ID: 8124
+Video ID: 00000210
+Predicted: 4
+Target: 4
+Correct until now: 18
+Samples tested until now: 26
+Accuracy until now: 69.23 %
+
+Idx 26
+Question ID: 10895
+Video ID: 00000285
+Predicted: 22
+Target: 22
+Correct until now: 19
+Samples tested until now: 27
+Accuracy until now: 70.37 %
+
+Idx 27
+Question ID: 606
+Video ID: 00000015
+Predicted: 21
+Target: 21
+Correct until now: 20
+Samples tested until now: 28
+Accuracy until now: 71.43 %
+
+Idx 28
+Question ID: 2347
+Video ID: 00000062
+Predicted: 21
+Target: 21
+Correct until now: 21
+Samples tested until now: 29
+Accuracy until now: 72.41 %
+
+Idx 29
+Question ID: 5462
+Video ID: 00000139
+Predicted: 0
+Target: 0
+Correct until now: 22
+Samples tested until now: 30
+Accuracy until now: 73.33 %
+
+Idx 30
+Question ID: 5986
+Video ID: 00000152
+Predicted: 21
+Target: 21
+Correct until now: 23
+Samples tested until now: 31
+Accuracy until now: 74.19 %
+
+Idx 31
+Question ID: 4394
+Video ID: 00000112
+Predicted: 0
+Target: 0
+Correct until now: 24
+Samples tested until now: 32
+Accuracy until now: 75.00 %
+
+Idx 32
+Question ID: 3689
+Video ID: 00000096
+Predicted: 3
+Target: 27
+Correct until now: 24
+Samples tested until now: 33
+Accuracy until now: 72.73 %
+
+Idx 33
+Question ID: 5883
+Video ID: 00000150
+Predicted: 25
+Target: 25
+Correct until now: 25
+Samples tested until now: 34
+Accuracy until now: 73.53 %
+
+Idx 34
+Question ID: 3972
+Video ID: 00000102
+Predicted: 4
+Target: 0
+Correct until now: 25
+Samples tested until now: 35
+Accuracy until now: 71.43 %
+
+Idx 35
+Question ID: 3406
+Video ID: 00000089
+Predicted: 42
+Target: 42
+Correct until now: 26
+Samples tested until now: 36
+Accuracy until now: 72.22 %
+
+Idx 36
+Question ID: 1657
+Video ID: 00000044
+Predicted: 21
+Target: 21
+Correct until now: 27
+Samples tested until now: 37
+Accuracy until now: 72.97 %
+
+Idx 37
+Question ID: 2749
+Video ID: 00000073
+Predicted: 67
+Target: 31
+Correct until now: 27
+Samples tested until now: 38
+Accuracy until now: 71.05 %
+
+Idx 38
+Question ID: 8952
+Video ID: 00000237
+Predicted: 4
+Target: 0
+Correct until now: 27
+Samples tested until now: 39
+Accuracy until now: 69.23 %
+
+Idx 39
+Question ID: 5268
+Video ID: 00000133
+Predicted: 4
+Target: 0
+Correct until now: 27
+Samples tested until now: 40
+Accuracy until now: 67.50 %
+
+Idx 40
+Question ID: 9926
+Video ID: 00000259
+Predicted: 4
+Target: 0
+Correct until now: 27
+Samples tested until now: 41
+Accuracy until now: 65.85 %
+
+Idx 41
+Question ID: 7878
+Video ID: 00000203
+Predicted: 41
+Target: 37
+Correct until now: 27
+Samples tested until now: 42
+Accuracy until now: 64.29 %
+
+Idx 42
+Question ID: 10015
+Video ID: 00000261
+Predicted: 1
+Target: 3
+Correct until now: 27
+Samples tested until now: 43
+Accuracy until now: 62.79 %
+
+Idx 43
+Question ID: 10271
+Video ID: 00000269
+Predicted: 1
+Target: 3
+Correct until now: 27
+Samples tested until now: 44
+Accuracy until now: 61.36 %
+
+Idx 44
+Question ID: 9839
+Video ID: 00000257
+Predicted: 0
+Target: 0
+Correct until now: 28
+Samples tested until now: 45
+Accuracy until now: 62.22 %
+
+Idx 45
+Question ID: 11461
+Video ID: 00000299
+Predicted: 61
+Target: 5
+Correct until now: 28
+Samples tested until now: 46
+Accuracy until now: 60.87 %
+
+Idx 46
+Question ID: 5060
+Video ID: 00000128
+Predicted: 4
+Target: 4
+Correct until now: 29
+Samples tested until now: 47
+Accuracy until now: 61.70 %
+
+Idx 47
+Question ID: 732
+Video ID: 00000018
+Predicted: 4
+Target: 0
+Correct until now: 29
+Samples tested until now: 48
+Accuracy until now: 60.42 %
+
+Idx 48
+Question ID: 4875
+Video ID: 00000123
+Predicted: 42
+Target: 42
+Correct until now: 30
+Samples tested until now: 49
+Accuracy until now: 61.22 %
+
+Idx 49
+Question ID: 1003
+Video ID: 00000025
+Predicted: 6
+Target: 12
+Correct until now: 30
+Samples tested until now: 50
+Accuracy until now: 60.00 %
+
+Idx 50
+Question ID: 8690
+Video ID: 00000229
+Predicted: 4
+Target: 4
+Correct until now: 31
+Samples tested until now: 51
+Accuracy until now: 60.78 %
+
+Idx 51
+Question ID: 9549
+Video ID: 00000251
+Predicted: 0
+Target: 0
+Correct until now: 32
+Samples tested until now: 52
+Accuracy until now: 61.54 %
+
+Idx 52
+Question ID: 1412
+Video ID: 00000036
+Predicted: 4
+Target: 4
+Correct until now: 33
+Samples tested until now: 53
+Accuracy until now: 62.26 %
+
+Idx 53
+Question ID: 11515
+Video ID: 00000300
+Predicted: 4
+Target: 4
+Correct until now: 34
+Samples tested until now: 54
+Accuracy until now: 62.96 %
+
+Idx 54
+Question ID: 10099
+Video ID: 00000263
+Predicted: 4
+Target: 0
+Correct until now: 34
+Samples tested until now: 55
+Accuracy until now: 61.82 %
+
+Idx 55
+Question ID: 11068
+Video ID: 00000289
+Predicted: 14
+Target: 14
+Correct until now: 35
+Samples tested until now: 56
+Accuracy until now: 62.50 %
+
+Idx 56
+Question ID: 1764
+Video ID: 00000047
+Predicted: 6
+Target: 12
+Correct until now: 35
+Samples tested until now: 57
+Accuracy until now: 61.40 %
+
+Idx 57
+Question ID: 6316
+Video ID: 00000161
+Predicted: 4
+Target: 4
+Correct until now: 36
+Samples tested until now: 58
+Accuracy until now: 62.07 %
+
+Idx 58
+Question ID: 8843
+Video ID: 00000234
+Predicted: 1
+Target: 1
+Correct until now: 37
+Samples tested until now: 59
+Accuracy until now: 62.71 %
+
+Idx 59
+Question ID: 5356
+Video ID: 00000136
+Predicted: 4
+Target: 4
+Correct until now: 38
+Samples tested until now: 60
+Accuracy until now: 63.33 %
+
+Idx 60
+Question ID: 6366
+Video ID: 00000162
+Predicted: 0
+Target: 4
+Correct until now: 38
+Samples tested until now: 61
+Accuracy until now: 62.30 %
+
+Idx 61
+Question ID: 11356
+Video ID: 00000296
+Predicted: 67
+Target: 86
+Correct until now: 38
+Samples tested until now: 62
+Accuracy until now: 61.29 %
+
+Idx 62
+Question ID: 7195
+Video ID: 00000185
+Predicted: 11
+Target: 11
+Correct until now: 39
+Samples tested until now: 63
+Accuracy until now: 61.90 %
+
+Idx 63
+Question ID: 7415
+Video ID: 00000191
+Predicted: 55
+Target: 117
+Correct until now: 39
+Samples tested until now: 64
+Accuracy until now: 60.94 %
+
+Idx 64
+Question ID: 2791
+Video ID: 00000074
+Predicted: 0
+Target: 0
+Correct until now: 40
+Samples tested until now: 65
+Accuracy until now: 61.54 %
+
+Idx 65
+Question ID: 11611
+Video ID: 00000303
+Predicted: 4
+Target: 4
+Correct until now: 41
+Samples tested until now: 66
+Accuracy until now: 62.12 %
+
+Idx 66
+Question ID: 6562
+Video ID: 00000170
+Predicted: 0
+Target: 4
+Correct until now: 41
+Samples tested until now: 67
+Accuracy until now: 61.19 %
+
+Idx 67
+Question ID: 347
+Video ID: 00000008
+Predicted: 1
+Target: 1
+Correct until now: 42
+Samples tested until now: 68
+Accuracy until now: 61.76 %
+
+Idx 68
+Question ID: 11679
+Video ID: 00000305
+Predicted: 0
+Target: 0
+Correct until now: 43
+Samples tested until now: 69
+Accuracy until now: 62.32 %
+
+Idx 69
+Question ID: 9669
+Video ID: 00000253
+Predicted: 60
+Target: 60
+Correct until now: 44
+Samples tested until now: 70
+Accuracy until now: 62.86 %
+
+Idx 70
+Question ID: 11813
+Video ID: 00000309
+Predicted: 4
+Target: 0
+Correct until now: 44
+Samples tested until now: 71
+Accuracy until now: 61.97 %
+
+Idx 71
+Question ID: 1124
+Video ID: 00000028
+Predicted: 61
+Target: 61
+Correct until now: 45
+Samples tested until now: 72
+Accuracy until now: 62.50 %
+
+Idx 72
+Question ID: 9573
+Video ID: 00000251
+Predicted: 15
+Target: 15
+Correct until now: 46
+Samples tested until now: 73
+Accuracy until now: 63.01 %
+
+Idx 73
+Question ID: 4941
+Video ID: 00000125
+Predicted: 4
+Target: 4
+Correct until now: 47
+Samples tested until now: 74
+Accuracy until now: 63.51 %
+
+Idx 74
+Question ID: 2839
+Video ID: 00000075
+Predicted: 0
+Target: 0
+Correct until now: 48
+Samples tested until now: 75
+Accuracy until now: 64.00 %
+
+Idx 75
+Question ID: 11433
+Video ID: 00000298
+Predicted: 4
+Target: 4
+Correct until now: 49
+Samples tested until now: 76
+Accuracy until now: 64.47 %
+
+Idx 76
+Question ID: 2676
+Video ID: 00000071
+Predicted: 86
+Target: 44
+Correct until now: 49
+Samples tested until now: 77
+Accuracy until now: 63.64 %
+
+Idx 77
+Question ID: 5686
+Video ID: 00000145
+Predicted: 29
+Target: 29
+Correct until now: 50
+Samples tested until now: 78
+Accuracy until now: 64.10 %
+
+Idx 78
+Question ID: 362
+Video ID: 00000008
+Predicted: 86
+Target: 86
+Correct until now: 51
+Samples tested until now: 79
+Accuracy until now: 64.56 %
+
+Idx 79
+Question ID: 9615
+Video ID: 00000253
+Predicted: 1
+Target: 25
+Correct until now: 51
+Samples tested until now: 80
+Accuracy until now: 63.75 %
+
+Idx 80
+Question ID: 11805
+Video ID: 00000308
+Predicted: 4
+Target: 4
+Correct until now: 52
+Samples tested until now: 81
+Accuracy until now: 64.20 %
+
+Idx 81
+Question ID: 1080
+Video ID: 00000027
+Predicted: 1
+Target: 1
+Correct until now: 53
+Samples tested until now: 82
+Accuracy until now: 64.63 %
+
+Idx 82
+Question ID: 9093
+Video ID: 00000241
+Predicted: 1
+Target: 1
+Correct until now: 54
+Samples tested until now: 83
+Accuracy until now: 65.06 %
+
+Idx 83
+Question ID: 10369
+Video ID: 00000271
+Predicted: 0
+Target: 0
+Correct until now: 55
+Samples tested until now: 84
+Accuracy until now: 65.48 %
+
+Idx 84
+Question ID: 7666
+Video ID: 00000197
+Predicted: 46
+Target: 46
+Correct until now: 56
+Samples tested until now: 85
+Accuracy until now: 65.88 %
+
+Idx 85
+Question ID: 11670
+Video ID: 00000305
+Predicted: 0
+Target: 0
+Correct until now: 57
+Samples tested until now: 86
+Accuracy until now: 66.28 %
+
+Idx 86
+Question ID: 9758
+Video ID: 00000256
+Predicted: 1
+Target: 25
+Correct until now: 57
+Samples tested until now: 87
+Accuracy until now: 65.52 %
+
+Idx 87
+Question ID: 7286
+Video ID: 00000188
+Predicted: 46
+Target: 46
+Correct until now: 58
+Samples tested until now: 88
+Accuracy until now: 65.91 %
+
+Idx 88
+Question ID: 10328
+Video ID: 00000270
+Predicted: 4
+Target: 4
+Correct until now: 59
+Samples tested until now: 89
+Accuracy until now: 66.29 %
+
+Idx 89
+Question ID: 2697
+Video ID: 00000072
+Predicted: 4
+Target: 4
+Correct until now: 60
+Samples tested until now: 90
+Accuracy until now: 66.67 %
+
+Idx 90
+Question ID: 7506
+Video ID: 00000193
+Predicted: 4
+Target: 4
+Correct until now: 61
+Samples tested until now: 91
+Accuracy until now: 67.03 %
+
+Idx 91
+Question ID: 11618
+Video ID: 00000303
+Predicted: 41
+Target: 41
+Correct until now: 62
+Samples tested until now: 92
+Accuracy until now: 67.39 %
+
+Idx 92
+Question ID: 8993
+Video ID: 00000238
+Predicted: 0
+Target: 0
+Correct until now: 63
+Samples tested until now: 93
+Accuracy until now: 67.74 %
+
+Idx 93
+Question ID: 409
+Video ID: 00000009
+Predicted: 0
+Target: 0
+Correct until now: 64
+Samples tested until now: 94
+Accuracy until now: 68.09 %
+
+Idx 94
+Question ID: 3085
+Video ID: 00000082
+Predicted: 1
+Target: 1
+Correct until now: 65
+Samples tested until now: 95
+Accuracy until now: 68.42 %
+
+Idx 95
+Question ID: 11181
+Video ID: 00000292
+Predicted: 3
+Target: 3
+Correct until now: 66
+Samples tested until now: 96
+Accuracy until now: 68.75 %
+
+Idx 96
+Question ID: 247
+Video ID: 00000006
+Predicted: 0
+Target: 0
+Correct until now: 67
+Samples tested until now: 97
+Accuracy until now: 69.07 %
+
+Idx 97
+Question ID: 6712
+Video ID: 00000173
+Predicted: 4
+Target: 4
+Correct until now: 68
+Samples tested until now: 98
+Accuracy until now: 69.39 %
+
+Idx 98
+Question ID: 4870
+Video ID: 00000123
+Predicted: 67
+Target: 19
+Correct until now: 68
+Samples tested until now: 99
+Accuracy until now: 68.69 %
+
+Idx 99
+Question ID: 6041
+Video ID: 00000154
+Predicted: 3
+Target: 3
+Correct until now: 69
+Samples tested until now: 100
+Accuracy until now: 69.00 %
+
+Idx 100
+Question ID: 9560
+Video ID: 00000251
+Predicted: 67
+Target: 5
+Correct until now: 69
+Samples tested until now: 101
+Accuracy until now: 68.32 %
+
+Idx 101
+Question ID: 8027
+Video ID: 00000208
+Predicted: 3
+Target: 3
+Correct until now: 70
+Samples tested until now: 102
+Accuracy until now: 68.63 %
+
+Idx 102
+Question ID: 6578
+Video ID: 00000171
+Predicted: 4
+Target: 4
+Correct until now: 71
+Samples tested until now: 103
+Accuracy until now: 68.93 %
+
+Idx 103
+Question ID: 757
+Video ID: 00000019
+Predicted: 3
+Target: 1
+Correct until now: 71
+Samples tested until now: 104
+Accuracy until now: 68.27 %
+
+Idx 104
+Question ID: 5936
+Video ID: 00000151
+Predicted: 4
+Target: 4
+Correct until now: 72
+Samples tested until now: 105
+Accuracy until now: 68.57 %
+
+Idx 105
+Question ID: 9173
+Video ID: 00000243
+Predicted: 3
+Target: 3
+Correct until now: 73
+Samples tested until now: 106
+Accuracy until now: 68.87 %
+
+Idx 106
+Question ID: 504
+Video ID: 00000012
+Predicted: 4
+Target: 4
+Correct until now: 74
+Samples tested until now: 107
+Accuracy until now: 69.16 %
+
+Idx 107
+Question ID: 10925
+Video ID: 00000286
+Predicted: 4
+Target: 4
+Correct until now: 75
+Samples tested until now: 108
+Accuracy until now: 69.44 %
+
+Idx 108
+Question ID: 5757
+Video ID: 00000146
+Predicted: 60
+Target: 60
+Correct until now: 76
+Samples tested until now: 109
+Accuracy until now: 69.72 %
+
+Idx 109
+Question ID: 2315
+Video ID: 00000061
+Predicted: 0
+Target: 0
+Correct until now: 77
+Samples tested until now: 110
+Accuracy until now: 70.00 %
+
+Idx 110
+Question ID: 1142
+Video ID: 00000029
+Predicted: 4
+Target: 4
+Correct until now: 78
+Samples tested until now: 111
+Accuracy until now: 70.27 %
+
+Idx 111
+Question ID: 4542
+Video ID: 00000115
+Predicted: 7
+Target: 7
+Correct until now: 79
+Samples tested until now: 112
+Accuracy until now: 70.54 %
+
+Idx 112
+Question ID: 2798
+Video ID: 00000074
+Predicted: 4
+Target: 0
+Correct until now: 79
+Samples tested until now: 113
+Accuracy until now: 69.91 %
+
+Idx 113
+Question ID: 3275
+Video ID: 00000086
+Predicted: 4
+Target: 4
+Correct until now: 80
+Samples tested until now: 114
+Accuracy until now: 70.18 %
+
+Idx 114
+Question ID: 7988
+Video ID: 00000207
+Predicted: 4
+Target: 4
+Correct until now: 81
+Samples tested until now: 115
+Accuracy until now: 70.43 %
+
+Idx 115
+Question ID: 10316
+Video ID: 00000270
+Predicted: 4
+Target: 4
+Correct until now: 82
+Samples tested until now: 116
+Accuracy until now: 70.69 %
+
+Idx 116
+Question ID: 6228
+Video ID: 00000159
+Predicted: 4
+Target: 4
+Correct until now: 83
+Samples tested until now: 117
+Accuracy until now: 70.94 %
+
+Idx 117
+Question ID: 7932
+Video ID: 00000205
+Predicted: 0
+Target: 0
+Correct until now: 84
+Samples tested until now: 118
+Accuracy until now: 71.19 %
+
+Idx 118
+Question ID: 8907
+Video ID: 00000236
+Predicted: 1
+Target: 1
+Correct until now: 85
+Samples tested until now: 119
+Accuracy until now: 71.43 %
+
+Idx 119
+Question ID: 6082
+Video ID: 00000155
+Predicted: 9
+Target: 9
+Correct until now: 86
+Samples tested until now: 120
+Accuracy until now: 71.67 %
+
+Idx 120
+Question ID: 3985
+Video ID: 00000102
+Predicted: 4
+Target: 0
+Correct until now: 86
+Samples tested until now: 121
+Accuracy until now: 71.07 %
+
+Idx 121
+Question ID: 11758
+Video ID: 00000307
+Predicted: 46
+Target: 29
+Correct until now: 86
+Samples tested until now: 122
+Accuracy until now: 70.49 %
+
+Idx 122
+Question ID: 8221
+Video ID: 00000213
+Predicted: 4
+Target: 4
+Correct until now: 87
+Samples tested until now: 123
+Accuracy until now: 70.73 %
+
+Idx 123
+Question ID: 4167
+Video ID: 00000106
+Predicted: 1
+Target: 1
+Correct until now: 88
+Samples tested until now: 124
+Accuracy until now: 70.97 %
+
+Idx 124
+Question ID: 3505
+Video ID: 00000091
+Predicted: 4
+Target: 4
+Correct until now: 89
+Samples tested until now: 125
+Accuracy until now: 71.20 %
+
+Idx 125
+Question ID: 5643
+Video ID: 00000144
+Predicted: 98
+Target: 123
+Correct until now: 89
+Samples tested until now: 126
+Accuracy until now: 70.63 %
+
+Idx 126
+Question ID: 5722
+Video ID: 00000146
+Predicted: 3
+Target: 3
+Correct until now: 90
+Samples tested until now: 127
+Accuracy until now: 70.87 %
+
+Idx 127
+Question ID: 11744
+Video ID: 00000307
+Predicted: 1
+Target: 27
+Correct until now: 90
+Samples tested until now: 128
+Accuracy until now: 70.31 %
+
+Idx 128
+Question ID: 7377
+Video ID: 00000190
+Predicted: 7
+Target: 7
+Correct until now: 91
+Samples tested until now: 129
+Accuracy until now: 70.54 %
+
+Idx 129
+Question ID: 8781
+Video ID: 00000232
+Predicted: 4
+Target: 4
+Correct until now: 92
+Samples tested until now: 130
+Accuracy until now: 70.77 %
+
+Idx 130
+Question ID: 5428
+Video ID: 00000138
+Predicted: 21
+Target: 21
+Correct until now: 93
+Samples tested until now: 131
+Accuracy until now: 70.99 %
+
+Idx 131
+Question ID: 996
+Video ID: 00000025
+Predicted: 4
+Target: 4
+Correct until now: 94
+Samples tested until now: 132
+Accuracy until now: 71.21 %
+
+Idx 132
+Question ID: 9189
+Video ID: 00000243
+Predicted: 46
+Target: 29
+Correct until now: 94
+Samples tested until now: 133
+Accuracy until now: 70.68 %
+
+Idx 133
+Question ID: 7440
+Video ID: 00000192
+Predicted: 4
+Target: 4
+Correct until now: 95
+Samples tested until now: 134
+Accuracy until now: 70.90 %
+
+Idx 134
+Question ID: 2672
+Video ID: 00000071
+Predicted: 7
+Target: 7
+Correct until now: 96
+Samples tested until now: 135
+Accuracy until now: 71.11 %
+
+Idx 135
+Question ID: 4144
+Video ID: 00000105
+Predicted: 4
+Target: 4
+Correct until now: 97
+Samples tested until now: 136
+Accuracy until now: 71.32 %
+
+Idx 136
+Question ID: 7173
+Video ID: 00000185
+Predicted: 0
+Target: 4
+Correct until now: 97
+Samples tested until now: 137
+Accuracy until now: 70.80 %
+
+Idx 137
+Question ID: 563
+Video ID: 00000014
+Predicted: 1
+Target: 1
+Correct until now: 98
+Samples tested until now: 138
+Accuracy until now: 71.01 %
+
+Idx 138
+Question ID: 1109
+Video ID: 00000028
+Predicted: 4
+Target: 0
+Correct until now: 98
+Samples tested until now: 139
+Accuracy until now: 70.50 %
+
+Idx 139
+Question ID: 874
+Video ID: 00000022
+Predicted: 7
+Target: 7
+Correct until now: 99
+Samples tested until now: 140
+Accuracy until now: 70.71 %
+
+Idx 140
+Question ID: 17
+Video ID: 00000000
+Predicted: 61
+Target: 61
+Correct until now: 100
+Samples tested until now: 141
+Accuracy until now: 70.92 %
+
+Idx 141
+Question ID: 6855
+Video ID: 00000177
+Predicted: 0
+Target: 0
+Correct until now: 101
+Samples tested until now: 142
+Accuracy until now: 71.13 %
+
+Idx 142
+Question ID: 10459
+Video ID: 00000274
+Predicted: 0
+Target: 0
+Correct until now: 102
+Samples tested until now: 143
+Accuracy until now: 71.33 %
+
+Idx 143
+Question ID: 2646
+Video ID: 00000070
+Predicted: 15
+Target: 15
+Correct until now: 103
+Samples tested until now: 144
+Accuracy until now: 71.53 %
+
+Idx 144
+Question ID: 6100
+Video ID: 00000155
+Predicted: 4
+Target: 4
+Correct until now: 104
+Samples tested until now: 145
+Accuracy until now: 71.72 %
+
+Idx 145
+Question ID: 4987
+Video ID: 00000126
+Predicted: 0
+Target: 0
+Correct until now: 105
+Samples tested until now: 146
+Accuracy until now: 71.92 %
+
+Idx 146
+Question ID: 7453
+Video ID: 00000192
+Predicted: 3
+Target: 3
+Correct until now: 106
+Samples tested until now: 147
+Accuracy until now: 72.11 %
+
+Idx 147
+Question ID: 10413
+Video ID: 00000272
+Predicted: 6
+Target: 6
+Correct until now: 107
+Samples tested until now: 148
+Accuracy until now: 72.30 %
+
+Idx 148
+Question ID: 6061
+Video ID: 00000154
+Predicted: 4
+Target: 4
+Correct until now: 108
+Samples tested until now: 149
+Accuracy until now: 72.48 %
+
+Idx 149
+Question ID: 4993
+Video ID: 00000126
+Predicted: 0
+Target: 0
+Correct until now: 109
+Samples tested until now: 150
+Accuracy until now: 72.67 %
+
+Idx 150
+Question ID: 9083
+Video ID: 00000240
+Predicted: 0
+Target: 0
+Correct until now: 110
+Samples tested until now: 151
+Accuracy until now: 72.85 %
+
+Idx 151
+Question ID: 2140
+Video ID: 00000057
+Predicted: 4
+Target: 0
+Correct until now: 110
+Samples tested until now: 152
+Accuracy until now: 72.37 %
+
+Idx 152
+Question ID: 846
+Video ID: 00000022
+Predicted: 1
+Target: 1
+Correct until now: 111
+Samples tested until now: 153
+Accuracy until now: 72.55 %
+
+Idx 153
+Question ID: 4665
+Video ID: 00000118
+Predicted: 0
+Target: 4
+Correct until now: 111
+Samples tested until now: 154
+Accuracy until now: 72.08 %
+
+Idx 154
+Question ID: 2695
+Video ID: 00000072
+Predicted: 4
+Target: 4
+Correct until now: 112
+Samples tested until now: 155
+Accuracy until now: 72.26 %
+
+Idx 155
+Question ID: 954
+Video ID: 00000024
+Predicted: 6
+Target: 12
+Correct until now: 112
+Samples tested until now: 156
+Accuracy until now: 71.79 %
+
+Idx 156
+Question ID: 561
+Video ID: 00000014
+Predicted: 1
+Target: 1
+Correct until now: 113
+Samples tested until now: 157
+Accuracy until now: 71.97 %
+
+Idx 157
+Question ID: 1176
+Video ID: 00000029
+Predicted: 8
+Target: 8
+Correct until now: 114
+Samples tested until now: 158
+Accuracy until now: 72.15 %
+
+Idx 158
+Question ID: 4438
+Video ID: 00000113
+Predicted: 61
+Target: 61
+Correct until now: 115
+Samples tested until now: 159
+Accuracy until now: 72.33 %
+
+Idx 159
+Question ID: 5665
+Video ID: 00000144
+Predicted: 4
+Target: 4
+Correct until now: 116
+Samples tested until now: 160
+Accuracy until now: 72.50 %
+
+Idx 160
+Question ID: 10565
+Video ID: 00000277
+Predicted: 3
+Target: 3
+Correct until now: 117
+Samples tested until now: 161
+Accuracy until now: 72.67 %
+
+Idx 161
+Question ID: 3574
+Video ID: 00000093
+Predicted: 0
+Target: 0
+Correct until now: 118
+Samples tested until now: 162
+Accuracy until now: 72.84 %
+
+Idx 162
+Question ID: 1697
+Video ID: 00000045
+Predicted: 61
+Target: 61
+Correct until now: 119
+Samples tested until now: 163
+Accuracy until now: 73.01 %
+
+Idx 163
+Question ID: 5214
+Video ID: 00000132
+Predicted: 21
+Target: 21
+Correct until now: 120
+Samples tested until now: 164
+Accuracy until now: 73.17 %
+
+Idx 164
+Question ID: 6042
+Video ID: 00000154
+Predicted: 3
+Target: 3
+Correct until now: 121
+Samples tested until now: 165
+Accuracy until now: 73.33 %
+
+Idx 165
+Question ID: 3692
+Video ID: 00000096
+Predicted: 0
+Target: 0
+Correct until now: 122
+Samples tested until now: 166
+Accuracy until now: 73.49 %
+
+Idx 166
+Question ID: 3399
+Video ID: 00000089
+Predicted: 0
+Target: 0
+Correct until now: 123
+Samples tested until now: 167
+Accuracy until now: 73.65 %
+
+Idx 167
+Question ID: 1293
+Video ID: 00000033
+Predicted: 1
+Target: 25
+Correct until now: 123
+Samples tested until now: 168
+Accuracy until now: 73.21 %
+
+Idx 168
+Question ID: 2716
+Video ID: 00000072
+Predicted: 45
+Target: 45
+Correct until now: 124
+Samples tested until now: 169
+Accuracy until now: 73.37 %
+
+Idx 169
+Question ID: 9033
+Video ID: 00000239
+Predicted: 1
+Target: 1
+Correct until now: 125
+Samples tested until now: 170
+Accuracy until now: 73.53 %
+
+Idx 170
+Question ID: 7671
+Video ID: 00000197
+Predicted: 6
+Target: 6
+Correct until now: 126
+Samples tested until now: 171
+Accuracy until now: 73.68 %
+
+Idx 171
+Question ID: 11054
+Video ID: 00000289
+Predicted: 4
+Target: 4
+Correct until now: 127
+Samples tested until now: 172
+Accuracy until now: 73.84 %
+
+Idx 172
+Question ID: 8780
+Video ID: 00000232
+Predicted: 0
+Target: 0
+Correct until now: 128
+Samples tested until now: 173
+Accuracy until now: 73.99 %
+
+Idx 173
+Question ID: 10041
+Video ID: 00000261
+Predicted: 18
+Target: 18
+Correct until now: 129
+Samples tested until now: 174
+Accuracy until now: 74.14 %
+
+Idx 174
+Question ID: 1671
+Video ID: 00000045
+Predicted: 4
+Target: 0
+Correct until now: 129
+Samples tested until now: 175
+Accuracy until now: 73.71 %
+
+Idx 175
+Question ID: 7342
+Video ID: 00000189
+Predicted: 4
+Target: 4
+Correct until now: 130
+Samples tested until now: 176
+Accuracy until now: 73.86 %
+
+Idx 176
+Question ID: 9457
+Video ID: 00000249
+Predicted: 0
+Target: 0
+Correct until now: 131
+Samples tested until now: 177
+Accuracy until now: 74.01 %
+
+Idx 177
+Question ID: 9674
+Video ID: 00000254
+Predicted: 1
+Target: 25
+Correct until now: 131
+Samples tested until now: 178
+Accuracy until now: 73.60 %
+
+Idx 178
+Question ID: 1170
+Video ID: 00000029
+Predicted: 21
+Target: 21
+Correct until now: 132
+Samples tested until now: 179
+Accuracy until now: 73.74 %
+
+Idx 179
+Question ID: 8889
+Video ID: 00000235
+Predicted: 5
+Target: 5
+Correct until now: 133
+Samples tested until now: 180
+Accuracy until now: 73.89 %
+
+Idx 180
+Question ID: 8028
+Video ID: 00000208
+Predicted: 3
+Target: 3
+Correct until now: 134
+Samples tested until now: 181
+Accuracy until now: 74.03 %
+
+Idx 181
+Question ID: 5296
+Video ID: 00000134
+Predicted: 21
+Target: 21
+Correct until now: 135
+Samples tested until now: 182
+Accuracy until now: 74.18 %
+
+Idx 182
+Question ID: 1539
+Video ID: 00000040
+Predicted: 0
+Target: 0
+Correct until now: 136
+Samples tested until now: 183
+Accuracy until now: 74.32 %
+
+Idx 183
+Question ID: 10821
+Video ID: 00000283
+Predicted: 4
+Target: 4
+Correct until now: 137
+Samples tested until now: 184
+Accuracy until now: 74.46 %
+
+Idx 184
+Question ID: 697
+Video ID: 00000017
+Predicted: 0
+Target: 0
+Correct until now: 138
+Samples tested until now: 185
+Accuracy until now: 74.59 %
+
+Idx 185
+Question ID: 569
+Video ID: 00000014
+Predicted: 61
+Target: 61
+Correct until now: 139
+Samples tested until now: 186
+Accuracy until now: 74.73 %
+
+Idx 186
+Question ID: 3458
+Video ID: 00000090
+Predicted: 0
+Target: 0
+Correct until now: 140
+Samples tested until now: 187
+Accuracy until now: 74.87 %
+
+Idx 187
+Question ID: 11264
+Video ID: 00000294
+Predicted: 3
+Target: 3
+Correct until now: 141
+Samples tested until now: 188
+Accuracy until now: 75.00 %
+
+Idx 188
+Question ID: 5372
+Video ID: 00000136
+Predicted: 4
+Target: 4
+Correct until now: 142
+Samples tested until now: 189
+Accuracy until now: 75.13 %
+
+Idx 189
+Question ID: 6961
+Video ID: 00000179
+Predicted: 65
+Target: 65
+Correct until now: 143
+Samples tested until now: 190
+Accuracy until now: 75.26 %
+
+Idx 190
+Question ID: 6134
+Video ID: 00000156
+Predicted: 21
+Target: 21
+Correct until now: 144
+Samples tested until now: 191
+Accuracy until now: 75.39 %
+
+Idx 191
+Question ID: 4316
+Video ID: 00000109
+Predicted: 4
+Target: 4
+Correct until now: 145
+Samples tested until now: 192
+Accuracy until now: 75.52 %
+
+Idx 192
+Question ID: 8983
+Video ID: 00000238
+Predicted: 4
+Target: 4
+Correct until now: 146
+Samples tested until now: 193
+Accuracy until now: 75.65 %
+
+Idx 193
+Question ID: 11630
+Video ID: 00000304
+Predicted: 1
+Target: 3
+Correct until now: 146
+Samples tested until now: 194
+Accuracy until now: 75.26 %
+
+Idx 194
+Question ID: 3935
+Video ID: 00000101
+Predicted: 4
+Target: 0
+Correct until now: 146
+Samples tested until now: 195
+Accuracy until now: 74.87 %
+
+Idx 195
+Question ID: 9181
+Video ID: 00000243
+Predicted: 3
+Target: 3
+Correct until now: 147
+Samples tested until now: 196
+Accuracy until now: 75.00 %
+
+Idx 196
+Question ID: 8539
+Video ID: 00000225
+Predicted: 41
+Target: 41
+Correct until now: 148
+Samples tested until now: 197
+Accuracy until now: 75.13 %
+
+Idx 197
+Question ID: 6669
+Video ID: 00000173
+Predicted: 4
+Target: 4
+Correct until now: 149
+Samples tested until now: 198
+Accuracy until now: 75.25 %
+
+Idx 198
+Question ID: 11692
+Video ID: 00000305
+Predicted: 0
+Target: 0
+Correct until now: 150
+Samples tested until now: 199
+Accuracy until now: 75.38 %
+
+Idx 199
+Question ID: 8747
+Video ID: 00000231
+Predicted: 1
+Target: 1
+Correct until now: 151
+Samples tested until now: 200
+Accuracy until now: 75.50 %
+
+Idx 200
+Question ID: 2822
+Video ID: 00000075
+Predicted: 4
+Target: 0
+Correct until now: 151
+Samples tested until now: 201
+Accuracy until now: 75.12 %
+
+Idx 201
+Question ID: 10264
+Video ID: 00000268
+Predicted: 4
+Target: 4
+Correct until now: 152
+Samples tested until now: 202
+Accuracy until now: 75.25 %
+
+Idx 202
+Question ID: 4741
+Video ID: 00000120
+Predicted: 4
+Target: 4
+Correct until now: 153
+Samples tested until now: 203
+Accuracy until now: 75.37 %
+
+Idx 203
+Question ID: 1635
+Video ID: 00000044
+Predicted: 1
+Target: 1
+Correct until now: 154
+Samples tested until now: 204
+Accuracy until now: 75.49 %
+
+Idx 204
+Question ID: 3726
+Video ID: 00000096
+Predicted: 15
+Target: 15
+Correct until now: 155
+Samples tested until now: 205
+Accuracy until now: 75.61 %
+
+Idx 205
+Question ID: 6433
+Video ID: 00000164
+Predicted: 0
+Target: 0
+Correct until now: 156
+Samples tested until now: 206
+Accuracy until now: 75.73 %
+
+Idx 206
+Question ID: 2886
+Video ID: 00000077
+Predicted: 4
+Target: 4
+Correct until now: 157
+Samples tested until now: 207
+Accuracy until now: 75.85 %
+
+Idx 207
+Question ID: 5046
+Video ID: 00000128
+Predicted: 1
+Target: 1
+Correct until now: 158
+Samples tested until now: 208
+Accuracy until now: 75.96 %
+
+Idx 208
+Question ID: 8903
+Video ID: 00000236
+Predicted: 1
+Target: 1
+Correct until now: 159
+Samples tested until now: 209
+Accuracy until now: 76.08 %
+
+Idx 209
+Question ID: 3148
+Video ID: 00000083
+Predicted: 64
+Target: 22
+Correct until now: 159
+Samples tested until now: 210
+Accuracy until now: 75.71 %
+
+Idx 210
+Question ID: 1615
+Video ID: 00000043
+Predicted: 4
+Target: 4
+Correct until now: 160
+Samples tested until now: 211
+Accuracy until now: 75.83 %
+
+Idx 211
+Question ID: 67
+Video ID: 00000001
+Predicted: 0
+Target: 0
+Correct until now: 161
+Samples tested until now: 212
+Accuracy until now: 75.94 %
+
+Idx 212
+Question ID: 7888
+Video ID: 00000204
+Predicted: 3
+Target: 3
+Correct until now: 162
+Samples tested until now: 213
+Accuracy until now: 76.06 %
+
+Idx 213
+Question ID: 5430
+Video ID: 00000138
+Predicted: 46
+Target: 46
+Correct until now: 163
+Samples tested until now: 214
+Accuracy until now: 76.17 %
+
+Idx 214
+Question ID: 4797
+Video ID: 00000121
+Predicted: 4
+Target: 4
+Correct until now: 164
+Samples tested until now: 215
+Accuracy until now: 76.28 %
+
+Idx 215
+Question ID: 6771
+Video ID: 00000175
+Predicted: 4
+Target: 4
+Correct until now: 165
+Samples tested until now: 216
+Accuracy until now: 76.39 %
+
+Idx 216
+Question ID: 349
+Video ID: 00000008
+Predicted: 1
+Target: 1
+Correct until now: 166
+Samples tested until now: 217
+Accuracy until now: 76.50 %
+
+Idx 217
+Question ID: 2797
+Video ID: 00000074
+Predicted: 4
+Target: 4
+Correct until now: 167
+Samples tested until now: 218
+Accuracy until now: 76.61 %
+
+Idx 218
+Question ID: 7255
+Video ID: 00000187
+Predicted: 6
+Target: 6
+Correct until now: 168
+Samples tested until now: 219
+Accuracy until now: 76.71 %
+
+Idx 219
+Question ID: 9686
+Video ID: 00000254
+Predicted: 4
+Target: 4
+Correct until now: 169
+Samples tested until now: 220
+Accuracy until now: 76.82 %
+
+Idx 220
+Question ID: 207
+Video ID: 00000005
+Predicted: 0
+Target: 0
+Correct until now: 170
+Samples tested until now: 221
+Accuracy until now: 76.92 %
+
+Idx 221
+Question ID: 1316
+Video ID: 00000033
+Predicted: 0
+Target: 0
+Correct until now: 171
+Samples tested until now: 222
+Accuracy until now: 77.03 %
+
+Idx 222
+Question ID: 3906
+Video ID: 00000100
+Predicted: 4
+Target: 4
+Correct until now: 172
+Samples tested until now: 223
+Accuracy until now: 77.13 %
+
+Idx 223
+Question ID: 6048
+Video ID: 00000154
+Predicted: 4
+Target: 4
+Correct until now: 173
+Samples tested until now: 224
+Accuracy until now: 77.23 %
+
+Idx 224
+Question ID: 5129
+Video ID: 00000130
+Predicted: 4
+Target: 4
+Correct until now: 174
+Samples tested until now: 225
+Accuracy until now: 77.33 %
+
+Idx 225
+Question ID: 2686
+Video ID: 00000072
+Predicted: 1
+Target: 27
+Correct until now: 174
+Samples tested until now: 226
+Accuracy until now: 76.99 %
+
+Idx 226
+Question ID: 11531
+Video ID: 00000301
+Predicted: 27
+Target: 3
+Correct until now: 174
+Samples tested until now: 227
+Accuracy until now: 76.65 %
+
+Idx 227
+Question ID: 8293
+Video ID: 00000217
+Predicted: 46
+Target: 46
+Correct until now: 175
+Samples tested until now: 228
+Accuracy until now: 76.75 %
+
+Idx 228
+Question ID: 10586
+Video ID: 00000277
+Predicted: 6
+Target: 6
+Correct until now: 176
+Samples tested until now: 229
+Accuracy until now: 76.86 %
+
+Idx 229
+Question ID: 6006
+Video ID: 00000153
+Predicted: 27
+Target: 25
+Correct until now: 176
+Samples tested until now: 230
+Accuracy until now: 76.52 %
+
+Idx 230
+Question ID: 11482
+Video ID: 00000299
+Predicted: 4
+Target: 4
+Correct until now: 177
+Samples tested until now: 231
+Accuracy until now: 76.62 %
+
+Idx 231
+Question ID: 9287
+Video ID: 00000245
+Predicted: 7
+Target: 7
+Correct until now: 178
+Samples tested until now: 232
+Accuracy until now: 76.72 %
+
+Idx 232
+Question ID: 7503
+Video ID: 00000193
+Predicted: 4
+Target: 4
+Correct until now: 179
+Samples tested until now: 233
+Accuracy until now: 76.82 %
+
+Idx 233
+Question ID: 2691
+Video ID: 00000072
+Predicted: 3
+Target: 27
+Correct until now: 179
+Samples tested until now: 234
+Accuracy until now: 76.50 %
+
+Idx 234
+Question ID: 1726
+Video ID: 00000046
+Predicted: 21
+Target: 21
+Correct until now: 180
+Samples tested until now: 235
+Accuracy until now: 76.60 %
+
+Idx 235
+Question ID: 1417
+Video ID: 00000036
+Predicted: 0
+Target: 0
+Correct until now: 181
+Samples tested until now: 236
+Accuracy until now: 76.69 %
+
+Idx 236
+Question ID: 608
+Video ID: 00000015
+Predicted: 4
+Target: 4
+Correct until now: 182
+Samples tested until now: 237
+Accuracy until now: 76.79 %
+
+Idx 237
+Question ID: 1476
+Video ID: 00000038
+Predicted: 0
+Target: 0
+Correct until now: 183
+Samples tested until now: 238
+Accuracy until now: 76.89 %
+
+Idx 238
+Question ID: 4116
+Video ID: 00000105
+Predicted: 1
+Target: 1
+Correct until now: 184
+Samples tested until now: 239
+Accuracy until now: 76.99 %
+
+Idx 239
+Question ID: 4366
+Video ID: 00000111
+Predicted: 1
+Target: 1
+Correct until now: 185
+Samples tested until now: 240
+Accuracy until now: 77.08 %
+
+Idx 240
+Question ID: 9985
+Video ID: 00000260
+Predicted: 4
+Target: 4
+Correct until now: 186
+Samples tested until now: 241
+Accuracy until now: 77.18 %
+
+Idx 241
+Question ID: 10260
+Video ID: 00000268
+Predicted: 4
+Target: 0
+Correct until now: 186
+Samples tested until now: 242
+Accuracy until now: 76.86 %
+
+Idx 242
+Question ID: 1302
+Video ID: 00000033
+Predicted: 0
+Target: 0
+Correct until now: 187
+Samples tested until now: 243
+Accuracy until now: 76.95 %
+
+Idx 243
+Question ID: 9523
+Video ID: 00000250
+Predicted: 0
+Target: 4
+Correct until now: 187
+Samples tested until now: 244
+Accuracy until now: 76.64 %
+
+Idx 244
+Question ID: 10267
+Video ID: 00000268
+Predicted: 4
+Target: 4
+Correct until now: 188
+Samples tested until now: 245
+Accuracy until now: 76.73 %
+
+Idx 245
+Question ID: 5897
+Video ID: 00000150
+Predicted: 4
+Target: 4
+Correct until now: 189
+Samples tested until now: 246
+Accuracy until now: 76.83 %
+
+Idx 246
+Question ID: 8758
+Video ID: 00000231
+Predicted: 5
+Target: 5
+Correct until now: 190
+Samples tested until now: 247
+Accuracy until now: 76.92 %
+
+Idx 247
+Question ID: 6703
+Video ID: 00000173
+Predicted: 67
+Target: 67
+Correct until now: 191
+Samples tested until now: 248
+Accuracy until now: 77.02 %
+
+Idx 248
+Question ID: 1883
+Video ID: 00000050
+Predicted: 1
+Target: 3
+Correct until now: 191
+Samples tested until now: 249
+Accuracy until now: 76.71 %
+
+Idx 249
+Question ID: 9972
+Video ID: 00000260
+Predicted: 4
+Target: 4
+Correct until now: 192
+Samples tested until now: 250
+Accuracy until now: 76.80 %
+
+Idx 250
+Question ID: 11093
+Video ID: 00000290
+Predicted: 27
+Target: 27
+Correct until now: 193
+Samples tested until now: 251
+Accuracy until now: 76.89 %
+
+Idx 251
+Question ID: 2743
+Video ID: 00000073
+Predicted: 6
+Target: 6
+Correct until now: 194
+Samples tested until now: 252
+Accuracy until now: 76.98 %
+
+Idx 252
+Question ID: 3153
+Video ID: 00000083
+Predicted: 67
+Target: 77
+Correct until now: 194
+Samples tested until now: 253
+Accuracy until now: 76.68 %
+
+Idx 253
+Question ID: 3502
+Video ID: 00000091
+Predicted: 0
+Target: 0
+Correct until now: 195
+Samples tested until now: 254
+Accuracy until now: 76.77 %
+
+Idx 254
+Question ID: 5029
+Video ID: 00000127
+Predicted: 4
+Target: 4
+Correct until now: 196
+Samples tested until now: 255
+Accuracy until now: 76.86 %
+
+Idx 255
+Question ID: 7211
+Video ID: 00000186
+Predicted: 1
+Target: 3
+Correct until now: 196
+Samples tested until now: 256
+Accuracy until now: 76.56 %
+
+Idx 256
+Question ID: 5180
+Video ID: 00000131
+Predicted: 0
+Target: 0
+Correct until now: 197
+Samples tested until now: 257
+Accuracy until now: 76.65 %
+
+Idx 257
+Question ID: 5681
+Video ID: 00000145
+Predicted: 4
+Target: 0
+Correct until now: 197
+Samples tested until now: 258
+Accuracy until now: 76.36 %
+
+Idx 258
+Question ID: 8196
+Video ID: 00000212
+Predicted: 4
+Target: 0
+Correct until now: 197
+Samples tested until now: 259
+Accuracy until now: 76.06 %
+
+Idx 259
+Question ID: 2304
+Video ID: 00000061
+Predicted: 6
+Target: 6
+Correct until now: 198
+Samples tested until now: 260
+Accuracy until now: 76.15 %
+
+Idx 260
+Question ID: 5102
+Video ID: 00000129
+Predicted: 0
+Target: 0
+Correct until now: 199
+Samples tested until now: 261
+Accuracy until now: 76.25 %
+
+Idx 261
+Question ID: 6925
+Video ID: 00000179
+Predicted: 0
+Target: 4
+Correct until now: 199
+Samples tested until now: 262
+Accuracy until now: 75.95 %
+
+Idx 262
+Question ID: 9480
+Video ID: 00000249
+Predicted: 41
+Target: 41
+Correct until now: 200
+Samples tested until now: 263
+Accuracy until now: 76.05 %
+
+Idx 263
+Question ID: 7370
+Video ID: 00000190
+Predicted: 4
+Target: 4
+Correct until now: 201
+Samples tested until now: 264
+Accuracy until now: 76.14 %
+
+Idx 264
+Question ID: 5868
+Video ID: 00000149
+Predicted: 21
+Target: 21
+Correct until now: 202
+Samples tested until now: 265
+Accuracy until now: 76.23 %
+
+Idx 265
+Question ID: 6411
+Video ID: 00000164
+Predicted: 0
+Target: 0
+Correct until now: 203
+Samples tested until now: 266
+Accuracy until now: 76.32 %
+
+Idx 266
+Question ID: 2963
+Video ID: 00000079
+Predicted: 1
+Target: 2
+Correct until now: 203
+Samples tested until now: 267
+Accuracy until now: 76.03 %
+
+Idx 267
+Question ID: 7580
+Video ID: 00000195
+Predicted: 3
+Target: 3
+Correct until now: 204
+Samples tested until now: 268
+Accuracy until now: 76.12 %
+
+Idx 268
+Question ID: 4563
+Video ID: 00000116
+Predicted: 4
+Target: 4
+Correct until now: 205
+Samples tested until now: 269
+Accuracy until now: 76.21 %
+
+Idx 269
+Question ID: 3550
+Video ID: 00000092
+Predicted: 4
+Target: 4
+Correct until now: 206
+Samples tested until now: 270
+Accuracy until now: 76.30 %
+
+Idx 270
+Question ID: 8800
+Video ID: 00000232
+Predicted: 21
+Target: 21
+Correct until now: 207
+Samples tested until now: 271
+Accuracy until now: 76.38 %
+
+Idx 271
+Question ID: 82
+Video ID: 00000002
+Predicted: 1
+Target: 1
+Correct until now: 208
+Samples tested until now: 272
+Accuracy until now: 76.47 %
+
+Idx 272
+Question ID: 7880
+Video ID: 00000204
+Predicted: 4
+Target: 4
+Correct until now: 209
+Samples tested until now: 273
+Accuracy until now: 76.56 %
+
+Idx 273
+Question ID: 3891
+Video ID: 00000100
+Predicted: 29
+Target: 29
+Correct until now: 210
+Samples tested until now: 274
+Accuracy until now: 76.64 %
+
+Idx 274
+Question ID: 4541
+Video ID: 00000115
+Predicted: 50
+Target: 50
+Correct until now: 211
+Samples tested until now: 275
+Accuracy until now: 76.73 %
+
+Idx 275
+Question ID: 7616
+Video ID: 00000196
+Predicted: 3
+Target: 3
+Correct until now: 212
+Samples tested until now: 276
+Accuracy until now: 76.81 %
+
+Idx 276
+Question ID: 6856
+Video ID: 00000177
+Predicted: 4
+Target: 4
+Correct until now: 213
+Samples tested until now: 277
+Accuracy until now: 76.90 %
+
+Idx 277
+Question ID: 1536
+Video ID: 00000040
+Predicted: 4
+Target: 4
+Correct until now: 214
+Samples tested until now: 278
+Accuracy until now: 76.98 %
+
+Idx 278
+Question ID: 6153
+Video ID: 00000157
+Predicted: 0
+Target: 0
+Correct until now: 215
+Samples tested until now: 279
+Accuracy until now: 77.06 %
+
+Idx 279
+Question ID: 10698
+Video ID: 00000280
+Predicted: 6
+Target: 6
+Correct until now: 216
+Samples tested until now: 280
+Accuracy until now: 77.14 %
+
+Idx 280
+Question ID: 113
+Video ID: 00000002
+Predicted: 15
+Target: 15
+Correct until now: 217
+Samples tested until now: 281
+Accuracy until now: 77.22 %
+
+Idx 281
+Question ID: 5689
+Video ID: 00000145
+Predicted: 4
+Target: 0
+Correct until now: 217
+Samples tested until now: 282
+Accuracy until now: 76.95 %
+
+Idx 282
+Question ID: 11182
+Video ID: 00000292
+Predicted: 4
+Target: 4
+Correct until now: 218
+Samples tested until now: 283
+Accuracy until now: 77.03 %
+
+Idx 283
+Question ID: 6605
+Video ID: 00000171
+Predicted: 0
+Target: 0
+Correct until now: 219
+Samples tested until now: 284
+Accuracy until now: 77.11 %
+
+Idx 284
+Question ID: 1891
+Video ID: 00000050
+Predicted: 4
+Target: 0
+Correct until now: 219
+Samples tested until now: 285
+Accuracy until now: 76.84 %
+
+Idx 285
+Question ID: 3157
+Video ID: 00000083
+Predicted: 4
+Target: 4
+Correct until now: 220
+Samples tested until now: 286
+Accuracy until now: 76.92 %
+
+Idx 286
+Question ID: 7144
+Video ID: 00000184
+Predicted: 0
+Target: 4
+Correct until now: 220
+Samples tested until now: 287
+Accuracy until now: 76.66 %
+
+Idx 287
+Question ID: 7777
+Video ID: 00000200
+Predicted: 4
+Target: 0
+Correct until now: 220
+Samples tested until now: 288
+Accuracy until now: 76.39 %
+
+Idx 288
+Question ID: 1269
+Video ID: 00000032
+Predicted: 4
+Target: 4
+Correct until now: 221
+Samples tested until now: 289
+Accuracy until now: 76.47 %
+
+Idx 289
+Question ID: 7019
+Video ID: 00000181
+Predicted: 4
+Target: 4
+Correct until now: 222
+Samples tested until now: 290
+Accuracy until now: 76.55 %
+
+Idx 290
+Question ID: 1515
+Video ID: 00000039
+Predicted: 0
+Target: 0
+Correct until now: 223
+Samples tested until now: 291
+Accuracy until now: 76.63 %
+
+Idx 291
+Question ID: 5635
+Video ID: 00000144
+Predicted: 4
+Target: 4
+Correct until now: 224
+Samples tested until now: 292
+Accuracy until now: 76.71 %
+
+Idx 292
+Question ID: 510
+Video ID: 00000012
+Predicted: 86
+Target: 14
+Correct until now: 224
+Samples tested until now: 293
+Accuracy until now: 76.45 %
+
+Idx 293
+Question ID: 2462
+Video ID: 00000065
+Predicted: 67
+Target: 14
+Correct until now: 224
+Samples tested until now: 294
+Accuracy until now: 76.19 %
+
+Idx 294
+Question ID: 8551
+Video ID: 00000227
+Predicted: 1
+Target: 1
+Correct until now: 225
+Samples tested until now: 295
+Accuracy until now: 76.27 %
+
+Idx 295
+Question ID: 805
+Video ID: 00000020
+Predicted: 18
+Target: 18
+Correct until now: 226
+Samples tested until now: 296
+Accuracy until now: 76.35 %
+
+Idx 296
+Question ID: 6832
+Video ID: 00000176
+Predicted: 4
+Target: 0
+Correct until now: 226
+Samples tested until now: 297
+Accuracy until now: 76.09 %
+
+Idx 297
+Question ID: 4
+Video ID: 00000000
+Predicted: 1
+Target: 1
+Correct until now: 227
+Samples tested until now: 298
+Accuracy until now: 76.17 %
+
+Idx 298
+Question ID: 10716
+Video ID: 00000281
+Predicted: 27
+Target: 3
+Correct until now: 227
+Samples tested until now: 299
+Accuracy until now: 75.92 %
+
+Idx 299
+Question ID: 5352
+Video ID: 00000136
+Predicted: 1
+Target: 1
+Correct until now: 228
+Samples tested until now: 300
+Accuracy until now: 76.00 %
+
+Idx 300
+Question ID: 11791
+Video ID: 00000308
+Predicted: 3
+Target: 3
+Correct until now: 229
+Samples tested until now: 301
+Accuracy until now: 76.08 %
+
+Idx 301
+Question ID: 826
+Video ID: 00000021
+Predicted: 61
+Target: 61
+Correct until now: 230
+Samples tested until now: 302
+Accuracy until now: 76.16 %
+
+Idx 302
+Question ID: 9983
+Video ID: 00000260
+Predicted: 22
+Target: 22
+Correct until now: 231
+Samples tested until now: 303
+Accuracy until now: 76.24 %
+
+Idx 303
+Question ID: 3201
+Video ID: 00000084
+Predicted: 0
+Target: 0
+Correct until now: 232
+Samples tested until now: 304
+Accuracy until now: 76.32 %
+
+Idx 304
+Question ID: 6255
+Video ID: 00000159
+Predicted: 4
+Target: 4
+Correct until now: 233
+Samples tested until now: 305
+Accuracy until now: 76.39 %
+
+Idx 305
+Question ID: 9717
+Video ID: 00000255
+Predicted: 1
+Target: 25
+Correct until now: 233
+Samples tested until now: 306
+Accuracy until now: 76.14 %
+
+Idx 306
+Question ID: 6736
+Video ID: 00000174
+Predicted: 0
+Target: 4
+Correct until now: 233
+Samples tested until now: 307
+Accuracy until now: 75.90 %
+
+Idx 307
+Question ID: 7768
+Video ID: 00000200
+Predicted: 9
+Target: 9
+Correct until now: 234
+Samples tested until now: 308
+Accuracy until now: 75.97 %
+
+Idx 308
+Question ID: 6251
+Video ID: 00000159
+Predicted: 4
+Target: 4
+Correct until now: 235
+Samples tested until now: 309
+Accuracy until now: 76.05 %
+
+Idx 309
+Question ID: 1104
+Video ID: 00000027
+Predicted: 18
+Target: 18
+Correct until now: 236
+Samples tested until now: 310
+Accuracy until now: 76.13 %
+
+Idx 310
+Question ID: 11811
+Video ID: 00000309
+Predicted: 1
+Target: 27
+Correct until now: 236
+Samples tested until now: 311
+Accuracy until now: 75.88 %
+
+Idx 311
+Question ID: 1345
+Video ID: 00000034
+Predicted: 0
+Target: 0
+Correct until now: 237
+Samples tested until now: 312
+Accuracy until now: 75.96 %
+
+Idx 312
+Question ID: 9771
+Video ID: 00000256
+Predicted: 1
+Target: 25
+Correct until now: 237
+Samples tested until now: 313
+Accuracy until now: 75.72 %
+
+Idx 313
+Question ID: 3183
+Video ID: 00000084
+Predicted: 0
+Target: 4
+Correct until now: 237
+Samples tested until now: 314
+Accuracy until now: 75.48 %
+
+Idx 314
+Question ID: 4245
+Video ID: 00000107
+Predicted: 0
+Target: 0
+Correct until now: 238
+Samples tested until now: 315
+Accuracy until now: 75.56 %
+
+Idx 315
+Question ID: 7930
+Video ID: 00000205
+Predicted: 4
+Target: 4
+Correct until now: 239
+Samples tested until now: 316
+Accuracy until now: 75.63 %
+
+Idx 316
+Question ID: 9015
+Video ID: 00000238
+Predicted: 41
+Target: 41
+Correct until now: 240
+Samples tested until now: 317
+Accuracy until now: 75.71 %
+
+Idx 317
+Question ID: 6972
+Video ID: 00000180
+Predicted: 3
+Target: 3
+Correct until now: 241
+Samples tested until now: 318
+Accuracy until now: 75.79 %
+
+Idx 318
+Question ID: 9191
+Video ID: 00000243
+Predicted: 0
+Target: 0
+Correct until now: 242
+Samples tested until now: 319
+Accuracy until now: 75.86 %
+
+Idx 319
+Question ID: 1921
+Video ID: 00000051
+Predicted: 4
+Target: 0
+Correct until now: 242
+Samples tested until now: 320
+Accuracy until now: 75.62 %
+
+Idx 320
+Question ID: 11318
+Video ID: 00000295
+Predicted: 50
+Target: 42
+Correct until now: 242
+Samples tested until now: 321
+Accuracy until now: 75.39 %
+
+Idx 321
+Question ID: 7122
+Video ID: 00000184
+Predicted: 4
+Target: 4
+Correct until now: 243
+Samples tested until now: 322
+Accuracy until now: 75.47 %
+
+Idx 322
+Question ID: 8087
+Video ID: 00000209
+Predicted: 4
+Target: 4
+Correct until now: 244
+Samples tested until now: 323
+Accuracy until now: 75.54 %
+
+Idx 323
+Question ID: 4974
+Video ID: 00000126
+Predicted: 25
+Target: 27
+Correct until now: 244
+Samples tested until now: 324
+Accuracy until now: 75.31 %
+
+Idx 324
+Question ID: 407
+Video ID: 00000009
+Predicted: 86
+Target: 86
+Correct until now: 245
+Samples tested until now: 325
+Accuracy until now: 75.38 %
+
+Idx 325
+Question ID: 5594
+Video ID: 00000143
+Predicted: 3
+Target: 27
+Correct until now: 245
+Samples tested until now: 326
+Accuracy until now: 75.15 %
+
+Idx 326
+Question ID: 7743
+Video ID: 00000199
+Predicted: 4
+Target: 0
+Correct until now: 245
+Samples tested until now: 327
+Accuracy until now: 74.92 %
+
+Idx 327
+Question ID: 9201
+Video ID: 00000243
+Predicted: 8
+Target: 8
+Correct until now: 246
+Samples tested until now: 328
+Accuracy until now: 75.00 %
+
+Idx 328
+Question ID: 1298
+Video ID: 00000033
+Predicted: 4
+Target: 4
+Correct until now: 247
+Samples tested until now: 329
+Accuracy until now: 75.08 %
+
+Idx 329
+Question ID: 11562
+Video ID: 00000302
+Predicted: 1
+Target: 3
+Correct until now: 247
+Samples tested until now: 330
+Accuracy until now: 74.85 %
+
+Idx 330
+Question ID: 10803
+Video ID: 00000283
+Predicted: 4
+Target: 4
+Correct until now: 248
+Samples tested until now: 331
+Accuracy until now: 74.92 %
+
+Idx 331
+Question ID: 587
+Video ID: 00000015
+Predicted: 0
+Target: 0
+Correct until now: 249
+Samples tested until now: 332
+Accuracy until now: 75.00 %
+
+Idx 332
+Question ID: 7044
+Video ID: 00000182
+Predicted: 1
+Target: 27
+Correct until now: 249
+Samples tested until now: 333
+Accuracy until now: 74.77 %
+
+Idx 333
+Question ID: 10130
+Video ID: 00000264
+Predicted: 1
+Target: 1
+Correct until now: 250
+Samples tested until now: 334
+Accuracy until now: 74.85 %
+
+Idx 334
+Question ID: 11423
+Video ID: 00000298
+Predicted: 117
+Target: 117
+Correct until now: 251
+Samples tested until now: 335
+Accuracy until now: 74.93 %
+
+Idx 335
+Question ID: 11676
+Video ID: 00000305
+Predicted: 61
+Target: 5
+Correct until now: 251
+Samples tested until now: 336
+Accuracy until now: 74.70 %
+
+Idx 336
+Question ID: 8778
+Video ID: 00000232
+Predicted: 1
+Target: 1
+Correct until now: 252
+Samples tested until now: 337
+Accuracy until now: 74.78 %
+
+Idx 337
+Question ID: 932
+Video ID: 00000024
+Predicted: 4
+Target: 0
+Correct until now: 252
+Samples tested until now: 338
+Accuracy until now: 74.56 %
+
+Idx 338
+Question ID: 2362
+Video ID: 00000063
+Predicted: 25
+Target: 27
+Correct until now: 252
+Samples tested until now: 339
+Accuracy until now: 74.34 %
+
+Idx 339
+Question ID: 1778
+Video ID: 00000047
+Predicted: 4
+Target: 4
+Correct until now: 253
+Samples tested until now: 340
+Accuracy until now: 74.41 %
+
+Idx 340
+Question ID: 10994
+Video ID: 00000288
+Predicted: 4
+Target: 4
+Correct until now: 254
+Samples tested until now: 341
+Accuracy until now: 74.49 %
+
+Idx 341
+Question ID: 10523
+Video ID: 00000275
+Predicted: 11
+Target: 18
+Correct until now: 254
+Samples tested until now: 342
+Accuracy until now: 74.27 %
+
+Idx 342
+Question ID: 3715
+Video ID: 00000096
+Predicted: 0
+Target: 0
+Correct until now: 255
+Samples tested until now: 343
+Accuracy until now: 74.34 %
+
+Idx 343
+Question ID: 7884
+Video ID: 00000204
+Predicted: 0
+Target: 0
+Correct until now: 256
+Samples tested until now: 344
+Accuracy until now: 74.42 %
+
+Idx 344
+Question ID: 5790
+Video ID: 00000147
+Predicted: 67
+Target: 13
+Correct until now: 256
+Samples tested until now: 345
+Accuracy until now: 74.20 %
+
+Idx 345
+Question ID: 904
+Video ID: 00000023
+Predicted: 61
+Target: 61
+Correct until now: 257
+Samples tested until now: 346
+Accuracy until now: 74.28 %
+
+Idx 346
+Question ID: 7483
+Video ID: 00000192
+Predicted: 74
+Target: 74
+Correct until now: 258
+Samples tested until now: 347
+Accuracy until now: 74.35 %
+
+Idx 347
+Question ID: 2162
+Video ID: 00000057
+Predicted: 67
+Target: 23
+Correct until now: 258
+Samples tested until now: 348
+Accuracy until now: 74.14 %
+
+Idx 348
+Question ID: 383
+Video ID: 00000009
+Predicted: 1
+Target: 1
+Correct until now: 259
+Samples tested until now: 349
+Accuracy until now: 74.21 %
+
+Idx 349
+Question ID: 5658
+Video ID: 00000144
+Predicted: 67
+Target: 23
+Correct until now: 259
+Samples tested until now: 350
+Accuracy until now: 74.00 %
+
+Idx 350
+Question ID: 9063
+Video ID: 00000240
+Predicted: 3
+Target: 3
+Correct until now: 260
+Samples tested until now: 351
+Accuracy until now: 74.07 %
+
+Idx 351
+Question ID: 906
+Video ID: 00000023
+Predicted: 0
+Target: 0
+Correct until now: 261
+Samples tested until now: 352
+Accuracy until now: 74.15 %
+
+Idx 352
+Question ID: 1543
+Video ID: 00000040
+Predicted: 21
+Target: 21
+Correct until now: 262
+Samples tested until now: 353
+Accuracy until now: 74.22 %
+
+Idx 353
+Question ID: 4192
+Video ID: 00000106
+Predicted: 4
+Target: 4
+Correct until now: 263
+Samples tested until now: 354
+Accuracy until now: 74.29 %
+
+Idx 354
+Question ID: 2974
+Video ID: 00000079
+Predicted: 67
+Target: 67
+Correct until now: 264
+Samples tested until now: 355
+Accuracy until now: 74.37 %
+
+Idx 355
+Question ID: 11003
+Video ID: 00000288
+Predicted: 3
+Target: 3
+Correct until now: 265
+Samples tested until now: 356
+Accuracy until now: 74.44 %
+
+Idx 356
+Question ID: 10100
+Video ID: 00000263
+Predicted: 4
+Target: 0
+Correct until now: 265
+Samples tested until now: 357
+Accuracy until now: 74.23 %
+
+Idx 357
+Question ID: 6726
+Video ID: 00000174
+Predicted: 3
+Target: 3
+Correct until now: 266
+Samples tested until now: 358
+Accuracy until now: 74.30 %
+
+Idx 358
+Question ID: 6085
+Video ID: 00000155
+Predicted: 0
+Target: 4
+Correct until now: 266
+Samples tested until now: 359
+Accuracy until now: 74.09 %
+
+Idx 359
+Question ID: 6846
+Video ID: 00000177
+Predicted: 0
+Target: 0
+Correct until now: 267
+Samples tested until now: 360
+Accuracy until now: 74.17 %
+
+Idx 360
+Question ID: 5969
+Video ID: 00000152
+Predicted: 4
+Target: 4
+Correct until now: 268
+Samples tested until now: 361
+Accuracy until now: 74.24 %
+
+Idx 361
+Question ID: 1917
+Video ID: 00000050
+Predicted: 32
+Target: 32
+Correct until now: 269
+Samples tested until now: 362
+Accuracy until now: 74.31 %
+
+Idx 362
+Question ID: 5235
+Video ID: 00000133
+Predicted: 3
+Target: 27
+Correct until now: 269
+Samples tested until now: 363
+Accuracy until now: 74.10 %
+
+Idx 363
+Question ID: 6704
+Video ID: 00000173
+Predicted: 0
+Target: 0
+Correct until now: 270
+Samples tested until now: 364
+Accuracy until now: 74.18 %
+
+Idx 364
+Question ID: 2235
+Video ID: 00000059
+Predicted: 0
+Target: 0
+Correct until now: 271
+Samples tested until now: 365
+Accuracy until now: 74.25 %
+
+Idx 365
+Question ID: 7937
+Video ID: 00000205
+Predicted: 4
+Target: 4
+Correct until now: 272
+Samples tested until now: 366
+Accuracy until now: 74.32 %
+
+Idx 366
+Question ID: 6356
+Video ID: 00000162
+Predicted: 3
+Target: 3
+Correct until now: 273
+Samples tested until now: 367
+Accuracy until now: 74.39 %
+
+Idx 367
+Question ID: 947
+Video ID: 00000024
+Predicted: 4
+Target: 4
+Correct until now: 274
+Samples tested until now: 368
+Accuracy until now: 74.46 %
+
+Idx 368
+Question ID: 7737
+Video ID: 00000199
+Predicted: 4
+Target: 4
+Correct until now: 275
+Samples tested until now: 369
+Accuracy until now: 74.53 %
+
+Idx 369
+Question ID: 4317
+Video ID: 00000109
+Predicted: 118
+Target: 118
+Correct until now: 276
+Samples tested until now: 370
+Accuracy until now: 74.59 %
+
+Idx 370
+Question ID: 5265
+Video ID: 00000133
+Predicted: 4
+Target: 4
+Correct until now: 277
+Samples tested until now: 371
+Accuracy until now: 74.66 %
+
+Idx 371
+Question ID: 2283
+Video ID: 00000060
+Predicted: 15
+Target: 15
+Correct until now: 278
+Samples tested until now: 372
+Accuracy until now: 74.73 %
+
+Idx 372
+Question ID: 6299
+Video ID: 00000160
+Predicted: 4
+Target: 4
+Correct until now: 279
+Samples tested until now: 373
+Accuracy until now: 74.80 %
+
+Idx 373
+Question ID: 1248
+Video ID: 00000031
+Predicted: 0
+Target: 0
+Correct until now: 280
+Samples tested until now: 374
+Accuracy until now: 74.87 %
+
+Idx 374
+Question ID: 7922
+Video ID: 00000205
+Predicted: 0
+Target: 0
+Correct until now: 281
+Samples tested until now: 375
+Accuracy until now: 74.93 %
+
+Idx 375
+Question ID: 9050
+Video ID: 00000239
+Predicted: 41
+Target: 41
+Correct until now: 282
+Samples tested until now: 376
+Accuracy until now: 75.00 %
+
+Idx 376
+Question ID: 978
+Video ID: 00000024
+Predicted: 41
+Target: 41
+Correct until now: 283
+Samples tested until now: 377
+Accuracy until now: 75.07 %
+
+Idx 377
+Question ID: 8557
+Video ID: 00000227
+Predicted: 3
+Target: 3
+Correct until now: 284
+Samples tested until now: 378
+Accuracy until now: 75.13 %
+
+Idx 378
+Question ID: 6513
+Video ID: 00000168
+Predicted: 4
+Target: 0
+Correct until now: 284
+Samples tested until now: 379
+Accuracy until now: 74.93 %
+
+Idx 379
+Question ID: 8270
+Video ID: 00000215
+Predicted: 11
+Target: 11
+Correct until now: 285
+Samples tested until now: 380
+Accuracy until now: 75.00 %
+
+Idx 380
+Question ID: 131
+Video ID: 00000003
+Predicted: 4
+Target: 4
+Correct until now: 286
+Samples tested until now: 381
+Accuracy until now: 75.07 %
+
+Idx 381
+Question ID: 9661
+Video ID: 00000253
+Predicted: 0
+Target: 0
+Correct until now: 287
+Samples tested until now: 382
+Accuracy until now: 75.13 %
+
+Idx 382
+Question ID: 10911
+Video ID: 00000285
+Predicted: 0
+Target: 0
+Correct until now: 288
+Samples tested until now: 383
+Accuracy until now: 75.20 %
+
+Idx 383
+Question ID: 5746
+Video ID: 00000146
+Predicted: 21
+Target: 21
+Correct until now: 289
+Samples tested until now: 384
+Accuracy until now: 75.26 %
+
+Idx 384
+Question ID: 8361
+Video ID: 00000221
+Predicted: 0
+Target: 4
+Correct until now: 289
+Samples tested until now: 385
+Accuracy until now: 75.06 %
+
+Idx 385
+Question ID: 5683
+Video ID: 00000145
+Predicted: 4
+Target: 4
+Correct until now: 290
+Samples tested until now: 386
+Accuracy until now: 75.13 %
+
+Idx 386
+Question ID: 6761
+Video ID: 00000175
+Predicted: 3
+Target: 25
+Correct until now: 290
+Samples tested until now: 387
+Accuracy until now: 74.94 %
+
+Idx 387
+Question ID: 7474
+Video ID: 00000192
+Predicted: 45
+Target: 91
+Correct until now: 290
+Samples tested until now: 388
+Accuracy until now: 74.74 %
+
+Idx 388
+Question ID: 1322
+Video ID: 00000033
+Predicted: 41
+Target: 41
+Correct until now: 291
+Samples tested until now: 389
+Accuracy until now: 74.81 %
+
+Idx 389
+Question ID: 7209
+Video ID: 00000186
+Predicted: 3
+Target: 3
+Correct until now: 292
+Samples tested until now: 390
+Accuracy until now: 74.87 %
+
+Idx 390
+Question ID: 11808
+Video ID: 00000308
+Predicted: 4
+Target: 4
+Correct until now: 293
+Samples tested until now: 391
+Accuracy until now: 74.94 %
+
+Idx 391
+Question ID: 1875
+Video ID: 00000049
+Predicted: 61
+Target: 61
+Correct until now: 294
+Samples tested until now: 392
+Accuracy until now: 75.00 %
+
+Idx 392
+Question ID: 10871
+Video ID: 00000285
+Predicted: 27
+Target: 27
+Correct until now: 295
+Samples tested until now: 393
+Accuracy until now: 75.06 %
+
+Idx 393
+Question ID: 11266
+Video ID: 00000294
+Predicted: 4
+Target: 4
+Correct until now: 296
+Samples tested until now: 394
+Accuracy until now: 75.13 %
+
+Idx 394
+Question ID: 6208
+Video ID: 00000158
+Predicted: 4
+Target: 4
+Correct until now: 297
+Samples tested until now: 395
+Accuracy until now: 75.19 %
+
+Idx 395
+Question ID: 7249
+Video ID: 00000187
+Predicted: 4
+Target: 4
+Correct until now: 298
+Samples tested until now: 396
+Accuracy until now: 75.25 %
+
+Idx 396
+Question ID: 1418
+Video ID: 00000036
+Predicted: 4
+Target: 0
+Correct until now: 298
+Samples tested until now: 397
+Accuracy until now: 75.06 %
+
+Idx 397
+Question ID: 10113
+Video ID: 00000263
+Predicted: 4
+Target: 4
+Correct until now: 299
+Samples tested until now: 398
+Accuracy until now: 75.13 %
+
+Idx 398
+Question ID: 6245
+Video ID: 00000159
+Predicted: 21
+Target: 21
+Correct until now: 300
+Samples tested until now: 399
+Accuracy until now: 75.19 %
+
+Idx 399
+Question ID: 6565
+Video ID: 00000170
+Predicted: 4
+Target: 4
+Correct until now: 301
+Samples tested until now: 400
+Accuracy until now: 75.25 %
+
+Idx 400
+Question ID: 539
+Video ID: 00000013
+Predicted: 0
+Target: 0
+Correct until now: 302
+Samples tested until now: 401
+Accuracy until now: 75.31 %
+
+Idx 401
+Question ID: 3977
+Video ID: 00000102
+Predicted: 4
+Target: 4
+Correct until now: 303
+Samples tested until now: 402
+Accuracy until now: 75.37 %
+
+Idx 402
+Question ID: 9938
+Video ID: 00000259
+Predicted: 67
+Target: 14
+Correct until now: 303
+Samples tested until now: 403
+Accuracy until now: 75.19 %
+
+Idx 403
+Question ID: 1238
+Video ID: 00000031
+Predicted: 21
+Target: 21
+Correct until now: 304
+Samples tested until now: 404
+Accuracy until now: 75.25 %
+
+Idx 404
+Question ID: 3088
+Video ID: 00000082
+Predicted: 1
+Target: 2
+Correct until now: 304
+Samples tested until now: 405
+Accuracy until now: 75.06 %
+
+Idx 405
+Question ID: 7894
+Video ID: 00000204
+Predicted: 4
+Target: 4
+Correct until now: 305
+Samples tested until now: 406
+Accuracy until now: 75.12 %
+
+Idx 406
+Question ID: 9420
+Video ID: 00000248
+Predicted: 67
+Target: 14
+Correct until now: 305
+Samples tested until now: 407
+Accuracy until now: 74.94 %
+
+Idx 407
+Question ID: 9898
+Video ID: 00000258
+Predicted: 0
+Target: 0
+Correct until now: 306
+Samples tested until now: 408
+Accuracy until now: 75.00 %
+
+Idx 408
+Question ID: 2203
+Video ID: 00000058
+Predicted: 50
+Target: 50
+Correct until now: 307
+Samples tested until now: 409
+Accuracy until now: 75.06 %
+
+Idx 409
+Question ID: 3274
+Video ID: 00000086
+Predicted: 7
+Target: 7
+Correct until now: 308
+Samples tested until now: 410
+Accuracy until now: 75.12 %
+
+Idx 410
+Question ID: 2924
+Video ID: 00000078
+Predicted: 0
+Target: 4
+Correct until now: 308
+Samples tested until now: 411
+Accuracy until now: 74.94 %
+
+Idx 411
+Question ID: 776
+Video ID: 00000020
+Predicted: 1
+Target: 1
+Correct until now: 309
+Samples tested until now: 412
+Accuracy until now: 75.00 %
+
+Idx 412
+Question ID: 3510
+Video ID: 00000092
+Predicted: 4
+Target: 4
+Correct until now: 310
+Samples tested until now: 413
+Accuracy until now: 75.06 %
+
+Idx 413
+Question ID: 877
+Video ID: 00000022
+Predicted: 86
+Target: 23
+Correct until now: 310
+Samples tested until now: 414
+Accuracy until now: 74.88 %
+
+Idx 414
+Question ID: 9040
+Video ID: 00000239
+Predicted: 0
+Target: 0
+Correct until now: 311
+Samples tested until now: 415
+Accuracy until now: 74.94 %
+
+Idx 415
+Question ID: 441
+Video ID: 00000010
+Predicted: 29
+Target: 29
+Correct until now: 312
+Samples tested until now: 416
+Accuracy until now: 75.00 %
+
+Idx 416
+Question ID: 872
+Video ID: 00000022
+Predicted: 42
+Target: 42
+Correct until now: 313
+Samples tested until now: 417
+Accuracy until now: 75.06 %
+
+Idx 417
+Question ID: 1320
+Video ID: 00000033
+Predicted: 4
+Target: 4
+Correct until now: 314
+Samples tested until now: 418
+Accuracy until now: 75.12 %
+
+Idx 418
+Question ID: 1171
+Video ID: 00000029
+Predicted: 21
+Target: 21
+Correct until now: 315
+Samples tested until now: 419
+Accuracy until now: 75.18 %
+
+Idx 419
+Question ID: 431
+Video ID: 00000010
+Predicted: 1
+Target: 1
+Correct until now: 316
+Samples tested until now: 420
+Accuracy until now: 75.24 %
+
+Idx 420
+Question ID: 851
+Video ID: 00000022
+Predicted: 1
+Target: 1
+Correct until now: 317
+Samples tested until now: 421
+Accuracy until now: 75.30 %
+
+Idx 421
+Question ID: 6912
+Video ID: 00000178
+Predicted: 0
+Target: 0
+Correct until now: 318
+Samples tested until now: 422
+Accuracy until now: 75.36 %
+
+Idx 422
+Question ID: 7170
+Video ID: 00000185
+Predicted: 9
+Target: 9
+Correct until now: 319
+Samples tested until now: 423
+Accuracy until now: 75.41 %
+
+Idx 423
+Question ID: 842
+Video ID: 00000022
+Predicted: 1
+Target: 28
+Correct until now: 319
+Samples tested until now: 424
+Accuracy until now: 75.24 %
+
+Idx 424
+Question ID: 2394
+Video ID: 00000063
+Predicted: 0
+Target: 0
+Correct until now: 320
+Samples tested until now: 425
+Accuracy until now: 75.29 %
+
+Idx 425
+Question ID: 2810
+Video ID: 00000075
+Predicted: 3
+Target: 27
+Correct until now: 320
+Samples tested until now: 426
+Accuracy until now: 75.12 %
+
+Idx 426
+Question ID: 10141
+Video ID: 00000264
+Predicted: 0
+Target: 0
+Correct until now: 321
+Samples tested until now: 427
+Accuracy until now: 75.18 %
+
+Idx 427
+Question ID: 3627
+Video ID: 00000094
+Predicted: 7
+Target: 7
+Correct until now: 322
+Samples tested until now: 428
+Accuracy until now: 75.23 %
+
+Idx 428
+Question ID: 5866
+Video ID: 00000149
+Predicted: 4
+Target: 4
+Correct until now: 323
+Samples tested until now: 429
+Accuracy until now: 75.29 %
+
+Idx 429
+Question ID: 7821
+Video ID: 00000202
+Predicted: 0
+Target: 0
+Correct until now: 324
+Samples tested until now: 430
+Accuracy until now: 75.35 %
+
+Idx 430
+Question ID: 8264
+Video ID: 00000215
+Predicted: 4
+Target: 4
+Correct until now: 325
+Samples tested until now: 431
+Accuracy until now: 75.41 %
+
+Idx 431
+Question ID: 9067
+Video ID: 00000240
+Predicted: 4
+Target: 4
+Correct until now: 326
+Samples tested until now: 432
+Accuracy until now: 75.46 %
+
+Idx 432
+Question ID: 5625
+Video ID: 00000144
+Predicted: 4
+Target: 4
+Correct until now: 327
+Samples tested until now: 433
+Accuracy until now: 75.52 %
+
+Idx 433
+Question ID: 7038
+Video ID: 00000181
+Predicted: 4
+Target: 4
+Correct until now: 328
+Samples tested until now: 434
+Accuracy until now: 75.58 %
+
+Idx 434
+Question ID: 1665
+Video ID: 00000044
+Predicted: 41
+Target: 41
+Correct until now: 329
+Samples tested until now: 435
+Accuracy until now: 75.63 %
+
+Idx 435
+Question ID: 10793
+Video ID: 00000283
+Predicted: 4
+Target: 4
+Correct until now: 330
+Samples tested until now: 436
+Accuracy until now: 75.69 %
+
+Idx 436
+Question ID: 9914
+Video ID: 00000259
+Predicted: 4
+Target: 4
+Correct until now: 331
+Samples tested until now: 437
+Accuracy until now: 75.74 %
+
+Idx 437
+Question ID: 9863
+Video ID: 00000258
+Predicted: 1
+Target: 25
+Correct until now: 331
+Samples tested until now: 438
+Accuracy until now: 75.57 %
+
+Idx 438
+Question ID: 9131
+Video ID: 00000242
+Predicted: 4
+Target: 0
+Correct until now: 331
+Samples tested until now: 439
+Accuracy until now: 75.40 %
+
+Idx 439
+Question ID: 9237
+Video ID: 00000244
+Predicted: 4
+Target: 4
+Correct until now: 332
+Samples tested until now: 440
+Accuracy until now: 75.45 %
+
+Idx 440
+Question ID: 1255
+Video ID: 00000031
+Predicted: 15
+Target: 15
+Correct until now: 333
+Samples tested until now: 441
+Accuracy until now: 75.51 %
+
+Idx 441
+Question ID: 4779
+Video ID: 00000120
+Predicted: 41
+Target: 41
+Correct until now: 334
+Samples tested until now: 442
+Accuracy until now: 75.57 %
+
+Idx 442
+Question ID: 7964
+Video ID: 00000206
+Predicted: 3
+Target: 3
+Correct until now: 335
+Samples tested until now: 443
+Accuracy until now: 75.62 %
+
+Idx 443
+Question ID: 9340
+Video ID: 00000246
+Predicted: 4
+Target: 4
+Correct until now: 336
+Samples tested until now: 444
+Accuracy until now: 75.68 %
+
+Idx 444
+Question ID: 2316
+Video ID: 00000061
+Predicted: 4
+Target: 4
+Correct until now: 337
+Samples tested until now: 445
+Accuracy until now: 75.73 %
+
+Idx 445
+Question ID: 1583
+Video ID: 00000042
+Predicted: 1
+Target: 1
+Correct until now: 338
+Samples tested until now: 446
+Accuracy until now: 75.78 %
+
+Idx 446
+Question ID: 7055
+Video ID: 00000182
+Predicted: 3
+Target: 3
+Correct until now: 339
+Samples tested until now: 447
+Accuracy until now: 75.84 %
+
+Idx 447
+Question ID: 6493
+Video ID: 00000167
+Predicted: 9
+Target: 9
+Correct until now: 340
+Samples tested until now: 448
+Accuracy until now: 75.89 %
+
+Idx 448
+Question ID: 4300
+Video ID: 00000109
+Predicted: 1
+Target: 1
+Correct until now: 341
+Samples tested until now: 449
+Accuracy until now: 75.95 %
+
+Idx 449
+Question ID: 8178
+Video ID: 00000212
+Predicted: 3
+Target: 3
+Correct until now: 342
+Samples tested until now: 450
+Accuracy until now: 76.00 %
+
+Idx 450
+Question ID: 6936
+Video ID: 00000179
+Predicted: 4
+Target: 4
+Correct until now: 343
+Samples tested until now: 451
+Accuracy until now: 76.05 %
+
+Idx 451
+Question ID: 5366
+Video ID: 00000136
+Predicted: 21
+Target: 21
+Correct until now: 344
+Samples tested until now: 452
+Accuracy until now: 76.11 %
+
+Idx 452
+Question ID: 11497
+Video ID: 00000300
+Predicted: 3
+Target: 3
+Correct until now: 345
+Samples tested until now: 453
+Accuracy until now: 76.16 %
+
+Idx 453
+Question ID: 6998
+Video ID: 00000180
+Predicted: 4
+Target: 4
+Correct until now: 346
+Samples tested until now: 454
+Accuracy until now: 76.21 %
+
+Idx 454
+Question ID: 3202
+Video ID: 00000084
+Predicted: 4
+Target: 4
+Correct until now: 347
+Samples tested until now: 455
+Accuracy until now: 76.26 %
+
+Idx 455
+Question ID: 2559
+Video ID: 00000068
+Predicted: 6
+Target: 6
+Correct until now: 348
+Samples tested until now: 456
+Accuracy until now: 76.32 %
+
+Idx 456
+Question ID: 6027
+Video ID: 00000153
+Predicted: 4
+Target: 4
+Correct until now: 349
+Samples tested until now: 457
+Accuracy until now: 76.37 %
+
+Idx 457
+Question ID: 116
+Video ID: 00000003
+Predicted: 4
+Target: 4
+Correct until now: 350
+Samples tested until now: 458
+Accuracy until now: 76.42 %
+
+Idx 458
+Question ID: 2884
+Video ID: 00000077
+Predicted: 1
+Target: 25
+Correct until now: 350
+Samples tested until now: 459
+Accuracy until now: 76.25 %
+
+Idx 459
+Question ID: 4481
+Video ID: 00000114
+Predicted: 1
+Target: 1
+Correct until now: 351
+Samples tested until now: 460
+Accuracy until now: 76.30 %
+
+Idx 460
+Question ID: 5248
+Video ID: 00000133
+Predicted: 4
+Target: 4
+Correct until now: 352
+Samples tested until now: 461
+Accuracy until now: 76.36 %
+
+Idx 461
+Question ID: 6362
+Video ID: 00000162
+Predicted: 4
+Target: 4
+Correct until now: 353
+Samples tested until now: 462
+Accuracy until now: 76.41 %
+
+Idx 462
+Question ID: 7138
+Video ID: 00000184
+Predicted: 0
+Target: 4
+Correct until now: 353
+Samples tested until now: 463
+Accuracy until now: 76.24 %
+
+Idx 463
+Question ID: 4723
+Video ID: 00000119
+Predicted: 8
+Target: 8
+Correct until now: 354
+Samples tested until now: 464
+Accuracy until now: 76.29 %
+
+Idx 464
+Question ID: 5865
+Video ID: 00000149
+Predicted: 50
+Target: 50
+Correct until now: 355
+Samples tested until now: 465
+Accuracy until now: 76.34 %
+
+Idx 465
+Question ID: 2209
+Video ID: 00000058
+Predicted: 67
+Target: 67
+Correct until now: 356
+Samples tested until now: 466
+Accuracy until now: 76.39 %
+
+Idx 466
+Question ID: 4238
+Video ID: 00000107
+Predicted: 4
+Target: 4
+Correct until now: 357
+Samples tested until now: 467
+Accuracy until now: 76.45 %
+
+Idx 467
+Question ID: 10374
+Video ID: 00000271
+Predicted: 42
+Target: 42
+Correct until now: 358
+Samples tested until now: 468
+Accuracy until now: 76.50 %
+
+Idx 468
+Question ID: 10520
+Video ID: 00000275
+Predicted: 4
+Target: 4
+Correct until now: 359
+Samples tested until now: 469
+Accuracy until now: 76.55 %
+
+Idx 469
+Question ID: 11341
+Video ID: 00000296
+Predicted: 1
+Target: 27
+Correct until now: 359
+Samples tested until now: 470
+Accuracy until now: 76.38 %
+
+Idx 470
+Question ID: 6124
+Video ID: 00000156
+Predicted: 61
+Target: 9
+Correct until now: 359
+Samples tested until now: 471
+Accuracy until now: 76.22 %
+
+Idx 471
+Question ID: 3090
+Video ID: 00000082
+Predicted: 1
+Target: 2
+Correct until now: 359
+Samples tested until now: 472
+Accuracy until now: 76.06 %
+
+Idx 472
+Question ID: 3099
+Video ID: 00000082
+Predicted: 29
+Target: 29
+Correct until now: 360
+Samples tested until now: 473
+Accuracy until now: 76.11 %
+
+Idx 473
+Question ID: 9530
+Video ID: 00000251
+Predicted: 4
+Target: 4
+Correct until now: 361
+Samples tested until now: 474
+Accuracy until now: 76.16 %
+
+Idx 474
+Question ID: 490
+Video ID: 00000012
+Predicted: 0
+Target: 0
+Correct until now: 362
+Samples tested until now: 475
+Accuracy until now: 76.21 %
+
+Idx 475
+Question ID: 612
+Video ID: 00000016
+Predicted: 1
+Target: 28
+Correct until now: 362
+Samples tested until now: 476
+Accuracy until now: 76.05 %
+
+Idx 476
+Question ID: 7248
+Video ID: 00000187
+Predicted: 0
+Target: 0
+Correct until now: 363
+Samples tested until now: 477
+Accuracy until now: 76.10 %
+
+Idx 477
+Question ID: 2064
+Video ID: 00000054
+Predicted: 15
+Target: 38
+Correct until now: 363
+Samples tested until now: 478
+Accuracy until now: 75.94 %
+
+Idx 478
+Question ID: 6797
+Video ID: 00000175
+Predicted: 11
+Target: 11
+Correct until now: 364
+Samples tested until now: 479
+Accuracy until now: 75.99 %
+
+Idx 479
+Question ID: 6207
+Video ID: 00000158
+Predicted: 0
+Target: 0
+Correct until now: 365
+Samples tested until now: 480
+Accuracy until now: 76.04 %
+
+Idx 480
+Question ID: 5569
+Video ID: 00000142
+Predicted: 46
+Target: 46
+Correct until now: 366
+Samples tested until now: 481
+Accuracy until now: 76.09 %
+
+Idx 481
+Question ID: 10640
+Video ID: 00000279
+Predicted: 3
+Target: 3
+Correct until now: 367
+Samples tested until now: 482
+Accuracy until now: 76.14 %
+
+Idx 482
+Question ID: 2266
+Video ID: 00000060
+Predicted: 4
+Target: 4
+Correct until now: 368
+Samples tested until now: 483
+Accuracy until now: 76.19 %
+
+Idx 483
+Question ID: 9469
+Video ID: 00000249
+Predicted: 67
+Target: 5
+Correct until now: 368
+Samples tested until now: 484
+Accuracy until now: 76.03 %
+
+Idx 484
+Question ID: 6970
+Video ID: 00000180
+Predicted: 0
+Target: 0
+Correct until now: 369
+Samples tested until now: 485
+Accuracy until now: 76.08 %
+
+Idx 485
+Question ID: 5933
+Video ID: 00000151
+Predicted: 21
+Target: 21
+Correct until now: 370
+Samples tested until now: 486
+Accuracy until now: 76.13 %
+
+Idx 486
+Question ID: 2208
+Video ID: 00000058
+Predicted: 67
+Target: 67
+Correct until now: 371
+Samples tested until now: 487
+Accuracy until now: 76.18 %
+
+Idx 487
+Question ID: 8016
+Video ID: 00000207
+Predicted: 4
+Target: 4
+Correct until now: 372
+Samples tested until now: 488
+Accuracy until now: 76.23 %
+
+Idx 488
+Question ID: 7228
+Video ID: 00000186
+Predicted: 4
+Target: 4
+Correct until now: 373
+Samples tested until now: 489
+Accuracy until now: 76.28 %
+
+Idx 489
+Question ID: 10863
+Video ID: 00000285
+Predicted: 4
+Target: 4
+Correct until now: 374
+Samples tested until now: 490
+Accuracy until now: 76.33 %
+
+Idx 490
+Question ID: 10441
+Video ID: 00000273
+Predicted: 61
+Target: 5
+Correct until now: 374
+Samples tested until now: 491
+Accuracy until now: 76.17 %
+
+Idx 491
+Question ID: 5909
+Video ID: 00000150
+Predicted: 0
+Target: 0
+Correct until now: 375
+Samples tested until now: 492
+Accuracy until now: 76.22 %
+
+Idx 492
+Question ID: 186
+Video ID: 00000004
+Predicted: 0
+Target: 0
+Correct until now: 376
+Samples tested until now: 493
+Accuracy until now: 76.27 %
+
+Idx 493
+Question ID: 6365
+Video ID: 00000162
+Predicted: 4
+Target: 4
+Correct until now: 377
+Samples tested until now: 494
+Accuracy until now: 76.32 %
+
+Idx 494
+Question ID: 10330
+Video ID: 00000270
+Predicted: 21
+Target: 21
+Correct until now: 378
+Samples tested until now: 495
+Accuracy until now: 76.36 %
+
+Idx 495
+Question ID: 10999
+Video ID: 00000288
+Predicted: 27
+Target: 27
+Correct until now: 379
+Samples tested until now: 496
+Accuracy until now: 76.41 %
+
+Idx 496
+Question ID: 5205
+Video ID: 00000132
+Predicted: 4
+Target: 4
+Correct until now: 380
+Samples tested until now: 497
+Accuracy until now: 76.46 %
+
+Idx 497
+Question ID: 9980
+Video ID: 00000260
+Predicted: 6
+Target: 6
+Correct until now: 381
+Samples tested until now: 498
+Accuracy until now: 76.51 %
+
+Idx 498
+Question ID: 4251
+Video ID: 00000107
+Predicted: 0
+Target: 0
+Correct until now: 382
+Samples tested until now: 499
+Accuracy until now: 76.55 %
+
+Idx 499
+Question ID: 5337
+Video ID: 00000135
+Predicted: 41
+Target: 41
+Correct until now: 383
+Samples tested until now: 500
+Accuracy until now: 76.60 %
+
+Idx 500
+Question ID: 4889
+Video ID: 00000123
+Predicted: 11
+Target: 11
+Correct until now: 384
+Samples tested until now: 501
+Accuracy until now: 76.65 %
+
+Idx 501
+Question ID: 8383
+Video ID: 00000222
+Predicted: 1
+Target: 1
+Correct until now: 385
+Samples tested until now: 502
+Accuracy until now: 76.69 %
+
+Idx 502
+Question ID: 11818
+Video ID: 00000309
+Predicted: 4
+Target: 4
+Correct until now: 386
+Samples tested until now: 503
+Accuracy until now: 76.74 %
+
+Idx 503
+Question ID: 8113
+Video ID: 00000210
+Predicted: 9
+Target: 9
+Correct until now: 387
+Samples tested until now: 504
+Accuracy until now: 76.79 %
+
+Idx 504
+Question ID: 1190
+Video ID: 00000029
+Predicted: 60
+Target: 60
+Correct until now: 388
+Samples tested until now: 505
+Accuracy until now: 76.83 %
+
+Idx 505
+Question ID: 3144
+Video ID: 00000083
+Predicted: 67
+Target: 77
+Correct until now: 388
+Samples tested until now: 506
+Accuracy until now: 76.68 %
+
+Idx 506
+Question ID: 5346
+Video ID: 00000136
+Predicted: 0
+Target: 0
+Correct until now: 389
+Samples tested until now: 507
+Accuracy until now: 76.73 %
+
+Idx 507
+Question ID: 423
+Video ID: 00000010
+Predicted: 4
+Target: 4
+Correct until now: 390
+Samples tested until now: 508
+Accuracy until now: 76.77 %
+
+Idx 508
+Question ID: 2603
+Video ID: 00000069
+Predicted: 67
+Target: 69
+Correct until now: 390
+Samples tested until now: 509
+Accuracy until now: 76.62 %
+
+Idx 509
+Question ID: 559
+Video ID: 00000014
+Predicted: 0
+Target: 0
+Correct until now: 391
+Samples tested until now: 510
+Accuracy until now: 76.67 %
+
+Idx 510
+Question ID: 6123
+Video ID: 00000156
+Predicted: 4
+Target: 4
+Correct until now: 392
+Samples tested until now: 511
+Accuracy until now: 76.71 %
+
+Idx 511
+Question ID: 8290
+Video ID: 00000217
+Predicted: 4
+Target: 4
+Correct until now: 393
+Samples tested until now: 512
+Accuracy until now: 76.76 %
+
+Idx 512
+Question ID: 11699
+Video ID: 00000305
+Predicted: 4
+Target: 4
+Correct until now: 394
+Samples tested until now: 513
+Accuracy until now: 76.80 %
+
+Idx 513
+Question ID: 861
+Video ID: 00000022
+Predicted: 61
+Target: 61
+Correct until now: 395
+Samples tested until now: 514
+Accuracy until now: 76.85 %
+
+Idx 514
+Question ID: 3407
+Video ID: 00000089
+Predicted: 4
+Target: 0
+Correct until now: 395
+Samples tested until now: 515
+Accuracy until now: 76.70 %
+
+Idx 515
+Question ID: 9433
+Video ID: 00000248
+Predicted: 15
+Target: 15
+Correct until now: 396
+Samples tested until now: 516
+Accuracy until now: 76.74 %
+
+Idx 516
+Question ID: 8919
+Video ID: 00000236
+Predicted: 4
+Target: 4
+Correct until now: 397
+Samples tested until now: 517
+Accuracy until now: 76.79 %
+
+Idx 517
+Question ID: 4619
+Video ID: 00000117
+Predicted: 0
+Target: 0
+Correct until now: 398
+Samples tested until now: 518
+Accuracy until now: 76.83 %
+
+Idx 518
+Question ID: 10937
+Video ID: 00000286
+Predicted: 4
+Target: 4
+Correct until now: 399
+Samples tested until now: 519
+Accuracy until now: 76.88 %
+
+Idx 519
+Question ID: 9579
+Video ID: 00000252
+Predicted: 1
+Target: 3
+Correct until now: 399
+Samples tested until now: 520
+Accuracy until now: 76.73 %
+
+Idx 520
+Question ID: 10292
+Video ID: 00000269
+Predicted: 29
+Target: 29
+Correct until now: 400
+Samples tested until now: 521
+Accuracy until now: 76.78 %
+
+Idx 521
+Question ID: 9688
+Video ID: 00000254
+Predicted: 4
+Target: 0
+Correct until now: 400
+Samples tested until now: 522
+Accuracy until now: 76.63 %
+
+Idx 522
+Question ID: 9036
+Video ID: 00000239
+Predicted: 4
+Target: 4
+Correct until now: 401
+Samples tested until now: 523
+Accuracy until now: 76.67 %
+
+Idx 523
+Question ID: 4384
+Video ID: 00000111
+Predicted: 8
+Target: 8
+Correct until now: 402
+Samples tested until now: 524
+Accuracy until now: 76.72 %
+
+Idx 524
+Question ID: 11441
+Video ID: 00000298
+Predicted: 107
+Target: 74
+Correct until now: 402
+Samples tested until now: 525
+Accuracy until now: 76.57 %
+
+Idx 525
+Question ID: 10731
+Video ID: 00000281
+Predicted: 6
+Target: 6
+Correct until now: 403
+Samples tested until now: 526
+Accuracy until now: 76.62 %
+
+Idx 526
+Question ID: 2892
+Video ID: 00000077
+Predicted: 0
+Target: 0
+Correct until now: 404
+Samples tested until now: 527
+Accuracy until now: 76.66 %
+
+Idx 527
+Question ID: 7128
+Video ID: 00000184
+Predicted: 27
+Target: 27
+Correct until now: 405
+Samples tested until now: 528
+Accuracy until now: 76.70 %
+
+Idx 528
+Question ID: 7504
+Video ID: 00000193
+Predicted: 9
+Target: 9
+Correct until now: 406
+Samples tested until now: 529
+Accuracy until now: 76.75 %
+
+Idx 529
+Question ID: 1604
+Video ID: 00000043
+Predicted: 4
+Target: 0
+Correct until now: 406
+Samples tested until now: 530
+Accuracy until now: 76.60 %
+
+Idx 530
+Question ID: 11037
+Video ID: 00000289
+Predicted: 1
+Target: 27
+Correct until now: 406
+Samples tested until now: 531
+Accuracy until now: 76.46 %
+
+Idx 531
+Question ID: 4390
+Video ID: 00000112
+Predicted: 4
+Target: 4
+Correct until now: 407
+Samples tested until now: 532
+Accuracy until now: 76.50 %
+
+Idx 532
+Question ID: 741
+Video ID: 00000018
+Predicted: 4
+Target: 4
+Correct until now: 408
+Samples tested until now: 533
+Accuracy until now: 76.55 %
+
+Idx 533
+Question ID: 1890
+Video ID: 00000050
+Predicted: 0
+Target: 0
+Correct until now: 409
+Samples tested until now: 534
+Accuracy until now: 76.59 %
+
+Idx 534
+Question ID: 1720
+Video ID: 00000046
+Predicted: 67
+Target: 67
+Correct until now: 410
+Samples tested until now: 535
+Accuracy until now: 76.64 %
+
+Idx 535
+Question ID: 6277
+Video ID: 00000160
+Predicted: 3
+Target: 3
+Correct until now: 411
+Samples tested until now: 536
+Accuracy until now: 76.68 %
+
+Idx 536
+Question ID: 4041
+Video ID: 00000103
+Predicted: 67
+Target: 23
+Correct until now: 411
+Samples tested until now: 537
+Accuracy until now: 76.54 %
+
+Idx 537
+Question ID: 2888
+Video ID: 00000077
+Predicted: 4
+Target: 4
+Correct until now: 412
+Samples tested until now: 538
+Accuracy until now: 76.58 %
+
+Idx 538
+Question ID: 143
+Video ID: 00000003
+Predicted: 21
+Target: 21
+Correct until now: 413
+Samples tested until now: 539
+Accuracy until now: 76.62 %
+
+Idx 539
+Question ID: 9333
+Video ID: 00000246
+Predicted: 0
+Target: 0
+Correct until now: 414
+Samples tested until now: 540
+Accuracy until now: 76.67 %
+
+Idx 540
+Question ID: 7829
+Video ID: 00000202
+Predicted: 3
+Target: 3
+Correct until now: 415
+Samples tested until now: 541
+Accuracy until now: 76.71 %
+
+Idx 541
+Question ID: 4364
+Video ID: 00000111
+Predicted: 1
+Target: 1
+Correct until now: 416
+Samples tested until now: 542
+Accuracy until now: 76.75 %
+
+Idx 542
+Question ID: 9590
+Video ID: 00000252
+Predicted: 4
+Target: 4
+Correct until now: 417
+Samples tested until now: 543
+Accuracy until now: 76.80 %
+
+Idx 543
+Question ID: 3614
+Video ID: 00000094
+Predicted: 4
+Target: 4
+Correct until now: 418
+Samples tested until now: 544
+Accuracy until now: 76.84 %
+
+Idx 544
+Question ID: 10796
+Video ID: 00000283
+Predicted: 1
+Target: 3
+Correct until now: 418
+Samples tested until now: 545
+Accuracy until now: 76.70 %
+
+Idx 545
+Question ID: 7226
+Video ID: 00000186
+Predicted: 0
+Target: 0
+Correct until now: 419
+Samples tested until now: 546
+Accuracy until now: 76.74 %
+
+Idx 546
+Question ID: 7394
+Video ID: 00000191
+Predicted: 4
+Target: 4
+Correct until now: 420
+Samples tested until now: 547
+Accuracy until now: 76.78 %
+
+Idx 547
+Question ID: 4460
+Video ID: 00000113
+Predicted: 4
+Target: 4
+Correct until now: 421
+Samples tested until now: 548
+Accuracy until now: 76.82 %
+
+Idx 548
+Question ID: 5455
+Video ID: 00000139
+Predicted: 4
+Target: 4
+Correct until now: 422
+Samples tested until now: 549
+Accuracy until now: 76.87 %
+
+Idx 549
+Question ID: 8823
+Video ID: 00000233
+Predicted: 5
+Target: 5
+Correct until now: 423
+Samples tested until now: 550
+Accuracy until now: 76.91 %
+
+Idx 550
+Question ID: 10034
+Video ID: 00000261
+Predicted: 0
+Target: 0
+Correct until now: 424
+Samples tested until now: 551
+Accuracy until now: 76.95 %
+
+Idx 551
+Question ID: 9976
+Video ID: 00000260
+Predicted: 0
+Target: 0
+Correct until now: 425
+Samples tested until now: 552
+Accuracy until now: 76.99 %
+
+Idx 552
+Question ID: 6533
+Video ID: 00000170
+Predicted: 1
+Target: 1
+Correct until now: 426
+Samples tested until now: 553
+Accuracy until now: 77.03 %
+
+Idx 553
+Question ID: 10019
+Video ID: 00000261
+Predicted: 0
+Target: 4
+Correct until now: 426
+Samples tested until now: 554
+Accuracy until now: 76.90 %
+
+Idx 554
+Question ID: 8062
+Video ID: 00000209
+Predicted: 3
+Target: 3
+Correct until now: 427
+Samples tested until now: 555
+Accuracy until now: 76.94 %
+
+Idx 555
+Question ID: 2047
+Video ID: 00000054
+Predicted: 67
+Target: 19
+Correct until now: 427
+Samples tested until now: 556
+Accuracy until now: 76.80 %
+
+Idx 556
+Question ID: 2171
+Video ID: 00000057
+Predicted: 0
+Target: 0
+Correct until now: 428
+Samples tested until now: 557
+Accuracy until now: 76.84 %
+
+Idx 557
+Question ID: 1424
+Video ID: 00000036
+Predicted: 4
+Target: 4
+Correct until now: 429
+Samples tested until now: 558
+Accuracy until now: 76.88 %
+
+Idx 558
+Question ID: 10613
+Video ID: 00000278
+Predicted: 4
+Target: 4
+Correct until now: 430
+Samples tested until now: 559
+Accuracy until now: 76.92 %
+
+Idx 559
+Question ID: 951
+Video ID: 00000024
+Predicted: 0
+Target: 0
+Correct until now: 431
+Samples tested until now: 560
+Accuracy until now: 76.96 %
+
+Idx 560
+Question ID: 2677
+Video ID: 00000071
+Predicted: 67
+Target: 44
+Correct until now: 431
+Samples tested until now: 561
+Accuracy until now: 76.83 %
+
+Idx 561
+Question ID: 1097
+Video ID: 00000027
+Predicted: 0
+Target: 0
+Correct until now: 432
+Samples tested until now: 562
+Accuracy until now: 76.87 %
+
+Idx 562
+Question ID: 6543
+Video ID: 00000170
+Predicted: 0
+Target: 4
+Correct until now: 432
+Samples tested until now: 563
+Accuracy until now: 76.73 %
+
+Idx 563
+Question ID: 1524
+Video ID: 00000040
+Predicted: 0
+Target: 0
+Correct until now: 433
+Samples tested until now: 564
+Accuracy until now: 76.77 %
+
+Idx 564
+Question ID: 8374
+Video ID: 00000221
+Predicted: 8
+Target: 8
+Correct until now: 434
+Samples tested until now: 565
+Accuracy until now: 76.81 %
+
+Idx 565
+Question ID: 6715
+Video ID: 00000173
+Predicted: 39
+Target: 39
+Correct until now: 435
+Samples tested until now: 566
+Accuracy until now: 76.86 %
+
+Idx 566
+Question ID: 971
+Video ID: 00000024
+Predicted: 0
+Target: 0
+Correct until now: 436
+Samples tested until now: 567
+Accuracy until now: 76.90 %
+
+Idx 567
+Question ID: 5666
+Video ID: 00000144
+Predicted: 11
+Target: 11
+Correct until now: 437
+Samples tested until now: 568
+Accuracy until now: 76.94 %
+
+Idx 568
+Question ID: 883
+Video ID: 00000022
+Predicted: 0
+Target: 0
+Correct until now: 438
+Samples tested until now: 569
+Accuracy until now: 76.98 %
+
+Idx 569
+Question ID: 4672
+Video ID: 00000118
+Predicted: 4
+Target: 0
+Correct until now: 438
+Samples tested until now: 570
+Accuracy until now: 76.84 %
+
+Idx 570
+Question ID: 2297
+Video ID: 00000061
+Predicted: 4
+Target: 0
+Correct until now: 438
+Samples tested until now: 571
+Accuracy until now: 76.71 %
+
+Idx 571
+Question ID: 5291
+Video ID: 00000134
+Predicted: 0
+Target: 4
+Correct until now: 438
+Samples tested until now: 572
+Accuracy until now: 76.57 %
+
+Idx 572
+Question ID: 10079
+Video ID: 00000262
+Predicted: 4
+Target: 4
+Correct until now: 439
+Samples tested until now: 573
+Accuracy until now: 76.61 %
+
+Idx 573
+Question ID: 3126
+Video ID: 00000083
+Predicted: 3
+Target: 1
+Correct until now: 439
+Samples tested until now: 574
+Accuracy until now: 76.48 %
+
+Idx 574
+Question ID: 8945
+Video ID: 00000237
+Predicted: 4
+Target: 4
+Correct until now: 440
+Samples tested until now: 575
+Accuracy until now: 76.52 %
+
+Idx 575
+Question ID: 11348
+Video ID: 00000296
+Predicted: 61
+Target: 5
+Correct until now: 440
+Samples tested until now: 576
+Accuracy until now: 76.39 %
+
+Idx 576
+Question ID: 3015
+Video ID: 00000080
+Predicted: 9
+Target: 61
+Correct until now: 440
+Samples tested until now: 577
+Accuracy until now: 76.26 %
+
+Idx 577
+Question ID: 3748
+Video ID: 00000097
+Predicted: 0
+Target: 0
+Correct until now: 441
+Samples tested until now: 578
+Accuracy until now: 76.30 %
+
+Idx 578
+Question ID: 2707
+Video ID: 00000072
+Predicted: 67
+Target: 31
+Correct until now: 441
+Samples tested until now: 579
+Accuracy until now: 76.17 %
+
+Idx 579
+Question ID: 3402
+Video ID: 00000089
+Predicted: 6
+Target: 6
+Correct until now: 442
+Samples tested until now: 580
+Accuracy until now: 76.21 %
+
+Idx 580
+Question ID: 2243
+Video ID: 00000059
+Predicted: 4
+Target: 4
+Correct until now: 443
+Samples tested until now: 581
+Accuracy until now: 76.25 %
+
+Idx 581
+Question ID: 8142
+Video ID: 00000211
+Predicted: 3
+Target: 1
+Correct until now: 443
+Samples tested until now: 582
+Accuracy until now: 76.12 %
+
+Idx 582
+Question ID: 11000
+Video ID: 00000288
+Predicted: 3
+Target: 3
+Correct until now: 444
+Samples tested until now: 583
+Accuracy until now: 76.16 %
+
+Idx 583
+Question ID: 11822
+Video ID: 00000309
+Predicted: 27
+Target: 3
+Correct until now: 444
+Samples tested until now: 584
+Accuracy until now: 76.03 %
+
+Idx 584
+Question ID: 2896
+Video ID: 00000077
+Predicted: 86
+Target: 24
+Correct until now: 444
+Samples tested until now: 585
+Accuracy until now: 75.90 %
+
+Idx 585
+Question ID: 3411
+Video ID: 00000089
+Predicted: 0
+Target: 0
+Correct until now: 445
+Samples tested until now: 586
+Accuracy until now: 75.94 %
+
+Idx 586
+Question ID: 10517
+Video ID: 00000275
+Predicted: 121
+Target: 121
+Correct until now: 446
+Samples tested until now: 587
+Accuracy until now: 75.98 %
+
+Idx 587
+Question ID: 1425
+Video ID: 00000036
+Predicted: 18
+Target: 18
+Correct until now: 447
+Samples tested until now: 588
+Accuracy until now: 76.02 %
+
+Idx 588
+Question ID: 10310
+Video ID: 00000270
+Predicted: 25
+Target: 3
+Correct until now: 447
+Samples tested until now: 589
+Accuracy until now: 75.89 %
+
+Idx 589
+Question ID: 8440
+Video ID: 00000223
+Predicted: 3
+Target: 3
+Correct until now: 448
+Samples tested until now: 590
+Accuracy until now: 75.93 %
+
+Idx 590
+Question ID: 5891
+Video ID: 00000150
+Predicted: 4
+Target: 4
+Correct until now: 449
+Samples tested until now: 591
+Accuracy until now: 75.97 %
+
+Idx 591
+Question ID: 10462
+Video ID: 00000274
+Predicted: 4
+Target: 4
+Correct until now: 450
+Samples tested until now: 592
+Accuracy until now: 76.01 %
+
+Idx 592
+Question ID: 5908
+Video ID: 00000150
+Predicted: 0
+Target: 0
+Correct until now: 451
+Samples tested until now: 593
+Accuracy until now: 76.05 %
+
+Idx 593
+Question ID: 11772
+Video ID: 00000307
+Predicted: 118
+Target: 118
+Correct until now: 452
+Samples tested until now: 594
+Accuracy until now: 76.09 %
+
+Idx 594
+Question ID: 5859
+Video ID: 00000149
+Predicted: 55
+Target: 55
+Correct until now: 453
+Samples tested until now: 595
+Accuracy until now: 76.13 %
+
+Idx 595
+Question ID: 7633
+Video ID: 00000196
+Predicted: 6
+Target: 6
+Correct until now: 454
+Samples tested until now: 596
+Accuracy until now: 76.17 %
+
+Idx 596
+Question ID: 9752
+Video ID: 00000255
+Predicted: 4
+Target: 4
+Correct until now: 455
+Samples tested until now: 597
+Accuracy until now: 76.21 %
+
+Idx 597
+Question ID: 10326
+Video ID: 00000270
+Predicted: 4
+Target: 4
+Correct until now: 456
+Samples tested until now: 598
+Accuracy until now: 76.25 %
+
+Idx 598
+Question ID: 8326
+Video ID: 00000219
+Predicted: 6
+Target: 12
+Correct until now: 456
+Samples tested until now: 599
+Accuracy until now: 76.13 %
+
+Idx 599
+Question ID: 6999
+Video ID: 00000180
+Predicted: 4
+Target: 4
+Correct until now: 457
+Samples tested until now: 600
+Accuracy until now: 76.17 %
+
+Idx 600
+Question ID: 4784
+Video ID: 00000121
+Predicted: 1
+Target: 25
+Correct until now: 457
+Samples tested until now: 601
+Accuracy until now: 76.04 %
+
+Idx 601
+Question ID: 10812
+Video ID: 00000283
+Predicted: 4
+Target: 4
+Correct until now: 458
+Samples tested until now: 602
+Accuracy until now: 76.08 %
+
+Idx 602
+Question ID: 2970
+Video ID: 00000079
+Predicted: 61
+Target: 61
+Correct until now: 459
+Samples tested until now: 603
+Accuracy until now: 76.12 %
+
+Idx 603
+Question ID: 921
+Video ID: 00000023
+Predicted: 0
+Target: 0
+Correct until now: 460
+Samples tested until now: 604
+Accuracy until now: 76.16 %
+
+Idx 604
+Question ID: 7299
+Video ID: 00000188
+Predicted: 0
+Target: 0
+Correct until now: 461
+Samples tested until now: 605
+Accuracy until now: 76.20 %
+
+Idx 605
+Question ID: 3317
+Video ID: 00000087
+Predicted: 4
+Target: 4
+Correct until now: 462
+Samples tested until now: 606
+Accuracy until now: 76.24 %
+
+Idx 606
+Question ID: 1508
+Video ID: 00000039
+Predicted: 42
+Target: 42
+Correct until now: 463
+Samples tested until now: 607
+Accuracy until now: 76.28 %
+
+Idx 607
+Question ID: 9407
+Video ID: 00000248
+Predicted: 4
+Target: 4
+Correct until now: 464
+Samples tested until now: 608
+Accuracy until now: 76.32 %
+
+Idx 608
+Question ID: 11173
+Video ID: 00000292
+Predicted: 27
+Target: 27
+Correct until now: 465
+Samples tested until now: 609
+Accuracy until now: 76.35 %
+
+Idx 609
+Question ID: 854
+Video ID: 00000022
+Predicted: 3
+Target: 1
+Correct until now: 465
+Samples tested until now: 610
+Accuracy until now: 76.23 %
+
+Idx 610
+Question ID: 5767
+Video ID: 00000147
+Predicted: 1
+Target: 25
+Correct until now: 465
+Samples tested until now: 611
+Accuracy until now: 76.10 %
+
+Idx 611
+Question ID: 4660
+Video ID: 00000118
+Predicted: 1
+Target: 1
+Correct until now: 466
+Samples tested until now: 612
+Accuracy until now: 76.14 %
+
+Idx 612
+Question ID: 2142
+Video ID: 00000057
+Predicted: 1
+Target: 1
+Correct until now: 467
+Samples tested until now: 613
+Accuracy until now: 76.18 %
+
+Idx 613
+Question ID: 3586
+Video ID: 00000093
+Predicted: 0
+Target: 0
+Correct until now: 468
+Samples tested until now: 614
+Accuracy until now: 76.22 %
+
+Idx 614
+Question ID: 527
+Video ID: 00000013
+Predicted: 0
+Target: 0
+Correct until now: 469
+Samples tested until now: 615
+Accuracy until now: 76.26 %
+
+Idx 615
+Question ID: 5593
+Video ID: 00000143
+Predicted: 3
+Target: 3
+Correct until now: 470
+Samples tested until now: 616
+Accuracy until now: 76.30 %
+
+Idx 616
+Question ID: 4503
+Video ID: 00000114
+Predicted: 0
+Target: 4
+Correct until now: 470
+Samples tested until now: 617
+Accuracy until now: 76.18 %
+
+Idx 617
+Question ID: 5717
+Video ID: 00000146
+Predicted: 1
+Target: 25
+Correct until now: 470
+Samples tested until now: 618
+Accuracy until now: 76.05 %
+
+Idx 618
+Question ID: 11414
+Video ID: 00000298
+Predicted: 4
+Target: 4
+Correct until now: 471
+Samples tested until now: 619
+Accuracy until now: 76.09 %
+
+Idx 619
+Question ID: 6711
+Video ID: 00000173
+Predicted: 4
+Target: 4
+Correct until now: 472
+Samples tested until now: 620
+Accuracy until now: 76.13 %
+
+Idx 620
+Question ID: 3450
+Video ID: 00000090
+Predicted: 4
+Target: 4
+Correct until now: 473
+Samples tested until now: 621
+Accuracy until now: 76.17 %
+
+Idx 621
+Question ID: 1469
+Video ID: 00000038
+Predicted: 0
+Target: 4
+Correct until now: 473
+Samples tested until now: 622
+Accuracy until now: 76.05 %
+
+Idx 622
+Question ID: 8621
+Video ID: 00000228
+Predicted: 0
+Target: 0
+Correct until now: 474
+Samples tested until now: 623
+Accuracy until now: 76.08 %
+
+Idx 623
+Question ID: 8932
+Video ID: 00000236
+Predicted: 0
+Target: 0
+Correct until now: 475
+Samples tested until now: 624
+Accuracy until now: 76.12 %
+
+Idx 624
+Question ID: 9541
+Video ID: 00000251
+Predicted: 3
+Target: 3
+Correct until now: 476
+Samples tested until now: 625
+Accuracy until now: 76.16 %
+
+Idx 625
+Question ID: 9360
+Video ID: 00000247
+Predicted: 3
+Target: 3
+Correct until now: 477
+Samples tested until now: 626
+Accuracy until now: 76.20 %
+
+Idx 626
+Question ID: 658
+Video ID: 00000016
+Predicted: 0
+Target: 0
+Correct until now: 478
+Samples tested until now: 627
+Accuracy until now: 76.24 %
+
+Idx 627
+Question ID: 8007
+Video ID: 00000207
+Predicted: 46
+Target: 46
+Correct until now: 479
+Samples tested until now: 628
+Accuracy until now: 76.27 %
+
+Idx 628
+Question ID: 7995
+Video ID: 00000207
+Predicted: 3
+Target: 3
+Correct until now: 480
+Samples tested until now: 629
+Accuracy until now: 76.31 %
+
+Idx 629
+Question ID: 9341
+Video ID: 00000246
+Predicted: 4
+Target: 4
+Correct until now: 481
+Samples tested until now: 630
+Accuracy until now: 76.35 %
+
+Idx 630
+Question ID: 9065
+Video ID: 00000240
+Predicted: 1
+Target: 1
+Correct until now: 482
+Samples tested until now: 631
+Accuracy until now: 76.39 %
+
+Idx 631
+Question ID: 7020
+Video ID: 00000181
+Predicted: 4
+Target: 4
+Correct until now: 483
+Samples tested until now: 632
+Accuracy until now: 76.42 %
+
+Idx 632
+Question ID: 5144
+Video ID: 00000130
+Predicted: 4
+Target: 4
+Correct until now: 484
+Samples tested until now: 633
+Accuracy until now: 76.46 %
+
+Idx 633
+Question ID: 997
+Video ID: 00000025
+Predicted: 4
+Target: 4
+Correct until now: 485
+Samples tested until now: 634
+Accuracy until now: 76.50 %
+
+Idx 634
+Question ID: 4403
+Video ID: 00000112
+Predicted: 4
+Target: 4
+Correct until now: 486
+Samples tested until now: 635
+Accuracy until now: 76.54 %
+
+Idx 635
+Question ID: 1766
+Video ID: 00000047
+Predicted: 35
+Target: 19
+Correct until now: 486
+Samples tested until now: 636
+Accuracy until now: 76.42 %
+
+Idx 636
+Question ID: 7851
+Video ID: 00000203
+Predicted: 4
+Target: 4
+Correct until now: 487
+Samples tested until now: 637
+Accuracy until now: 76.45 %
+
+Idx 637
+Question ID: 10761
+Video ID: 00000282
+Predicted: 9
+Target: 5
+Correct until now: 487
+Samples tested until now: 638
+Accuracy until now: 76.33 %
+
+Idx 638
+Question ID: 5360
+Video ID: 00000136
+Predicted: 4
+Target: 0
+Correct until now: 487
+Samples tested until now: 639
+Accuracy until now: 76.21 %
+
+Idx 639
+Question ID: 3686
+Video ID: 00000096
+Predicted: 4
+Target: 4
+Correct until now: 488
+Samples tested until now: 640
+Accuracy until now: 76.25 %
+
+Idx 640
+Question ID: 8982
+Video ID: 00000238
+Predicted: 0
+Target: 0
+Correct until now: 489
+Samples tested until now: 641
+Accuracy until now: 76.29 %
+
+Idx 641
+Question ID: 3960
+Video ID: 00000101
+Predicted: 0
+Target: 0
+Correct until now: 490
+Samples tested until now: 642
+Accuracy until now: 76.32 %
+
+Idx 642
+Question ID: 3589
+Video ID: 00000093
+Predicted: 4
+Target: 4
+Correct until now: 491
+Samples tested until now: 643
+Accuracy until now: 76.36 %
+
+Idx 643
+Question ID: 6919
+Video ID: 00000178
+Predicted: 39
+Target: 39
+Correct until now: 492
+Samples tested until now: 644
+Accuracy until now: 76.40 %
+
+Idx 644
+Question ID: 9630
+Video ID: 00000253
+Predicted: 1
+Target: 25
+Correct until now: 492
+Samples tested until now: 645
+Accuracy until now: 76.28 %
+
+Idx 645
+Question ID: 2151
+Video ID: 00000057
+Predicted: 0
+Target: 0
+Correct until now: 493
+Samples tested until now: 646
+Accuracy until now: 76.32 %
+
+Idx 646
+Question ID: 821
+Video ID: 00000021
+Predicted: 1
+Target: 1
+Correct until now: 494
+Samples tested until now: 647
+Accuracy until now: 76.35 %
+
+Idx 647
+Question ID: 7241
+Video ID: 00000187
+Predicted: 3
+Target: 3
+Correct until now: 495
+Samples tested until now: 648
+Accuracy until now: 76.39 %
+
+Idx 648
+Question ID: 8403
+Video ID: 00000222
+Predicted: 0
+Target: 0
+Correct until now: 496
+Samples tested until now: 649
+Accuracy until now: 76.43 %
+
+Idx 649
+Question ID: 4948
+Video ID: 00000125
+Predicted: 4
+Target: 4
+Correct until now: 497
+Samples tested until now: 650
+Accuracy until now: 76.46 %
+
+Idx 650
+Question ID: 5997
+Video ID: 00000153
+Predicted: 4
+Target: 4
+Correct until now: 498
+Samples tested until now: 651
+Accuracy until now: 76.50 %
+
+Idx 651
+Question ID: 6454
+Video ID: 00000165
+Predicted: 1
+Target: 1
+Correct until now: 499
+Samples tested until now: 652
+Accuracy until now: 76.53 %
+
+Idx 652
+Question ID: 4056
+Video ID: 00000103
+Predicted: 11
+Target: 11
+Correct until now: 500
+Samples tested until now: 653
+Accuracy until now: 76.57 %
+
+Idx 653
+Question ID: 91
+Video ID: 00000002
+Predicted: 0
+Target: 0
+Correct until now: 501
+Samples tested until now: 654
+Accuracy until now: 76.61 %
+
+Idx 654
+Question ID: 8626
+Video ID: 00000228
+Predicted: 6
+Target: 6
+Correct until now: 502
+Samples tested until now: 655
+Accuracy until now: 76.64 %
+
+Idx 655
+Question ID: 2350
+Video ID: 00000062
+Predicted: 0
+Target: 0
+Correct until now: 503
+Samples tested until now: 656
+Accuracy until now: 76.68 %
+
+Idx 656
+Question ID: 11784
+Video ID: 00000308
+Predicted: 4
+Target: 4
+Correct until now: 504
+Samples tested until now: 657
+Accuracy until now: 76.71 %
+
+Idx 657
+Question ID: 7572
+Video ID: 00000194
+Predicted: 74
+Target: 74
+Correct until now: 505
+Samples tested until now: 658
+Accuracy until now: 76.75 %
+
+Idx 658
+Question ID: 11641
+Video ID: 00000304
+Predicted: 0
+Target: 0
+Correct until now: 506
+Samples tested until now: 659
+Accuracy until now: 76.78 %
+
+Idx 659
+Question ID: 3791
+Video ID: 00000098
+Predicted: 61
+Target: 61
+Correct until now: 507
+Samples tested until now: 660
+Accuracy until now: 76.82 %
+
+Idx 660
+Question ID: 11315
+Video ID: 00000295
+Predicted: 4
+Target: 0
+Correct until now: 507
+Samples tested until now: 661
+Accuracy until now: 76.70 %
+
+Idx 661
+Question ID: 1026
+Video ID: 00000025
+Predicted: 41
+Target: 41
+Correct until now: 508
+Samples tested until now: 662
+Accuracy until now: 76.74 %
+
+Idx 662
+Question ID: 3262
+Video ID: 00000086
+Predicted: 1
+Target: 1
+Correct until now: 509
+Samples tested until now: 663
+Accuracy until now: 76.77 %
+
+Idx 663
+Question ID: 7137
+Video ID: 00000184
+Predicted: 4
+Target: 4
+Correct until now: 510
+Samples tested until now: 664
+Accuracy until now: 76.81 %
+
+Idx 664
+Question ID: 2453
+Video ID: 00000065
+Predicted: 4
+Target: 4
+Correct until now: 511
+Samples tested until now: 665
+Accuracy until now: 76.84 %
+
+Idx 665
+Question ID: 10526
+Video ID: 00000276
+Predicted: 25
+Target: 3
+Correct until now: 511
+Samples tested until now: 666
+Accuracy until now: 76.73 %
+
+Idx 666
+Question ID: 6428
+Video ID: 00000164
+Predicted: 6
+Target: 6
+Correct until now: 512
+Samples tested until now: 667
+Accuracy until now: 76.76 %
+
+Idx 667
+Question ID: 10499
+Video ID: 00000275
+Predicted: 3
+Target: 3
+Correct until now: 513
+Samples tested until now: 668
+Accuracy until now: 76.80 %
+
+Idx 668
+Question ID: 10375
+Video ID: 00000271
+Predicted: 4
+Target: 4
+Correct until now: 514
+Samples tested until now: 669
+Accuracy until now: 76.83 %
+
+Idx 669
+Question ID: 901
+Video ID: 00000023
+Predicted: 4
+Target: 4
+Correct until now: 515
+Samples tested until now: 670
+Accuracy until now: 76.87 %
+
+Idx 670
+Question ID: 5439
+Video ID: 00000138
+Predicted: 4
+Target: 4
+Correct until now: 516
+Samples tested until now: 671
+Accuracy until now: 76.90 %
+
+Idx 671
+Question ID: 6170
+Video ID: 00000157
+Predicted: 6
+Target: 6
+Correct until now: 517
+Samples tested until now: 672
+Accuracy until now: 76.93 %
+
+Idx 672
+Question ID: 3728
+Video ID: 00000097
+Predicted: 0
+Target: 0
+Correct until now: 518
+Samples tested until now: 673
+Accuracy until now: 76.97 %
+
+Idx 673
+Question ID: 1351
+Video ID: 00000034
+Predicted: 0
+Target: 0
+Correct until now: 519
+Samples tested until now: 674
+Accuracy until now: 77.00 %
+
+Idx 674
+Question ID: 762
+Video ID: 00000019
+Predicted: 4
+Target: 4
+Correct until now: 520
+Samples tested until now: 675
+Accuracy until now: 77.04 %
+
+Idx 675
+Question ID: 4979
+Video ID: 00000126
+Predicted: 0
+Target: 0
+Correct until now: 521
+Samples tested until now: 676
+Accuracy until now: 77.07 %
+
+Idx 676
+Question ID: 8911
+Video ID: 00000236
+Predicted: 1
+Target: 1
+Correct until now: 522
+Samples tested until now: 677
+Accuracy until now: 77.10 %
+
+Idx 677
+Question ID: 1028
+Video ID: 00000025
+Predicted: 15
+Target: 38
+Correct until now: 522
+Samples tested until now: 678
+Accuracy until now: 76.99 %
+
+Idx 678
+Question ID: 6473
+Video ID: 00000166
+Predicted: 0
+Target: 0
+Correct until now: 523
+Samples tested until now: 679
+Accuracy until now: 77.03 %
+
+Idx 679
+Question ID: 9117
+Video ID: 00000241
+Predicted: 4
+Target: 4
+Correct until now: 524
+Samples tested until now: 680
+Accuracy until now: 77.06 %
+
+Idx 680
+Question ID: 2192
+Video ID: 00000058
+Predicted: 0
+Target: 0
+Correct until now: 525
+Samples tested until now: 681
+Accuracy until now: 77.09 %
+
+Idx 681
+Question ID: 3593
+Video ID: 00000093
+Predicted: 0
+Target: 0
+Correct until now: 526
+Samples tested until now: 682
+Accuracy until now: 77.13 %
+
+Idx 682
+Question ID: 8904
+Video ID: 00000236
+Predicted: 1
+Target: 3
+Correct until now: 526
+Samples tested until now: 683
+Accuracy until now: 77.01 %
+
+Idx 683
+Question ID: 5548
+Video ID: 00000141
+Predicted: 4
+Target: 4
+Correct until now: 527
+Samples tested until now: 684
+Accuracy until now: 77.05 %
+
+Idx 684
+Question ID: 7822
+Video ID: 00000202
+Predicted: 4
+Target: 0
+Correct until now: 527
+Samples tested until now: 685
+Accuracy until now: 76.93 %
+
+Idx 685
+Question ID: 1039
+Video ID: 00000026
+Predicted: 3
+Target: 1
+Correct until now: 527
+Samples tested until now: 686
+Accuracy until now: 76.82 %
+
+Idx 686
+Question ID: 10544
+Video ID: 00000276
+Predicted: 0
+Target: 0
+Correct until now: 528
+Samples tested until now: 687
+Accuracy until now: 76.86 %
+
+Idx 687
+Question ID: 670
+Video ID: 00000017
+Predicted: 1
+Target: 1
+Correct until now: 529
+Samples tested until now: 688
+Accuracy until now: 76.89 %
+
+Idx 688
+Question ID: 7857
+Video ID: 00000203
+Predicted: 3
+Target: 3
+Correct until now: 530
+Samples tested until now: 689
+Accuracy until now: 76.92 %
+
+Idx 689
+Question ID: 6911
+Video ID: 00000178
+Predicted: 4
+Target: 4
+Correct until now: 531
+Samples tested until now: 690
+Accuracy until now: 76.96 %
+
+Idx 690
+Question ID: 1207
+Video ID: 00000030
+Predicted: 29
+Target: 29
+Correct until now: 532
+Samples tested until now: 691
+Accuracy until now: 76.99 %
+
+Idx 691
+Question ID: 11834
+Video ID: 00000309
+Predicted: 6
+Target: 6
+Correct until now: 533
+Samples tested until now: 692
+Accuracy until now: 77.02 %
+
+Idx 692
+Question ID: 9059
+Video ID: 00000240
+Predicted: 4
+Target: 4
+Correct until now: 534
+Samples tested until now: 693
+Accuracy until now: 77.06 %
+
+Idx 693
+Question ID: 1731
+Video ID: 00000046
+Predicted: 0
+Target: 0
+Correct until now: 535
+Samples tested until now: 694
+Accuracy until now: 77.09 %
+
+Idx 694
+Question ID: 1404
+Video ID: 00000036
+Predicted: 1
+Target: 1
+Correct until now: 536
+Samples tested until now: 695
+Accuracy until now: 77.12 %
+
+Idx 695
+Question ID: 10905
+Video ID: 00000285
+Predicted: 118
+Target: 118
+Correct until now: 537
+Samples tested until now: 696
+Accuracy until now: 77.16 %
+
+Idx 696
+Question ID: 4351
+Video ID: 00000110
+Predicted: 7
+Target: 7
+Correct until now: 538
+Samples tested until now: 697
+Accuracy until now: 77.19 %
+
+Idx 697
+Question ID: 7568
+Video ID: 00000194
+Predicted: 11
+Target: 11
+Correct until now: 539
+Samples tested until now: 698
+Accuracy until now: 77.22 %
+
+Idx 698
+Question ID: 11109
+Video ID: 00000290
+Predicted: 118
+Target: 8
+Correct until now: 539
+Samples tested until now: 699
+Accuracy until now: 77.11 %
+
+Idx 699
+Question ID: 751
+Video ID: 00000019
+Predicted: 0
+Target: 0
+Correct until now: 540
+Samples tested until now: 700
+Accuracy until now: 77.14 %
+
+Idx 700
+Question ID: 2737
+Video ID: 00000073
+Predicted: 9
+Target: 61
+Correct until now: 540
+Samples tested until now: 701
+Accuracy until now: 77.03 %
+
+Idx 701
+Question ID: 5599
+Video ID: 00000143
+Predicted: 4
+Target: 4
+Correct until now: 541
+Samples tested until now: 702
+Accuracy until now: 77.07 %
+
+Idx 702
+Question ID: 10566
+Video ID: 00000277
+Predicted: 0
+Target: 0
+Correct until now: 542
+Samples tested until now: 703
+Accuracy until now: 77.10 %
+
+Idx 703
+Question ID: 2671
+Video ID: 00000071
+Predicted: 42
+Target: 50
+Correct until now: 542
+Samples tested until now: 704
+Accuracy until now: 76.99 %
+
+Idx 704
+Question ID: 8332
+Video ID: 00000220
+Predicted: 4
+Target: 4
+Correct until now: 543
+Samples tested until now: 705
+Accuracy until now: 77.02 %
+
+Idx 705
+Question ID: 5596
+Video ID: 00000143
+Predicted: 4
+Target: 4
+Correct until now: 544
+Samples tested until now: 706
+Accuracy until now: 77.05 %
+
+Idx 706
+Question ID: 9642
+Video ID: 00000253
+Predicted: 67
+Target: 14
+Correct until now: 544
+Samples tested until now: 707
+Accuracy until now: 76.94 %
+
+Idx 707
+Question ID: 5222
+Video ID: 00000132
+Predicted: 4
+Target: 4
+Correct until now: 545
+Samples tested until now: 708
+Accuracy until now: 76.98 %
+
+Idx 708
+Question ID: 1876
+Video ID: 00000049
+Predicted: 15
+Target: 15
+Correct until now: 546
+Samples tested until now: 709
+Accuracy until now: 77.01 %
+
+Idx 709
+Question ID: 3572
+Video ID: 00000093
+Predicted: 3
+Target: 3
+Correct until now: 547
+Samples tested until now: 710
+Accuracy until now: 77.04 %
+
+Idx 710
+Question ID: 10647
+Video ID: 00000279
+Predicted: 4
+Target: 4
+Correct until now: 548
+Samples tested until now: 711
+Accuracy until now: 77.07 %
+
+Idx 711
+Question ID: 6753
+Video ID: 00000174
+Predicted: 4
+Target: 4
+Correct until now: 549
+Samples tested until now: 712
+Accuracy until now: 77.11 %
+
+Idx 712
+Question ID: 5881
+Video ID: 00000149
+Predicted: 39
+Target: 39
+Correct until now: 550
+Samples tested until now: 713
+Accuracy until now: 77.14 %
+
+Idx 713
+Question ID: 649
+Video ID: 00000016
+Predicted: 0
+Target: 0
+Correct until now: 551
+Samples tested until now: 714
+Accuracy until now: 77.17 %
+
+Idx 714
+Question ID: 1439
+Video ID: 00000037
+Predicted: 4
+Target: 0
+Correct until now: 551
+Samples tested until now: 715
+Accuracy until now: 77.06 %
+
+Idx 715
+Question ID: 3880
+Video ID: 00000100
+Predicted: 4
+Target: 4
+Correct until now: 552
+Samples tested until now: 716
+Accuracy until now: 77.09 %
+
+Idx 716
+Question ID: 3327
+Video ID: 00000087
+Predicted: 41
+Target: 41
+Correct until now: 553
+Samples tested until now: 717
+Accuracy until now: 77.13 %
+
+Idx 717
+Question ID: 8651
+Video ID: 00000229
+Predicted: 1
+Target: 1
+Correct until now: 554
+Samples tested until now: 718
+Accuracy until now: 77.16 %
+
+Idx 718
+Question ID: 1643
+Video ID: 00000044
+Predicted: 1
+Target: 1
+Correct until now: 555
+Samples tested until now: 719
+Accuracy until now: 77.19 %
+
+Idx 719
+Question ID: 864
+Video ID: 00000022
+Predicted: 0
+Target: 0
+Correct until now: 556
+Samples tested until now: 720
+Accuracy until now: 77.22 %
+
+Idx 720
+Question ID: 4921
+Video ID: 00000124
+Predicted: 4
+Target: 4
+Correct until now: 557
+Samples tested until now: 721
+Accuracy until now: 77.25 %
+
+Idx 721
+Question ID: 7408
+Video ID: 00000191
+Predicted: 0
+Target: 0
+Correct until now: 558
+Samples tested until now: 722
+Accuracy until now: 77.29 %
+
+Idx 722
+Question ID: 2097
+Video ID: 00000055
+Predicted: 4
+Target: 4
+Correct until now: 559
+Samples tested until now: 723
+Accuracy until now: 77.32 %
+
+Idx 723
+Question ID: 3385
+Video ID: 00000089
+Predicted: 4
+Target: 4
+Correct until now: 560
+Samples tested until now: 724
+Accuracy until now: 77.35 %
+
+Idx 724
+Question ID: 396
+Video ID: 00000009
+Predicted: 0
+Target: 0
+Correct until now: 561
+Samples tested until now: 725
+Accuracy until now: 77.38 %
+
+Idx 725
+Question ID: 2434
+Video ID: 00000064
+Predicted: 4
+Target: 4
+Correct until now: 562
+Samples tested until now: 726
+Accuracy until now: 77.41 %
+
+Idx 726
+Question ID: 7890
+Video ID: 00000204
+Predicted: 3
+Target: 3
+Correct until now: 563
+Samples tested until now: 727
+Accuracy until now: 77.44 %
+
+Idx 727
+Question ID: 10022
+Video ID: 00000261
+Predicted: 4
+Target: 4
+Correct until now: 564
+Samples tested until now: 728
+Accuracy until now: 77.47 %
+
+Idx 728
+Question ID: 4673
+Video ID: 00000118
+Predicted: 98
+Target: 98
+Correct until now: 565
+Samples tested until now: 729
+Accuracy until now: 77.50 %
+
+Idx 729
+Question ID: 10757
+Video ID: 00000282
+Predicted: 4
+Target: 4
+Correct until now: 566
+Samples tested until now: 730
+Accuracy until now: 77.53 %
+
+Idx 730
+Question ID: 643
+Video ID: 00000016
+Predicted: 42
+Target: 42
+Correct until now: 567
+Samples tested until now: 731
+Accuracy until now: 77.56 %
+
+Idx 731
+Question ID: 3919
+Video ID: 00000100
+Predicted: 60
+Target: 60
+Correct until now: 568
+Samples tested until now: 732
+Accuracy until now: 77.60 %
+
+Idx 732
+Question ID: 6080
+Video ID: 00000155
+Predicted: 0
+Target: 0
+Correct until now: 569
+Samples tested until now: 733
+Accuracy until now: 77.63 %
+
+Idx 733
+Question ID: 11703
+Video ID: 00000306
+Predicted: 1
+Target: 27
+Correct until now: 569
+Samples tested until now: 734
+Accuracy until now: 77.52 %
+
+Idx 734
+Question ID: 9277
+Video ID: 00000245
+Predicted: 4
+Target: 4
+Correct until now: 570
+Samples tested until now: 735
+Accuracy until now: 77.55 %
+
+Idx 735
+Question ID: 10855
+Video ID: 00000284
+Predicted: 112
+Target: 18
+Correct until now: 570
+Samples tested until now: 736
+Accuracy until now: 77.45 %
+
+Idx 736
+Question ID: 1426
+Video ID: 00000036
+Predicted: 41
+Target: 41
+Correct until now: 571
+Samples tested until now: 737
+Accuracy until now: 77.48 %
+
+Idx 737
+Question ID: 7991
+Video ID: 00000207
+Predicted: 3
+Target: 3
+Correct until now: 572
+Samples tested until now: 738
+Accuracy until now: 77.51 %
+
+Idx 738
+Question ID: 3050
+Video ID: 00000081
+Predicted: 3
+Target: 27
+Correct until now: 572
+Samples tested until now: 739
+Accuracy until now: 77.40 %
+
+Idx 739
+Question ID: 10727
+Video ID: 00000281
+Predicted: 4
+Target: 0
+Correct until now: 572
+Samples tested until now: 740
+Accuracy until now: 77.30 %
+
+Idx 740
+Question ID: 9296
+Video ID: 00000245
+Predicted: 4
+Target: 4
+Correct until now: 573
+Samples tested until now: 741
+Accuracy until now: 77.33 %
+
+Idx 741
+Question ID: 3069
+Video ID: 00000081
+Predicted: 4
+Target: 4
+Correct until now: 574
+Samples tested until now: 742
+Accuracy until now: 77.36 %
+
+Idx 742
+Question ID: 7200
+Video ID: 00000186
+Predicted: 4
+Target: 4
+Correct until now: 575
+Samples tested until now: 743
+Accuracy until now: 77.39 %
+
+Idx 743
+Question ID: 4387
+Video ID: 00000111
+Predicted: 41
+Target: 41
+Correct until now: 576
+Samples tested until now: 744
+Accuracy until now: 77.42 %
+
+Idx 744
+Question ID: 7934
+Video ID: 00000205
+Predicted: 4
+Target: 4
+Correct until now: 577
+Samples tested until now: 745
+Accuracy until now: 77.45 %
+
+Idx 745
+Question ID: 6914
+Video ID: 00000178
+Predicted: 4
+Target: 4
+Correct until now: 578
+Samples tested until now: 746
+Accuracy until now: 77.48 %
+
+Idx 746
+Question ID: 8591
+Video ID: 00000227
+Predicted: 4
+Target: 4
+Correct until now: 579
+Samples tested until now: 747
+Accuracy until now: 77.51 %
+
+Idx 747
+Question ID: 8960
+Video ID: 00000237
+Predicted: 0
+Target: 0
+Correct until now: 580
+Samples tested until now: 748
+Accuracy until now: 77.54 %
+
+Idx 748
+Question ID: 5559
+Video ID: 00000142
+Predicted: 3
+Target: 3
+Correct until now: 581
+Samples tested until now: 749
+Accuracy until now: 77.57 %
+
+Idx 749
+Question ID: 1478
+Video ID: 00000038
+Predicted: 18
+Target: 18
+Correct until now: 582
+Samples tested until now: 750
+Accuracy until now: 77.60 %
+
+Idx 750
+Question ID: 10368
+Video ID: 00000271
+Predicted: 5
+Target: 5
+Correct until now: 583
+Samples tested until now: 751
+Accuracy until now: 77.63 %
+
+Idx 751
+Question ID: 3720
+Video ID: 00000096
+Predicted: 0
+Target: 0
+Correct until now: 584
+Samples tested until now: 752
+Accuracy until now: 77.66 %
+
+Idx 752
+Question ID: 1959
+Video ID: 00000052
+Predicted: 1
+Target: 1
+Correct until now: 585
+Samples tested until now: 753
+Accuracy until now: 77.69 %
+
+Idx 753
+Question ID: 9617
+Video ID: 00000253
+Predicted: 4
+Target: 4
+Correct until now: 586
+Samples tested until now: 754
+Accuracy until now: 77.72 %
+
+Idx 754
+Question ID: 818
+Video ID: 00000021
+Predicted: 1
+Target: 1
+Correct until now: 587
+Samples tested until now: 755
+Accuracy until now: 77.75 %
+
+Idx 755
+Question ID: 4276
+Video ID: 00000108
+Predicted: 0
+Target: 0
+Correct until now: 588
+Samples tested until now: 756
+Accuracy until now: 77.78 %
+
+Idx 756
+Question ID: 11417
+Video ID: 00000298
+Predicted: 4
+Target: 4
+Correct until now: 589
+Samples tested until now: 757
+Accuracy until now: 77.81 %
+
+Idx 757
+Question ID: 822
+Video ID: 00000021
+Predicted: 0
+Target: 0
+Correct until now: 590
+Samples tested until now: 758
+Accuracy until now: 77.84 %
+
+Idx 758
+Question ID: 11536
+Video ID: 00000301
+Predicted: 4
+Target: 4
+Correct until now: 591
+Samples tested until now: 759
+Accuracy until now: 77.87 %
+
+Idx 759
+Question ID: 496
+Video ID: 00000012
+Predicted: 1
+Target: 1
+Correct until now: 592
+Samples tested until now: 760
+Accuracy until now: 77.89 %
+
+Idx 760
+Question ID: 9542
+Video ID: 00000251
+Predicted: 1
+Target: 25
+Correct until now: 592
+Samples tested until now: 761
+Accuracy until now: 77.79 %
+
+Idx 761
+Question ID: 8419
+Video ID: 00000222
+Predicted: 4
+Target: 4
+Correct until now: 593
+Samples tested until now: 762
+Accuracy until now: 77.82 %
+
+Idx 762
+Question ID: 7213
+Video ID: 00000186
+Predicted: 4
+Target: 4
+Correct until now: 594
+Samples tested until now: 763
+Accuracy until now: 77.85 %
+
+Idx 763
+Question ID: 5117
+Video ID: 00000129
+Predicted: 4
+Target: 4
+Correct until now: 595
+Samples tested until now: 764
+Accuracy until now: 77.88 %
+
+Idx 764
+Question ID: 5373
+Video ID: 00000136
+Predicted: 11
+Target: 11
+Correct until now: 596
+Samples tested until now: 765
+Accuracy until now: 77.91 %
+
+Idx 765
+Question ID: 3443
+Video ID: 00000090
+Predicted: 67
+Target: 14
+Correct until now: 596
+Samples tested until now: 766
+Accuracy until now: 77.81 %
+
+Idx 766
+Question ID: 2201
+Video ID: 00000058
+Predicted: 67
+Target: 67
+Correct until now: 597
+Samples tested until now: 767
+Accuracy until now: 77.84 %
+
+Idx 767
+Question ID: 228
+Video ID: 00000005
+Predicted: 4
+Target: 4
+Correct until now: 598
+Samples tested until now: 768
+Accuracy until now: 77.86 %
+
+Idx 768
+Question ID: 5447
+Video ID: 00000139
+Predicted: 25
+Target: 1
+Correct until now: 598
+Samples tested until now: 769
+Accuracy until now: 77.76 %
+
+Idx 769
+Question ID: 11349
+Video ID: 00000296
+Predicted: 29
+Target: 29
+Correct until now: 599
+Samples tested until now: 770
+Accuracy until now: 77.79 %
+
+Idx 770
+Question ID: 6430
+Video ID: 00000164
+Predicted: 4
+Target: 4
+Correct until now: 600
+Samples tested until now: 771
+Accuracy until now: 77.82 %
+
+Idx 771
+Question ID: 5940
+Video ID: 00000151
+Predicted: 6
+Target: 6
+Correct until now: 601
+Samples tested until now: 772
+Accuracy until now: 77.85 %
+
+Idx 772
+Question ID: 10959
+Video ID: 00000287
+Predicted: 1
+Target: 27
+Correct until now: 601
+Samples tested until now: 773
+Accuracy until now: 77.75 %
+
+Idx 773
+Question ID: 5822
+Video ID: 00000148
+Predicted: 64
+Target: 64
+Correct until now: 602
+Samples tested until now: 774
+Accuracy until now: 77.78 %
+
+Idx 774
+Question ID: 7630
+Video ID: 00000196
+Predicted: 0
+Target: 4
+Correct until now: 602
+Samples tested until now: 775
+Accuracy until now: 77.68 %
+
+Idx 775
+Question ID: 9060
+Video ID: 00000240
+Predicted: 1
+Target: 1
+Correct until now: 603
+Samples tested until now: 776
+Accuracy until now: 77.71 %
+
+Idx 776
+Question ID: 10907
+Video ID: 00000285
+Predicted: 0
+Target: 0
+Correct until now: 604
+Samples tested until now: 777
+Accuracy until now: 77.73 %
+

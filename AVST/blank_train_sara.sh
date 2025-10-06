@@ -1,9 +1,9 @@
 #!/bin/bash     
 
 
-#SBATCH --job-name=trial0
+#SBATCH --job-name=train_model 
 #SBATCH --account=ec12
-#SBATCH --time=00:03:00
+#SBATCH --time=24:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=32G
@@ -11,13 +11,12 @@
 #SBATCH --gpus=rtx30:1
 
 
-#BATCH --qos=devel
-
+## SBATCH --qos=devel
 
 
 ## SBATCH --output=./slurm_outs/test_avst_out_%j.txt
 
-#SBATCH --output=./slurm_test_avst_out.txt
+#SBATCH --output=./slurm_train_avst_out.txt
 
 module purge
 module load UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0
@@ -36,6 +35,10 @@ cd $DIR &> /dev/null
 
 ## export CUDA_LAUNCH_BLOCKING=1
 
-python avst_test.py > ./avst_test.txt
 
-# python avst_test_success.py > ./avst_test_success.txt
+python blank_train_avst.py > ./progress/blank_avst_train.txt
+
+
+
+
+
