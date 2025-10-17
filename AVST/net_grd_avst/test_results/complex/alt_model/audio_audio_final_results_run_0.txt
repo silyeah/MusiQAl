@@ -8,19 +8,19 @@ Audio Caus Accuracy: 66.67 %
 Audio Accuracy: 39.02 %
 
 Visual Ext Accuracy: nan %
-Visual Loc Accuracy: 51.22 %
-Visual Counting Accuracy: 48.72 %
+Visual Loc Accuracy: 50.00 %
+Visual Counting Accuracy: 47.44 %
 Visual Temp Accuracy: nan %
-Visual Caus Accuracy: 57.14 %
-Visual Accuracy: 51.06 %
+Visual Caus Accuracy: 60.71 %
+Visual Accuracy: 50.53 %
 
-AV Ext Accuracy: 57.81 %
-AV counting Accuracy: 51.58 %
+AV Ext Accuracy: 56.25 %
+AV counting Accuracy: 52.63 %
 AV Loc Accuracy: 56.25 %
 AV Cmp Accuracy: nan %
 AV Temporal Accuracy: 39.73 %
-AV Caus Accuracy: 54.55 %
-AV Purp Accuracy: 62.86 %
-AV Accuracy: 52.08 %
+AV Caus Accuracy: 50.00 %
+AV Purp Accuracy: 51.43 %
+AV Accuracy: 51.16 %
 
-Overall Accuracy: 50.98 %
+Overall Accuracy: 50.23 %

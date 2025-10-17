@@ -1,29 +1,26 @@
 Final results of test run 0
 
 Audio Existential Accuracy: 36.59 %
-Audio Counting Accuracy: 45.00 %
-Audio Cmp Accuracy: 61.29 %
+Audio Counting Accuracy: 46.00 %
+Audio Cmp Accuracy: 59.68 %
 Audio Temp Accuracy: 7.14 %
 Audio Caus Accuracy: 66.67 %
 Audio Accuracy: 45.91 %
 
 Visual Ext Accuracy: 83.33 %
 Visual Loc Accuracy: 44.44 %
-Visual Counting Accuracy: 50.78 %
-Visual Temp Accuracy: 55.17 %
-Visual Caus Accuracy: 57.14 %
-Visual Accuracy: 50.97 %
+Visual Counting Accuracy: 46.88 %
+Visual Temp Accuracy: 68.97 %
+Visual Caus Accuracy: 60.71 %
+Visual Accuracy: 52.26 %
 
-AV Ext Accuracy: 48.57 %
-AV counting Accuracy: 29.47 %
-AV Loc Accuracy: 53.70 %
+AV Ext Accuracy: 49.71 %
+AV counting Accuracy: 32.11 %
+AV Loc Accuracy: 51.85 %
 AV Cmp Accuracy: 86.67 %
 AV Temporal Accuracy: 32.97 %
 AV Caus Accuracy: 60.42 %
-AV Purp Accuracy: 54.29 %
-AV Accuracy: 45.94 %
+AV Purp Accuracy: 45.71 %
+AV Accuracy: 46.40 %
 
-Overall Accuracy: 47.25 %
-
-
-
+Overall Accuracy: 47.84 %
