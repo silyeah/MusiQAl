@@ -1428,7 +1428,7 @@
       "question_content":"Which is the musical instrument that sounds at the same time as the <Object>?",
       "templ_values":"[\"drums\"]",
       "question_deleted":0,
-      "answer":"drums"
+      "answer":"bass"
    },
    {
       "video_id":"00000279",
@@ -1444,7 +1444,7 @@
       "question_id":1662,
       "type":"[\"Audio-Visual\", \"Comparative\"]",
       "question_content":"Did the <object> gestures correspond with the <object> fills?  ",
-      "templ_values":"[\"dancer\", \"computer\"]",
+      "templ_values":"[\"computer\", \"computer\"]",
       "question_deleted":0,
       "answer":"no"
    },
@@ -1732,7 +1732,7 @@
       "question_id":2543,
       "type":"[\"Audio-Visual\", \"Counting\"]",
       "question_content":"How many sounding <Object> in the video?",
-      "templ_values":"[\"double bass\"]",
+      "templ_values":"[\"guitar\"]",
       "question_deleted":0,
       "answer":"five"
    },
@@ -2436,7 +2436,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"harp\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000175",
@@ -3552,7 +3552,7 @@
       "question_content":"What is the purpose of <Object> in the video?",
       "templ_values":"[\"finger picks\"]",
       "question_deleted":0,
-      "answer":"instrument"
+      "answer":"prop"
    },
    {
       "video_id":"00000150",
@@ -4972,7 +4972,7 @@
       "question_id":505,
       "type":"[\"Visual\", \"Temporal\"]",
       "question_content":"Did the <object> perform any visual actions during the video?",
-      "templ_values":"[\"piano\"]",
+      "templ_values":"[\"pianist\"]",
       "question_deleted":0,
       "answer":"no"
    },
@@ -6657,7 +6657,7 @@
       "question_content":"Is there a <Object> in the entire video?",
       "templ_values":"[\"bass\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000088",
@@ -7458,7 +7458,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"computer\"]",
       "question_deleted":0,
-      "answer":"two"
+      "answer":"one"
    },
    {
       "video_id":"00000201",
@@ -7906,9 +7906,9 @@
       "question_id":1647,
       "type":"[\"Audio-Visual\", \"Existential\"]",
       "question_content":"Is the <Object> in the video always playing?",
-      "templ_values":"[\"computer\"]",
+      "templ_values":"[\"guitar\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000051",
@@ -8088,7 +8088,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"tsabouna\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000300",
@@ -8457,7 +8457,7 @@
       "question_content":"How many types of musical instruments sound in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"five"
    },
    {
       "video_id":"00000108",
@@ -9141,7 +9141,7 @@
       "question_content":"How many musical instruments were heard throughout the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"more than ten"
    },
    {
       "video_id":"00000130",
@@ -9195,7 +9195,7 @@
       "question_content":"Are there <Object> and <Object> instruments in the video?",
       "templ_values":"[\"computer\", \"guitar\"]",
       "question_deleted":0,
-      "answer":"no"
+      "answer":"yes"
    },
    {
       "video_id":"00000034",
@@ -9483,7 +9483,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"flute\"]",
       "question_deleted":0,
-      "answer":"six"
+      "answer":"yes"
    },
    {
       "video_id":"00000193",
@@ -9578,11 +9578,11 @@
    {
       "video_id":"00000007",
       "question_id":329,
-      "type":"[\"Audio\", \"Counting\"]",
-      "question_content":"Is there a <Object> sound?",
-      "templ_values":"[\"guitar\"]",
+      "type":"[\"Audio\", \"Comparative\"]",
+      "question_content":"Is the <Object> playing longer than the <Object>? ",
+      "templ_values":"[\"bass\", \"drums\"]",
       "question_deleted":0,
-      "answer":"no"
+      "answer":"yes"
    },
    {
       "video_id":"00000309",
@@ -9915,7 +9915,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"dundun\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"two"
    },
    {
       "video_id":"00000094",
@@ -10480,7 +10480,7 @@
       "question_id":1480,
       "type":"[\"Audio-Visual\", \"Purpose\"]",
       "question_content":"What is the purpose of <Object> in the video?",
-      "templ_values":"[\"outi\"]",
+      "templ_values":"[\"hat\"]",
       "question_deleted":0,
       "answer":"instrument"
    },
@@ -10687,7 +10687,7 @@
       "question_id":676,
       "type":"[\"Visual\", \"Temporal\"]",
       "question_content":"Did the <object> perform any visual actions during the video?",
-      "templ_values":"[\"djembe\"]",
+      "templ_values":"[\"drums\"]",
       "question_deleted":0,
       "answer":"yes"
    },
@@ -10939,7 +10939,7 @@
       "question_id":699,
       "type":"[\"Audio-Visual\", \"Existential\"]",
       "question_content":"Did the <object> gestures convey the emotion of the music?",
-      "templ_values":"[\"djembe\"]",
+      "templ_values":"[\"drums\"]",
       "question_deleted":0,
       "answer":"yes"
    },
@@ -13596,7 +13596,7 @@
       "question_content":"How many types of musical instruments sound in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"three"
    },
    {
       "video_id":"00000099",
@@ -14208,7 +14208,7 @@
       "question_content":"What is the <LR> instrument of the <FL> sounding instrument?",
       "templ_values":"[\"left\", \"first\"]",
       "question_deleted":0,
-      "answer":"dundun"
+      "answer":"djembe"
    },
    {
       "video_id":"00000089",
@@ -14964,7 +14964,7 @@
       "question_content":"Is the <Object> in the video always playing?",
       "templ_values":"[\"guitar\"]",
       "question_deleted":0,
-      "answer":"no"
+      "answer":"yes"
    },
    {
       "video_id":"00000244",
@@ -15936,7 +15936,7 @@
       "question_content":"How many instruments are sounding in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"ten"
    },
    {
       "video_id":"00000267",
@@ -16647,7 +16647,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"computer\"]",
       "question_deleted":0,
-      "answer":"two"
+      "answer":"one"
    },
    {
       "video_id":"00000003",
@@ -18393,7 +18393,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"dundun\"]",
       "question_deleted":0,
-      "answer":"two"
+      "answer":"yes"
    },
    {
       "video_id":"00000250",
@@ -18456,7 +18456,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"saxophone\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000234",
@@ -19482,7 +19482,7 @@
       "question_content":"Is there a <Object> in the entire video?",
       "templ_values":"[\"Cretan lyra\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000120",
@@ -19653,7 +19653,7 @@
       "question_content":"Are there <Object> and <Object> instruments in the video?",
       "templ_values":"[\"drums\", \"bass\"]",
       "question_deleted":0,
-      "answer":"no"
+      "answer":"yes"
    },
    {
       "video_id":"00000305",
@@ -21172,7 +21172,7 @@
       "question_id":1509,
       "type":"[\"Visual\", \"Location\"]",
       "question_content":"Is there distance between <Object> and <Object>?",
-      "templ_values":"[\"fiddle\", \"banjo\"]",
+      "templ_values":"[\"fiddle\", \"guitar\"]",
       "question_deleted":0,
       "answer":"yes"
    },
@@ -22038,7 +22038,7 @@
       "question_content":"How many types of musical instruments sound in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"five"
    },
    {
       "video_id":"00000151",
@@ -22299,7 +22299,7 @@
       "question_content":"Is this sound from the instrument in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000016",
@@ -22695,7 +22695,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"fiddle\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000308",
@@ -23172,7 +23172,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"flute\"]",
       "question_deleted":0,
-      "answer":"more than ten"
+      "answer":"yes"
    },
    {
       "video_id":"00000109",
@@ -23460,7 +23460,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"Cretan lyra\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000001",
@@ -26021,11 +26021,11 @@
    {
       "video_id":"00000007",
       "question_id":332,
-      "type":"[\"Audio\", \"Counting\"]",
-      "question_content":"Is there a <Object> sound?",
-      "templ_values":"[\"bass\"]",
+      "type":"[\"Audio\", \"Comparative\"]",
+      "question_content":"Does <Object> play the same rhythm with <Object>?",
+      "templ_values":"[\"bass\", \"drums\"]",
       "question_deleted":0,
-      "answer":"no"
+      "answer":"yes"
    },
    {
       "video_id":"00000275",
@@ -26176,9 +26176,9 @@
       "question_id":26,
       "type":"[\"Visual\", \"Location\"]",
       "question_content":"Is there distance between <Object> and <Object>?",
-      "templ_values":"[\"bass\", \"drums\"]",
+      "templ_values":"[\"bass\", \"guitar\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000295",
@@ -26230,7 +26230,7 @@
       "question_id":1947,
       "type":"[\"Audio-Visual\", \"Existential\"]",
       "question_content":"Did the <object> gestures convey the emotion of the music?",
-      "templ_values":"[\"computer\"]",
+      "templ_values":"[\"drums\"]",
       "question_deleted":0,
       "answer":"no"
    },
@@ -26266,7 +26266,7 @@
       "question_id":903,
       "type":"[\"Visual\", \"Temporal\"]",
       "question_content":"Did the <object> perform any visual actions during the video?",
-      "templ_values":"[\"djembe\"]",
+      "templ_values":"[\"drums\"]",
       "question_deleted":0,
       "answer":"yes"
    },
@@ -26610,7 +26610,7 @@
       "question_content":"Did the visual theme of the stage change during the piece?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000285",
@@ -27006,7 +27006,7 @@
       "question_content":"How many types of musical instruments sound in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"five"
    },
    {
       "video_id":"00000018",
@@ -27015,7 +27015,7 @@
       "question_content":"How many sounding <Object> in the video?",
       "templ_values":"[\"violin\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"five"
    },
    {
       "video_id":"00000291",
@@ -27789,7 +27789,7 @@
       "question_content":"Is there a <Object> in the entire video?",
       "templ_values":"[\"outi\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000148",
@@ -28986,7 +28986,7 @@
       "question_content":"How many instruments are sounding in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"three"
    },
    {
       "video_id":"00000066",
@@ -29180,11 +29180,11 @@
    {
       "video_id":"00000007",
       "question_id":326,
-      "type":"[\"Audio\", \"Counting\"]",
-      "question_content":"Is there a <Object> sound?",
-      "templ_values":"[\"violin\"]",
+      "type":"[\"Audio\", \"Comparative\"]",
+      "question_content":"Is the <Object> more rhythmic than the <Object>?",
+      "templ_values":"[\"drums\", \"bass\"]",
       "question_deleted":0,
-      "answer":"no"
+      "answer":"yes"
    },
    {
       "video_id":"00000223",
@@ -31308,7 +31308,7 @@
       "question_content":"What is the instrument on the <LR> of <Object>? ",
       "templ_values":"[\"left\", \"drums\"]",
       "question_deleted":0,
-      "answer":"trombone"
+      "answer":"piano"
    },
    {
       "video_id":"00000052",
@@ -31776,7 +31776,7 @@
       "question_content":"How many types of musical instruments appeared in the entire video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"two"
    },
    {
       "video_id":"00000107",
@@ -31839,7 +31839,7 @@
       "question_content":"How many instruments are sounding in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"more than ten"
    },
    {
       "video_id":"00000039",
@@ -32107,7 +32107,7 @@
       "question_id":241,
       "type":"[\"Visual\", \"Counting\"]",
       "question_content":"Are there <Object> and <Object> instruments in the video?",
-      "templ_values":"[\"drums\", \"voice\"]",
+      "templ_values":"[\"drums\", \"bass\"]",
       "question_deleted":0,
       "answer":"yes"
    },
@@ -32793,7 +32793,7 @@
       "question_content":"How many sounding <Object> in the video?",
       "templ_values":"[\"guitar\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"five"
    },
    {
       "video_id":"00000276",
@@ -34278,7 +34278,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"piano\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000258",
@@ -35133,7 +35133,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"piano\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000141",
@@ -35484,7 +35484,7 @@
       "question_content":"How many types of musical instruments sound in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"two"
+      "answer":"six"
    },
    {
       "video_id":"00000003",
@@ -36654,7 +36654,7 @@
       "question_content":"Is there a <Object> in the entire video?",
       "templ_values":"[\"harp\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000099",
@@ -36922,7 +36922,7 @@
       "question_id":865,
       "type":"[\"Visual\", \"Location\"]",
       "question_content":"What is the instrument on the <LR> of <Object>? ",
-      "templ_values":"[\"right\", \"dundun\"]",
+      "templ_values":"[\"left\", \"dundun\"]",
       "question_deleted":0,
       "answer":"djembe"
    },
@@ -37743,7 +37743,7 @@
       "question_content":"How many performers are playing instruments in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"more than ten"
    },
    {
       "video_id":"00000158",
@@ -38137,7 +38137,7 @@
       "question_id":412,
       "type":"[\"Audio-Visual\", \"Comparative\"]",
       "question_content":"Is the instrument on the <LR> more rhythmic than the instrument on the <LR>?",
-      "templ_values":"[\"right\", \"left\"]",
+      "templ_values":"[\"left\", \"right\"]",
       "question_deleted":0,
       "answer":"no"
    },
@@ -38695,9 +38695,9 @@
       "question_id":651,
       "type":"[\"Audio\", \"Comparative\"]",
       "question_content":"Is the <Object> more rhythmic than the <Object>?",
-      "templ_values":"[\"dundun\", \"djembe\"]",
+      "templ_values":"[\"dundun\", \"guitar\"]",
       "question_deleted":0,
-      "answer":"no"
+      "answer":"yes"
    },
    {
       "video_id":"00000295",
@@ -38738,8 +38738,8 @@
    {
       "video_id":"00000027",
       "question_id":1102,
-      "type":"[\"Audio\", \"Counting\"]",
-      "question_content":"Are there <Object> and <Object> sound?",
+      "type":"[\"Audio-Visual\", \"Comparative\"]",
+      "question_content":"Did the <object> gestures correspond with the <object> fills?  ",
       "templ_values":"[\"qanun\", \"harp\"]",
       "question_deleted":0,
       "answer":"no"
@@ -38769,7 +38769,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"dancer\"]",
       "question_deleted":0,
-      "answer":"more than ten"
+      "answer":"yes"
    },
    {
       "video_id":"00000206",
@@ -39426,7 +39426,7 @@
       "question_content":"How many instruments in the video did not sound from beginning to end?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"zero"
+      "answer":"four"
    },
    {
       "video_id":"00000106",
@@ -39813,7 +39813,7 @@
       "question_content":"Are there <Object> and <Object> sound?",
       "templ_values":"[\"bass\", \"drums\"]",
       "question_deleted":0,
-      "answer":"no"
+      "answer":"yes"
    },
    {
       "video_id":"00000002",
@@ -40864,9 +40864,9 @@
       "question_id":322,
       "type":"[\"Audio-Visual\", \"Temporal\"]",
       "question_content":"What is the <TH> instrument that comes in? ",
-      "templ_values":"[\"first\"]",
+      "templ_values":"[\"second\"]",
       "question_deleted":0,
-      "answer":"drums"
+      "answer":"bass"
    },
    {
       "video_id":"00000279",
@@ -41622,7 +41622,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"saxophone\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000298",
@@ -41784,7 +41784,7 @@
       "question_content":"How many instruments are sounding in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"two"
    },
    {
       "video_id":"00000090",
@@ -42009,7 +42009,7 @@
       "question_content":"How many types of musical instruments sound in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"eight"
    },
    {
       "video_id":"00000204",
@@ -42401,8 +42401,8 @@
    {
       "video_id":"00000028",
       "question_id":1133,
-      "type":"[\"Audio\", \"Counting\"]",
-      "question_content":"Are there <Object> and <Object> sound?",
+      "type":"[\"Audio-Visual\", \"Comparative\"]",
+      "question_content":"Did the <object> gestures correspond with the <object> fills?  ",
       "templ_values":"[\"qanun\", \"harp\"]",
       "question_deleted":0,
       "answer":"no"
@@ -43359,7 +43359,7 @@
       "question_content":"What kind of musical instrument is it?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"bass"
+      "answer":"guitar"
    },
    {
       "video_id":"00000038",
@@ -43582,7 +43582,7 @@
       "question_id":2066,
       "type":"[\"Audio\", \"Counting\"]",
       "question_content":"Is there a <Object> sound?",
-      "templ_values":"[\"djembe\"]",
+      "templ_values":"[\"dundun\"]",
       "question_deleted":0,
       "answer":"no"
    },
@@ -43737,7 +43737,7 @@
       "question_content":"Did the <object> perform any visual actions during the video?",
       "templ_values":"[\"drums\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000002",
@@ -44907,7 +44907,7 @@
       "question_content":"How many types of musical instruments appeared in the entire video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"four"
+      "answer":"three"
    },
    {
       "video_id":"00000123",
@@ -46563,7 +46563,7 @@
       "question_content":"How many musical instruments were heard throughout the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"four"
+      "answer":"three"
    },
    {
       "video_id":"00000101",
@@ -46842,14 +46842,14 @@
       "question_content":"Which is the musical instrument that sounds at the same time as the <Object>?",
       "templ_values":"[\"dundun\"]",
       "question_deleted":0,
-      "answer":"djembe"
+      "answer":"dundun"
    },
    {
       "video_id":"00000007",
       "question_id":327,
-      "type":"[\"Audio\", \"Counting\"]",
-      "question_content":"Is there a <Object> sound?",
-      "templ_values":"[\"drums\"]",
+      "type":"[\"Audio\", \"Comparative\"]",
+      "question_content":"Is the <Object> louder than the <Object>?",
+      "templ_values":"[\"drums\", \"bass\"]",
       "question_deleted":0,
       "answer":"yes"
    },
@@ -47229,7 +47229,7 @@
       "question_content":"How many instruments in the video did not sound from beginning to end?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"zero"
+      "answer":"more than ten"
    },
    {
       "video_id":"00000047",
@@ -47634,7 +47634,7 @@
       "question_content":"Are there <Object> and <Object> sound?",
       "templ_values":"[\"saxophone\", \"piano\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000191",
@@ -48048,7 +48048,7 @@
       "question_content":"How many instruments in the video did not sound from beginning to end?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"four"
    },
    {
       "video_id":"00000240",
@@ -48552,7 +48552,7 @@
       "question_content":"Is the <Object> in the video always playing?",
       "templ_values":"[\"flute\"]",
       "question_deleted":0,
-      "answer":"no"
+      "answer":"yes"
    },
    {
       "video_id":"00000115",
@@ -48570,7 +48570,7 @@
       "question_content":"How many types of musical instruments sound in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"five"
    },
    {
       "video_id":"00000194",
@@ -48975,7 +48975,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"qanun\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000184",
@@ -49110,7 +49110,7 @@
       "question_content":"Did the <object> perform any visual actions during the video?",
       "templ_values":"[\"bass\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000033",
@@ -49173,7 +49173,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"violin\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000152",
@@ -49864,7 +49864,7 @@
       "question_id":1193,
       "type":"[\"Audio\", \"Counting\"]",
       "question_content":"Are there <Object> and <Object> sound?",
-      "templ_values":"[\"saxophone\", \"outi\"]",
+      "templ_values":"[\"saxophone\", \"voice\"]",
       "question_deleted":0,
       "answer":"no"
    },
@@ -50190,7 +50190,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"tsabouna\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000251",
@@ -50694,7 +50694,7 @@
       "question_content":"Is there a <Object> in the entire video?",
       "templ_values":"[\"harp\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000088",
@@ -51297,7 +51297,7 @@
       "question_content":"What kind of instrument is the <LRer> instrument?",
       "templ_values":"[\"lefter\"]",
       "question_deleted":0,
-      "answer":"dundun"
+      "answer":"djembe"
    },
    {
       "video_id":"00000172",
@@ -51495,7 +51495,7 @@
       "question_content":"How many instruments in the video did not sound from beginning to end?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"zero"
+      "answer":"more than ten"
    },
    {
       "video_id":"00000168",
@@ -51583,7 +51583,7 @@
       "question_id":915,
       "type":"[\"Visual\", \"Location\"]",
       "question_content":"Is there distance between <Object> and <Object>?",
-      "templ_values":"[\"djembe\", \"djembe\"]",
+      "templ_values":"[\"drums\", \"djembe\"]",
       "question_deleted":0,
       "answer":"no"
    },
@@ -51936,7 +51936,7 @@
       "question_content":"How many instruments are sounding in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"five"
    },
    {
       "video_id":"00000144",
@@ -51990,7 +51990,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"voice\"]",
       "question_deleted":0,
-      "answer":"more than ten"
+      "answer":"yes"
    },
    {
       "video_id":"00000224",
@@ -52843,7 +52843,7 @@
       "question_id":414,
       "type":"[\"Audio-Visual\", \"Comparative\"]",
       "question_content":"Is the <Object> on the <LR> louder than the <Object> on the <LR>?",
-      "templ_values":"[\"guitar\", \"left\", \"bass\", \"right\"]",
+      "templ_values":"[\"bass\", \"right\", \"guitar\", \"left\"]",
       "question_deleted":0,
       "answer":"yes"
    },
@@ -53367,7 +53367,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"saxophone\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000097",
@@ -53556,7 +53556,7 @@
       "question_content":"Is the instrument on the <LR> more rhythmic than the instrument on the <LR>?",
       "templ_values":"[\"left\", \"right\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000301",
@@ -57030,7 +57030,7 @@
       "question_content":"How many solos are featured in the music video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"two"
    },
    {
       "video_id":"00000250",
@@ -57282,7 +57282,7 @@
       "question_content":"How many instruments are sounding in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"four"
    },
    {
       "video_id":"00000244",
@@ -57372,7 +57372,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"qanun\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000190",
@@ -57622,7 +57622,7 @@
       "question_id":595,
       "type":"[\"Audio-Visual\", \"Existential\"]",
       "question_content":"Is the <Object> in the video always playing?",
-      "templ_values":"[\"piano\"]",
+      "templ_values":"[\"guitar\"]",
       "question_deleted":0,
       "answer":"no"
    },
@@ -57939,7 +57939,7 @@
       "question_content":"Is there a <Object> in the entire video?",
       "templ_values":"[\"fiddle\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000279",
@@ -58470,7 +58470,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"harp\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000246",
@@ -59658,7 +59658,7 @@
       "question_content":"How many types of musical instruments sound in the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"three"
    },
    {
       "video_id":"00000172",
@@ -61062,7 +61062,7 @@
       "question_content":"How many musical instruments were heard throughout the video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"four"
+      "answer":"eight"
    },
    {
       "video_id":"00000110",
@@ -61195,9 +61195,9 @@
       "question_id":1492,
       "type":"[\"Audio-Visual\", \"Existential\"]",
       "question_content":"Is the <Object> in the video always playing?",
-      "templ_values":"[\"banjo\"]",
+      "templ_values":"[\"guitar\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000302",
@@ -61341,7 +61341,7 @@
       "question_content":"How many types of musical instruments appeared in the entire video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"two"
    },
    {
       "video_id":"00000061",
@@ -61510,7 +61510,7 @@
       "question_id":629,
       "type":"[\"Visual\", \"Temporal\"]",
       "question_content":"Did the <object> perform any visual actions during the video?",
-      "templ_values":"[\"dundun\"]",
+      "templ_values":"[\"drums\"]",
       "question_deleted":0,
       "answer":"yes"
    },
@@ -63384,7 +63384,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"cello\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000138",
@@ -64912,7 +64912,7 @@
       "question_id":401,
       "type":"[\"Audio\", \"Temporal\"]",
       "question_content":"Which is the musical instrument that sounds at the same time as the <Object>?",
-      "templ_values":"[\"bass\"]",
+      "templ_values":"[\"guitar\"]",
       "question_deleted":0,
       "answer":"guitar"
    },
@@ -65580,7 +65580,7 @@
       "question_content":"How many types of musical instruments appeared in the entire video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"three"
+      "answer":"one"
    },
    {
       "video_id":"00000207",
@@ -66534,7 +66534,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"outi\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000156",
@@ -66685,7 +66685,7 @@
       "question_id":859,
       "type":"[\"Visual\", \"Temporal\"]",
       "question_content":"Did the <object> perform any visual actions during the video?",
-      "templ_values":"[\"djembe\"]",
+      "templ_values":"[\"drums\"]",
       "question_deleted":0,
       "answer":"yes"
    },
@@ -67929,7 +67929,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"Cretan lyra\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000269",
@@ -68172,7 +68172,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"piano\"]",
       "question_deleted":0,
-      "answer":"one"
+      "answer":"yes"
    },
    {
       "video_id":"00000260",
@@ -68403,10 +68403,10 @@
       "video_id":"00000031",
       "question_id":1245,
       "type":"[\"Visual\", \"Location\"]",
-      "question_content":"What kind of musical instrument is it?",
-      "templ_values":"[]",
+      "question_content":"Is there distance between <Object> and <Object>?",
+      "templ_values":"[\"saxophone\", \"guitar\"]",
       "question_deleted":0,
-      "answer":"saxophone"
+      "answer":"no"
    },
    {
       "video_id":"00000187",
@@ -68694,7 +68694,7 @@
       "question_content":"Is there a <Object> in the entire video?",
       "templ_values":"[\"qanun\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000182",
@@ -68766,7 +68766,7 @@
       "question_content":"Why are the performers wearing this attire?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"style"
+      "answer":"tradition"
    },
    {
       "video_id":"00000237",
@@ -69153,7 +69153,7 @@
       "question_content":"How did the lighting change during the <Object>? ",
       "templ_values":"[\"transition\"]",
       "question_deleted":0,
-      "answer":"static"
+      "answer":"intensified"
    },
    {
       "video_id":"00000235",
@@ -69900,7 +69900,7 @@
       "question_content":"Did the <object> perform any visual actions during the video?",
       "templ_values":"[\"voice\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000290",
@@ -72042,7 +72042,7 @@
       "question_content":"Is there distance between <Object> and <Object>?",
       "templ_values":"[\"saxophone\", \"voice\"]",
       "question_deleted":0,
-      "answer":"yes"
+      "answer":"no"
    },
    {
       "video_id":"00000298",
@@ -72618,7 +72618,7 @@
       "question_content":"How many types of musical instruments appeared in the entire video?",
       "templ_values":"[]",
       "question_deleted":0,
-      "answer":"two"
+      "answer":"one"
    },
    {
       "video_id":"00000213",
@@ -73743,7 +73743,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"djembe\"]",
       "question_deleted":0,
-      "answer":"two"
+      "answer":"one"
    },
    {
       "video_id":"00000283",
@@ -73833,7 +73833,7 @@
       "question_content":"How many <Object> are in the entire video?",
       "templ_values":"[\"drums\"]",
       "question_deleted":0,
-      "answer":"zero"
+      "answer":"one"
    },
    {
       "video_id":"00000277",

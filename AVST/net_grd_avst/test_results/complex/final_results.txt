@@ -1,0 +1,26 @@
+Final results of complex test
+
+Audio Existential Accuracy: 75.00 %
+Audio Counting Accuracy: 56.25 %
+Audio Cmp Accuracy: nan %
+Audio Temp Accuracy: 50.00 %
+Audio Caus Accuracy: 66.67 %
+Audio Accuracy: 58.54 %
+
+Visual Ext Accuracy: nan %
+Visual Loc Accuracy: 75.61 %
+Visual Counting Accuracy: 61.54 %
+Visual Temp Accuracy: nan %
+Visual Caus Accuracy: 60.71 %
+Visual Accuracy: 67.55 %
+
+AV Ext Accuracy: 78.12 %
+AV counting Accuracy: 62.11 %
+AV Loc Accuracy: 62.50 %
+AV Cmp Accuracy: nan %
+AV Temporal Accuracy: 54.79 %
+AV Caus Accuracy: 68.18 %
+AV Purp Accuracy: 65.71 %
+AV Accuracy: 63.89 %
+
+Overall Accuracy: 64.60 %
