@@ -3,26 +3,25 @@ import pandas as pd
 import json
 import os
 
-intv_mode = None  # modality to intervene in: None, audio, visual or both'
-training_data = None  # which training data was used (modality excluded)
-complex = True  # whether the test data is complex or not
-run_nr = 0
+intv_mode = 'audio'  # modality to intervene in: None, audio, visual or both'
+training_data = 'audio'  # which training data was used (modality excluded)
+complex = False  # whether the test data is complex or not
 
 
 if training_data is not None and intv_mode is None: 
-    failed_filename = f'alt_model/{training_data}_failed_questions_run_{run_nr}' + '.csv'
+    failed_filename = f'alt_model/{training_data}_failed_questions.csv'
     new_filename = f'alt_model/{training_data}_success_questions'
 
 elif training_data is not None and intv_mode is not None: 
-    failed_filename = f'alt_model/{training_data}_{intv_mode}_failed_questions_run_{run_nr}' + '.csv'
+    failed_filename = f'alt_model/{training_data}_{intv_mode}_failed_questions.csv'
     new_filename = f'alt_model/{training_data}_{intv_mode}_success_questions'
 
 elif intv_mode is not None:
-    failed_filename = f'intv/{intv_mode}_failed_questions_run_{run_nr}' + '.csv'
+    failed_filename = f'intv/{intv_mode}_failed_questions.csv'
     new_filename = f'intv/{intv_mode}_success_questions'
 
 else:
-    failed_filename = 'failed_questions_run_' + str(run_nr) + '.csv'
+    failed_filename = 'failed_questions.csv'
     new_filename = 'success_questions'
 
 org_json = json.load(open('../../json/avqa-test.json', 'r'))

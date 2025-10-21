@@ -1,5 +1,14 @@
 [
     {
+        "video_id": "00000114",
+        "question_id": 4516,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "What is the purpose of <Object> in the video?",
+        "templ_values": "[\"light\"]",
+        "question_deleted": 0,
+        "answer": "spotlight"
+    },
+    {
         "video_id": "00000077",
         "question_id": 2890,
         "type": "[\"Audio-Visual\", \"Existential\"]",
@@ -63,6 +72,15 @@
         "answer": "middle"
     },
     {
+        "video_id": "00000150",
+        "question_id": 5883,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many musical instruments were heard throughout the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "two"
+    },
+    {
         "video_id": "00000230",
         "question_id": 8703,
         "type": "[\"Audio-Visual\", \"Counting\"]",
@@ -117,6 +135,15 @@
         "answer": "one"
     },
     {
+        "video_id": "00000296",
+        "question_id": 11356,
+        "type": "[\"Visual\", \"Location\"]",
+        "question_content": "What kind of instrument is the <LRer> instrument?",
+        "templ_values": "[\"righter\"]",
+        "question_deleted": 0,
+        "answer": "guitar"
+    },
+    {
         "video_id": "00000185",
         "question_id": 7195,
         "type": "[\"Audio-Visual\", \"Temporal\"]",
@@ -162,6 +189,15 @@
         "answer": "melody"
     },
     {
+        "video_id": "00000195",
+        "question_id": 7576,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many <Object> are in the entire video?",
+        "templ_values": "[\"dancer\"]",
+        "question_deleted": 0,
+        "answer": "more than ten"
+    },
+    {
         "video_id": "00000145",
         "question_id": 5686,
         "type": "[\"Audio-Visual\", \"Existential\"]",
@@ -169,15 +205,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "live"
-    },
-    {
-        "video_id": "00000027",
-        "question_id": 1080,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many musical instruments were heard throughout the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "one"
     },
     {
         "video_id": "00000241",
@@ -288,6 +315,15 @@
         "answer": "one"
     },
     {
+        "video_id": "00000144",
+        "question_id": 5643,
+        "type": "[\"Audio-Visual\", \"Existential\"]",
+        "question_content": "What kind of dance is it?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "djembedance"
+    },
+    {
         "video_id": "00000190",
         "question_id": 7377,
         "type": "[\"Visual\", \"Location\"]",
@@ -349,6 +385,15 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "melody"
+    },
+    {
+        "video_id": "00000025",
+        "question_id": 1007,
+        "type": "[\"Audio-Visual\", \"Location\"]",
+        "question_content": "What is the <LR> instrument of the <FL> sounding instrument?",
+        "templ_values": "[\"left\", \"first\"]",
+        "question_deleted": 0,
+        "answer": "dundun"
     },
     {
         "video_id": "00000249",
@@ -549,15 +594,6 @@
         "answer": "one"
     },
     {
-        "video_id": "00000044",
-        "question_id": 1635,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many musical instruments were heard throughout the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "one"
-    },
-    {
         "video_id": "00000096",
         "question_id": 3726,
         "type": "[\"Audio-Visual\", \"Purpose\"]",
@@ -565,15 +601,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "melody"
-    },
-    {
-        "video_id": "00000128",
-        "question_id": 5046,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many <Object> are in the entire video?",
-        "templ_values": "[\"dancer\"]",
-        "question_deleted": 0,
-        "answer": "one"
     },
     {
         "video_id": "00000236",
@@ -756,6 +783,15 @@
         "answer": "middle"
     },
     {
+        "video_id": "00000152",
+        "question_id": 5994,
+        "type": "[\"Audio-Visual\", \"Causal\"]",
+        "question_content": "Why did the performer use <Object>?",
+        "templ_values": "[\"voice\"]",
+        "question_deleted": 0,
+        "answer": "sound"
+    },
+    {
         "video_id": "00000100",
         "question_id": 3891,
         "type": "[\"Audio-Visual\", \"Existential\"]",
@@ -918,13 +954,13 @@
         "answer": "breath"
     },
     {
-        "video_id": "00000292",
-        "question_id": 11166,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many musical instruments were heard throughout the video?",
-        "templ_values": "[]",
+        "video_id": "00000182",
+        "question_id": 7044,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many <Object> are in the entire video?",
+        "templ_values": "[\"dancer\"]",
         "question_deleted": 0,
-        "answer": "one"
+        "answer": "more than ten"
     },
     {
         "video_id": "00000264",
@@ -934,6 +970,15 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "one"
+    },
+    {
+        "video_id": "00000023",
+        "question_id": 889,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many musical instruments were heard throughout the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "two"
     },
     {
         "video_id": "00000232",
@@ -963,13 +1008,13 @@
         "answer": "instrument"
     },
     {
-        "video_id": "00000057",
-        "question_id": 2162,
-        "type": "[\"Visual\", \"Location\"]",
-        "question_content": "What kind of instrument is the <LRer> instrument?",
-        "templ_values": "[\"righter\"]",
+        "video_id": "00000192",
+        "question_id": 7483,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "Was the use of props to add visual interest or to convey a specific theme?",
+        "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "djembe"
+        "answer": "theme"
     },
     {
         "video_id": "00000240",
@@ -1006,15 +1051,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "zero"
-    },
-    {
-        "video_id": "00000050",
-        "question_id": 1917,
-        "type": "[\"Audio-Visual\", \"Purpose\"]",
-        "question_content": "What is the purpose of <Object> in the video?",
-        "templ_values": "[\"light\"]",
-        "question_deleted": 0,
-        "answer": "aesthetics"
     },
     {
         "video_id": "00000162",
@@ -1179,15 +1215,6 @@
         "answer": "front"
     },
     {
-        "video_id": "00000020",
-        "question_id": 776,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many musical instruments were heard throughout the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "one"
-    },
-    {
         "video_id": "00000022",
         "question_id": 877,
         "type": "[\"Audio-Visual\", \"Temporal\"]",
@@ -1204,6 +1231,15 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "live"
+    },
+    {
+        "video_id": "00000240",
+        "question_id": 9092,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "Was the use of props to add visual interest or to convey a specific theme?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "theme"
     },
     {
         "video_id": "00000022",
@@ -1458,15 +1494,6 @@
         "answer": "middle"
     },
     {
-        "video_id": "00000058",
-        "question_id": 2208,
-        "type": "[\"Audio-Visual\", \"Temporal\"]",
-        "question_content": "What is the <TH> instrument that comes in? ",
-        "templ_values": "[\"first\"]",
-        "question_deleted": 0,
-        "answer": "violin"
-    },
-    {
         "video_id": "00000073",
         "question_id": 2758,
         "type": "[\"Audio-Visual\", \"Purpose\"]",
@@ -1530,15 +1557,6 @@
         "answer": "one"
     },
     {
-        "video_id": "00000183",
-        "question_id": 7077,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many musical instruments were heard throughout the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "one"
-    },
-    {
         "video_id": "00000029",
         "question_id": 1190,
         "type": "[\"Audio-Visual\", \"Purpose\"]",
@@ -1548,6 +1566,15 @@
         "answer": "amplification"
     },
     {
+        "video_id": "00000083",
+        "question_id": 3144,
+        "type": "[\"Visual\", \"Location\"]",
+        "question_content": "What is the instrument on the <LR> of <Object>? ",
+        "templ_values": "[\"left\", \"flute\"]",
+        "question_deleted": 0,
+        "answer": "flute"
+    },
+    {
         "video_id": "00000141",
         "question_id": 5521,
         "type": "[\"Visual\", \"Counting\"]",
@@ -1555,6 +1582,15 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "zero"
+    },
+    {
+        "video_id": "00000025",
+        "question_id": 981,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many musical instruments were heard throughout the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "two"
     },
     {
         "video_id": "00000022",
@@ -1609,6 +1645,15 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "breath"
+    },
+    {
+        "video_id": "00000298",
+        "question_id": 11441,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "Was the use of props to add visual interest or to convey a specific theme?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "theme"
     },
     {
         "video_id": "00000281",
@@ -1791,15 +1836,6 @@
         "answer": "zero"
     },
     {
-        "video_id": "00000149",
-        "question_id": 5859,
-        "type": "[\"Audio-Visual\", \"Existential\"]",
-        "question_content": "What kind of dance is it?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "balos"
-    },
-    {
         "video_id": "00000196",
         "question_id": 7633,
         "type": "[\"Visual\", \"Location\"]",
@@ -1917,6 +1953,15 @@
         "answer": "indoor"
     },
     {
+        "video_id": "00000194",
+        "question_id": 7572,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "Was the use of props to add visual interest or to convey a specific theme?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "theme"
+    },
+    {
         "video_id": "00000098",
         "question_id": 3791,
         "type": "[\"Audio-Visual\", \"Existential\"]",
@@ -1978,24 +2023,6 @@
         "templ_values": "[\"voice\"]",
         "question_deleted": 0,
         "answer": "one"
-    },
-    {
-        "video_id": "00000017",
-        "question_id": 670,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many sounding <Object> in the video?",
-        "templ_values": "[\"djembe\"]",
-        "question_deleted": 0,
-        "answer": "one"
-    },
-    {
-        "video_id": "00000097",
-        "question_id": 3763,
-        "type": "[\"Audio-Visual\", \"Temporal\"]",
-        "question_content": "What is the <TH> instrument that comes in? ",
-        "templ_values": "[\"second\"]",
-        "question_deleted": 0,
-        "answer": "violin"
     },
     {
         "video_id": "00000281",
@@ -2248,15 +2275,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "increase"
-    },
-    {
-        "video_id": "00000139",
-        "question_id": 5447,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many <Object> are in the entire video?",
-        "templ_values": "[\"dancer\"]",
-        "question_deleted": 0,
-        "answer": "one"
     },
     {
         "video_id": "00000296",

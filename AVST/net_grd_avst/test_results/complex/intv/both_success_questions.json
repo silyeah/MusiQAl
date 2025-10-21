@@ -1,5 +1,23 @@
 [
     {
+        "video_id": "00000173",
+        "question_id": 6672,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many types of musical instruments appeared in the entire video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000028",
+        "question_id": 1114,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many sounding <Object> in the video?",
+        "templ_values": "[\"harp\"]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
         "video_id": "00000077",
         "question_id": 2890,
         "type": "[\"Audio-Visual\", \"Existential\"]",
@@ -9,6 +27,24 @@
         "answer": "live"
     },
     {
+        "video_id": "00000250",
+        "question_id": 9492,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many voices in the video did not sound from beginning to end?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000007",
+        "question_id": 314,
+        "type": "[\"Audio-Visual\", \"Location\"]",
+        "question_content": "Where is the <LL> instrument?",
+        "templ_values": "[\"loudest\"]",
+        "question_deleted": 0,
+        "answer": "right"
+    },
+    {
         "video_id": "00000062",
         "question_id": 2336,
         "type": "[\"Audio-Visual\", \"Existential\"]",
@@ -16,24 +52,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "live"
-    },
-    {
-        "video_id": "00000301",
-        "question_id": 11524,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many types of musical instruments appeared in the entire video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
-        "video_id": "00000285",
-        "question_id": 10895,
-        "type": "[\"Audio-Visual\", \"Location\"]",
-        "question_content": "Where is the <LL> instrument? ",
-        "templ_values": "[\"lowest\"]",
-        "question_deleted": 0,
-        "answer": "left"
     },
     {
         "video_id": "00000015",
@@ -63,22 +81,22 @@
         "answer": "middle"
     },
     {
-        "video_id": "00000150",
-        "question_id": 5883,
+        "video_id": "00000159",
+        "question_id": 6222,
         "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many musical instruments were heard throughout the video?",
+        "question_content": "How many instruments in the video did not sound from beginning to end?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "two"
+        "answer": "one"
     },
     {
-        "video_id": "00000230",
-        "question_id": 8703,
+        "video_id": "00000130",
+        "question_id": 5133,
         "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many voices in the video did not sound from beginning to end?",
+        "question_content": "How many instruments are sounding in the video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000044",
@@ -90,13 +108,13 @@
         "answer": "middle"
     },
     {
-        "video_id": "00000261",
-        "question_id": 10015,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
+        "video_id": "00000210",
+        "question_id": 8099,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many types of musical instruments appeared in the entire video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000234",
@@ -117,13 +135,13 @@
         "answer": "increase"
     },
     {
-        "video_id": "00000191",
-        "question_id": 7415,
-        "type": "[\"Audio-Visual\", \"Existential\"]",
-        "question_content": "What kind of dance is it?",
-        "templ_values": "[]",
+        "video_id": "00000008",
+        "question_id": 347,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many sounding <Object> in the video?",
+        "templ_values": "[\"guitar\"]",
         "question_deleted": 0,
-        "answer": "musical"
+        "answer": "one"
     },
     {
         "video_id": "00000253",
@@ -171,31 +189,22 @@
         "answer": "style"
     },
     {
-        "video_id": "00000292",
-        "question_id": 11181,
+        "video_id": "00000255",
+        "question_id": 9714,
         "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many solos are featured in the music video?",
+        "question_content": "How many musical instruments were heard throughout the video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "four"
     },
     {
-        "video_id": "00000154",
-        "question_id": 6041,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
-        "video_id": "00000243",
-        "question_id": 9173,
+        "video_id": "00000082",
+        "question_id": 3085,
         "type": "[\"Visual\", \"Counting\"]",
         "question_content": "How many types of musical instruments appeared in the entire video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000146",
@@ -205,15 +214,6 @@
         "templ_values": "[\"microphone\"]",
         "question_deleted": 0,
         "answer": "amplification"
-    },
-    {
-        "video_id": "00000211",
-        "question_id": 8146,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many solos are featured in the music video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
     },
     {
         "video_id": "00000115",
@@ -261,6 +261,15 @@
         "answer": "one"
     },
     {
+        "video_id": "00000146",
+        "question_id": 5722,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "zero"
+    },
+    {
         "video_id": "00000190",
         "question_id": 7377,
         "type": "[\"Visual\", \"Location\"]",
@@ -297,6 +306,15 @@
         "answer": "front"
     },
     {
+        "video_id": "00000014",
+        "question_id": 563,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many instruments are sounding in the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
         "video_id": "00000022",
         "question_id": 874,
         "type": "[\"Visual\", \"Location\"]",
@@ -324,15 +342,6 @@
         "answer": "increase"
     },
     {
-        "video_id": "00000192",
-        "question_id": 7453,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many solos are featured in the music video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
         "video_id": "00000272",
         "question_id": 10413,
         "type": "[\"Visual\", \"Location\"]",
@@ -342,22 +351,40 @@
         "answer": "indoor"
     },
     {
-        "video_id": "00000029",
-        "question_id": 1176,
-        "type": "[\"Audio-Visual\", \"Causal\"]",
-        "question_content": "Why does the singer pause during the song?",
+        "video_id": "00000250",
+        "question_id": 9494,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many instruments are sounding in the video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "breath"
+        "answer": "one"
     },
     {
-        "video_id": "00000277",
-        "question_id": 10565,
+        "video_id": "00000022",
+        "question_id": 846,
         "type": "[\"Visual\", \"Counting\"]",
         "question_content": "How many types of musical instruments appeared in the entire video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
+    },
+    {
+        "video_id": "00000092",
+        "question_id": 3539,
+        "type": "[\"Audio-Visual\", \"Location\"]",
+        "question_content": "Where is the <LL> instrument? ",
+        "templ_values": "[\"loudest\"]",
+        "question_deleted": 0,
+        "answer": "right"
+    },
+    {
+        "video_id": "00000014",
+        "question_id": 561,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many instruments in the video did not sound from beginning to end?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
     },
     {
         "video_id": "00000132",
@@ -378,13 +405,13 @@
         "answer": "zero"
     },
     {
-        "video_id": "00000033",
-        "question_id": 1293,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many performers are playing instruments in the video?",
-        "templ_values": "[]",
+        "video_id": "00000085",
+        "question_id": 3231,
+        "type": "[\"Audio-Visual\", \"Location\"]",
+        "question_content": "Where is the <LL> instrument? ",
+        "templ_values": "[\"loudest\"]",
         "question_deleted": 0,
-        "answer": "two"
+        "answer": "right"
     },
     {
         "video_id": "00000072",
@@ -432,15 +459,6 @@
         "answer": "middle"
     },
     {
-        "video_id": "00000208",
-        "question_id": 8028,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
         "video_id": "00000134",
         "question_id": 5296,
         "type": "[\"Audio-Visual\", \"Location\"]",
@@ -459,24 +477,6 @@
         "answer": "one"
     },
     {
-        "video_id": "00000294",
-        "question_id": 11264,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many types of musical instruments appeared in the entire video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
-        "video_id": "00000179",
-        "question_id": 6961,
-        "type": "[\"Audio-Visual\", \"Causal\"]",
-        "question_content": "Why did the performer use <Object>?",
-        "templ_values": "[\"tsabouna\"]",
-        "question_deleted": 0,
-        "answer": "sound"
-    },
-    {
         "video_id": "00000156",
         "question_id": 6134,
         "type": "[\"Audio-Visual\", \"Location\"]",
@@ -484,6 +484,15 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "middle"
+    },
+    {
+        "video_id": "00000243",
+        "question_id": 9181,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "zero"
     },
     {
         "video_id": "00000225",
@@ -502,6 +511,15 @@
         "templ_values": "[\"voice\"]",
         "question_deleted": 0,
         "answer": "one"
+    },
+    {
+        "video_id": "00000039",
+        "question_id": 1504,
+        "type": "[\"Audio-Visual\", \"Location\"]",
+        "question_content": "Where is the <LL> instrument?",
+        "templ_values": "[\"loudest\"]",
+        "question_deleted": 0,
+        "answer": "right"
     },
     {
         "video_id": "00000096",
@@ -531,22 +549,13 @@
         "answer": "one"
     },
     {
-        "video_id": "00000083",
-        "question_id": 3148,
-        "type": "[\"Audio-Visual\", \"Location\"]",
-        "question_content": "Where is the <LL> instrument? ",
-        "templ_values": "[\"lowest\"]",
-        "question_deleted": 0,
-        "answer": "left"
-    },
-    {
-        "video_id": "00000204",
-        "question_id": 7888,
+        "video_id": "00000008",
+        "question_id": 349,
         "type": "[\"Audio-Visual\", \"Counting\"]",
         "question_content": "How many instruments are sounding in the video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000187",
@@ -556,6 +565,33 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "indoor"
+    },
+    {
+        "video_id": "00000215",
+        "question_id": 8255,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many musical instruments were heard throughout the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "four"
+    },
+    {
+        "video_id": "00000072",
+        "question_id": 2687,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many types of musical instruments appeared in the entire video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000301",
+        "question_id": 11531,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "zero"
     },
     {
         "video_id": "00000277",
@@ -630,15 +666,6 @@
         "answer": "violin"
     },
     {
-        "video_id": "00000050",
-        "question_id": 1883,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many sounding <Object> in the video?",
-        "templ_values": "[\"bass\"]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
         "video_id": "00000073",
         "question_id": 2743,
         "type": "[\"Visual\", \"Location\"]",
@@ -646,15 +673,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "indoor"
-    },
-    {
-        "video_id": "00000186",
-        "question_id": 7211,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many solos are featured in the music video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
     },
     {
         "video_id": "00000061",
@@ -684,24 +702,6 @@
         "answer": "middle"
     },
     {
-        "video_id": "00000109",
-        "question_id": 4303,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many performers are playing instruments in the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "two"
-    },
-    {
-        "video_id": "00000195",
-        "question_id": 7580,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many sounding <Object> in the video?",
-        "templ_values": "[\"drum\"]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
         "video_id": "00000232",
         "question_id": 8800,
         "type": "[\"Audio-Visual\", \"Location\"]",
@@ -709,6 +709,15 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "middle"
+    },
+    {
+        "video_id": "00000002",
+        "question_id": 82,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many types of musical instruments appeared in the entire video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
     },
     {
         "video_id": "00000100",
@@ -756,6 +765,15 @@
         "answer": "increase"
     },
     {
+        "video_id": "00000295",
+        "question_id": 11321,
+        "type": "[\"Audio-Visual\", \"Causal\"]",
+        "question_content": "Why does the singer pause during the song?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "transition"
+    },
+    {
         "video_id": "00000227",
         "question_id": 8551,
         "type": "[\"Audio-Visual\", \"Counting\"]",
@@ -765,6 +783,15 @@
         "answer": "one"
     },
     {
+        "video_id": "00000281",
+        "question_id": 10716,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "zero"
+    },
+    {
         "video_id": "00000136",
         "question_id": 5352,
         "type": "[\"Visual\", \"Counting\"]",
@@ -772,24 +799,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "one"
-    },
-    {
-        "video_id": "00000308",
-        "question_id": 11791,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many solos are featured in the music video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
-        "video_id": "00000260",
-        "question_id": 9983,
-        "type": "[\"Audio-Visual\", \"Location\"]",
-        "question_content": "Where is the <LL> instrument? ",
-        "templ_values": "[\"loudest\"]",
-        "question_deleted": 0,
-        "answer": "left"
     },
     {
         "video_id": "00000200",
@@ -837,15 +846,6 @@
         "answer": "style"
     },
     {
-        "video_id": "00000232",
-        "question_id": 8783,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many voices in the video did not sound from beginning to end?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
         "video_id": "00000211",
         "question_id": 8168,
         "type": "[\"Visual\", \"Causal\"]",
@@ -862,24 +862,6 @@
         "templ_values": "[\"piano\"]",
         "question_deleted": 0,
         "answer": "violin"
-    },
-    {
-        "video_id": "00000143",
-        "question_id": 5594,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many times does the performer visually interact with the audience?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "more than ten"
-    },
-    {
-        "video_id": "00000243",
-        "question_id": 9201,
-        "type": "[\"Audio-Visual\", \"Causal\"]",
-        "question_content": "Why does the singer pause during the song?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "breath"
     },
     {
         "video_id": "00000264",
@@ -900,15 +882,6 @@
         "answer": "musical"
     },
     {
-        "video_id": "00000023",
-        "question_id": 889,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many musical instruments were heard throughout the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "two"
-    },
-    {
         "video_id": "00000232",
         "question_id": 8778,
         "type": "[\"Visual\", \"Counting\"]",
@@ -918,22 +891,22 @@
         "answer": "one"
     },
     {
-        "video_id": "00000043",
-        "question_id": 1611,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many times does the performer visually interact with the audience?",
+        "video_id": "00000192",
+        "question_id": 7483,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "Was the use of props to add visual interest or to convey a specific theme?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "more than ten"
+        "answer": "theme"
     },
     {
-        "video_id": "00000240",
-        "question_id": 9063,
+        "video_id": "00000009",
+        "question_id": 383,
         "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
+        "question_content": "How many instruments in the video did not sound from beginning to end?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000040",
@@ -954,24 +927,6 @@
         "answer": "violin"
     },
     {
-        "video_id": "00000288",
-        "question_id": 11003,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
-        "video_id": "00000174",
-        "question_id": 6726,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
         "video_id": "00000050",
         "question_id": 1917,
         "type": "[\"Audio-Visual\", \"Purpose\"]",
@@ -981,13 +936,13 @@
         "answer": "aesthetics"
     },
     {
-        "video_id": "00000162",
-        "question_id": 6356,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
+        "video_id": "00000109",
+        "question_id": 4317,
+        "type": "[\"Audio-Visual\", \"Causal\"]",
+        "question_content": "Why does the singer pause during the song?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "transition"
     },
     {
         "video_id": "00000060",
@@ -1071,6 +1026,33 @@
         "answer": "zero"
     },
     {
+        "video_id": "00000049",
+        "question_id": 1875,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "What is the purpose of <Object> in the video?",
+        "templ_values": "[\"guitar\"]",
+        "question_deleted": 0,
+        "answer": "instrument"
+    },
+    {
+        "video_id": "00000164",
+        "question_id": 6406,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many musical instruments were heard throughout the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "four"
+    },
+    {
+        "video_id": "00000236",
+        "question_id": 8916,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many solos are featured in the music video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
         "video_id": "00000012",
         "question_id": 518,
         "type": "[\"Audio-Visual\", \"Temporal\"]",
@@ -1078,15 +1060,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "increase"
-    },
-    {
-        "video_id": "00000123",
-        "question_id": 4852,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many sounding <Object> in the video?",
-        "templ_values": "[\"bass\"]",
-        "question_deleted": 0,
-        "answer": "zero"
     },
     {
         "video_id": "00000159",
@@ -1143,6 +1116,15 @@
         "answer": "live"
     },
     {
+        "video_id": "00000240",
+        "question_id": 9092,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "Was the use of props to add visual interest or to convey a specific theme?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "theme"
+    },
+    {
         "video_id": "00000029",
         "question_id": 1171,
         "type": "[\"Audio-Visual\", \"Location\"]",
@@ -1152,11 +1134,29 @@
         "answer": "middle"
     },
     {
+        "video_id": "00000010",
+        "question_id": 431,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many instruments are sounding in the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
         "video_id": "00000022",
         "question_id": 851,
         "type": "[\"Audio-Visual\", \"Counting\"]",
         "question_content": "How many types of musical instruments sound in the video?",
         "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000095",
+        "question_id": 3649,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many sounding <Object> in the video?",
+        "templ_values": "[\"tuba\"]",
         "question_deleted": 0,
         "answer": "one"
     },
@@ -1215,22 +1215,13 @@
         "answer": "style"
     },
     {
-        "video_id": "00000206",
-        "question_id": 7964,
+        "video_id": "00000042",
+        "question_id": 1583,
         "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
+        "question_content": "How many performers are playing instruments in the video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
-        "video_id": "00000182",
-        "question_id": 7055,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many solos are featured in the music video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000167",
@@ -1260,10 +1251,10 @@
         "answer": "middle"
     },
     {
-        "video_id": "00000300",
-        "question_id": 11497,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
+        "video_id": "00000139",
+        "question_id": 5453,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "zero"
@@ -1287,22 +1278,13 @@
         "answer": "indoor"
     },
     {
-        "video_id": "00000077",
-        "question_id": 2884,
+        "video_id": "00000114",
+        "question_id": 4481,
         "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many performers are playing instruments in the video?",
+        "question_content": "How many solos are featured in the music video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "two"
-    },
-    {
-        "video_id": "00000119",
-        "question_id": 4723,
-        "type": "[\"Audio-Visual\", \"Causal\"]",
-        "question_content": "Why does the singer pause during the song?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "breath"
+        "answer": "one"
     },
     {
         "video_id": "00000149",
@@ -1323,15 +1305,6 @@
         "answer": "violin"
     },
     {
-        "video_id": "00000248",
-        "question_id": 9403,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many times does the performer visually interact with the audience?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "more than ten"
-    },
-    {
         "video_id": "00000156",
         "question_id": 6124,
         "type": "[\"Audio-Visual\", \"Existential\"]",
@@ -1350,15 +1323,6 @@
         "answer": "live"
     },
     {
-        "video_id": "00000152",
-        "question_id": 5962,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
         "video_id": "00000175",
         "question_id": 6797,
         "type": "[\"Audio-Visual\", \"Temporal\"]",
@@ -1366,15 +1330,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "increase"
-    },
-    {
-        "video_id": "00000279",
-        "question_id": 10640,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments in the video did not sound from beginning to end?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
     },
     {
         "video_id": "00000151",
@@ -1393,6 +1348,15 @@
         "templ_values": "[\"first\"]",
         "question_deleted": 0,
         "answer": "violin"
+    },
+    {
+        "video_id": "00000058",
+        "question_id": 2188,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "zero"
     },
     {
         "video_id": "00000073",
@@ -1458,6 +1422,15 @@
         "answer": "one"
     },
     {
+        "video_id": "00000289",
+        "question_id": 11046,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "zero"
+    },
+    {
         "video_id": "00000210",
         "question_id": 8113,
         "type": "[\"Audio-Visual\", \"Existential\"]",
@@ -1476,24 +1449,6 @@
         "answer": "amplification"
     },
     {
-        "video_id": "00000141",
-        "question_id": 5521,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many types of musical instruments appeared in the entire video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
-        "video_id": "00000025",
-        "question_id": 981,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many musical instruments were heard throughout the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "two"
-    },
-    {
         "video_id": "00000248",
         "question_id": 9433,
         "type": "[\"Audio-Visual\", \"Purpose\"]",
@@ -1501,15 +1456,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "melody"
-    },
-    {
-        "video_id": "00000252",
-        "question_id": 9579,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many types of musical instruments appeared in the entire video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
     },
     {
         "video_id": "00000269",
@@ -1521,22 +1467,13 @@
         "answer": "live"
     },
     {
-        "video_id": "00000106",
-        "question_id": 4189,
-        "type": "[\"Audio-Visual\", \"Location\"]",
-        "question_content": "Where is the <LL> instrument? ",
-        "templ_values": "[\"lowest\"]",
-        "question_deleted": 0,
-        "answer": "left"
-    },
-    {
-        "video_id": "00000111",
-        "question_id": 4384,
-        "type": "[\"Audio-Visual\", \"Causal\"]",
-        "question_content": "Why does the singer pause during the song?",
+        "video_id": "00000298",
+        "question_id": 11441,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "Was the use of props to add visual interest or to convey a specific theme?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "breath"
+        "answer": "theme"
     },
     {
         "video_id": "00000281",
@@ -1566,6 +1503,15 @@
         "answer": "violin"
     },
     {
+        "video_id": "00000000",
+        "question_id": 10,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many instruments are sounding in the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
         "video_id": "00000160",
         "question_id": 6277,
         "type": "[\"Audio\", \"Counting\"]",
@@ -1584,15 +1530,6 @@
         "answer": "middle"
     },
     {
-        "video_id": "00000202",
-        "question_id": 7829,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many solos are featured in the music video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
         "video_id": "00000284",
         "question_id": 10852,
         "type": "[\"Visual\", \"Location\"]",
@@ -1600,6 +1537,24 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "cluster"
+    },
+    {
+        "video_id": "00000111",
+        "question_id": 4364,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many types of musical instruments appeared in the entire video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000090",
+        "question_id": 3433,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many performers are playing instruments in the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
     },
     {
         "video_id": "00000174",
@@ -1611,15 +1566,6 @@
         "answer": "melody"
     },
     {
-        "video_id": "00000305",
-        "question_id": 11693,
-        "type": "[\"Audio-Visual\", \"Causal\"]",
-        "question_content": "Why does the singer pause during the song?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "breath"
-    },
-    {
         "video_id": "00000170",
         "question_id": 6533,
         "type": "[\"Audio-Visual\", \"Counting\"]",
@@ -1629,22 +1575,13 @@
         "answer": "one"
     },
     {
-        "video_id": "00000209",
-        "question_id": 8062,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many types of musical instruments appeared in the entire video?",
+        "video_id": "00000090",
+        "question_id": 3430,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many instruments in the video did not sound from beginning to end?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
-    },
-    {
-        "video_id": "00000221",
-        "question_id": 8374,
-        "type": "[\"Audio-Visual\", \"Causal\"]",
-        "question_content": "Why does the singer pause during the song?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "breath"
+        "answer": "one"
     },
     {
         "video_id": "00000173",
@@ -1665,6 +1602,15 @@
         "answer": "increase"
     },
     {
+        "video_id": "00000083",
+        "question_id": 3126,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many types of musical instruments appeared in the entire video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
         "video_id": "00000089",
         "question_id": 3402,
         "type": "[\"Visual\", \"Location\"]",
@@ -1683,10 +1629,10 @@
         "answer": "one"
     },
     {
-        "video_id": "00000288",
-        "question_id": 11000,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments in the video did not sound from beginning to end?",
+        "video_id": "00000309",
+        "question_id": 11822,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "zero"
@@ -1701,6 +1647,15 @@
         "answer": "zero"
     },
     {
+        "video_id": "00000307",
+        "question_id": 11772,
+        "type": "[\"Audio-Visual\", \"Causal\"]",
+        "question_content": "Why does the singer pause during the song?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "transition"
+    },
+    {
         "video_id": "00000196",
         "question_id": 7633,
         "type": "[\"Visual\", \"Location\"]",
@@ -1710,19 +1665,46 @@
         "answer": "indoor"
     },
     {
-        "video_id": "00000143",
-        "question_id": 5593,
+        "video_id": "00000298",
+        "question_id": 11430,
+        "type": "[\"Audio-Visual\", \"Temporal\"]",
+        "question_content": "How did the lighting change during the <Object>? ",
+        "templ_values": "[\"transition\"]",
+        "question_deleted": 0,
+        "answer": "shifted"
+    },
+    {
+        "video_id": "00000118",
+        "question_id": 4660,
         "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
+        "question_content": "How many sounding <Object> in the video?",
+        "templ_values": "[\"guitar\"]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000057",
+        "question_id": 2142,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many types of musical instruments appeared in the entire video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000251",
         "question_id": 9541,
         "type": "[\"Audio\", \"Counting\"]",
         "question_content": "How many times does the tempo change?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "zero"
+    },
+    {
+        "video_id": "00000247",
+        "question_id": 9360,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "zero"
@@ -1737,6 +1719,15 @@
         "answer": "one"
     },
     {
+        "video_id": "00000057",
+        "question_id": 2148,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many times does the performer visually interact with the audience?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "zero"
+    },
+    {
         "video_id": "00000288",
         "question_id": 11002,
         "type": "[\"Audio-Visual\", \"Counting\"]",
@@ -1744,15 +1735,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "one"
-    },
-    {
-        "video_id": "00000088",
-        "question_id": 3343,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many performers are playing instruments in the video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "two"
     },
     {
         "video_id": "00000178",
@@ -1773,13 +1755,22 @@
         "answer": "dance"
     },
     {
-        "video_id": "00000187",
-        "question_id": 7241,
+        "video_id": "00000021",
+        "question_id": 821,
         "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments are sounding in the video?",
+        "question_content": "How many solos are featured in the music video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
+    },
+    {
+        "video_id": "00000165",
+        "question_id": 6454,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many solos are featured in the music video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
     },
     {
         "video_id": "00000103",
@@ -1800,6 +1791,24 @@
         "answer": "indoor"
     },
     {
+        "video_id": "00000165",
+        "question_id": 6452,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many instruments are sounding in the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000194",
+        "question_id": 7572,
+        "type": "[\"Audio-Visual\", \"Purpose\"]",
+        "question_content": "Was the use of props to add visual interest or to convey a specific theme?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "theme"
+    },
+    {
         "video_id": "00000025",
         "question_id": 1026,
         "type": "[\"Visual\", \"Causal\"]",
@@ -1809,13 +1818,13 @@
         "answer": "style"
     },
     {
-        "video_id": "00000234",
-        "question_id": 8840,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many types of musical instruments appeared in the entire video?",
+        "video_id": "00000086",
+        "question_id": 3262,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many solos are featured in the music video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000164",
@@ -1825,15 +1834,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "indoor"
-    },
-    {
-        "video_id": "00000275",
-        "question_id": 10499,
-        "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many instruments in the video did not sound from beginning to end?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
     },
     {
         "video_id": "00000157",
@@ -1850,6 +1850,15 @@
         "type": "[\"Audio-Visual\", \"Counting\"]",
         "question_content": "How many sounding <Object> in the video?",
         "templ_values": "[\"voice\"]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000017",
+        "question_id": 670,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many sounding <Object> in the video?",
+        "templ_values": "[\"djembe\"]",
         "question_deleted": 0,
         "answer": "one"
     },
@@ -1881,6 +1890,24 @@
         "answer": "indoor"
     },
     {
+        "video_id": "00000036",
+        "question_id": 1404,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many types of musical instruments appeared in the entire video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000285",
+        "question_id": 10905,
+        "type": "[\"Audio-Visual\", \"Causal\"]",
+        "question_content": "Why does the singer pause during the song?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "transition"
+    },
+    {
         "video_id": "00000110",
         "question_id": 4351,
         "type": "[\"Visual\", \"Location\"]",
@@ -1897,15 +1924,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "increase"
-    },
-    {
-        "video_id": "00000290",
-        "question_id": 11109,
-        "type": "[\"Audio-Visual\", \"Causal\"]",
-        "question_content": "Why does the singer pause during the song?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "breath"
     },
     {
         "video_id": "00000071",
@@ -1989,13 +2007,13 @@
         "answer": "cluster"
     },
     {
-        "video_id": "00000120",
-        "question_id": 4747,
+        "video_id": "00000044",
+        "question_id": 1643,
         "type": "[\"Audio-Visual\", \"Counting\"]",
-        "question_content": "How many solos are featured in the music video?",
+        "question_content": "How many instruments are sounding in the video?",
         "templ_values": "[]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000204",
@@ -2016,15 +2034,6 @@
         "answer": "amplification"
     },
     {
-        "video_id": "00000284",
-        "question_id": 10855,
-        "type": "[\"Audio-Visual\", \"Temporal\"]",
-        "question_content": "How did the lighting change during the <Object>? ",
-        "templ_values": "[\"solo\"]",
-        "question_deleted": 0,
-        "answer": "static"
-    },
-    {
         "video_id": "00000036",
         "question_id": 1426,
         "type": "[\"Visual\", \"Causal\"]",
@@ -2032,15 +2041,6 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "style"
-    },
-    {
-        "video_id": "00000207",
-        "question_id": 7991,
-        "type": "[\"Visual\", \"Counting\"]",
-        "question_content": "How many types of musical instruments appeared in the entire video?",
-        "templ_values": "[]",
-        "question_deleted": 0,
-        "answer": "zero"
     },
     {
         "video_id": "00000111",
@@ -2052,13 +2052,31 @@
         "answer": "style"
     },
     {
-        "video_id": "00000142",
-        "question_id": 5559,
+        "video_id": "00000052",
+        "question_id": 1959,
+        "type": "[\"Visual\", \"Counting\"]",
+        "question_content": "How many types of musical instruments appeared in the entire video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000021",
+        "question_id": 818,
+        "type": "[\"Audio-Visual\", \"Counting\"]",
+        "question_content": "How many instruments are sounding in the video?",
+        "templ_values": "[]",
+        "question_deleted": 0,
+        "answer": "one"
+    },
+    {
+        "video_id": "00000012",
+        "question_id": 496,
         "type": "[\"Audio-Visual\", \"Counting\"]",
         "question_content": "How many sounding <Object> in the video?",
-        "templ_values": "[\"bass\"]",
+        "templ_values": "[\"piano\"]",
         "question_deleted": 0,
-        "answer": "zero"
+        "answer": "one"
     },
     {
         "video_id": "00000136",
@@ -2104,6 +2122,15 @@
         "templ_values": "[]",
         "question_deleted": 0,
         "answer": "indoor"
+    },
+    {
+        "video_id": "00000148",
+        "question_id": 5822,
+        "type": "[\"Audio-Visual\", \"Location\"]",
+        "question_content": "Where is the <LL> instrument? ",
+        "templ_values": "[\"loudest\"]",
+        "question_deleted": 0,
+        "answer": "right"
     },
     {
         "video_id": "00000240",
