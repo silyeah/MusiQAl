@@ -3,25 +3,44 @@ import seaborn as sns
 import pandas as pd
 
 
-complex = True
+complex = False
+alt_model = False
 
-modality = 'visual'  # 'audio', 'visual', or 'av'
+success = True
+
+modality = 'av'  # 'audio', 'visual', or 'av'
 
 if modality == 'av':
     title_ref = 'audio-visual'
 else:
     title_ref = modality
 
-if complex: 
+if alt_model:
+    title = f'Accuracy on {title_ref} questions by\ncategory and intervention type,\n with models trained on corresponding data'
+    standard = 'final_results.csv'
+    audio_intv = 'alt_model/audio_audio_final_results.csv'
+    visual_intv = 'alt_model/visual_visual_final_results.csv'
+    both_intv = 'alt_model/both_both_final_results.csv'
+
+
+elif complex: 
     title_ref = 'complex ' + title_ref
+    title = f'Accuracy on {title_ref} questions by\ncategory and intervention type'
     standard = 'complex/final_results.csv'
     audio_intv = 'complex/intv/audio_final_results.csv'
     visual_intv = 'complex/intv/visual_final_results.csv'
     both_intv = 'complex/intv/both_final_results.csv'
 
+elif success:
+    title = f'Accuracy on {title_ref} questions by\ncategory and intervention type,\n where model succeeds without intervention'
+    standard = 'final_results_success.csv'
+    audio_intv = 'success/audio_final_results.csv'
+    visual_intv = 'success/visual_final_results.csv'
+    both_intv = 'success/both_final_results.csv'
 
 else: 
     # File paths
+    title = f'Accuracy on {title_ref} questions by\ncategory and intervention type'
     standard = 'final_results.csv'
     audio_intv = 'intv/audio_final_results.csv'
     visual_intv = 'intv/visual_final_results.csv'
@@ -66,16 +85,6 @@ elif modality == 'av':
     colours = ['#b896c6', '#b36b24', '#6aa88d', '#c1a35f']
 
 
-# # --- Helper to extract accuracies ---
-# def get_accuracies(file_path, categories):
-#     df = pd.read_csv(file_path)
-#     result = []
-#     for cat in categories:
-#         value = df.loc[df['question_category'] == cat, 'accuracy'].values
-#         result.append(value[0] if len(value) else None)
-    
-#     print(result)
-#     return result
 
 def get_accuracies(file_path, categories):
     df = pd.read_csv(file_path)
@@ -100,8 +109,8 @@ both_intv_accuracies = get_accuracies(both_intv, df_categories)
 data = {
     'Question category': category_list,
     'None': standard_accuracies,
-    'Audio': audio_intv_accuracies,
     'Visual': visual_intv_accuracies,
+    'Audio': audio_intv_accuracies,
     'Both': both_intv_accuracies
 }
 
@@ -135,7 +144,7 @@ sns.barplot(
 plt.xticks(rotation=45, ha='right')
 plt.xlabel('Question category', fontsize=16)
 plt.ylabel('Accuracy (%)', fontsize=16)
-plt.title(f'Accuracy on {title_ref} questions by\ncategory and intervention type', fontsize=18, pad=15)
+plt.title(title, fontsize=18, pad=15)
 
 plt.legend(
     title='Modality excluded',
@@ -148,7 +157,11 @@ plt.legend(
 plt.tight_layout(rect=[0, 0, 1, 1])  # leave space for legend
 
 # --- Save as high-resolution PNG ---
-if complex:
+if alt_model:
+    plt.savefig(f'figures/fig_{modality}_alt_model.png', dpi=300, bbox_inches='tight') 
+elif success:
+    plt.savefig(f'figures/fig_{modality}_success.png', dpi=300, bbox_inches='tight')
+elif complex:
     plt.savefig(f'figures/fig_{modality}_complex.png', dpi=300, bbox_inches='tight')
 else:
     plt.savefig(f'figures/fig_{modality}.png', dpi=300, bbox_inches='tight')
