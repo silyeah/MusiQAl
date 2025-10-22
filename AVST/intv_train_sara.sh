@@ -3,11 +3,11 @@
 
 #SBATCH --job-name=train_model 
 #SBATCH --account=ec12
-#SBATCH --time=00:05:00
+#SBATCH --time=15:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=32G
-#SBATCH --partition=accel  
+#SBATCH --partition=accel
 #SBATCH --gpus=rtx30:1
 
 
@@ -36,7 +36,14 @@ cd $DIR &> /dev/null
 ## export CUDA_LAUNCH_BLOCKING=1
 
 
-#python main_avst.py > ./progress/avst_train.txt
+# python intv_train_avst.py --intv_mode='audio' > ./progress/invt_avst_train.txt
 
-python main_avst.py > test_run_avst.txt
+# python intv_train_avst.py --intv_mode='both' > ./progress/invt_avst_train.txt
+
+python intv_train_avst.py --intv_mode='visual' > ./progress/invt_avst_train.txt
+
+
+
+
+
 

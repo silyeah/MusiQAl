@@ -56,14 +56,14 @@ def test(model, test_loader, run_nr = 0, intv_mode = None):
     total = 0
     correct = 0
 
-    samples = json.load(open("../json/avqa-test-success.json", 'r'))
+    samples = json.load(open("../json/avqa-test-success-lr.json", 'r'))
 
     if intv_mode is not None:
-        failed_filename = f'test_results/intv/{intv_mode}_failed_questions_success' + '.csv'
-        success_filename = f'test_results/intv/{intv_mode}_success_questions_success' + '.csv'
-        details_filename = f'test_results/intv/{intv_mode}_details_success' + '.txt'
-        final_results_filename = f'test_results/intv/{intv_mode}_final_results_success' + '.txt'
-        final_results_csv = f'test_results/intv/{intv_mode}_final_results_success' + '.csv'
+        failed_filename = f'test_results/success/{intv_mode}_failed_questions.csv'
+        success_filename = f'test_results/success/{intv_mode}_success_questions.csv'
+        details_filename = f'test_results/success/{intv_mode}_details.txt'
+        final_results_filename = f'test_results/success/{intv_mode}_final_results.txt'
+        final_results_csv = f'test_results/success/{intv_mode}_final_results.csv'
     
     else:
         failed_filename = 'test_results/failed_questions_success' + '.csv'
@@ -76,18 +76,15 @@ def test(model, test_loader, run_nr = 0, intv_mode = None):
     with open(failed_filename, 'w') as failed_file:
         failed_file.write('idx,question_id,video_id\n')
 
-    with open(success_filename, 'w') as success_file:
-        success_file.write('idx,question_id,video_id\n')
+    # with open(success_filename, 'w') as success_file:
+    #     success_file.write('idx,question_id,video_id\n')
 
-    with open(details_filename, 'w') as details_file:
-        details_file.write('Details of test success\n\n')
-
-    with open(final_results_filename, 'w') as final_results_file:
-        final_results_file.write(f'Final results of test success\n\n')
+    # with open(details_filename, 'w') as details_file:
+    #     details_file.write('Details of test success\n\n')
 
     with open(final_results_filename, 'w') as final_results_file:
         final_results_file.write(f'Final results of test success\n\n')
-    
+
     with open(final_results_csv, 'w') as final_results_file:
         final_results_file.write(f'question_category,accuracy\n')
 
@@ -134,22 +131,22 @@ def test(model, test_loader, run_nr = 0, intv_mode = None):
             # print('Accuracy until now: %.2f %%' % (100 * correct / total))
             # print('\n')
 
-            with open(details_filename, 'a') as details_file:
-                details_file.write('Idx ' + str(batch_idx) + '\n')
-                details_file.write('Question ID: ' + str(x['question_id']) + '\n')
-                details_file.write('Video ID: ' + str(x['video_id']) + '\n')
-                details_file.write('Predicted: ' + str(predicted.item()) + '\n')
-                details_file.write('Target: ' + str(target.item()) + '\n')
-                details_file.write('Correct until now: ' + str(correct) + '\n')
-                details_file.write('Samples tested until now: ' + str(total) + '\n')
-                details_file.write('Accuracy until now: %.2f %%' % (100 * correct / total) + '\n')
-                details_file.write('\n')
+            # with open(details_filename, 'a') as details_file:
+            #     details_file.write('Idx ' + str(batch_idx) + '\n')
+            #     details_file.write('Question ID: ' + str(x['question_id']) + '\n')
+            #     details_file.write('Video ID: ' + str(x['video_id']) + '\n')
+            #     details_file.write('Predicted: ' + str(predicted.item()) + '\n')
+            #     details_file.write('Target: ' + str(target.item()) + '\n')
+            #     details_file.write('Correct until now: ' + str(correct) + '\n')
+            #     details_file.write('Samples tested until now: ' + str(total) + '\n')
+            #     details_file.write('Accuracy until now: %.2f %%' % (100 * correct / total) + '\n')
+            #     details_file.write('\n')
 
-            if (predicted == target):
-                with open(success_filename, 'a') as success_file:
-                    success_file.write(f'{batch_idx},{x["question_id"]},{x["video_id"]}\n')
+            # if (predicted == target):
+            #     with open(success_filename, 'a') as success_file:
+            #         success_file.write(f'{batch_idx},{x["question_id"]},{x["video_id"]}\n')
 
-            else:
+            if (predicted != target):
                 with open(failed_filename, 'a') as failed_file:
                     failed_file.write(f'{batch_idx},{x["question_id"]},{x["video_id"]}\n')
 
@@ -336,14 +333,14 @@ def main():
         "--video_res14x14_dir", type=str, default=my_source_dir + 'feats/res18_14x14', help="res14x14 dir")
 
     parser.add_argument(
-        "--intv_mode", type=str, default='both', help='modality to intervene in')
+        "--intv_mode", type=str, default=None, help='modality to intervene in')
 
     parser.add_argument(
         "--label_train", type=str, default="../json/avqa-train.json", help="train csv file")
     parser.add_argument(
         "--label_val", type=str, default="../json/avqa-val.json", help="val csv file")
     parser.add_argument(
-        "--label_test", type=str, default="../json/avqa-test-success.json", help="test csv file")
+        "--label_test", type=str, default="../json/avqa-test-success-lr.json", help="test csv file")
     parser.add_argument(
         '--batch-size', type=int, default=64, metavar='N', help='input batch size for training (default: 16)')
     parser.add_argument(
@@ -391,7 +388,7 @@ def main():
 
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=4, pin_memory=True)
 
-    model.load_state_dict(torch.load('./avst_models/avst_ours.pt'))
+    model.load_state_dict(torch.load('./avst_models/avst_lr.pt'))
     model = model.to('cuda') 
 
     test(model, test_loader, intv_mode = args.intv_mode)

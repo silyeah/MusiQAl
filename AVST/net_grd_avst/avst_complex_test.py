@@ -56,37 +56,37 @@ def test(model, test_loader, run_nr = 0, intv_mode = None, training_data = None)
     total = 0
     correct = 0
 
-    samples = json.load(open("../json/avqa-test.json", 'r'))
+    samples = json.load(open("../json/avqa-test-complex.json", 'r'))
 
     if training_data is not None and intv_mode is None: 
-        failed_filename = f'test_results/alt_model/{training_data}_failed_questions.csv'
-        success_filename = f'test_results/alt_model/{training_data}_success_questions.csv'
-        details_filename = f'test_results/alt_model/{training_data}_details.txt'
-        final_results_filename = f'test_results/alt_model/{training_data}_final_results.txt'
-        final_results_csv = f'test_results/alt_model/{training_data}_final_results.csv'
+        failed_filename = f'test_results/complex/alt_model/{training_data}_failed_questions.csv'
+        success_filename = f'test_results/complex/alt_model/{training_data}_success_questions.csv'
+        details_filename = f'test_results/complex/alt_model/{training_data}_details.txt'
+        final_results_filename = f'test_results/complex/alt_model/{training_data}_final_results.txt'
+        final_results_csv = f'test_results/complex/alt_model/{training_data}_final_results.csv'
 
     
     elif training_data is not None and intv_mode is not None: 
-        failed_filename = f'test_results/alt_model/{training_data}_{intv_mode}_failed_questions.csv'
-        success_filename = f'test_results/alt_model/{training_data}_{intv_mode}_success_questions.csv'
-        details_filename = f'test_results/alt_model/{training_data}_{intv_mode}_details.txt'
-        final_results_filename = f'test_results/alt_model/{training_data}_{intv_mode}_final_results.txt'
-        final_results_csv = f'test_results/alt_model/{training_data}_{intv_mode}_final_results.csv'
+        failed_filename = f'test_results/complex/alt_model/{training_data}_{intv_mode}_failed_questions.csv'
+        success_filename = f'test_results/complex/alt_model/{training_data}_{intv_mode}_success_questions.csv'
+        details_filename = f'test_results/complex/alt_model/{training_data}_{intv_mode}_details.txt'
+        final_results_filename = f'test_results/complex/alt_model/{training_data}_{intv_mode}_final_results.txt'
+        final_results_csv = f'test_results/complex/alt_model/{training_data}_{intv_mode}_final_results.csv'
 
 
     elif intv_mode is not None:
-        failed_filename = f'test_results/intv/{intv_mode}_failed_questions.csv'
-        success_filename = f'test_results/intv/{intv_mode}_success_questions.csv'
-        details_filename = f'test_results/intv/{intv_mode}_details.txt'
-        final_results_filename = f'test_results/intv/{intv_mode}_final_results.txt'
-        final_results_csv = f'test_results/intv/{intv_mode}_final_results.csv'
-    
+        failed_filename = f'test_results/complex/intv/{intv_mode}_failed_questions.csv'
+        success_filename = f'test_results/complex/intv/{intv_mode}_success_questions.csv'
+        details_filename = f'test_results/complex/intv/{intv_mode}_details.txt'
+        final_results_filename = f'test_results/complex/intv/{intv_mode}_final_results.txt'
+        final_results_csv = f'test_results/complex/intv/{intv_mode}_final_results.csv'
+
     else:
-        failed_filename = 'test_results/failed_questions.csv'
-        success_filename = 'test_results/success_questions.csv'
-        details_filename = 'test_results/details.txt'
-        final_results_filename = 'test_results/final_results.txt'
-        final_results_csv = 'test_results/final_results.csv'
+        failed_filename = 'test_results/complex/failed_questions.csv'
+        success_filename = 'test_results/complex/success_questions.csv'
+        details_filename = 'test_results/complex/details.txt'
+        final_results_filename = 'test_results/complex/final_results.txt'
+        final_results_csv = 'test_results/complex/final_results.csv'
 
 
     with open(failed_filename, 'w') as failed_file:
@@ -99,7 +99,7 @@ def test(model, test_loader, run_nr = 0, intv_mode = None, training_data = None)
     #     details_file.write(f'Details of test run {run_nr}\n\n')
 
     with open(final_results_filename, 'w') as final_results_file:
-        final_results_file.write(f'Final results of test\n\n')
+        final_results_file.write(f'Final results of complex test\n\n')
 
     with open(final_results_csv, 'w') as final_results_file:
         final_results_file.write(f'question_category,accuracy\n')
@@ -137,15 +137,15 @@ def test(model, test_loader, run_nr = 0, intv_mode = None, training_data = None)
 
             x = samples[batch_idx]
 
-            # print('Idx', batch_idx)
-            # print(x['question_id'])
-            # print(x['video_id'])
-            # print('Predicted: ', predicted)
-            # print('Target: ', target)
-            # print('Correct until now: ', correct)
-            # print('Samples tested until now: ', total)
-            # print('Accuracy until now: %.2f %%' % (100 * correct / total))
-            # print('\n')
+            print('Idx', batch_idx)
+            print(x['question_id'])
+            print(x['video_id'])
+            print('Predicted: ', predicted)
+            print('Target: ', target)
+            print('Correct until now: ', correct)
+            print('Samples tested until now: ', total)
+            print('Accuracy until now: %.2f %%' % (100 * correct / total))
+            print('\n')
 
             # with open(details_filename, 'a') as details_file:
             #     details_file.write('Idx ' + str(batch_idx) + '\n')
@@ -210,43 +210,43 @@ def test(model, test_loader, run_nr = 0, intv_mode = None, training_data = None)
 
     with open(final_results_filename, 'a') as final_results_file:
         final_results_file.write('Audio Existential Accuracy: %.2f %%\n' % (
-            100 * sum(A_ext)/len(A_ext)))
+            100 * sum(A_ext)/len(A_ext) if len(A_ext) != 0 else float('nan') ))
         final_results_file.write('Audio Counting Accuracy: %.2f %%\n' % (
-            100 * sum(A_count)/len(A_count)))
+            100 * sum(A_count)/len(A_count) if len(A_count) != 0 else float('nan') ))
         final_results_file.write('Audio Cmp Accuracy: %.2f %%\n' % (
-            100 * sum(A_cmp) / len(A_cmp)))
+            100 * sum(A_cmp) / len(A_cmp) if len(A_cmp) != 0 else float('nan') ))
         final_results_file.write('Audio Temp Accuracy: %.2f %%\n' % (
-            100 * sum(A_temp) / len(A_temp)))
+            100 * sum(A_temp) / len(A_temp) if len(A_temp) != 0 else float('nan') ))
         final_results_file.write('Audio Caus Accuracy: %.2f %%\n' % (
-            100 * sum(A_caus) / len(A_caus)))
+            100 * sum(A_caus) / len(A_caus) if len(A_caus) != 0 else float('nan') ))
         final_results_file.write('Audio Accuracy: %.2f %%\n\n' % (
             100 * (sum(A_ext) + sum(A_count) + sum(A_cmp) + sum(A_temp) + sum(A_caus)) / (len(A_ext)+len(A_count) + len(A_cmp)+len(A_temp)+len(A_caus))))
         final_results_file.write('Visual Ext Accuracy: %.2f %%\n' % (
-            100 * sum(V_ext) / len(V_ext)))
+            100 * sum(V_ext) / len(V_ext) if len(V_ext) != 0 else float('nan')))
         final_results_file.write('Visual Loc Accuracy: %.2f %%\n' % (
-            100 * sum(V_loc) / len(V_loc)))
+            100 * sum(V_loc) / len(V_loc) if len(V_loc) != 0 else float('nan')))
         final_results_file.write('Visual Counting Accuracy: %.2f %%\n' % (
-            100 * sum(V_count) / len(V_count)))
+            100 * sum(V_count) / len(V_count) if len(V_count) != 0 else float('nan')))
         final_results_file.write('Visual Temp Accuracy: %.2f %%\n' % (
-            100 * sum(V_temp) / len(V_temp)))
+            100 * sum(V_temp) / len(V_temp) if len(V_temp) != 0 else float('nan')))
         final_results_file.write('Visual Caus Accuracy: %.2f %%\n' % (
-            100 * sum(V_caus) / len(V_caus)))
+            100 * sum(V_caus) / len(V_caus) if len(V_caus) != 0 else float('nan')))
         final_results_file.write('Visual Accuracy: %.2f %%\n\n' % (
             100 * (sum(V_ext)+sum(V_loc) + sum(V_count)+sum(V_temp)+sum(V_caus)) / (len(V_ext)+len(V_loc) + len(V_count)+len(V_temp)+len(V_caus))))
         final_results_file.write('AV Ext Accuracy: %.2f %%\n' % (
-            100 * sum(AV_ext) / len(AV_ext)))
+            100 * sum(AV_ext) / len(AV_ext) if len(AV_ext) != 0 else float('nan')))
         final_results_file.write('AV counting Accuracy: %.2f %%\n' % (
-            100 * sum(AV_count) / len(AV_count)))
+            100 * sum(AV_count) / len(AV_count) if len(AV_count) != 0 else float('nan')))
         final_results_file.write('AV Loc Accuracy: %.2f %%\n' % (
-            100 * sum(AV_loc) / len(AV_loc)))
+            100 * sum(AV_loc) / len(AV_loc) if len(AV_loc) != 0 else float('nan')))
         final_results_file.write('AV Cmp Accuracy: %.2f %%\n' % (
-            100 * sum(AV_cmp) / len(AV_cmp)))
+            100 * sum(AV_cmp) / len(AV_cmp) if len(AV_cmp) != 0 else float('nan')))
         final_results_file.write('AV Temporal Accuracy: %.2f %%\n' % (
-            100 * sum(AV_temp) / len(AV_temp)))
+            100 * sum(AV_temp) / len(AV_temp) if len(AV_temp) != 0 else float('nan')))
         final_results_file.write('AV Caus Accuracy: %.2f %%\n' % (
-            100 * sum(AV_caus) / len(AV_caus)))
+            100 * sum(AV_caus) / len(AV_caus) if len(AV_caus) != 0 else float('nan')))
         final_results_file.write('AV Purp Accuracy: %.2f %%\n' % (
-            100 * sum(AV_purp) / len(AV_purp))) 
+            100 * sum(AV_purp) / len(AV_purp) if len(AV_purp) != 0 else float('nan')))
         final_results_file.write('AV Accuracy: %.2f %%\n\n' % (
             100 * (sum(AV_count) + sum(AV_loc)+sum(AV_ext)+sum(AV_temp)
                    +sum(AV_cmp)+sum(AV_caus)+sum(AV_purp)) / (len(AV_count) + len(AV_loc)+len(AV_ext)+len(AV_temp)+len(AV_cmp)+len(AV_caus)+len(AV_purp))))
@@ -254,81 +254,78 @@ def test(model, test_loader, run_nr = 0, intv_mode = None, training_data = None)
             100 * correct / total))
 
     with open(final_results_csv, 'a') as f:
-        f.write(f'audio_existential_accuracy, {100 * sum(A_ext)/len(A_ext)}\n')
-        f.write(f'audio_counting_accuracy, {100 * sum(A_count)/len(A_count)}\n')
-        f.write(f'audio_comparison_accuracy, {100 * sum(A_cmp)/len(A_cmp)}\n')
-        f.write(f'audio_temporal_accuracy, {100 * sum(A_temp)/len(A_temp)}\n')
-        f.write(f'audio_causal_accuracy, {100 * sum(A_caus)/len(A_caus)}\n')
+        f.write(f'audio_existential_accuracy, {100 * sum(A_ext)/len(A_ext) if len(A_ext) != 0 else float("nan")}\n')
+        f.write(f'audio_counting_accuracy, {100 * sum(A_count)/len(A_count) if len(A_count) != 0 else float("nan")}\n')
+        f.write(f'audio_comparison_accuracy, {100 * sum(A_cmp)/len(A_cmp) if len(A_cmp) != 0 else float("nan")}\n')
+        f.write(f'audio_temporal_accuracy, {100 * sum(A_temp)/len(A_temp) if len(A_temp) != 0 else float("nan")}\n')
+        f.write(f'audio_causal_accuracy, {100 * sum(A_caus)/len(A_caus) if len(A_caus) != 0 else float("nan")}\n')
         f.write(f'audio_overall_accuracy, {(100 * (sum(A_ext)+sum(A_count)+sum(A_cmp)+sum(A_temp)+sum(A_caus)) / (len(A_ext)+len(A_count)+len(A_cmp)+len(A_temp)+len(A_caus)))}\n')
 
-        f.write(f'visual_existential_accuracy, {100 * sum(V_ext)/len(V_ext)}\n')
-        f.write(f'visual_localization_accuracy, {100 * sum(V_loc)/len(V_loc)}\n')
-        f.write(f'visual_counting_accuracy, {100 * sum(V_count)/len(V_count)}\n')
-        f.write(f'visual_temporal_accuracy, {100 * sum(V_temp)/len(V_temp)}\n')
-        f.write(f'visual_causal_accuracy, {100 * sum(V_caus)/len(V_caus)}\n')
+        f.write(f'visual_existential_accuracy, {100 * sum(V_ext)/len(V_ext) if len(V_ext) != 0 else float("nan")}\n')
+        f.write(f'visual_localization_accuracy, {100 * sum(V_loc)/len(V_loc) if len(V_loc) != 0 else float("nan")}\n')
+        f.write(f'visual_counting_accuracy, {100 * sum(V_count)/len(V_count) if len(V_count) != 0 else float("nan")}\n')
+        f.write(f'visual_temporal_accuracy, {100 * sum(V_temp)/len(V_temp) if len(V_temp) != 0 else float("nan")}\n')
+        f.write(f'visual_causal_accuracy, {100 * sum(V_caus)/len(V_caus) if len(V_caus) != 0 else float("nan")}\n')
         f.write(f'visual_overall_accuracy, {(100 * (sum(V_ext)+sum(V_loc)+sum(V_count)+sum(V_temp)+sum(V_caus)) / (len(V_ext)+len(V_loc)+len(V_count)+len(V_temp)+len(V_caus)))}\n')
 
-        f.write(f'av_existential_accuracy, {100 * sum(AV_ext)/len(AV_ext)}\n')
-        f.write(f'av_counting_accuracy, {100 * sum(AV_count)/len(AV_count)}\n')
-        f.write(f'av_localization_accuracy, {100 * sum(AV_loc)/len(AV_loc)}\n')
-        f.write(f'av_comparison_accuracy, {100 * sum(AV_cmp)/len(AV_cmp)}\n')
-        f.write(f'av_temporal_accuracy, {100 * sum(AV_temp)/len(AV_temp)}\n')
-        f.write(f'av_causal_accuracy, {100 * sum(AV_caus)/len(AV_caus)}\n')
-        f.write(f'av_purpose_accuracy, {100 * sum(AV_purp)/len(AV_purp)}\n')
+        f.write(f'av_existential_accuracy, {100 * sum(AV_ext)/len(AV_ext) if len(AV_ext) != 0 else float("nan")}\n')
+        f.write(f'av_counting_accuracy, {100 * sum(AV_count)/len(AV_count) if len(AV_count) != 0 else float("nan")}\n')
+        f.write(f'av_localization_accuracy, {100 * sum(AV_loc)/len(AV_loc) if len(AV_loc) != 0 else float("nan")}\n')
+        f.write(f'av_comparison_accuracy, {100 * sum(AV_cmp)/len(AV_cmp) if len(AV_cmp) != 0 else float("nan")}\n')
+        f.write(f'av_temporal_accuracy, {100 * sum(AV_temp)/len(AV_temp) if len(AV_temp) != 0 else float("nan")}\n')
+        f.write(f'av_causal_accuracy, {100 * sum(AV_caus)/len(AV_caus) if len(AV_caus) != 0 else float("nan")}\n')
+        f.write(f'av_purpose_accuracy, {100 * sum(AV_purp)/len(AV_purp) if len(AV_purp) != 0 else float("nan")}\n')
         f.write(f'av_overall_accuracy, {(100 * (sum(AV_count)+sum(AV_loc)+sum(AV_ext)+sum(AV_temp)+sum(AV_cmp)+sum(AV_caus)+sum(AV_purp)) / (len(AV_count)+len(AV_loc)+len(AV_ext)+len(AV_temp)+len(AV_cmp)+len(AV_caus)+len(AV_purp)))}\n')
 
         f.write(f'overall_accuracy, {100 * correct/total}\n')
 
 
 
+    # print('Audio Existential Accuracy: %.2f %%' % (
+    #         100 * sum(A_ext)/len(A_ext)))
+    # print('Audio Counting Accuracy: %.2f %%' % (
+    #         100 * sum(A_count)/len(A_count)))
+    # print('Audio Cmp Accuracy: %.2f %%' % (
+    #         100 * sum(A_cmp) / len(A_cmp)))
+    # print('Audio Temp Accuracy: %.2f %%' % (
+    #         100 * sum(A_temp) / len(A_temp)))
+    # print('Audio Caus Accuracy: %.2f %%' % (
+    #         100 * sum(A_caus) / len(A_caus)))
+    # print('Audio Accuracy: %.2f %%' % (
+    #         100 * (sum(A_ext) + sum(A_count) + sum(A_cmp) + sum(A_temp) + sum(A_caus)) / (len(A_ext)+len(A_count) + len(A_cmp)+len(A_temp)+len(A_caus))))
+    # print('Visual Ext Accuracy: %.2f %%' % (
+    #         100 * sum(V_ext) / len(V_ext)))
+    # print('Visual Loc Accuracy: %.2f %%' % (
+    #         100 * sum(V_loc) / len(V_loc)))
+    # print('Visual Counting Accuracy: %.2f %%' % (
+    #         100 * sum(V_count) / len(V_count)))
+    # print('Visual Temp Accuracy: %.2f %%' % (
+    #         100 * sum(V_temp) / len(V_temp)))
+    # print('Visual Caus Accuracy: %.2f %%' % (
+    #         100 * sum(V_caus) / len(V_caus)))
+    # print('Visual Accuracy: %.2f %%' % (
+    #         100 * (sum(V_ext)+sum(V_loc) + sum(V_count)+sum(V_temp)+sum(V_caus)) / (len(V_ext)+len(V_loc) + len(V_count)+len(V_temp)+len(V_caus))))
+    # print('AV Ext Accuracy: %.2f %%' % (
+    #         100 * sum(AV_ext) / len(AV_ext)))
+    # print('AV counting Accuracy: %.2f %%' % (
+    #         100 * sum(AV_count) / len(AV_count)))
+    # print('AV Loc Accuracy: %.2f %%' % (
+    #         100 * sum(AV_loc) / len(AV_loc)))
+    # print('AV Cmp Accuracy: %.2f %%' % (
+    #         100 * sum(AV_cmp) / len(AV_cmp)))
+    # print('AV Temporal Accuracy: %.2f %%' % (
+    #         100 * sum(AV_temp) / len(AV_temp)))
+    # print('AV Caus Accuracy: %.2f %%' % (
+    #         100 * sum(AV_caus) / len(AV_caus)))
+    # print('AV Purp Accuracy: %.2f %%' % (
+    #         100 * sum(AV_purp) / len(AV_purp)))
 
+    # print('AV Accuracy: %.2f %%' % (
+    #         100 * (sum(AV_count) + sum(AV_loc)+sum(AV_ext)+sum(AV_temp)
+    #                +sum(AV_cmp)+sum(AV_caus)+sum(AV_purp)) / (len(AV_count) + len(AV_loc)+len(AV_ext)+len(AV_temp)+len(AV_cmp)+len(AV_caus)+len(AV_purp))))
 
-
-    print('Audio Existential Accuracy: %.2f %%' % (
-            100 * sum(A_ext)/len(A_ext)))
-    print('Audio Counting Accuracy: %.2f %%' % (
-            100 * sum(A_count)/len(A_count)))
-    print('Audio Cmp Accuracy: %.2f %%' % (
-            100 * sum(A_cmp) / len(A_cmp)))
-    print('Audio Temp Accuracy: %.2f %%' % (
-            100 * sum(A_temp) / len(A_temp)))
-    print('Audio Caus Accuracy: %.2f %%' % (
-            100 * sum(A_caus) / len(A_caus)))
-    print('Audio Accuracy: %.2f %%' % (
-            100 * (sum(A_ext) + sum(A_count) + sum(A_cmp) + sum(A_temp) + sum(A_caus)) / (len(A_ext)+len(A_count) + len(A_cmp)+len(A_temp)+len(A_caus))))
-    print('Visual Ext Accuracy: %.2f %%' % (
-            100 * sum(V_ext) / len(V_ext)))
-    print('Visual Loc Accuracy: %.2f %%' % (
-            100 * sum(V_loc) / len(V_loc)))
-    print('Visual Counting Accuracy: %.2f %%' % (
-            100 * sum(V_count) / len(V_count)))
-    print('Visual Temp Accuracy: %.2f %%' % (
-            100 * sum(V_temp) / len(V_temp)))
-    print('Visual Caus Accuracy: %.2f %%' % (
-            100 * sum(V_caus) / len(V_caus)))
-    print('Visual Accuracy: %.2f %%' % (
-            100 * (sum(V_ext)+sum(V_loc) + sum(V_count)+sum(V_temp)+sum(V_caus)) / (len(V_ext)+len(V_loc) + len(V_count)+len(V_temp)+len(V_caus))))
-    print('AV Ext Accuracy: %.2f %%' % (
-            100 * sum(AV_ext) / len(AV_ext)))
-    print('AV counting Accuracy: %.2f %%' % (
-            100 * sum(AV_count) / len(AV_count)))
-    print('AV Loc Accuracy: %.2f %%' % (
-            100 * sum(AV_loc) / len(AV_loc)))
-    print('AV Cmp Accuracy: %.2f %%' % (
-            100 * sum(AV_cmp) / len(AV_cmp)))
-    print('AV Temporal Accuracy: %.2f %%' % (
-            100 * sum(AV_temp) / len(AV_temp)))
-    print('AV Caus Accuracy: %.2f %%' % (
-            100 * sum(AV_caus) / len(AV_caus)))
-    print('AV Purp Accuracy: %.2f %%' % (
-            100 * sum(AV_purp) / len(AV_purp)))
-
-    print('AV Accuracy: %.2f %%' % (
-            100 * (sum(AV_count) + sum(AV_loc)+sum(AV_ext)+sum(AV_temp)
-                   +sum(AV_cmp)+sum(AV_caus)+sum(AV_purp)) / (len(AV_count) + len(AV_loc)+len(AV_ext)+len(AV_temp)+len(AV_cmp)+len(AV_caus)+len(AV_purp))))
-
-    print('Overall Accuracy: %.2f %%' % (
-            100 * correct / total))
+    # print('Overall Accuracy: %.2f %%' % (
+    #         100 * correct / total))
 
     return 100 * correct / total
 
@@ -346,29 +343,28 @@ def main():
 
 
     parser.add_argument(
-        "--intv_mode", type=str, default = None, help='modality to intervene in: None, audio, visual or both')
+        "--intv_mode", type=str, default= None , help='modality to intervene in: None, audio, visual or both')
+    
     parser.add_argument(
-        '--training_data', type=str, default = None, help='which training data was used (modality excluded)'
+        '--training_data', type=str, default= None, help='which training data was used (modality excluded)'
     )
-
 
     parser.add_argument(
         "--audio_dir", type=str, default = my_source_dir + 'feats/vggish', help="audio dir")
     parser.add_argument(
         "--video_res14x14_dir", type=str, default=my_source_dir + 'feats/res18_14x14', help="res14x14 dir")
-
     parser.add_argument(
         "--label_train", type=str, default="../json/avqa-train.json", help="train csv file")
     parser.add_argument(
         "--label_val", type=str, default="../json/avqa-val.json", help="val csv file")
     parser.add_argument(
-        "--label_test", type=str, default="../json/avqa-test.json", help="test csv file")
+        "--label_test", type=str, default="../json/avqa-test-complex.json", help="test csv file")
     parser.add_argument(
-        '--batch-size', type=int, default=16, metavar='N', help='input batch size for training (default: 16)')
+        '--batch-size', type=int, default=64, metavar='N', help='input batch size for training (default: 16)')
     parser.add_argument(
         '--epochs', type=int, default=30, metavar='N', help='number of epochs to train (default: 60)')
     parser.add_argument(
-        '--lr', type=float, default=1.46e-4, metavar='LR', help='learning rate (default: 3e-4)')
+        '--lr', type=float, default=1e-4, metavar='LR', help='learning rate (default: 3e-4)')
     parser.add_argument(
         "--model", type=str, default='AVQA_Fusion_Net', help="with model to use")
     parser.add_argument(
@@ -383,6 +379,7 @@ def main():
         "--checkpoint", type=str, default='avst_lr', help="save model name")
     parser.add_argument(
         '--gpu', type=str, default='0, 1', help='gpu device number')
+
 
 
 
@@ -413,7 +410,6 @@ def main():
     else:
         model.load_state_dict(torch.load(args.model_save_dir + args.checkpoint + ".pt"))
         test(model, test_loader, run_nr = 0, intv_mode = args.intv_mode, training_data = None)
-
 
 
     print("Testing done.")

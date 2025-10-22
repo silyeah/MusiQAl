@@ -3,7 +3,7 @@
 
 #SBATCH --job-name=trial0
 #SBATCH --account=ec12
-#SBATCH --time=00:03:00
+#SBATCH --time=00:15:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=32G
@@ -11,7 +11,7 @@
 #SBATCH --gpus=rtx30:1
 
 
-#BATCH --qos=devel
+## BATCH --qos=devel
 
 
 
@@ -36,6 +36,46 @@ cd $DIR &> /dev/null
 
 ## export CUDA_LAUNCH_BLOCKING=1
 
+# python avst_test.py --intv_mode='visual'> ./avst_test.txt
+
+# python avst_test.py --intv_mode='audio'> ./avst_test.txt
+
 python avst_test.py > ./avst_test.txt
 
+# python avst_complex_test.py --intv_mode='visual' --training_data='visual' > ./avst_complex_test.txt
+
+# python avst_complex_test.py --intv_mode='audio' --training_data='audio' > ./avst_complex_test.txt
+
+# python avst_complex_test.py --intv_mode='both' --training_data='both' > ./avst_complex_test.txt
+
+
 # python avst_test_success.py > ./avst_test_success.txt
+
+# python avst_test_success.py --intv_mode='visual' > ./avst_test_success.txt
+
+# python avst_test_success.py --intv_mode='audio' > ./avst_test_success.txt
+
+# python avst_test_success.py --intv_mode='both' > ./avst_test_success.txt
+
+
+
+# python avst_complex_test.py > ./avst_complex_test.txt
+
+
+# python avst_test_success.py > ./avst_test_success.txt
+
+
+# python avst_test.py --intv_mode='visual' --training_data='visual' > ./avst_test.txt
+
+# python avst_test.py --intv_mode='both' --training_data='visual' > ./avst_test.txt
+
+# python avst_test.py --intv_mode='audio' --training_data='audio' > ./avst_test.txt
+
+# python avst_test.py --intv_mode='both' --training_data='audio' > ./avst_test.txt
+
+# python avst_test.py --intv_mode='both' --training_data='both' > ./avst_test.txt
+
+# python avst_complex_test.py --intv_mode='both' --training_data='visual' > ./avst_complex_test.txt
+
+
+
