@@ -36,11 +36,16 @@ cd $DIR &> /dev/null
 
 ## export CUDA_LAUNCH_BLOCKING=1
 
-# python avst_test.py --intv_mode='visual'> ./avst_test.txt
 
-# python avst_test.py --intv_mode='audio'> ./avst_test.txt
 
-python avst_test.py > ./avst_test.txt
+# python avst_test.py > ./avst_test.txt
+
+python avst_test.py --intv_mode='visual'> ./avst_test.txt
+
+python avst_test.py --intv_mode='audio'> ./avst_test.txt
+
+python avst_test.py --intv_mode='both'> ./avst_test.txt
+
 
 # python avst_complex_test.py --intv_mode='visual' --training_data='visual' > ./avst_complex_test.txt
 

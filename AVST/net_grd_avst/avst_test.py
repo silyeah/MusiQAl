@@ -24,10 +24,6 @@ writer = SummaryWriter('runs/net_avst/'+TIMESTAMP)
 print("\n--------------- Audio-Visual Spatial-Temporal Model --------------- \n")
 
 
-sara_abs_path = '/fp/homes01/u01/ec-sarapje/Dataset/Data/data/'
-my_source_dir = sara_abs_path
-
-
 def batch_organize(out_match_posi,out_match_nega):
     # audio B 512
     # posi B 512
@@ -60,49 +56,43 @@ def test(model, test_loader, run_nr = 0, intv_mode = None, training_data = None)
 
     if training_data is not None and intv_mode is None: 
         failed_filename = f'test_results/alt_model/{training_data}_failed_questions.csv'
-        success_filename = f'test_results/alt_model/{training_data}_success_questions.csv'
-        details_filename = f'test_results/alt_model/{training_data}_details.txt'
         final_results_filename = f'test_results/alt_model/{training_data}_final_results.txt'
         final_results_csv = f'test_results/alt_model/{training_data}_final_results.csv'
+        probs_filename = f'test_results/alt_model/{training_data}_prediction_probs.csv'
 
     
     elif training_data is not None and intv_mode is not None: 
         failed_filename = f'test_results/alt_model/{training_data}_{intv_mode}_failed_questions.csv'
-        success_filename = f'test_results/alt_model/{training_data}_{intv_mode}_success_questions.csv'
-        details_filename = f'test_results/alt_model/{training_data}_{intv_mode}_details.txt'
         final_results_filename = f'test_results/alt_model/{training_data}_{intv_mode}_final_results.txt'
         final_results_csv = f'test_results/alt_model/{training_data}_{intv_mode}_final_results.csv'
+        probs_filename = f'test_results/alt_model/{training_data}_{intv_mode}_prediction_probs.csv'
 
 
     elif intv_mode is not None:
         failed_filename = f'test_results/intv/{intv_mode}_failed_questions.csv'
-        success_filename = f'test_results/intv/{intv_mode}_success_questions.csv'
-        details_filename = f'test_results/intv/{intv_mode}_details.txt'
         final_results_filename = f'test_results/intv/{intv_mode}_final_results.txt'
         final_results_csv = f'test_results/intv/{intv_mode}_final_results.csv'
-    
+        probs_filename = f'test_results/intv/{intv_mode}_prediction_probs.csv'
+
     else:
         failed_filename = 'test_results/failed_questions.csv'
-        success_filename = 'test_results/success_questions.csv'
-        details_filename = 'test_results/details.txt'
         final_results_filename = 'test_results/final_results.txt'
         final_results_csv = 'test_results/final_results.csv'
+        probs_filename = 'test_results/prediction_probs.csv'
 
 
     with open(failed_filename, 'w') as failed_file:
         failed_file.write('idx,question_id,video_id\n')
-
-    # with open(success_filename, 'w') as success_file:
-    #     success_file.write('idx,question_id,video_id\n')
-
-    # with open(details_filename, 'w') as details_file:
-    #     details_file.write(f'Details of test run {run_nr}\n\n')
 
     with open(final_results_filename, 'w') as final_results_file:
         final_results_file.write(f'Final results of test\n\n')
 
     with open(final_results_csv, 'w') as final_results_file:
         final_results_file.write(f'question_category,accuracy\n')
+
+    with open(probs_filename, 'w') as prob_file:
+        prob_file.write('correct,probability\n')
+        
 
     A_ext = []
     A_count = []
@@ -137,35 +127,17 @@ def test(model, test_loader, run_nr = 0, intv_mode = None, training_data = None)
 
             x = samples[batch_idx]
 
-            # print('Idx', batch_idx)
-            # print(x['question_id'])
-            # print(x['video_id'])
-            # print('Predicted: ', predicted)
-            # print('Target: ', target)
-            # print('Correct until now: ', correct)
-            # print('Samples tested until now: ', total)
-            # print('Accuracy until now: %.2f %%' % (100 * correct / total))
-            # print('\n')
+            probability_distribution = F.softmax(preds, dim=1)
+            max_pred = torch.max(probability_distribution, 1)[0].item()
+            outcome = (predicted == target).sum().item()
 
-            # with open(details_filename, 'a') as details_file:
-            #     details_file.write('Idx ' + str(batch_idx) + '\n')
-            #     details_file.write('Question ID: ' + str(x['question_id']) + '\n')
-            #     details_file.write('Video ID: ' + str(x['video_id']) + '\n')
-            #     details_file.write('Predicted: ' + str(predicted.item()) + '\n')
-            #     details_file.write('Target: ' + str(target.item()) + '\n')
-            #     details_file.write('Correct until now: ' + str(correct) + '\n')
-            #     details_file.write('Samples tested until now: ' + str(total) + '\n')
-            #     details_file.write('Accuracy until now: %.2f %%' % (100 * correct / total) + '\n')
-            #     details_file.write('\n')
-
-            # if (predicted == target):
-            #     with open(success_filename, 'a') as success_file:
-            #         success_file.write(f'{batch_idx},{x["question_id"]},{x["video_id"]}\n')
+            with open(probs_filename, 'a') as prob_file:
+                prob_file.write(f'{outcome},{max_pred}\n')
+            
 
             if (predicted != target):
                 with open(failed_filename, 'a') as failed_file:
                     failed_file.write(f'{batch_idx},{x["question_id"]},{x["video_id"]}\n')
-
 
             type =ast.literal_eval(x['type'])
 
@@ -339,6 +311,7 @@ def main():
     #Relevant parameters
     mode = 'test'
     sara_abs_path = '/fp/homes01/u01/ec-sarapje/Dataset/Data/data/'
+
     my_source_dir = sara_abs_path
 
     # Training settings
@@ -346,9 +319,9 @@ def main():
 
 
     parser.add_argument(
-        "--intv_mode", type=str, default = None, help='modality to intervene in: None, audio, visual or both')
+        "--intv_mode", type=str, default = None, help='modality to intervene in (remove): None, audio, visual or both')
     parser.add_argument(
-        '--training_data', type=str, default = None, help='which training data was used (modality excluded)'
+        '--training_data', type=str, default = None, help='which training data was used (modality excluded) to train model'
     )
 
 

@@ -48,6 +48,7 @@ class MyTransform:
         
         if self.intv_mode == 'audio':
             sample['audio'] = torch.zeros_like(sample['audio'])
+            #sample['audio'] = torch.randn_like(sample['audio'])
 
         elif self.intv_mode == 'visual':
             sample['visual_posi'] = np.zeros_like(sample['visual_posi'])

@@ -198,21 +198,22 @@ def test(model, val_loader):
                 elif type[1] == 'Purpose':
                     AV_purp.append((predicted == target).sum().item())
                 
-                # Now you have the probability distribution
-            probability_distribution = F.softmax(preds, dim=1)
+            #     # Now you have the probability distribution
+            # probability_distribution = F.softmax(preds, dim=1)
 
-            # Find the index of the highest probability answer
-            predicted_answer_index = torch.argmax(probability_distribution).item()
+            # # Find the index of the highest probability answer
+            # predicted_answer_index = torch.argmax(probability_distribution).item()
 
-            answer_dict = my_source_dir + 'ans_vocab.txt'
+            # answer_dict = my_source_dir + 'ans_vocab.txt'
 
-            # Map the index to your answer dictionary
-            predicted_answer = answer_dict[predicted_answer_index]
+            # # Map the index to your answer dictionary
+            # predicted_answer = answer_dict[predicted_answer_index]
 
-            # Print the predicted answer
-            print(f"Question: {question}")
-            print(f"Predicted Answer: {predicted_answer}")
-            print(f"Probability Distribution: {probability_distribution.tolist()}")
+            # # Print the predicted answer
+            # print(f"Question: {question}")
+            # print(f"Predicted Answer: {predicted_answer}")
+            # print(f"Probability Distribution: {probability_distribution.tolist()}")
+
 
     print('Audio Existential Accuracy: %.2f %%' % (
             100 * sum(A_ext)/len(A_ext)))
@@ -267,8 +268,8 @@ def test(model, val_loader):
 def main():
 
     #Relevant parameters
-    #mode = 'test'
-    mode = 'train'
+    mode = 'test'
+    # mode = 'train'
     sara_abs_path = '/fp/homes01/u01/ec-sarapje/Dataset/Data/data/'
     my_source_dir = sara_abs_path
 
@@ -278,8 +279,6 @@ def main():
 
     parser.add_argument(
         "--audio_dir", type=str, default = my_source_dir + 'feats/vggish', help="audio dir")
-    # parser.add_argument(
-    #     "--video_dir", type=str, default='/home/guangyao_li/dataset/avqa/avqa-frames-1fps', help="video dir")
     parser.add_argument(
         "--video_res14x14_dir", type=str, default = my_source_dir + 'feats/res18_14x14', help="res14x14 dir")
 
@@ -290,11 +289,11 @@ def main():
     parser.add_argument(
         "--label_test", type=str, default="../json/avqa-test.json", help="test csv file")
     parser.add_argument(
-        '--batch-size', type=int, default=64, metavar='N', help='input batch size for training (default: 16)')
+        '--batch-size', type=int, default=16, metavar='N', help='input batch size for training (default: 16)')
     parser.add_argument(
         '--epochs', type=int, default=30, metavar='N', help='number of epochs to train (default: 60)')
     parser.add_argument(
-        '--lr', type=float, default=1e-4, metavar='LR', help='learning rate (default: 3e-4)')
+        '--lr', type=float, default=1.46e-4, metavar='LR', help='learning rate (default: 3e-4)')
     parser.add_argument(
         "--model", type=str, default='AVQA_Fusion_Net', help="which model to use")
     parser.add_argument(
@@ -303,12 +302,10 @@ def main():
         '--seed', type=int, default=1, metavar='S', help='random seed (default: 1)')
     parser.add_argument(
         '--log-interval', type=int, default=10, metavar='N', help='how many batches to wait before logging training status')
-    # parser.add_argument(
-    #     "--model_save_dir", type=str, default='net_grd_avst/avst_models/', help="model save dir")
     parser.add_argument(
         "--model_save_dir", type=str, default='avst_models/', help="model save dir")
     parser.add_argument(
-        "--checkpoint", type=str, default='avst_ours', help="save model name")
+        "--checkpoint", type=str, default='avst_lr', help="save model name")
     parser.add_argument(
         '--gpu', type=str, default='0, 1', help='gpu device number')
 
@@ -360,8 +357,8 @@ def main():
         criterion = nn.CrossEntropyLoss()
         best_F = 0
 
-        progress_epoch_filename = 'progress/avst_epoch_progress.csv'
-        eval_filename = 'progress/avst_epoch_eval.csv'
+        progress_epoch_filename = 'progress/avst_epoch_progress_lr.csv'
+        eval_filename = 'progress/avst_epoch_eval_lr.csv'
 
         with open(progress_epoch_filename, 'w') as f:
             f.write('epoch,loss_qa,loss_match,loss_both,train_accuracy\n')
@@ -392,7 +389,6 @@ def main():
         print(test_dataset.__len__())
         test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=4, pin_memory=True)
         model.load_state_dict(torch.load(args.model_save_dir + args.checkpoint + ".pt"))
-        #model.load_state_dict(torch.load('avst_models/avst.pt'))
         test(model, test_loader)
 
 
