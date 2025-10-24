@@ -131,7 +131,7 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
     )
 
     # --- Create the bar plot ---
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(9, 6))
     sns.barplot(
         data=df_melt,
         x='Question category',
@@ -147,7 +147,7 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
     plt.title(title, fontsize=24, pad=15)
 
     plt.legend(
-        title='Modality\nexcluded',
+        title='Modality excluded',
         title_fontsize=18,
         fontsize=16,
         bbox_to_anchor=(1.02, 1),  # moves legend to the right

@@ -8,24 +8,24 @@ import numpy as np
 # -------------------------------------------------
 plot_style = {
     "title": {
-        "text": "Distribution of Predicted Probabilities for Correct Predictions",
-        "fontsize": 24,
+        "text": "Distribution of Highest Predicted Probability\nfor Correct Predictions",
+        "fontsize": 26,
         "color": "black"
     },
     "xlabel": {
-        "text": "Predicted Probability",
-        "fontsize": 20,
+        "text": "Highest Predicted Probability",
+        "fontsize": 22,
         "color": "black"
     },
     "ylabel": {
         "text": "Density",
-        "fontsize": 20,
+        "fontsize": 22,
         "color": "black"
     },
     "legend": {
         "fontsize": 18,
         "title": 'Modality removed (mean, std.)',
-        "title_fontsize": 20,
+        "title_fontsize": 22,
         "labelcolor": "black"
     },
     "line_colors": {
@@ -93,7 +93,7 @@ plt.legend(fontsize=plot_style["legend"]["fontsize"],
 plt.xlim(0, 1)
 
 plt.tight_layout()
-plt.savefig('correct_prediction_probs.png', facecolor=plot_style["background_color"])
+plt.savefig('figures/correct_prediction_probs.png', dpi=300, facecolor=plot_style["background_color"])
 plt.close()
 
 
@@ -109,18 +109,18 @@ plt.close()
 # -------------------------------------------------
 plot_style = {
     "title": {
-        "text": "Distribution of Predicted Probabilities for Incorrect Predictions",
-        "fontsize": 24,
+        "text": "Distribution of Highest Predicted Probability\nfor Incorrect Predictions",
+        "fontsize": 26,
         "color": "black"
     },
     "xlabel": {
-        "text": "Predicted Probability",
-        "fontsize": 22,
+        "text": "Highest Predicted Probability",
+        "fontsize": 24,
         "color": "black"
     },
     "ylabel": {
         "text": "Density",
-        "fontsize": 22,
+        "fontsize": 24,
         "color": "black"
     },
     "legend": {
@@ -179,5 +179,5 @@ plt.legend(fontsize=plot_style["legend"]["fontsize"],
 plt.xlim(0, 1)
 
 plt.tight_layout()
-plt.savefig('incorrect_prediction_probs.png', facecolor=plot_style["background_color"])
+plt.savefig('figures/incorrect_prediction_probs.png', dpi=300, facecolor=plot_style["background_color"])
 plt.close()
