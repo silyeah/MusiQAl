@@ -6,18 +6,22 @@ import pandas as pd
 def make_fig(modality, complex=False, alt_model=False, success=False):
     # Set file paths and title based on modality and flags
 
-    if modality == 'av':
-        title_ref = 'audio-visual'
-    else:
-        title_ref = modality
+    if modality == 'audio':
+        title_ref = 'Audio questions'
+
+    elif modality == 'visual':
+        title_ref = 'Visual questions'
+
+    elif modality == 'av':
+        title_ref = 'Audio-Visual questions'
+
 
     if alt_model:
-        title = f'Accuracy on {title_ref} questions by\ncategory and intervention type,\n with models trained on corresponding data'
+        title = title_ref
         standard = 'final_results.csv'
         audio_intv = 'alt_model/audio_audio_final_results.csv'
         visual_intv = 'alt_model/visual_visual_final_results.csv'
         both_intv = 'alt_model/both_both_final_results.csv'
-
 
     elif complex: 
         title_ref = 'complex ' + title_ref
@@ -27,16 +31,24 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
         visual_intv = 'complex/intv/visual_final_results.csv'
         both_intv = 'complex/intv/both_final_results.csv'
 
-    elif success:
+    elif success == 'success':
         title = f'Accuracy on {title_ref} questions by\ncategory and intervention type,\n where model succeeds without intervention'
         standard = 'final_results_success.csv'
         audio_intv = 'success/audio_final_results.csv'
         visual_intv = 'success/visual_final_results.csv'
         both_intv = 'success/both_final_results.csv'
+    
+
+    elif success == 'failure':
+        title = title_ref
+        standard = 'final_results_failure.csv'
+        audio_intv = 'failure/audio_final_results.csv'
+        visual_intv = 'failure/visual_final_results.csv'
+        both_intv = 'failure/both_final_results.csv'
 
     else: 
         # File paths
-        title = f'Accuracy on {title_ref} questions by\ncategory and intervention type'
+        title = title_ref
         standard = 'final_results.csv'
         audio_intv = 'intv/audio_final_results.csv'
         visual_intv = 'intv/visual_final_results.csv'
@@ -49,23 +61,35 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
             category_list = ['Existential', 'Counting', 'Temporal', 'Causal', 'Total']
             df_categories = ['audio_existential_accuracy', 'audio_counting_accuracy',
                             'audio_temporal_accuracy', 'audio_causal_accuracy', 'audio_overall_accuracy']
-        
-        else: 
+
+        else:
             category_list = ['Existential', 'Counting', 'Comparative', 'Temporal', 'Causal', 'Total']
             df_categories = ['audio_existential_accuracy', 'audio_counting_accuracy', 'audio_comparison_accuracy',
                             'audio_temporal_accuracy', 'audio_causal_accuracy', 'audio_overall_accuracy']
+        
         colours = ["firebrick", "goldenrod", "forestgreen", "slateblue"]
+
+        if success == 'failure':
+            colours = ["goldenrod", "forestgreen", "slateblue"]
 
     elif modality == 'visual':
         if complex:
             category_list = ['Location', 'Counting','Causal', 'Total']
             df_categories = ['visual_localization_accuracy', 'visual_counting_accuracy',
                             'visual_causal_accuracy', 'visual_overall_accuracy']
+            colours = ["cornflowerblue", "darksalmon", "yellowgreen", "teal"]
+        
+        elif success == 'failure':
+            category_list = ['Location', 'Counting', 'Temporal', 'Causal', 'Total']
+            df_categories = ['visual_localization_accuracy', 'visual_counting_accuracy',
+                            'visual_temporal_accuracy', 'visual_causal_accuracy', 'visual_overall_accuracy']
+            colours = ["darksalmon", "yellowgreen", "teal"]
+
         else:
             category_list = ['Existential', 'Location', 'Counting', 'Temporal', 'Causal', 'Total']
             df_categories = ['visual_existential_accuracy', 'visual_localization_accuracy', 'visual_counting_accuracy',
                             'visual_temporal_accuracy', 'visual_causal_accuracy', 'visual_overall_accuracy']
-        colours = ["cornflowerblue", "darksalmon", "yellowgreen", "teal"]
+            colours = ["cornflowerblue", "darksalmon", "yellowgreen", "teal"]
 
     elif modality == 'av':
         if complex:
@@ -79,6 +103,10 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
                             'av_comparison_accuracy', 'av_temporal_accuracy', 'av_causal_accuracy',
                             'av_purpose_accuracy', 'av_overall_accuracy']
         colours = ['#b896c6', '#b36b24', '#6aa88d', '#c1a35f']
+
+        if success == 'failure':
+            colours = ['#b36b24', '#6aa88d', '#c1a35f']
+        
 
 
 
@@ -109,6 +137,15 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
         'Audio': audio_intv_accuracies,
         'Both': both_intv_accuracies
     }
+
+    if success is not None:
+        data = {
+        'Question category': category_list,
+        'Visual': visual_intv_accuracies,
+        'Audio': audio_intv_accuracies,
+        'Both': both_intv_accuracies
+    }
+
 
     df = pd.DataFrame(data)
 
@@ -147,7 +184,7 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
     plt.title(title, fontsize=24, pad=15)
 
     plt.legend(
-        title='Modality excluded',
+        title='Modality\nexcluded',
         title_fontsize=18,
         fontsize=16,
         bbox_to_anchor=(1.02, 1),  # moves legend to the right
@@ -159,6 +196,28 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
     plt.tick_params(axis='x', labelsize=18)
     plt.tick_params(axis='y', labelsize=18)
 
+    ax = plt.gca()  # get current axes
+
+    # Remove only the top and right spines (keep x and y axes visible)
+    sns.despine(ax=ax, top=True, right=True)
+
+    # Make the remaining spines (bottom and left) a bit lighter
+    ax.spines['bottom'].set_color('gray')
+    ax.spines['left'].set_color('gray')
+    ax.spines['bottom'].set_linewidth(1)
+    ax.spines['left'].set_linewidth(1)
+
+    # Remove legend frame (box around legend)
+    leg = ax.get_legend()
+    if leg:
+        leg.get_frame().set_linewidth(0.0)
+        leg.get_frame().set_facecolor('none')
+
+    # Optionally, subtle horizontal gridlines (nice for bar plots)
+    ax.grid(True, which='major', axis='y', linestyle='--', linewidth=0.5, alpha=0.3)
+    ax.grid(False, axis='x')
+
+
 
     plt.tight_layout(rect=[0, 0, 1, 1])  # leave space for legend
 
@@ -166,8 +225,8 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
     # --- Save as high-resolution PNG ---
     if alt_model:
         plt.savefig(f'figures/fig_{modality}_alt_model.png', dpi=300, bbox_inches='tight') 
-    elif success:
-        plt.savefig(f'figures/fig_{modality}_success.png', dpi=300, bbox_inches='tight')
+    elif success is not None:
+        plt.savefig(f'figures/fig_{modality}_{success}.png', dpi=300, bbox_inches='tight')
     elif complex:
         plt.savefig(f'figures/fig_{modality}_complex.png', dpi=300, bbox_inches='tight')
     else:
@@ -177,32 +236,35 @@ def make_fig(modality, complex=False, alt_model=False, success=False):
 
 complex = False
 alt_model = False
-success = False
+success = None
 
 make_fig('audio', complex=complex, alt_model=alt_model, success=success)
 make_fig('visual', complex=complex, alt_model=alt_model, success=success)
 make_fig('av', complex=complex, alt_model=alt_model, success=success)
 
-complex = True
-alt_model = False
-success = False
 
-make_fig('audio', complex=complex, alt_model=alt_model, success=success)
-make_fig('visual', complex=complex, alt_model=alt_model, success=success)
-make_fig('av', complex=complex, alt_model=alt_model, success=success)
+# complex = True
+# alt_model = False
+# success = False
+
+# make_fig('audio', complex=complex, alt_model=alt_model, success=success)
+# make_fig('visual', complex=complex, alt_model=alt_model, success=success)
+# make_fig('av', complex=complex, alt_model=alt_model, success=success)
+
+# complex = False
+# alt_model = True
+# success = False
+
+# make_fig('audio', complex=complex, alt_model=alt_model, success=success)
+# make_fig('visual', complex=complex, alt_model=alt_model, success=success)
+# make_fig('av', complex=complex, alt_model=alt_model, success=success)
+
 
 complex = False
-alt_model = True
-success = False
-
-make_fig('audio', complex=complex, alt_model=alt_model, success=success)
-make_fig('visual', complex=complex, alt_model=alt_model, success=success)
-make_fig('av', complex=complex, alt_model=alt_model, success=success)
-
-complex = False
 alt_model = False
-success = True
+success = 'failure'
 
 make_fig('audio', complex=complex, alt_model=alt_model, success=success)
 make_fig('visual', complex=complex, alt_model=alt_model, success=success)
 make_fig('av', complex=complex, alt_model=alt_model, success=success)
+

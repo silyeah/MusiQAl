@@ -1,0 +1,1184 @@
+dataset,video_id,question_id,type,subtype,question,templ_values,answer,multiple choice,Number of answer alternatives
+test,274,10459,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""drum"", ""harp""]",no,yes/no,2
+test,232,8780,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""saxophone"", ""harp""]",no,yes/no,2
+test,164,6411,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""violin"", ""bass""]",no,yes/no,2
+test,157,6153,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""violin"", ""bass""]",no,yes/no,2
+test,204,7884,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""guitar"", ""bass""]",no,yes/no,2
+test,177,6846,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""guitar"", ""bass""]",no,yes/no,2
+test,205,7922,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""guitar"", ""bass""]",no,yes/no,2
+test,202,7821,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""violin"", ""bass""]",no,yes/no,2
+test,242,9131,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""drum"", ""voice""]",no,yes/no,2
+test,255,9719,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""piano"", ""violin""]",no,yes/no,2
+test,238,8982,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""piano"", ""voice""]",no,yes/no,2
+test,241,9099,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""piano"", ""voice""]",no,yes/no,2
+test,277,10566,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""saxophone"", ""harp""]",no,yes/no,2
+test,170,6529,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""dundun"", ""djembe""]",yes,yes/no,2
+test,108,4260,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""violin"", ""drums""]",yes,yes/no,2
+test,29,1142,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""saxophone"", ""drums""]",yes,yes/no,2
+test,179,6925,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""laouto"", ""tsabouna""]",yes,yes/no,2
+test,144,5625,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""djembe"", ""dundun""]",yes,yes/no,2
+test,172,6621,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""violin"", ""drum""]",yes,yes/no,2
+test,89,3385,Visual,Counting,Are there <Object> and <Object> instruments in the video?,"[""fiddle"", ""uillean pipe""]",yes,yes/no,2
+test,286,10921,Audio,Counting,Are there <Object> and <Object> sound?,"[""voice"", ""piano""]",no,yes/no,2
+test,12,491,Audio,Counting,Are there <Object> and <Object> sound?,"[""piano"", ""voice""]",no,yes/no,2
+test,57,2140,Audio,Counting,Are there <Object> and <Object> sound?,"[""djembe"", ""dundun""]",no,yes/no,2
+test,158,6187,Audio,Counting,Are there <Object> and <Object> sound?,"[""guitar"", ""piano""]",no,yes/no,2
+test,176,6805,Audio,Counting,Are there <Object> and <Object> sound?,"[""guitar"", ""violin""]",no,yes/no,2
+test,51,1921,Audio,Counting,Are there <Object> and <Object> sound?,"[""bass"", ""computer""]",no,yes/no,2
+test,146,5715,Audio,Counting,Are there <Object> and <Object> sound?,"[""guitar"", ""drums""]",no,yes/no,2
+test,263,10100,Audio,Counting,Are there <Object> and <Object> sound?,"[""clarinet"", ""piano""]",no,yes/no,2
+test,154,6035,Audio,Counting,Are there <Object> and <Object> sound?,"[""guitar"", ""violin""]",no,yes/no,2
+test,43,1604,Audio,Counting,Are there <Object> and <Object> sound?,"[""Cretan lyra"", ""banjo""]",no,yes/no,2
+test,92,3511,Audio,Counting,Are there <Object> and <Object> sound?,"[""clarinet"", ""outi""]",yes,yes/no,2
+test,16,614,Audio,Counting,Are there <Object> and <Object> sound?,"[""djembe"", ""dundun""]",yes,yes/no,2
+test,107,4210,Audio,Counting,Are there <Object> and <Object> sound?,"[""djembe"", ""dundun""]",yes,yes/no,2
+test,288,10994,Audio,Counting,Are there <Object> and <Object> sound?,"[""voice"", ""piano""]",yes,yes/no,2
+test,120,4737,Audio,Counting,Are there <Object> and <Object> sound?,"[""cello"", ""saxophone""]",yes,yes/no,2
+test,3,116,Audio,Counting,Are there <Object> and <Object> sound?,"[""bass"", ""drums""]",yes,yes/no,2
+test,59,2218,Audio,Counting,Are there <Object> and <Object> sound?,"[""computer"", ""drums""]",yes,yes/no,2
+test,10,423,Audio,Counting,Are there <Object> and <Object> sound?,"[""guitar"", ""voice""]",yes,yes/no,2
+test,191,7394,Audio,Counting,Are there <Object> and <Object> sound?,"[""trumpet"", ""drums""]",yes,yes/no,2
+test,203,7851,Audio,Counting,Are there <Object> and <Object> sound?,"[""drum"", ""sitar""]",yes,yes/no,2
+test,186,7200,Audio,Counting,Are there <Object> and <Object> sound?,"[""pipe"", ""qanun""]",yes,yes/no,2
+test,120,4755,Audio,Counting,Are there any lyrics?,[],no,yes/no,2
+test,89,3399,Audio,Counting,Are there any lyrics?,[],no,yes/no,2
+test,118,4672,Audio,Counting,Are there any lyrics?,[],no,yes/no,2
+test,97,3748,Audio,Counting,Are there any lyrics?,[],no,yes/no,2
+test,173,6689,Audio,Counting,Are there any lyrics?,[],no,yes/no,2
+test,13,527,Audio,Counting,Are there any lyrics?,[],no,yes/no,2
+test,295,11315,Audio,Counting,Are there any lyrics?,[],no,yes/no,2
+test,199,7737,Audio,Counting,Are there any lyrics?,[],yes,yes/no,2
+test,244,9237,Audio,Counting,Are there any lyrics?,[],yes,yes/no,2
+test,283,10812,Audio,Counting,Are there any lyrics?,[],yes,yes/no,2
+test,159,6233,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,75,2822,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,1,67,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,134,5292,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,33,1302,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,145,5689,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,34,1345,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,23,906,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,36,1418,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,153,6015,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,77,2892,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,24,951,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,136,5360,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,157,6168,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,22,864,Audio,Counting,Are there any vocals?,[],no,yes/no,2
+test,289,11054,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,121,4797,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,99,3842,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,193,7503,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,30,1209,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,84,3183,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,111,4378,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,274,10462,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,181,7020,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,125,4948,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,205,7934,Audio,Counting,Are there any vocals?,[],yes,yes/no,2
+test,251,9549,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,271,10369,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,91,3483,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,268,10260,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,239,9040,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,264,10141,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,96,3698,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,228,8621,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,304,11641,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,281,10727,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],no,yes/no,2
+test,128,5060,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,193,7506,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,151,5936,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,284,10848,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,150,5897,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,127,5029,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,190,7370,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,205,7937,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,78,2924,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,215,8264,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,133,5248,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,162,6365,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,170,6543,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,130,5144,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,29,1157,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,184,7137,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,208,8039,Visual,Temporal,Did any performers change their positions on the stage during the music performance? ,[],yes,yes/no,2
+test,75,2839,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""saron""]",no,yes/no,2
+test,214,8250,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""dancer""]",no,yes/no,2
+test,61,2315,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""drum""]",no,yes/no,2
+test,38,1476,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""outi""]",no,yes/no,2
+test,91,3502,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""piano""]",no,yes/no,2
+test,84,3201,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""guitar""]",no,yes/no,2
+test,253,9661,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""voice""]",no,yes/no,2
+test,174,6750,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""dancer""]",no,yes/no,2
+test,236,8932,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""voice""]",no,yes/no,2
+test,96,3720,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""violin""]",no,yes/no,2
+test,155,6100,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""dancer""]",yes,yes/no,2
+test,159,6255,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""dancer""]",yes,yes/no,2
+test,133,5265,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""dancer""]",yes,yes/no,2
+test,160,6299,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""dancer""]",yes,yes/no,2
+test,158,6208,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""dancer""]",yes,yes/no,2
+test,153,6027,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""dancer""]",yes,yes/no,2
+test,15,607,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""pianist""]",yes,yes/no,2
+test,238,9010,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""voice""]",yes,yes/no,2
+test,4,191,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""drums""]",yes,yes/no,2
+test,138,5439,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""dancer""]",yes,yes/no,2
+test,60,2279,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""cello""]",yes,yes/no,2
+test,283,10820,Audio-Visual,Existential,Did the <object> gestures convey the emotion of the music?,"[""voice""]",yes,yes/no,2
+test,22,883,Audio-Visual,Comparative,Did the <object> gestures correspond with the <object> fills?  ,"[""dundun"", ""djembe""]",no,yes/no,2
+test,154,6061,Audio-Visual,Comparative,Did the <object> gestures correspond with the <object> fills?  ,"[""dancer"", ""violin""]",yes,yes/no,2
+test,189,7342,Audio-Visual,Comparative,Did the <object> gestures correspond with the <object> fills?  ,"[""dancer"", ""trombone""]",yes,yes/no,2
+test,250,9523,Audio-Visual,Comparative,Did the <object> gestures correspond with the <object> fills?  ,"[""voice"", ""saxophone""]",yes,yes/no,2
+test,186,7228,Audio-Visual,Comparative,Did the <object> gestures correspond with the <object> fills?  ,"[""dancer"", ""tambourine""]",yes,yes/no,2
+test,178,6914,Audio-Visual,Comparative,Did the <object> gestures correspond with the <object> fills?  ,"[""dancer"", ""voice""]",yes,yes/no,2
+test,185,7169,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""violin""]",no,yes/no,2
+test,13,539,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""pianist""]",no,yes/no,2
+test,21,825,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""livecoder""]",no,yes/no,2
+test,8,356,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""guitar""]",no,yes/no,2
+test,117,4619,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""trumpet""]",no,yes/no,2
+test,222,8403,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""voice""]",no,yes/no,2
+test,20,792,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""livecoder""]",no,yes/no,2
+test,276,10544,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""voice""]",no,yes/no,2
+test,107,4225,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""voice""]",no,yes/no,2
+test,89,3395,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""fiddle""]",no,yes/no,2
+test,136,5356,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,72,2697,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""taiko""]",yes,yes/no,2
+test,213,8221,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,154,6048,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,177,6856,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,181,7019,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,33,1298,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""fiddle""]",yes,yes/no,2
+test,259,9928,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""voice""]",yes,yes/no,2
+test,24,947,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dundun""]",yes,yes/no,2
+test,221,8361,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""voice""]",yes,yes/no,2
+test,187,7249,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,3,132,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""bass""]",yes,yes/no,2
+test,162,6362,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,156,6123,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,77,2888,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""qanun""]",yes,yes/no,2
+test,38,1469,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""outi""]",yes,yes/no,2
+test,25,997,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dundun""]",yes,yes/no,2
+test,112,4403,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,19,762,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""violinist""]",yes,yes/no,2
+test,143,5599,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""dancer""]",yes,yes/no,2
+test,6,250,Visual,Temporal,Did the <object> perform any visual actions during the video?,"[""drums""]",yes,yes/no,2
+test,198,7709,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,305,11692,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,164,6433,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,163,6402,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,173,6704,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,31,1248,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,4,186,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,246,9333,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,150,5908,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,188,7299,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,16,649,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],no,yes/no,2
+test,271,10377,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],yes,yes/no,2
+test,273,10448,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],yes,yes/no,2
+test,184,7144,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],yes,yes/no,2
+test,7,323,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],yes,yes/no,2
+test,194,7560,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],yes,yes/no,2
+test,281,10734,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],yes,yes/no,2
+test,114,4503,Audio-Visual,Temporal,Did the visual theme of the stage change during the piece?,[],yes,yes/no,2
+test,184,7148,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],no,yes/no,2
+test,121,4814,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],no,yes/no,2
+test,20,804,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],no,yes/no,2
+test,300,11515,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,144,5665,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,283,10821,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,136,5372,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,74,2797,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,15,608,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,268,10267,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,83,3157,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,47,1778,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,308,11808,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,170,6565,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,33,1320,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,246,9340,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,61,2316,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,180,6998,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,84,3202,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,207,8016,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,305,11699,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,18,741,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,36,1424,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,255,9752,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,173,6711,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,141,5548,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,124,4921,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,55,2097,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,64,2434,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,245,9296,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,222,8419,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,129,5117,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,5,228,Audio-Visual,Comparative,Do the performers visual cues coordinate with the rhythm of the music? ,[],yes,yes/no,2
+test,133,5268,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""guitar"", ""drums""]",no,yes/no,2
+test,74,2798,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""saron"", ""kendang""]",no,yes/no,2
+test,47,1779,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""dundun"", ""djembe""]",no,yes/no,2
+test,155,6103,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""violin"", ""accordion""]",no,yes/no,2
+test,107,4251,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""djembe"", ""dundun""]",no,yes/no,2
+test,118,4686,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""guitar"", ""double bass""]",no,yes/no,2
+test,16,658,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""dundun"", ""djembe""]",no,yes/no,2
+test,150,5913,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""violin"", ""steps""]",yes,yes/no,2
+test,208,8054,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""voice"", ""drums""]",yes,yes/no,2
+test,229,8690,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""saxophone"", ""voice""]",yes,yes/no,2
+test,173,6712,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""laouto"", ""violin""]",yes,yes/no,2
+test,91,3505,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""computer"", ""piano""]",yes,yes/no,2
+test,299,11482,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""guitar"", ""voice""]",yes,yes/no,2
+test,181,7038,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""voice"", ""synthesizer""]",yes,yes/no,2
+test,180,6999,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""qanun"", ""violin""]",yes,yes/no,2
+test,246,9341,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""piano"", ""voice""]",yes,yes/no,2
+test,132,5222,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""violin"", ""voice""]",yes,yes/no,2
+test,174,6753,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""violin"", ""laouto""]",yes,yes/no,2
+test,227,8591,Audio,Comparative,Does <Object> play the same rhythm with <Object>?,"[""tabla"", ""voice""]",yes,yes/no,2
+test,308,11809,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],both,both/decrease/increase/static,4
+test,174,6754,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],both,both/decrease/increase/static,4
+test,92,3558,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],both,both/decrease/increase/static,4
+test,243,9208,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],decrease,both/decrease/increase/static,4
+test,185,7195,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,249,9479,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,255,9754,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,215,8270,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,12,518,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,277,10591,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,175,6797,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,123,4889,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,144,5666,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,103,4056,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,245,9298,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,194,7568,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,136,5373,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],increase,both/decrease/increase/static,4
+test,186,7230,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,180,7000,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,261,10041,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,178,6917,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,20,805,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,27,1104,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,269,10304,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,275,10523,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,267,10238,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,36,1425,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,38,1478,Audio-Visual,Temporal,Does the energy level of the performance increase or decrease as it progresses?,[],static,both/decrease/increase/static,4
+test,1,70,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],no,yes/no,2
+test,118,4679,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],no,yes/no,2
+test,212,8196,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],no,yes/no,2
+test,200,7777,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],no,yes/no,2
+test,246,9330,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],no,yes/no,2
+test,199,7743,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],no,yes/no,2
+test,34,1357,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],no,yes/no,2
+test,168,6513,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],no,yes/no,2
+test,259,9937,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],no,yes/no,2
+test,308,11805,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,86,3275,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,109,4316,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,268,10264,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,100,3906,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,106,4192,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,107,4238,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,275,10520,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,262,10079,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,59,2243,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,87,3317,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,90,3450,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,93,3589,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,271,10375,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,241,9117,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,81,3069,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,164,6430,Audio-Visual,Causal,Does the venue's acoustics affect instrument placement and sound projection?,[],yes,yes/no,2
+test,12,513,Audio-Visual,Location,From which direction or location is the sound source coming?,[],left,left/middle/right,3
+test,165,6467,Audio-Visual,Location,From which direction or location is the sound source coming?,[],left,left/middle/right,3
+test,15,606,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,62,2347,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,44,1657,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,29,1170,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,46,1726,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,149,5868,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,232,8800,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,40,1543,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,159,6245,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,136,5366,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,3,143,Audio-Visual,Location,From which direction or location is the sound source coming?,[],middle,left/middle/right,3
+test,266,10180,Audio-Visual,Location,From which direction or location is the sound source coming?,[],right,left/middle/right,3
+test,194,7556,Audio-Visual,Location,From which direction or location is the sound source coming?,[],right,left/middle/right,3
+test,298,11430,Audio-Visual,Temporal,How did the lighting change during the <Object>? ,"[""transition""]",shifted,diminished/intensified/shifted/static,4
+test,284,10855,Audio-Visual,Temporal,How did the lighting change during the <Object>? ,"[""solo""]",static,diminished/intensified/shifted/static,4
+test,214,8237,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",eight,zero-ten/more than ten,12
+test,272,10389,Visual,Counting,How many <Object> are in the entire video?,"[""voice""]",five,zero-ten/more than ten,12
+test,282,10744,Visual,Counting,How many <Object> are in the entire video?,"[""voice""]",five,zero-ten/more than ten,12
+test,170,6527,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",four,zero-ten/more than ten,12
+test,65,2442,Visual,Counting,How many <Object> are in the entire video?,"[""piano""]",four,zero-ten/more than ten,12
+test,195,7576,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",more than ten,zero-ten/more than ten,12
+test,53,1989,Visual,Counting,How many <Object> are in the entire video?,"[""qanun""]",more than ten,zero-ten/more than ten,12
+test,72,2686,Visual,Counting,How many <Object> are in the entire video?,"[""taiko""]",more than ten,zero-ten/more than ten,12
+test,182,7044,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",more than ten,zero-ten/more than ten,12
+test,289,11037,Visual,Counting,How many <Object> are in the entire video?,"[""voice""]",more than ten,zero-ten/more than ten,12
+test,287,10959,Visual,Counting,How many <Object> are in the entire video?,"[""voice""]",more than ten,zero-ten/more than ten,12
+test,236,8907,Visual,Counting,How many <Object> are in the entire video?,"[""voice""]",one,zero-ten/more than ten,12
+test,128,5046,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",one,zero-ten/more than ten,12
+test,105,4116,Visual,Counting,How many <Object> are in the entire video?,"[""violin""]",one,zero-ten/more than ten,12
+test,232,8778,Visual,Counting,How many <Object> are in the entire video?,"[""voice""]",one,zero-ten/more than ten,12
+test,139,5447,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",one,zero-ten/more than ten,12
+test,186,7201,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",six,zero-ten/more than ten,12
+test,206,7958,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",ten,zero-ten/more than ten,12
+test,254,9674,Visual,Counting,How many <Object> are in the entire video?,"[""voice""]",two,zero-ten/more than ten,12
+test,255,9717,Visual,Counting,How many <Object> are in the entire video?,"[""voice""]",two,zero-ten/more than ten,12
+test,158,6188,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",two,zero-ten/more than ten,12
+test,166,6472,Visual,Counting,How many <Object> are in the entire video?,"[""dancer""]",two,zero-ten/more than ten,12
+test,121,4784,Visual,Counting,How many <Object> are in the entire video?,"[""tambourine""]",two,zero-ten/more than ten,12
+test,47,1745,Visual,Counting,How many <Object> are in the entire video?,"[""djembe""]",two,zero-ten/more than ten,12
+test,0,4,Visual,Counting,How many <Object> are in the entire video?,"[""drums""]",zero,zero-ten/more than ten,12
+test,55,2073,Audio-Visual,Counting,How many instruments are sounding in the video?,[],four,zero-ten/more than ten,12
+test,57,2147,Audio-Visual,Counting,How many instruments are sounding in the video?,[],four,zero-ten/more than ten,12
+test,82,3090,Audio-Visual,Counting,How many instruments are sounding in the video?,[],four,zero-ten/more than ten,12
+test,101,3931,Audio-Visual,Counting,How many instruments are sounding in the video?,[],four,zero-ten/more than ten,12
+test,96,3689,Audio-Visual,Counting,How many instruments are sounding in the video?,[],more than ten,zero-ten/more than ten,12
+test,72,2691,Audio-Visual,Counting,How many instruments are sounding in the video?,[],more than ten,zero-ten/more than ten,12
+test,34,1333,Audio-Visual,Counting,How many instruments are sounding in the video?,[],more than ten,zero-ten/more than ten,12
+test,185,7161,Audio-Visual,Counting,How many instruments are sounding in the video?,[],more than ten,zero-ten/more than ten,12
+test,81,3050,Audio-Visual,Counting,How many instruments are sounding in the video?,[],more than ten,zero-ten/more than ten,12
+test,49,1836,Audio-Visual,Counting,How many instruments are sounding in the video?,[],nine,zero-ten/more than ten,12
+test,130,5133,Audio-Visual,Counting,How many instruments are sounding in the video?,[],one,zero-ten/more than ten,12
+test,14,563,Audio-Visual,Counting,How many instruments are sounding in the video?,[],one,zero-ten/more than ten,12
+test,250,9494,Audio-Visual,Counting,How many instruments are sounding in the video?,[],one,zero-ten/more than ten,12
+test,8,349,Audio-Visual,Counting,How many instruments are sounding in the video?,[],one,zero-ten/more than ten,12
+test,10,431,Audio-Visual,Counting,How many instruments are sounding in the video?,[],one,zero-ten/more than ten,12
+test,0,10,Audio-Visual,Counting,How many instruments are sounding in the video?,[],one,zero-ten/more than ten,12
+test,165,6452,Audio-Visual,Counting,How many instruments are sounding in the video?,[],one,zero-ten/more than ten,12
+test,44,1643,Audio-Visual,Counting,How many instruments are sounding in the video?,[],one,zero-ten/more than ten,12
+test,21,818,Audio-Visual,Counting,How many instruments are sounding in the video?,[],one,zero-ten/more than ten,12
+test,258,9862,Audio-Visual,Counting,How many instruments are sounding in the video?,[],six,zero-ten/more than ten,12
+test,78,2914,Audio-Visual,Counting,How many instruments are sounding in the video?,[],ten,zero-ten/more than ten,12
+test,212,8179,Audio-Visual,Counting,How many instruments are sounding in the video?,[],three,zero-ten/more than ten,12
+test,48,1794,Audio-Visual,Counting,How many instruments are sounding in the video?,[],three,zero-ten/more than ten,12
+test,102,3980,Audio-Visual,Counting,How many instruments are sounding in the video?,[],three,zero-ten/more than ten,12
+test,56,2109,Audio-Visual,Counting,How many instruments are sounding in the video?,[],three,zero-ten/more than ten,12
+test,88,3340,Audio-Visual,Counting,How many instruments are sounding in the video?,[],two,zero-ten/more than ten,12
+test,261,10015,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,154,6041,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,208,8028,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,204,7888,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,240,9063,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,288,11003,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,174,6726,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,162,6356,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,206,7964,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,300,11497,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,152,5962,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,143,5593,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,187,7241,Audio-Visual,Counting,How many instruments are sounding in the video?,[],zero,zero-ten/more than ten,12
+test,120,4743,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],five,zero-ten/more than ten,12
+test,82,3088,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],four,zero-ten/more than ten,12
+test,133,5235,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],more than ten,zero-ten/more than ten,12
+test,75,2810,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],more than ten,zero-ten/more than ten,12
+test,159,6222,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],one,zero-ten/more than ten,12
+test,14,561,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],one,zero-ten/more than ten,12
+test,9,383,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],one,zero-ten/more than ten,12
+test,90,3430,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],one,zero-ten/more than ten,12
+test,250,9491,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],two,zero-ten/more than ten,12
+test,114,4476,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],two,zero-ten/more than ten,12
+test,160,6273,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],two,zero-ten/more than ten,12
+test,182,7049,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],two,zero-ten/more than ten,12
+test,279,10640,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],zero,zero-ten/more than ten,12
+test,288,11000,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],zero,zero-ten/more than ten,12
+test,275,10499,Audio-Visual,Counting,How many instruments in the video did not sound from beginning to end?,[],zero,zero-ten/more than ten,12
+test,98,3775,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],eight,zero-ten/more than ten,12
+test,18,706,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],five,zero-ten/more than ten,12
+test,31,1222,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],five,zero-ten/more than ten,12
+test,255,9714,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],four,zero-ten/more than ten,12
+test,215,8255,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],four,zero-ten/more than ten,12
+test,164,6406,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],four,zero-ten/more than ten,12
+test,126,4974,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],more than ten,zero-ten/more than ten,12
+test,63,2362,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],more than ten,zero-ten/more than ten,12
+test,152,5953,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],more than ten,zero-ten/more than ten,12
+test,27,1080,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,44,1635,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,292,11166,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,20,776,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,183,7077,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,212,8169,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],three,zero-ten/more than ten,12
+test,214,8234,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],three,zero-ten/more than ten,12
+test,253,9616,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],three,zero-ten/more than ten,12
+test,125,4928,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],three,zero-ten/more than ten,12
+test,191,7392,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],three,zero-ten/more than ten,12
+test,22,842,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],three,zero-ten/more than ten,12
+test,16,612,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],three,zero-ten/more than ten,12
+test,259,9908,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],three,zero-ten/more than ten,12
+test,103,4014,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],three,zero-ten/more than ten,12
+test,150,5883,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],two,zero-ten/more than ten,12
+test,23,889,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],two,zero-ten/more than ten,12
+test,25,981,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],two,zero-ten/more than ten,12
+test,269,10271,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],zero,zero-ten/more than ten,12
+test,272,10386,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],zero,zero-ten/more than ten,12
+test,270,10310,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],zero,zero-ten/more than ten,12
+test,276,10526,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],zero,zero-ten/more than ten,12
+test,236,8904,Audio-Visual,Counting,How many musical instruments were heard throughout the video?,[],zero,zero-ten/more than ten,12
+test,214,8240,Visual,Counting,How many performers are dancing in the video?,[],eight,zero-ten/more than ten,12
+test,187,7244,Visual,Counting,How many performers are dancing in the video?,[],eight,zero-ten/more than ten,12
+test,197,7658,Visual,Counting,How many performers are dancing in the video?,[],five,zero-ten/more than ten,12
+test,175,6768,Visual,Counting,How many performers are dancing in the video?,[],more than ten,zero-ten/more than ten,12
+test,184,7128,Visual,Counting,How many performers are dancing in the video?,[],more than ten,zero-ten/more than ten,12
+test,135,5318,Visual,Counting,How many performers are dancing in the video?,[],one,zero-ten/more than ten,12
+test,136,5352,Visual,Counting,How many performers are dancing in the video?,[],one,zero-ten/more than ten,12
+test,202,7828,Visual,Counting,How many performers are dancing in the video?,[],six,zero-ten/more than ten,12
+test,153,6006,Visual,Counting,How many performers are dancing in the video?,[],two,zero-ten/more than ten,12
+test,147,5767,Visual,Counting,How many performers are dancing in the video?,[],two,zero-ten/more than ten,12
+test,166,6474,Visual,Counting,How many performers are dancing in the video?,[],two,zero-ten/more than ten,12
+test,79,2963,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],four,zero-ten/more than ten,12
+test,84,3175,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],four,zero-ten/more than ten,12
+test,58,2190,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],more than ten,zero-ten/more than ten,12
+test,34,1336,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],more than ten,zero-ten/more than ten,12
+test,42,1583,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],one,zero-ten/more than ten,12
+test,90,3433,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],one,zero-ten/more than ten,12
+test,144,5631,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],three,zero-ten/more than ten,12
+test,118,4663,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],three,zero-ten/more than ten,12
+test,33,1293,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],two,zero-ten/more than ten,12
+test,109,4303,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],two,zero-ten/more than ten,12
+test,77,2884,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],two,zero-ten/more than ten,12
+test,88,3343,Audio-Visual,Counting,How many performers are playing instruments in the video?,[],two,zero-ten/more than ten,12
+test,290,11093,Audio-Visual,Counting,How many performers are singing in the video?,[],more than ten,zero-ten/more than ten,12
+test,296,11341,Audio-Visual,Counting,How many performers are singing in the video?,[],more than ten,zero-ten/more than ten,12
+test,284,10839,Audio-Visual,Counting,How many performers are singing in the video?,[],nine,zero-ten/more than ten,12
+test,239,9033,Audio-Visual,Counting,How many performers are singing in the video?,[],one,zero-ten/more than ten,12
+test,240,9065,Audio-Visual,Counting,How many performers are singing in the video?,[],one,zero-ten/more than ten,12
+test,256,9771,Audio-Visual,Counting,How many performers are singing in the video?,[],two,zero-ten/more than ten,12
+test,258,9863,Audio-Visual,Counting,How many performers are singing in the video?,[],two,zero-ten/more than ten,12
+test,253,9630,Audio-Visual,Counting,How many performers are singing in the video?,[],two,zero-ten/more than ten,12
+test,251,9542,Audio-Visual,Counting,How many performers are singing in the video?,[],two,zero-ten/more than ten,12
+test,268,10240,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],more than ten,zero-ten/more than ten,12
+test,309,11811,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],more than ten,zero-ten/more than ten,12
+test,306,11703,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],more than ten,zero-ten/more than ten,12
+test,241,9093,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,236,8903,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,264,10130,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,222,8383,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,229,8651,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],one,zero-ten/more than ten,12
+test,253,9615,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],two,zero-ten/more than ten,12
+test,256,9758,Audio-Visual,Counting,How many singing voices were heard throughout the video?,[],two,zero-ten/more than ten,12
+test,236,8916,Audio-Visual,Counting,How many solos are featured in the music video?,[],one,zero-five,6
+test,114,4481,Audio-Visual,Counting,How many solos are featured in the music video?,[],one,zero-five,6
+test,21,821,Audio-Visual,Counting,How many solos are featured in the music video?,[],one,zero-five,6
+test,165,6454,Audio-Visual,Counting,How many solos are featured in the music video?,[],one,zero-five,6
+test,86,3262,Audio-Visual,Counting,How many solos are featured in the music video?,[],one,zero-five,6
+test,259,9923,Audio-Visual,Counting,How many solos are featured in the music video?,[],two,zero-five,6
+test,292,11181,Audio-Visual,Counting,How many solos are featured in the music video?,[],zero,zero-five,6
+test,211,8146,Audio-Visual,Counting,How many solos are featured in the music video?,[],zero,zero-five,6
+test,192,7453,Audio-Visual,Counting,How many solos are featured in the music video?,[],zero,zero-five,6
+test,186,7211,Audio-Visual,Counting,How many solos are featured in the music video?,[],zero,zero-five,6
+test,308,11791,Audio-Visual,Counting,How many solos are featured in the music video?,[],zero,zero-five,6
+test,182,7055,Audio-Visual,Counting,How many solos are featured in the music video?,[],zero,zero-five,6
+test,202,7829,Audio-Visual,Counting,How many solos are featured in the music video?,[],zero,zero-five,6
+test,120,4747,Audio-Visual,Counting,How many solos are featured in the music video?,[],zero,zero-five,6
+test,116,4564,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""violin""]",five,zero-ten/more than ten,12
+test,57,2144,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""djembe""]",four,zero-ten/more than ten,12
+test,307,11744,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",more than ten,zero-ten/more than ten,12
+test,288,10999,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",more than ten,zero-ten/more than ten,12
+test,292,11173,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",more than ten,zero-ten/more than ten,12
+test,28,1114,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""harp""]",one,zero-ten/more than ten,12
+test,234,8843,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",one,zero-ten/more than ten,12
+test,8,347,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""guitar""]",one,zero-ten/more than ten,12
+test,106,4167,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",one,zero-ten/more than ten,12
+test,231,8747,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",one,zero-ten/more than ten,12
+test,227,8551,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",one,zero-ten/more than ten,12
+test,107,4215,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",one,zero-ten/more than ten,12
+test,95,3649,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""tuba""]",one,zero-ten/more than ten,12
+test,118,4660,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""guitar""]",one,zero-ten/more than ten,12
+test,236,8911,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",one,zero-ten/more than ten,12
+test,17,670,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""djembe""]",one,zero-ten/more than ten,12
+test,12,496,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""piano""]",one,zero-ten/more than ten,12
+test,240,9060,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",one,zero-ten/more than ten,12
+test,294,11267,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",seven,zero-ten/more than ten,12
+test,295,11301,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""voice""]",three,zero-ten/more than ten,12
+test,61,2290,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""tuba""]",two,zero-ten/more than ten,12
+test,56,2107,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""dundun""]",two,zero-ten/more than ten,12
+test,24,938,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""drum""]",two,zero-ten/more than ten,12
+test,50,1883,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""bass""]",zero,zero-ten/more than ten,12
+test,195,7580,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""drum""]",zero,zero-ten/more than ten,12
+test,123,4852,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""bass""]",zero,zero-ten/more than ten,12
+test,142,5559,Audio-Visual,Counting,How many sounding <Object> in the video?,"[""bass""]",zero,zero-ten/more than ten,12
+test,193,7495,Visual,Counting,How many times does the performer visually interact with the audience?,[],four,zero-ten/more than ten,12
+test,143,5594,Visual,Counting,How many times does the performer visually interact with the audience?,[],more than ten,zero-ten/more than ten,12
+test,43,1611,Visual,Counting,How many times does the performer visually interact with the audience?,[],more than ten,zero-ten/more than ten,12
+test,248,9403,Visual,Counting,How many times does the performer visually interact with the audience?,[],more than ten,zero-ten/more than ten,12
+test,19,757,Visual,Counting,How many times does the performer visually interact with the audience?,[],one,zero-ten/more than ten,12
+test,246,9314,Visual,Counting,How many times does the performer visually interact with the audience?,[],one,zero-ten/more than ten,12
+test,131,5172,Visual,Counting,How many times does the performer visually interact with the audience?,[],one,zero-ten/more than ten,12
+test,102,3981,Visual,Counting,How many times does the performer visually interact with the audience?,[],one,zero-ten/more than ten,12
+test,105,4124,Visual,Counting,How many times does the performer visually interact with the audience?,[],seven,zero-ten/more than ten,12
+test,146,5722,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,243,9181,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,301,11531,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,281,10716,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,139,5453,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,58,2188,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,289,11046,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,309,11822,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,247,9360,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,57,2148,Visual,Counting,How many times does the performer visually interact with the audience?,[],zero,zero-ten/more than ten,12
+test,283,10799,Audio,Counting,How many times does the tempo change?,[],four,zero-ten/more than ten,12
+test,195,7584,Audio,Counting,How many times does the tempo change?,[],more than ten,zero-ten/more than ten,12
+test,125,4938,Audio,Counting,How many times does the tempo change?,[],one,zero-ten/more than ten,12
+test,203,7860,Audio,Counting,How many times does the tempo change?,[],one,zero-ten/more than ten,12
+test,22,854,Audio,Counting,How many times does the tempo change?,[],one,zero-ten/more than ten,12
+test,81,3051,Audio,Counting,How many times does the tempo change?,[],one,zero-ten/more than ten,12
+test,26,1039,Audio,Counting,How many times does the tempo change?,[],one,zero-ten/more than ten,12
+test,295,11305,Audio,Counting,How many times does the tempo change?,[],three,zero-ten/more than ten,12
+test,154,6042,Audio,Counting,How many times does the tempo change?,[],zero,zero-ten/more than ten,12
+test,227,8557,Audio,Counting,How many times does the tempo change?,[],zero,zero-ten/more than ten,12
+test,186,7209,Audio,Counting,How many times does the tempo change?,[],zero,zero-ten/more than ten,12
+test,160,6277,Audio,Counting,How many times does the tempo change?,[],zero,zero-ten/more than ten,12
+test,223,8440,Audio,Counting,How many times does the tempo change?,[],zero,zero-ten/more than ten,12
+test,251,9541,Audio,Counting,How many times does the tempo change?,[],zero,zero-ten/more than ten,12
+test,93,3572,Audio,Counting,How many times does the tempo change?,[],zero,zero-ten/more than ten,12
+test,204,7890,Audio,Counting,How many times does the tempo change?,[],zero,zero-ten/more than ten,12
+test,173,6672,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,210,8099,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,82,3085,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,22,846,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,72,2687,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,2,82,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,111,4364,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,83,3126,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,57,2142,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,36,1404,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,52,1959,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],one,zero-five,6
+test,172,6620,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],two,zero-five,6
+test,175,6761,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],two,zero-five,6
+test,146,5717,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],two,zero-five,6
+test,301,11524,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],zero,zero-five,6
+test,243,9173,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],zero,zero-five,6
+test,277,10565,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],zero,zero-five,6
+test,294,11264,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],zero,zero-five,6
+test,141,5521,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],zero,zero-five,6
+test,252,9579,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],zero,zero-five,6
+test,209,8062,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],zero,zero-five,6
+test,234,8840,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],zero,zero-five,6
+test,207,7991,Visual,Counting,How many types of musical instruments appeared in the entire video?,[],zero,zero-five,6
+test,142,5561,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],four,zero-five,6
+test,29,1145,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],four,zero-five,6
+test,111,4366,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,74,2769,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,22,851,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,109,4300,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,292,11176,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,170,6533,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,211,8142,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,288,11002,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,252,9585,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,7,295,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],one,zero-five,6
+test,91,3474,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],two,zero-five,6
+test,163,6386,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],two,zero-five,6
+test,85,3215,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],two,zero-five,6
+test,126,4981,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],two,zero-five,6
+test,90,3431,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],two,zero-five,6
+test,296,11337,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,309,11820,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,208,8027,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,304,11630,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,196,7616,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,180,6972,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,302,11562,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,212,8178,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,283,10796,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,242,9135,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,207,7995,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,203,7857,Audio-Visual,Counting,How many types of musical instruments sound in the video?,[],zero,zero-five,6
+test,285,10871,Audio-Visual,Counting,How many voices in the video did not sound from beginning to end?,[],more than ten,zero-ten/more than ten,12
+test,250,9492,Audio-Visual,Counting,How many voices in the video did not sound from beginning to end?,[],one,zero-ten/more than ten,12
+test,230,8703,Audio-Visual,Counting,How many voices in the video did not sound from beginning to end?,[],zero,zero-ten/more than ten,12
+test,232,8783,Audio-Visual,Counting,How many voices in the video did not sound from beginning to end?,[],zero,zero-ten/more than ten,12
+test,129,5102,Audio-Visual,Location,Is the <FL> sound coming from the <LR> instrument?,"[""first"", ""right""]",no,yes/no,2
+test,93,3586,Audio-Visual,Location,Is the <FL> sound coming from the <LR> instrument?,"[""last"", ""right""]",no,yes/no,2
+test,34,1351,Audio-Visual,Location,Is the <FL> sound coming from the <LR> instrument?,"[""first"", ""right""]",no,yes/no,2
+test,6,263,Audio-Visual,Location,Is the <FL> sound coming from the <LR> instrument?,"[""first"", ""right""]",yes,yes/no,2
+test,145,5696,Audio-Visual,Location,Is the <FL> sound coming from the <LR> instrument?,"[""first"", ""right""]",yes,yes/no,2
+test,148,5821,Audio-Visual,Location,Is the <FL> sound coming from the <LR> instrument?,"[""first"", ""right""]",yes,yes/no,2
+test,101,3935,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""violin""]",no,yes/no,2
+test,50,1891,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""computer""]",no,yes/no,2
+test,43,1614,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""voice""]",no,yes/no,2
+test,16,627,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""dundun""]",no,yes/no,2
+test,36,1412,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""qanun""]",yes,yes/no,2
+test,118,4665,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""guitar""]",yes,yes/no,2
+test,72,2695,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""taiko""]",yes,yes/no,2
+test,66,2486,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""guitar""]",yes,yes/no,2
+test,77,2886,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""qanun""]",yes,yes/no,2
+test,30,1203,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""saxophone""]",yes,yes/no,2
+test,23,901,Audio-Visual,Existential,Is the <Object> in the video always playing?,"[""djembe""]",yes,yes/no,2
+test,95,3672,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""trombone"", ""horn""]",no,yes/no,2
+test,222,8416,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""voice"", ""violin""]",no,yes/no,2
+test,176,6832,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""bass"", ""violin""]",no,yes/no,2
+test,107,4245,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""dundun"", ""djembe""]",no,yes/no,2
+test,5,227,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""bass"", ""drums""]",no,yes/no,2
+test,46,1731,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""violin"", ""cello""]",no,yes/no,2
+test,185,7189,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""accordion"", ""violin""]",no,yes/no,2
+test,16,652,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""djembe"", ""dundun""]",yes,yes/no,2
+test,303,11611,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""voice"", ""piano""]",yes,yes/no,2
+test,298,11433,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""voice"", ""synthesizer""]",yes,yes/no,2
+test,92,3550,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""outi"", ""qanun""]",yes,yes/no,2
+test,62,2352,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""tuba"", ""trombone""]",yes,yes/no,2
+test,159,6251,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""saxophone"", ""drums""]",yes,yes/no,2
+test,209,8087,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""voice"", ""drums""]",yes,yes/no,2
+test,113,4460,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""drum"", ""outi""]",yes,yes/no,2
+test,178,6911,Audio,Comparative,Is the <Object> louder than the <Object>?,"[""voice"", ""violin""]",yes,yes/no,2
+test,257,9839,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""piano"", ""voice""]",no,yes/no,2
+test,3,145,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""drums"", ""bass""]",no,yes/no,2
+test,240,9083,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""piano"", ""voice""]",no,yes/no,2
+test,33,1316,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""fiddle"", ""fiddle""]",no,yes/no,2
+test,39,1515,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""banjo"", ""fiddle""]",no,yes/no,2
+test,96,3715,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""violin"", ""double bass""]",no,yes/no,2
+test,158,6207,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""piano"", ""dance""]",no,yes/no,2
+test,150,5909,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""violin"", ""dance""]",no,yes/no,2
+test,186,7226,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""tambourine"", ""dance""]",no,yes/no,2
+test,261,10034,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""accordion"", ""voice""]",no,yes/no,2
+test,98,3810,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""saxophone"", ""trumpet""]",no,yes/no,2
+test,258,9894,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""violin"", ""voice""]",no,yes/no,2
+test,285,10907,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""piano"", ""voice""]",no,yes/no,2
+test,228,8641,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""violin"", ""voice""]",yes,yes/no,2
+test,159,6250,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""drums"", ""dance""]",yes,yes/no,2
+test,157,6174,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""horn"", ""dance""]",yes,yes/no,2
+test,153,6024,Audio,Comparative,Is the <Object> more rhythmic than the <Object>?,"[""piano"", ""dance""]",yes,yes/no,2
+test,47,1777,Audio-Visual,Comparative,Is the <Object> on the <LR> louder than the <Object> on the <LR>?,"[""dundun"", ""left"", ""djembe"", ""right""]",no,yes/no,2
+test,16,655,Audio-Visual,Comparative,Is the <Object> on the <LR> louder than the <Object> on the <LR>?,"[""djembe"", ""right"", ""dundun"", ""left""]",no,yes/no,2
+test,285,10911,Audio-Visual,Comparative,Is the <Object> on the <LR> louder than the <Object> on the <LR>?,"[""piano"", ""left"", ""djembe"", ""right""]",no,yes/no,2
+test,258,9898,Audio-Visual,Comparative,Is the <Object> on the <LR> louder than the <Object> on the <LR>?,"[""violin"", ""left"", ""voice"", ""right""]",no,yes/no,2
+test,75,2838,Audio-Visual,Comparative,Is the <Object> on the <LR> louder than the <Object> on the <LR>?,"[""kendang"", ""right"", ""kenong"", ""left""]",no,yes/no,2
+test,48,1819,Audio-Visual,Comparative,Is the <Object> on the <LR> louder than the <Object> on the <LR>?,"[""djembe"", ""left"", ""dundun"", ""left""]",no,yes/no,2
+test,170,6562,Audio-Visual,Comparative,Is the <Object> on the <LR> louder than the <Object> on the <LR>?,"[""dundun"", ""left"", ""djembe"", ""right""]",yes,yes/no,2
+test,178,6912,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""voice"", ""violin""]",no,yes/no,2
+test,63,2394,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""tuba"", ""trombone""]",no,yes/no,2
+test,101,3960,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""violin"", ""qanun""]",no,yes/no,2
+test,93,3593,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""fiddle"", ""accordion""]",no,yes/no,2
+test,259,9945,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""voice"", ""piano""]",yes,yes/no,2
+test,208,8051,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""drums"", ""voice""]",yes,yes/no,2
+test,141,5545,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""drums"", ""saxophone""]",yes,yes/no,2
+test,155,6099,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""accordion"", ""violin""]",yes,yes/no,2
+test,210,8128,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""drums"", ""dancer""]",yes,yes/no,2
+test,140,5510,Audio,Comparative,Is the <Object> playing longer than the <Object>? ,"[""drums"", ""saxophone""]",yes,yes/no,2
+test,6,251,Visual,Existential,Is the dancer in the video always dancing?,[],no,yes/no,2
+test,161,6316,Visual,Existential,Is the dancer in the video always dancing?,[],yes,yes/no,2
+test,175,6771,Visual,Existential,Is the dancer in the video always dancing?,[],yes,yes/no,2
+test,204,7894,Visual,Existential,Is the dancer in the video always dancing?,[],yes,yes/no,2
+test,132,5205,Visual,Existential,Is the dancer in the video always dancing?,[],yes,yes/no,2
+test,186,7213,Visual,Existential,Is the dancer in the video always dancing?,[],yes,yes/no,2
+test,74,2791,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,9,409,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""right"", ""left""]",no,yes/no,2
+test,17,697,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,75,2833,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,171,6605,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,57,2171,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,62,2350,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,23,920,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""left"", ""right""]",yes,yes/no,2
+test,101,3956,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""left"", ""right""]",yes,yes/no,2
+test,16,650,Audio-Visual,Comparative,Is the instrument on the <LR> louder than the instrument on the <LR>?,"[""left"", ""right""]",yes,yes/no,2
+test,90,3458,Audio-Visual,Comparative,Is the instrument on the <LR> more rhythmic than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,24,971,Audio-Visual,Comparative,Is the instrument on the <LR> more rhythmic than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,89,3411,Audio-Visual,Comparative,Is the instrument on the <LR> more rhythmic than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,23,921,Audio-Visual,Comparative,Is the instrument on the <LR> more rhythmic than the instrument on the <LR>?,"[""left"", ""right""]",no,yes/no,2
+test,228,8615,Audio-Visual,Existential,Is the singer in the video always singing?,[],no,yes/no,2
+test,278,10611,Audio-Visual,Existential,Is the singer in the video always singing?,[],yes,yes/no,2
+test,283,10803,Audio-Visual,Existential,Is the singer in the video always singing?,[],yes,yes/no,2
+test,270,10326,Audio-Visual,Existential,Is the singer in the video always singing?,[],yes,yes/no,2
+test,279,10647,Audio-Visual,Existential,Is the singer in the video always singing?,[],yes,yes/no,2
+test,282,10757,Audio-Visual,Existential,Is the singer in the video always singing?,[],yes,yes/no,2
+test,245,9277,Audio-Visual,Existential,Is the singer in the video always singing?,[],yes,yes/no,2
+test,113,4439,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],both,both/live/prerecorded,3
+test,229,8672,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],both,both/live/prerecorded,3
+test,30,1207,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],both,both/live/prerecorded,3
+test,77,2890,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,62,2336,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,145,5686,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,307,11758,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,243,9189,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,100,3891,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,10,441,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,82,3099,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,269,10292,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,296,11349,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],live,both/live/prerecorded,3
+test,186,7217,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],prerecorded,both/live/prerecorded,3
+test,197,7666,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],prerecorded,both/live/prerecorded,3
+test,188,7286,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],prerecorded,both/live/prerecorded,3
+test,138,5430,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],prerecorded,both/live/prerecorded,3
+test,217,8293,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],prerecorded,both/live/prerecorded,3
+test,142,5569,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],prerecorded,both/live/prerecorded,3
+test,207,8007,Audio-Visual,Existential,Is the sound of the video being played live or pre-recorded?,[],prerecorded,both/live/prerecorded,3
+test,112,4394,Visual,Counting,Is there a <Object> in the entire video?,"[""saxophone""]",no,yes/no,2
+test,15,587,Visual,Counting,Is there a <Object> in the entire video?,"[""bass""]",no,yes/no,2
+test,180,6970,Visual,Counting,Is there a <Object> in the entire video?,"[""violin""]",no,yes/no,2
+test,136,5346,Visual,Counting,Is there a <Object> in the entire video?,"[""drum""]",no,yes/no,2
+test,14,559,Visual,Counting,Is there a <Object> in the entire video?,"[""bass""]",no,yes/no,2
+test,126,4979,Visual,Counting,Is there a <Object> in the entire video?,"[""violin""]",no,yes/no,2
+test,166,6473,Visual,Counting,Is there a <Object> in the entire video?,"[""violin""]",no,yes/no,2
+test,202,7822,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",no,yes/no,2
+test,43,1607,Visual,Counting,Is there a <Object> in the entire video?,"[""Cretan lyra""]",yes,yes/no,2
+test,84,3169,Visual,Counting,Is there a <Object> in the entire video?,"[""drums""]",yes,yes/no,2
+test,171,6578,Visual,Counting,Is there a <Object> in the entire video?,"[""djembe""]",yes,yes/no,2
+test,286,10925,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,270,10316,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,232,8781,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,238,8983,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,120,4741,Visual,Counting,Is there a <Object> in the entire video?,"[""cello""]",yes,yes/no,2
+test,130,5129,Visual,Counting,Is there a <Object> in the entire video?,"[""dancer""]",yes,yes/no,2
+test,116,4563,Visual,Counting,Is there a <Object> in the entire video?,"[""violin""]",yes,yes/no,2
+test,184,7122,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,294,11266,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,102,3977,Visual,Counting,Is there a <Object> in the entire video?,"[""djembe""]",yes,yes/no,2
+test,283,10793,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,259,9914,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,309,11818,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,237,8945,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,96,3686,Visual,Counting,Is there a <Object> in the entire video?,"[""violin""]",yes,yes/no,2
+test,308,11784,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,240,9059,Visual,Counting,Is there a <Object> in the entire video?,"[""voice""]",yes,yes/no,2
+test,100,3880,Visual,Counting,Is there a <Object> in the entire video?,"[""saxophone""]",yes,yes/no,2
+test,183,7083,Visual,Counting,Is there a <Object> in the entire video?,"[""drum""]",yes,yes/no,2
+test,102,3972,Audio,Counting,Is there a <Object> sound?,"[""piano""]",no,yes/no,2
+test,263,10099,Audio,Counting,Is there a <Object> sound?,"[""piano""]",no,yes/no,2
+test,309,11813,Audio,Counting,Is there a <Object> sound?,"[""organ""]",no,yes/no,2
+test,28,1109,Audio,Counting,Is there a <Object> sound?,"[""double bass""]",no,yes/no,2
+test,45,1671,Audio,Counting,Is there a <Object> sound?,"[""pipe""]",no,yes/no,2
+test,284,10826,Audio,Counting,Is there a <Object> sound?,"[""double bass""]",no,yes/no,2
+test,5,207,Audio,Counting,Is there a <Object> sound?,"[""clap""]",no,yes/no,2
+test,24,932,Audio,Counting,Is there a <Object> sound?,"[""violin""]",no,yes/no,2
+test,12,490,Audio,Counting,Is there a <Object> sound?,"[""trombone""]",no,yes/no,2
+test,40,1524,Audio,Counting,Is there a <Object> sound?,"[""piano""]",no,yes/no,2
+test,127,5012,Audio,Counting,Is there a <Object> sound?,"[""guitar""]",no,yes/no,2
+test,134,5273,Audio,Counting,Is there a <Object> sound?,"[""drum""]",no,yes/no,2
+test,97,3728,Audio,Counting,Is there a <Object> sound?,"[""harp""]",no,yes/no,2
+test,91,3467,Audio,Counting,Is there a <Object> sound?,"[""tuba""]",no,yes/no,2
+test,19,751,Audio,Counting,Is there a <Object> sound?,"[""shaker""]",no,yes/no,2
+test,207,7988,Audio,Counting,Is there a <Object> sound?,"[""clap""]",yes,yes/no,2
+test,192,7440,Audio,Counting,Is there a <Object> sound?,"[""piano""]",yes,yes/no,2
+test,90,3423,Audio,Counting,Is there a <Object> sound?,"[""computer""]",yes,yes/no,2
+test,173,6669,Audio,Counting,Is there a <Object> sound?,"[""steps""]",yes,yes/no,2
+test,204,7880,Audio,Counting,Is there a <Object> sound?,"[""voice""]",yes,yes/no,2
+test,92,3510,Audio,Counting,Is there a <Object> sound?,"[""qanun""]",yes,yes/no,2
+test,251,9530,Audio,Counting,Is there a <Object> sound?,"[""synthesizer""]",yes,yes/no,2
+test,285,10863,Audio,Counting,Is there a <Object> sound?,"[""piano""]",yes,yes/no,2
+test,11,460,Audio,Counting,Is there a <Object> sound?,"[""guitar""]",yes,yes/no,2
+test,112,4390,Audio,Counting,Is there a <Object> sound?,"[""saxophone""]",yes,yes/no,2
+test,153,5997,Audio,Counting,Is there a <Object> sound?,"[""piano""]",yes,yes/no,2
+test,253,9617,Audio,Counting,Is there a <Object> sound?,"[""piano""]",yes,yes/no,2
+test,237,8952,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,305,11670,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,102,3985,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,93,3574,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,96,3692,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,172,6630,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,301,11534,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,268,10255,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,282,10756,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,145,5681,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,278,10610,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,50,1890,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,61,2297,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,57,2151,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,2,91,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,58,2192,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,37,1439,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,21,822,Audio-Visual,Existential,Is there an offscreen sound?,[],no,yes/no,2
+test,125,4941,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,6,247,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,254,9686,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,292,11182,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,205,7930,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,240,9067,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,217,8290,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,252,9590,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,139,5455,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,261,10019,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,150,5891,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,248,9407,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,298,11414,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,220,8332,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,143,5596,Audio-Visual,Existential,Is there an offscreen sound?,[],yes,yes/no,2
+test,139,5462,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,305,11679,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,126,4993,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,249,9457,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,40,1539,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,36,1417,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,131,5180,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,243,9191,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,59,2235,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,260,9976,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,27,1097,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,9,396,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,237,8960,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,108,4276,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],no,yes/no,2
+test,16,633,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,2,97,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,162,6366,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,88,3352,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,185,7173,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,286,10943,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,174,6736,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,151,5937,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,155,6085,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,224,8491,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,184,7138,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,93,3580,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,134,5291,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,112,4408,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,6,255,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,293,11235,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,242,9148,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,276,10548,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,196,7630,Audio,Existential,Is there any background ambiance or environmental sounds audible during the music performance? ,[],yes,yes/no,2
+test,18,732,Visual,Location,Is there distance between <Object> and <Object>?,"[""violinist"", ""violin""]",no,yes/no,2
+test,89,3407,Visual,Location,Is there distance between <Object> and <Object>?,"[""fiddle"", ""uillean pipe""]",no,yes/no,2
+test,94,3626,Visual,Location,Is there distance between <Object> and <Object>?,"[""accordion"", ""violin""]",no,yes/no,2
+test,34,1355,Visual,Location,Is there distance between <Object> and <Object>?,"[""fiddle"", ""guitar""]",yes,yes/no,2
+test,210,8124,Visual,Location,Is there distance between <Object> and <Object>?,"[""dancer"", ""djembe""]",yes,yes/no,2
+test,105,4144,Visual,Location,Is there distance between <Object> and <Object>?,"[""voice"", ""violin""]",yes,yes/no,2
+test,260,9985,Visual,Location,Is there distance between <Object> and <Object>?,"[""piano"", ""voice""]",yes,yes/no,2
+test,149,5866,Visual,Location,Is there distance between <Object> and <Object>?,"[""fiddle"", ""dancer""]",yes,yes/no,2
+test,259,9926,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,238,8993,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,205,7932,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,177,6855,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,126,4987,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,156,6122,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,187,7248,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,254,9688,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,191,7408,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,155,6080,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],no,yes/no,2
+test,1,61,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,74,2776,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,12,504,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,159,6228,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,25,996,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,43,1615,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,40,1536,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,32,1269,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,144,5635,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,152,5969,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,3,131,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,145,5683,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,179,6936,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,60,2266,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,94,3614,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,65,2453,Audio-Visual,Existential,Is this sound from the instrument in the video?,[],yes,yes/no,2
+test,223,8446,Audio-Visual,Existential,Is this sound from the voice in the video?,[],no,yes/no,2
+test,234,8853,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,270,10328,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,260,9972,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,263,10113,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,236,8919,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,286,10937,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,239,9036,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,278,10613,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,261,10022,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,298,11417,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,301,11536,Audio-Visual,Existential,Is this sound from the voice in the video?,[],yes,yes/no,2
+test,192,7483,Audio-Visual,Purpose,Was the use of props to add visual interest or to convey a specific theme?,[],theme,theme/visual,2
+test,240,9092,Audio-Visual,Purpose,Was the use of props to add visual interest or to convey a specific theme?,[],theme,theme/visual,2
+test,298,11441,Audio-Visual,Purpose,Was the use of props to add visual interest or to convey a specific theme?,[],theme,theme/visual,2
+test,194,7572,Audio-Visual,Purpose,Was the use of props to add visual interest or to convey a specific theme?,[],theme,theme/visual,2
+test,127,5041,Audio-Visual,Purpose,Was the use of props to add visual interest or to convey a specific theme?,[],visual,theme/visual,2
+test,126,5008,Audio-Visual,Purpose,Was the use of props to add visual interest or to convey a specific theme?,[],visual,theme/visual,2
+test,255,9756,Audio-Visual,Purpose,Was the use of props to add visual interest or to convey a specific theme?,[],visual,theme/visual,2
+test,258,9882,Audio-Visual,Location,What is the <LR> instrument of the <FL> sounding instrument?,"[""left"", ""first""]",bassoon,instruments,46
+test,267,10214,Audio-Visual,Location,What is the <LR> instrument of the <FL> sounding instrument?,"[""right"", ""first""]",bells,instruments,46
+test,103,4041,Audio-Visual,Location,What is the <LR> instrument of the <FL> sounding instrument?,"[""left"", ""first""]",djembe,instruments,46
+test,25,1007,Audio-Visual,Location,What is the <LR> instrument of the <FL> sounding instrument?,"[""left"", ""first""]",dundun,instruments,46
+test,29,1165,Audio-Visual,Location,What is the <LR> instrument of the <FL> sounding instrument?,"[""right"", ""last""]",piano,instruments,46
+test,208,8047,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""third""]",bass,instruments,46
+test,88,3366,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""second""]",castanets,instruments,46
+test,144,5658,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""second""]",djembe,instruments,46
+test,224,8494,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""second""]",double bass,instruments,46
+test,29,1174,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""second""]",drums,instruments,46
+test,55,2092,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""first""]",dundun,instruments,46
+test,71,2676,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""second""]",koto,instruments,46
+test,26,1066,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""second""]",outi,instruments,46
+test,100,3908,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""first""]",saxophone,instruments,46
+test,137,5405,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""second""]",steps,instruments,46
+test,159,6247,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""fourth""]",trumpet,instruments,46
+test,58,2208,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""first""]",violin,instruments,46
+test,97,3763,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""second""]",violin,instruments,46
+test,152,5987,Audio-Visual,Temporal,What is the <TH> instrument that comes in? ,"[""second""]",whistle,instruments,46
+test,98,3795,Visual,Location,What is the instrument on the <LR> of <Object>? ,"[""left"", ""saxophone""]",drums,instruments,46
+test,56,2122,Visual,Location,What is the instrument on the <LR> of <Object>? ,"[""right"", ""dundun""]",dundun,instruments,46
+test,83,3144,Visual,Location,What is the instrument on the <LR> of <Object>? ,"[""left"", ""flute""]",flute,instruments,46
+test,116,4582,Visual,Location,What is the instrument on the <LR> of <Object>? ,"[""right"", ""trumpet""]",harp,instruments,46
+test,253,9642,Visual,Location,What is the instrument on the <LR> of <Object>? ,"[""left"", ""voice""]",piano,instruments,46
+test,90,3443,Visual,Location,What is the instrument on the <LR> of <Object>? ,"[""right"", ""computer""]",piano,instruments,46
+test,46,1720,Visual,Location,What is the instrument on the <LR> of <Object>? ,"[""right"", ""violin""]",violin,instruments,46
+test,50,1917,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""light""]",aesthetics,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,73,2758,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""visuals""]",aesthetics,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,253,9669,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""microphone""]",amplification,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,146,5757,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""microphone""]",amplification,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,29,1190,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""microphone""]",amplification,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,100,3919,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""microphone""]",amplification,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,45,1697,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""piano""]",instrument,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,49,1875,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""guitar""]",instrument,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,209,8094,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""piano""]",none,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,119,4734,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""headset""]",recording,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,95,3679,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""horn""]",sound,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,71,2681,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""finger picks""]",sound,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,114,4516,Audio-Visual,Purpose,What is the purpose of <Object> in the video?,"[""light""]",spotlight,aesthetics/amplification/effect/instrument/none/prop/recording/sound/spotlight,9
+test,251,9573,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,70,2646,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,162,6376,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,96,3726,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,2,113,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,60,2283,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,31,1255,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,248,9433,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,174,6756,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,49,1876,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],melody,melody/rhythm,2
+test,54,2064,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],rhythm,melody/rhythm,2
+test,25,1028,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],rhythm,melody/rhythm,2
+test,5,235,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],rhythm,melody/rhythm,2
+test,4,195,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],rhythm,melody/rhythm,2
+test,137,5411,Audio-Visual,Purpose,What is the purpose of the sound in the video?,[],rhythm,melody/rhythm,2
+test,146,5741,Visual,Location,What is the spatial arrangement of the dancers on stage?,[],cluster,circle/cluster/combination/line/rows,5
+test,149,5865,Visual,Location,What is the spatial arrangement of the dancers on stage?,[],cluster,circle/cluster/combination/line/rows,5
+test,123,4875,Visual,Location,What is the spatial arrangement of the dancers on stage?,[],line,circle/cluster/combination/line/rows,5
+test,201,7808,Visual,Location,What is the spatial arrangement of the dancers on stage?,[],rows,circle/cluster/combination/line/rows,5
+test,51,1943,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],circle,circle/cluster/line/rows/zones,5
+test,115,4541,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],cluster,circle/cluster/line/rows/zones,5
+test,58,2203,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],cluster,circle/cluster/line/rows/zones,5
+test,71,2671,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],cluster,circle/cluster/line/rows/zones,5
+test,89,3406,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],line,circle/cluster/line/rows/zones,5
+test,60,2275,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],line,circle/cluster/line/rows/zones,5
+test,22,872,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],line,circle/cluster/line/rows/zones,5
+test,39,1508,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],line,circle/cluster/line/rows/zones,5
+test,16,643,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],line,circle/cluster/line/rows/zones,5
+test,75,2828,Visual,Location,What is the spatial arrangement of the instruments on stage?,[],zones,circle/cluster/line/rows/zones,5
+test,279,10657,Visual,Location,What is the spatial arrangement of the singers on stage?,[],circle,circle/cluster/line/rows/zones,5
+test,284,10852,Visual,Location,What is the spatial arrangement of the singers on stage?,[],cluster,circle/cluster/line/rows/zones,5
+test,249,9462,Visual,Location,What is the spatial arrangement of the singers on stage?,[],cluster,circle/cluster/line/rows/zones,5
+test,295,11318,Visual,Location,What is the spatial arrangement of the singers on stage?,[],line,circle/cluster/line/rows/zones,5
+test,271,10374,Visual,Location,What is the spatial arrangement of the singers on stage?,[],line,circle/cluster/line/rows/zones,5
+test,278,10622,Visual,Location,What is the spatial arrangement of the singers on stage?,[],rows,circle/cluster/line/rows/zones,5
+test,308,11803,Visual,Location,What is the spatial arrangement of the singers on stage?,[],rows,circle/cluster/line/rows/zones,5
+test,187,7254,Audio-Visual,Existential,What kind of dance is it?,[],ballet,genres,23
+test,149,5859,Audio-Visual,Existential,What kind of dance is it?,[],balos,genres,23
+test,198,7704,Audio-Visual,Existential,What kind of dance is it?,[],bollywood,genres,23
+test,144,5643,Audio-Visual,Existential,What kind of dance is it?,[],djembedance,genres,23
+test,207,8010,Audio-Visual,Existential,What kind of dance is it?,[],linedance,genres,23
+test,191,7415,Audio-Visual,Existential,What kind of dance is it?,[],musical,genres,23
+test,181,7025,Audio-Visual,Existential,What kind of dance is it?,[],pop,genres,23
+test,154,6054,Audio-Visual,Existential,What kind of dance is it?,[],tango,genres,23
+test,50,1902,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""righter""]",computer,instruments,46
+test,57,2162,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""righter""]",djembe,instruments,46
+test,85,3228,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""lefter""]",double bass,instruments,46
+test,123,4870,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""lefter""]",dundun,instruments,46
+test,296,11356,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""righter""]",guitar,instruments,46
+test,7,312,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""righter""]",horn,instruments,46
+test,74,2785,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""righter""]",kenong,instruments,46
+test,77,2896,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""lefter""]",qanun,instruments,46
+test,98,3797,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""righter""]",saxophone,instruments,46
+test,136,5363,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""lefter""]",steps,instruments,46
+test,72,2707,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""lefter""]",taiko,instruments,46
+test,95,3663,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""righter""]",trombone,instruments,46
+test,58,2201,Visual,Location,What kind of instrument is the <LRer> instrument?,"[""righter""]",violin,instruments,46
+test,45,1696,Audio-Visual,Existential,What kind of music genre is it?,[],classical,genres,6
+test,20,784,Audio-Visual,Existential,What kind of music genre is it?,[],electronic,genres,6
+test,118,4673,Audio-Visual,Existential,What kind of music genre is it?,[],jazz,genres,6
+test,50,1899,Visual,Location,What kind of musical instrument is it?,[],computer,instruments,46
+test,8,362,Visual,Location,What kind of musical instrument is it?,[],guitar,instruments,46
+test,27,1098,Visual,Location,What kind of musical instrument is it?,[],harp,instruments,46
+test,26,1050,Visual,Location,What kind of musical instrument is it?,[],outi,instruments,46
+test,12,510,Visual,Location,What kind of musical instrument is it?,[],piano,instruments,46
+test,43,1622,Visual,Location,What kind of musical instrument is it?,[],tsabouna,instruments,46
+test,79,2974,Visual,Location,What kind of musical instrument is it?,[],violin,instruments,46
+test,291,11143,Audio,Existential,What kind of singing style is it?,[],choral,genres,14
+test,275,10517,Audio,Existential,What kind of singing style is it?,[],folk,genres,14
+test,281,10730,Audio,Existential,What kind of singing style is it?,[],folk,genres,14
+test,263,10119,Audio,Existential,What kind of singing style is it?,[],jazz,genres,14
+test,295,11316,Audio,Existential,What kind of singing style is it?,[],jodeln,genres,14
+test,298,11423,Audio,Existential,What kind of singing style is it?,[],musical,genres,14
+test,223,8451,Audio,Existential,What kind of singing style is it?,[],opera,genres,14
+test,262,10075,Audio,Existential,What kind of singing style is it?,[],pop,genres,14
+test,125,4945,Audio-Visual,Existential,What type of performance is happening in this video? ,[],combination,combination/dance/instrument/voice,4
+test,144,5638,Audio-Visual,Existential,What type of performance is happening in this video? ,[],combination,combination/dance/instrument/voice,4
+test,265,10156,Audio-Visual,Existential,What type of performance is happening in this video? ,[],combination,combination/dance/instrument/voice,4
+test,161,6319,Audio-Visual,Existential,What type of performance is happening in this video? ,[],combination,combination/dance/instrument/voice,4
+test,114,4486,Audio-Visual,Existential,What type of performance is happening in this video? ,[],combination,combination/dance/instrument/voice,4
+test,155,6082,Audio-Visual,Existential,What type of performance is happening in this video? ,[],dance,combination/dance/instrument/voice,4
+test,200,7768,Audio-Visual,Existential,What type of performance is happening in this video? ,[],dance,combination/dance/instrument/voice,4
+test,185,7170,Audio-Visual,Existential,What type of performance is happening in this video? ,[],dance,combination/dance/instrument/voice,4
+test,167,6493,Audio-Visual,Existential,What type of performance is happening in this video? ,[],dance,combination/dance/instrument/voice,4
+test,156,6124,Audio-Visual,Existential,What type of performance is happening in this video? ,[],dance,combination/dance/instrument/voice,4
+test,210,8113,Audio-Visual,Existential,What type of performance is happening in this video? ,[],dance,combination/dance/instrument/voice,4
+test,193,7504,Audio-Visual,Existential,What type of performance is happening in this video? ,[],dance,combination/dance/instrument/voice,4
+test,158,6199,Audio-Visual,Existential,What type of performance is happening in this video? ,[],dance,combination/dance/instrument/voice,4
+test,28,1124,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,0,17,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,113,4438,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,14,569,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,21,826,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,23,904,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,22,861,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,80,3015,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,79,2970,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,98,3791,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,73,2737,Audio-Visual,Existential,What type of performance is happening in this video? ,[],instrument,combination/dance/instrument/voice,4
+test,299,11461,Audio-Visual,Existential,What type of performance is happening in this video? ,[],voice,combination/dance/instrument/voice,4
+test,235,8889,Audio-Visual,Existential,What type of performance is happening in this video? ,[],voice,combination/dance/instrument/voice,4
+test,231,8758,Audio-Visual,Existential,What type of performance is happening in this video? ,[],voice,combination/dance/instrument/voice,4
+test,305,11676,Audio-Visual,Existential,What type of performance is happening in this video? ,[],voice,combination/dance/instrument/voice,4
+test,273,10441,Audio-Visual,Existential,What type of performance is happening in this video? ,[],voice,combination/dance/instrument/voice,4
+test,233,8823,Audio-Visual,Existential,What type of performance is happening in this video? ,[],voice,combination/dance/instrument/voice,4
+test,296,11348,Audio-Visual,Existential,What type of performance is happening in this video? ,[],voice,combination/dance/instrument/voice,4
+test,282,10761,Audio-Visual,Existential,What type of performance is happening in this video? ,[],voice,combination/dance/instrument/voice,4
+test,271,10368,Audio-Visual,Existential,What type of performance is happening in this video? ,[],voice,combination/dance/instrument/voice,4
+test,29,1164,Audio-Visual,Location,Where is the <LL> instrument?,"[""loudest""]",middle,left/middle/right,3
+test,49,1851,Audio-Visual,Location,Where is the <LL> instrument?,"[""loudest""]",middle,left/middle/right,3
+test,7,314,Audio-Visual,Location,Where is the <LL> instrument?,"[""loudest""]",right,left/middle/right,3
+test,39,1504,Audio-Visual,Location,Where is the <LL> instrument?,"[""loudest""]",right,left/middle/right,3
+test,285,10895,Audio-Visual,Location,Where is the <LL> instrument? ,"[""lowest""]",left,left/middle/right,3
+test,83,3148,Audio-Visual,Location,Where is the <LL> instrument? ,"[""lowest""]",left,left/middle/right,3
+test,260,9983,Audio-Visual,Location,Where is the <LL> instrument? ,"[""loudest""]",left,left/middle/right,3
+test,106,4189,Audio-Visual,Location,Where is the <LL> instrument? ,"[""lowest""]",left,left/middle/right,3
+test,49,1852,Audio-Visual,Location,Where is the <LL> instrument? ,"[""loudest""]",middle,left/middle/right,3
+test,92,3539,Audio-Visual,Location,Where is the <LL> instrument? ,"[""loudest""]",right,left/middle/right,3
+test,85,3231,Audio-Visual,Location,Where is the <LL> instrument? ,"[""loudest""]",right,left/middle/right,3
+test,148,5822,Audio-Visual,Location,Where is the <LL> instrument? ,"[""loudest""]",right,left/middle/right,3
+test,115,4542,Visual,Location,Where is the audience in relation to the performance setup?,[],front,balcony/front/sides/surrounding,4
+test,190,7377,Visual,Location,Where is the audience in relation to the performance setup?,[],front,balcony/front/sides/surrounding,4
+test,71,2672,Visual,Location,Where is the audience in relation to the performance setup?,[],front,balcony/front/sides/surrounding,4
+test,22,874,Visual,Location,Where is the audience in relation to the performance setup?,[],front,balcony/front/sides/surrounding,4
+test,245,9287,Visual,Location,Where is the audience in relation to the performance setup?,[],front,balcony/front/sides/surrounding,4
+test,86,3274,Visual,Location,Where is the audience in relation to the performance setup?,[],front,balcony/front/sides/surrounding,4
+test,94,3627,Visual,Location,Where is the audience in relation to the performance setup?,[],front,balcony/front/sides/surrounding,4
+test,110,4351,Visual,Location,Where is the audience in relation to the performance setup?,[],front,balcony/front/sides/surrounding,4
+test,117,4633,Visual,Location,Where is the audience in relation to the performance setup?,[],surrounding,balcony/front/sides/surrounding,4
+test,156,6133,Visual,Location,Where is the audience in relation to the performance setup?,[],surrounding,balcony/front/sides/surrounding,4
+test,138,5428,Audio-Visual,Location,Where is the music coming from in this performance?,[],middle,left/middle/right,3
+test,31,1238,Audio-Visual,Location,Where is the music coming from in this performance?,[],middle,left/middle/right,3
+test,151,5933,Audio-Visual,Location,Where is the music coming from in this performance?,[],middle,left/middle/right,3
+test,270,10330,Audio-Visual,Location,Where is the music coming from in this performance?,[],middle,left/middle/right,3
+test,272,10413,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,197,7671,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,187,7255,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,277,10586,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,73,2743,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,61,2304,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,280,10698,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,68,2559,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,260,9980,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,281,10731,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,89,3402,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,196,7633,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,228,8626,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,164,6428,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,157,6170,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,309,11834,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,151,5940,Visual,Location,Where is the performance? ,[],indoor,indoor/outdoor,2
+test,282,10767,Visual,Location,Where is the performance? ,[],outdoor,indoor/outdoor,2
+test,25,1003,Visual,Location,Where is the performance? ,[],outdoor,indoor/outdoor,2
+test,47,1764,Visual,Location,Where is the performance? ,[],outdoor,indoor/outdoor,2
+test,24,954,Visual,Location,Where is the performance? ,[],outdoor,indoor/outdoor,2
+test,178,6905,Visual,Location,Where is the performance? ,[],outdoor,indoor/outdoor,2
+test,219,8326,Visual,Location,Where is the performance? ,[],outdoor,indoor/outdoor,2
+test,201,7806,Visual,Location,Where is the performance? ,[],outdoor,indoor/outdoor,2
+test,129,5108,Audio-Visual,Location,Where on stage is the dancer during the solo?,[],left,left/middle/right,3
+test,152,5986,Audio-Visual,Location,Where on stage is the dancer during the solo?,[],middle,left/middle/right,3
+test,132,5214,Audio-Visual,Location,Where on stage is the dancer during the solo?,[],middle,left/middle/right,3
+test,134,5296,Audio-Visual,Location,Where on stage is the dancer during the solo?,[],middle,left/middle/right,3
+test,156,6134,Audio-Visual,Location,Where on stage is the dancer during the solo?,[],middle,left/middle/right,3
+test,146,5746,Audio-Visual,Location,Where on stage is the dancer during the solo?,[],middle,left/middle/right,3
+test,88,3364,Audio-Visual,Location,Where on stage is the musician when the solo is played?,[],left,left/middle/right,3
+test,60,2277,Audio-Visual,Location,Where on stage is the musician when the solo is played?,[],left,left/middle/right,3
+test,39,1512,Audio-Visual,Location,Where on stage is the musician when the solo is played?,[],left,left/middle/right,3
+test,29,1171,Audio-Visual,Location,Where on stage is the musician when the solo is played?,[],middle,left/middle/right,3
+test,305,11689,Audio-Visual,Location,Where on stage is the singer during the solo?,[],left,left/middle/right,3
+test,269,10300,Audio-Visual,Location,Where on stage is the singer during the solo?,[],right,left/middle/right,3
+test,155,6093,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""after"", ""violin""]",accordion,instruments,46
+test,103,4046,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""before"", ""dundun""]",djembe,instruments,46
+test,69,2603,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""after"", ""double bass""]",double bass,instruments,46
+test,209,8085,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""after"", ""voice""]",drum,instruments,46
+test,299,11473,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""after"", ""voice""]",drums,instruments,46
+test,191,7423,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""after"", ""trumpet""]",drums,instruments,46
+test,54,2047,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""before"", ""djembe""]",dundun,instruments,46
+test,293,11247,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""after"", ""voice""]",guitar,instruments,46
+test,289,11068,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""after"", ""voice""]",piano,instruments,46
+test,259,9938,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""before"", ""voice""]",piano,instruments,46
+test,248,9420,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""after"", ""voice""]",piano,instruments,46
+test,26,1064,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""before"", ""outi""]",qanun,instruments,46
+test,73,2749,Audio-Visual,Temporal,Which instrument makes sounds <BA> the <Object>? ,"[""after"", ""taiko""]",taiko,instruments,46
+test,22,877,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""first""]",djembe,instruments,46
+test,194,7559,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""first""]",drum,instruments,46
+test,147,5790,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""first""]",fiddle,instruments,46
+test,83,3153,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",flute,instruments,46
+test,29,1175,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",guitar,instruments,46
+test,9,407,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""first""]",guitar,instruments,46
+test,71,2677,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",koto,instruments,46
+test,180,6991,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",qanun,instruments,46
+test,192,7471,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""first""]",synthesizer,instruments,46
+test,133,5258,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",tambourine,instruments,46
+test,173,6703,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",violin,instruments,46
+test,228,8638,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",violin,instruments,46
+test,58,2209,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""first""]",violin,instruments,46
+test,251,9560,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",voice,instruments,46
+test,249,9469,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",voice,instruments,46
+test,221,8372,Audio-Visual,Temporal,Which instrument makes the sound <FL>?,"[""last""]",voice,instruments,46
+test,206,7978,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""drum""]",banjo,instruments,46
+test,6,261,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""drums""]",bass,instruments,46
+test,60,2274,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""cello""]",cello,instruments,46
+test,140,5503,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""saxophone""]",clarinet,instruments,46
+test,191,7418,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""trumpet""]",drums,instruments,46
+test,47,1766,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""djembe""]",dundun,instruments,46
+test,39,1503,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""banjo""]",fiddle,instruments,46
+test,201,7807,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""drum""]",flute,instruments,46
+test,259,9936,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""piano""]",guitar,instruments,46
+test,149,5860,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""fiddle""]",laouto,instruments,46
+test,173,6694,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""violin""]",laouto,instruments,46
+test,65,2462,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""piano""]",piano,instruments,46
+test,159,6238,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""saxophone""]",trumpet,instruments,46
+test,255,9738,Audio,Temporal,Which is the musical instrument that sounds at the same time as the <Object>?,"[""piano""]",violin,instruments,46
+test,303,11618,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,225,8539,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,249,9480,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,79,2996,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,238,9015,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,211,8168,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,239,9050,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,24,978,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,33,1322,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,306,11735,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,44,1665,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,120,4779,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,135,5337,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,25,1026,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,87,3327,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,36,1426,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,111,4387,Visual,Causal,Why are the performers wearing this attire?,[],style,motioncapture/style/theme/tradition/uniform,5
+test,141,5550,Visual,Causal,Why are the performers wearing this attire?,[],theme,motioncapture/style/theme/tradition/uniform,5
+test,244,9256,Visual,Causal,Why are the performers wearing this attire?,[],theme,motioncapture/style/theme/tradition/uniform,5
+test,203,7878,Visual,Causal,Why are the performers wearing this attire?,[],tradition,motioncapture/style/theme/tradition/uniform,5
+test,167,6500,Visual,Causal,Why are the performers wearing this attire?,[],tradition,motioncapture/style/theme/tradition/uniform,5
+test,117,4650,Visual,Causal,Why are the performers wearing this attire?,[],tradition,motioncapture/style/theme/tradition/uniform,5
+test,124,4923,Visual,Causal,Why are the performers wearing this attire?,[],tradition,motioncapture/style/theme/tradition/uniform,5
+test,108,4290,Visual,Causal,Why are the performers wearing this attire?,[],uniform,motioncapture/style/theme/tradition/uniform,5
+test,149,5880,Visual,Causal,Why are the performers wearing this attire?,[],uniform,motioncapture/style/theme/tradition/uniform,5
+test,145,5710,Visual,Causal,Why are the performers wearing this attire?,[],uniform,motioncapture/style/theme/tradition/uniform,5
+test,208,8056,Visual,Causal,Why are the performers wearing this attire?,[],uniform,motioncapture/style/theme/tradition/uniform,5
+test,209,8093,Visual,Causal,Why are the performers wearing this attire?,[],uniform,motioncapture/style/theme/tradition/uniform,5
+test,178,6919,Audio-Visual,Causal,Why did the audience cheer? ,[],liked,end/liked,2
+test,307,11776,Audio-Visual,Causal,Why did the audience clap?,[],end,end/liked,2
+test,230,8737,Audio-Visual,Causal,Why did the audience clap?,[],end,end/liked,2
+test,81,3079,Audio-Visual,Causal,Why did the audience clap?,[],liked,end/liked,2
+test,173,6715,Audio-Visual,Causal,Why did the audience clap?,[],liked,end/liked,2
+test,149,5881,Audio-Visual,Causal,Why did the audience clap?,[],liked,end/liked,2
+test,80,3038,Audio-Visual,Causal,Why did the performer use <Object>?,"[""organ""]",prop,effect/prop/recording/sound,4
+test,179,6961,Audio-Visual,Causal,Why did the performer use <Object>?,"[""tsabouna""]",sound,effect/prop/recording/sound,4
+test,152,5994,Audio-Visual,Causal,Why did the performer use <Object>?,"[""voice""]",sound,effect/prop/recording/sound,4
+test,29,1176,Audio-Visual,Causal,Why does the singer pause during the song?,[],breath,break/breath/effect/transition,4
+test,243,9201,Audio-Visual,Causal,Why does the singer pause during the song?,[],breath,break/breath/effect/transition,4
+test,119,4723,Audio-Visual,Causal,Why does the singer pause during the song?,[],breath,break/breath/effect/transition,4
+test,111,4384,Audio-Visual,Causal,Why does the singer pause during the song?,[],breath,break/breath/effect/transition,4
+test,305,11693,Audio-Visual,Causal,Why does the singer pause during the song?,[],breath,break/breath/effect/transition,4
+test,221,8374,Audio-Visual,Causal,Why does the singer pause during the song?,[],breath,break/breath/effect/transition,4
+test,290,11109,Audio-Visual,Causal,Why does the singer pause during the song?,[],breath,break/breath/effect/transition,4
+test,86,3277,Audio-Visual,Causal,Why does the singer pause during the song?,[],effect,break/breath/effect/transition,4
+test,242,9157,Audio-Visual,Causal,Why does the singer pause during the song?,[],effect,break/breath/effect/transition,4
+test,295,11321,Audio-Visual,Causal,Why does the singer pause during the song?,[],transition,break/breath/effect/transition,4
+test,109,4317,Audio-Visual,Causal,Why does the singer pause during the song?,[],transition,break/breath/effect/transition,4
+test,307,11772,Audio-Visual,Causal,Why does the singer pause during the song?,[],transition,break/breath/effect/transition,4
+test,285,10905,Audio-Visual,Causal,Why does the singer pause during the song?,[],transition,break/breath/effect/transition,4
+test,72,2716,Audio,Causal,Why is there a spoken word segment in the middle of the song?,[],break,break/message/narrative,3
+test,197,7675,Audio,Causal,Why is there a spoken word segment in the middle of the song?,[],break,break/message/narrative,3
+test,192,7474,Audio,Causal,Why is there a spoken word segment in the middle of the song?,[],narrative,break/message/narrative,3

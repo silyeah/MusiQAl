@@ -181,3 +181,4 @@ plt.xlim(0, 1)
 plt.tight_layout()
 plt.savefig('figures/incorrect_prediction_probs.png', dpi=300, facecolor=plot_style["background_color"])
 plt.close()
+
