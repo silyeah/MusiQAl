@@ -1,0 +1,46 @@
+Sensory conflict evaluation - Aggregate
+Mode: audio
+Timestamp: 2025-10-29-16-24-54/
+Num runs: 5
+Video ID coverage check: expected 0-309 present: YES | present=310 | missing=0 | extra=0 | note=normalized ids from zero-padded strings
+Num samples per run: 348
+
+Per-run Overall Accuracy:
+  Run 1: 20.98 %
+  Run 2: 19.83 %
+  Run 3: 21.55 %
+  Run 4: 17.82 %
+  Run 5: 21.55 %
+
+Verification (audio): All runs swapped different media for 100% of samples: YES (5/5).
+
+Averages across runs (selected):
+Overall accuracy: 20.34 %
+Audio (All) accuracy: 29.41 %
+Visual (All) accuracy: 20.98 %
+Audio-Visual (All) accuracy: 16.97 %
+
+Averages across runs:
+overall_acc: 20.34 %
+A_ext: 23.08 %
+A_count: 35.48 %
+A_cmp: 35.00 %
+A_temp: 2.86 %
+A_caus: 20.00 %
+A_acc: 29.41 %
+V_loc: 15.24 %
+V_count: 19.44 %
+V_temp: 37.14 %
+V_caus: 16.36 %
+V_acc: 20.98 %
+AV_ext: 16.77 %
+AV_count: 14.72 %
+AV_loc: 10.00 %
+AV_cmp: 17.78 %
+AV_temp: 15.24 %
+AV_caus: 28.33 %
+AV_purp: 36.67 %
+AV_acc: 16.97 %
+
+Cross-run uniqueness audit:
+Cross-run uniqueness (audio): unique-per-sample targets across 5 runs: 348/348; excludes original: 348/348
