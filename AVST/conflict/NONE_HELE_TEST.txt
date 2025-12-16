@@ -1,0 +1,27 @@
+Sensory conflict evaluation
+Mode: none
+Timestamp: 2025-10-26-02-07-41/
+Num samples: 1183
+Overall Accuracy: 70.58 %
+Audio (All) Accuracy: 69.09 %  (152/220)
+Visual (All) Accuracy: 73.55 %  (228/310)
+Audio-Visual (All) Accuracy: 69.68 %  (455/653)
+
+Breakdown:
+Audio Existential Accuracy: 68.29 %
+Audio Counting Accuracy: 69.00 %
+Audio Cmp Accuracy: 74.19 %
+Audio Temp Accuracy: 50.00 %
+Audio Caus Accuracy: 66.67 %
+Visual Ext Accuracy: 100.00 %
+Visual Loc Accuracy: 76.67 %
+Visual Counting Accuracy: 71.88 %
+Visual Temp Accuracy: 75.86 %
+Visual Caus Accuracy: 60.71 %
+AV Ext Accuracy: 82.29 %
+AV counting Accuracy: 62.11 %
+AV Loc Accuracy: 62.96 %
+AV Cmp Accuracy: 85.00 %
+AV Temporal Accuracy: 53.85 %
+AV Caus Accuracy: 75.00 %
+AV Purp Accuracy: 65.71 %
